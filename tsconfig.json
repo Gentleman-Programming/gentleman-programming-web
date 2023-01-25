@@ -21,8 +21,15 @@
     "baseUrl": ".",
     "paths": {
       "@/*": [
-        "./*"
-      ]
+        "shared/*"
+      ],
+      "@page/*": [
+        "app/*"
+      ],
+      "@theme/*": [
+        "theme/*"
+      ],
+
     },
     "plugins": [
       {
