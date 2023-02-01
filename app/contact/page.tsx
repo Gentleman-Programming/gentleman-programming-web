@@ -1,14 +1,11 @@
-"use client"
-import {ContactSection} from "@page/contact/components";
-
+import ContactSection from './shared/ui/elements/organisms/contact-section/contact-section';
 
 const Contact = () => {
   return (
-    <div>
-      <h1>Contact us page</h1>
-      <ContactSection/>
-    </div>
+    <>
+      <ContactSection />
+    </>
   );
-}
+};
 
 export default Contact;
