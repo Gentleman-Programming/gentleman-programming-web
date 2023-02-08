@@ -1,4 +1,4 @@
-import ContactSection from './shared/ui/elements/organisms/contact-section/contact-section';
+import ContactSection from './shared/ui/components/contact-section/contact-section';
 
 const Contact = () => {
   return (
