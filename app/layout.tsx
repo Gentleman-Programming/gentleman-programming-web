@@ -1,3 +1,6 @@
+import { MainLayout } from '@/ui/components/main-layout/main-layout';
+import { Sidebar } from '@/ui/components/sidebar/sidebar';
+
 export default function RootLayout({
   children,
 }: {
@@ -8,7 +11,10 @@ export default function RootLayout({
       <head />
       <body>
         <header>Header</header>
-        <main>{children}</main>
+        <MainLayout>
+          <Sidebar />
+          <main>{children}</main>
+        </MainLayout>
       </body>
     </html>
   );
