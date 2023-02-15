@@ -10,7 +10,7 @@ export default function RootLayout({
     <html>
       <head />
       <body>
-        <header>Header</header>
+        <header>Headereee</header>
         <MainLayout>
           <Sidebar />
           <main>{children}</main>
