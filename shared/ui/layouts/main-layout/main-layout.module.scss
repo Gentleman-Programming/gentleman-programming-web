@@ -1,0 +1,17 @@
+.root {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-areas: "sidenav content";
+}
+
+.sidenav {
+  grid-area: sidenav;
+}
+
+.content {
+  grid-area: content;
+}
+
+.header {
+  display: none;
+}

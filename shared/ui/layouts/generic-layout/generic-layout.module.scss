@@ -1,0 +1,24 @@
+@use "/shared/ui/styles/tools/mixins" as *;
+
+.root {
+  margin-inline: auto;
+  padding-inline: 1rem;
+
+  @include query("md") {
+    padding-inline: 0;
+    width: calc(100% - 120px);
+  }
+}
+
+.md {
+  max-width: 1700px;
+  margin-inline: auto;
+}
+
+.lg {
+  max-width: 900px;
+}
+
+.xl {
+  max-width: 1240px;
+}

@@ -1,4 +1,5 @@
 import styles from './contact-section.module.scss';
+import Button from '@/ui/components/button/button';
 
 type Props = {
   open?: boolean;
@@ -7,7 +8,11 @@ type Props = {
 const ContactSection = ({ open = true }: Props) => {
   return (
     <div className={`${styles.root} ${open && styles.open}`}>
-      <h1>ContactSection</h1>
+      <Button>Button</Button>
+      <Button variant="outlined">Button</Button>
+      <Button variant="text" disabled>
+        Button
+      </Button>
     </div>
   );
 };
