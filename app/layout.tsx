@@ -1,20 +1,14 @@
-import { MainLayout } from '@/ui/components/main-layout/main-layout';
-import { Sidebar } from '@/ui/components/sidebar/sidebar';
+import { ReactNode } from 'react';
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+import '../shared/ui/styles/global.scss';
+import MainLayout from '@/ui/layouts/main-layout/main-layout';
+
+export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html>
       <head />
       <body>
-        <header>Header</header>
-        <MainLayout>
-          <Sidebar />
-          <main>{children}</main>
-        </MainLayout>
+        <MainLayout>{children}</MainLayout>
       </body>
     </html>
   );

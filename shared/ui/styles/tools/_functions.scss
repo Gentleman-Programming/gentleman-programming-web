@@ -1,0 +1,6 @@
+@use "../settings/typography" as *;
+
+@function rem($value) {
+  $remValue: ($value / 16) + rem;
+  @return $remValue;
+}
