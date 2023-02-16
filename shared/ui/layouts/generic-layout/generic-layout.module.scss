@@ -1,24 +1,25 @@
 @use "/shared/ui/styles/tools/mixins" as *;
+@use "/shared/ui/styles/tools/functions" as *;
 
 .root {
   margin-inline: auto;
-  padding-inline: 1rem;
+  padding-inline: rem(16);
 
   @include query("md") {
     padding-inline: 0;
-    width: calc(100% - 120px);
+    width: calc(100% - 7.5rem);
   }
 }
 
 .md {
-  max-width: 1700px;
+  max-width: rem(700);
   margin-inline: auto;
 }
 
 .lg {
-  max-width: 900px;
+  max-width: rem(900);
 }
 
 .xl {
-  max-width: 1240px;
+  max-width: rem(1240);
 }
