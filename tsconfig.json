@@ -29,7 +29,6 @@
       "@theme/*": [
         "theme/*"
       ],
-
     },
     "plugins": [
       {

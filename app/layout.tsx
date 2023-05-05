@@ -1,15 +1,10 @@
-import { ReactNode } from 'react';
-
-import '../shared/ui/styles/global.scss';
-import MainLayout from '@/ui/layouts/main-layout/main-layout';
+import type { ReactNode } from 'react';
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
-    <html>
+    <html lang="en">
       <head />
-      <body>
-        <MainLayout>{children}</MainLayout>
-      </body>
+      <body>{children}</body>
     </html>
   );
 }
