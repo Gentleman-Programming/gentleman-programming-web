@@ -1,15 +1,7 @@
-import { FC } from 'react';
+export const metadata = {
+  title: 'Contact',
+};
 
-import styles from './page.module.scss';
-import ContactSection from './shared/ui/components/contact-section/contact-section';
-import GenericLayout from '@/ui/layouts/generic-layout/generic-layout';
-
-const Contact: FC = () => (
-  <div className={styles.root}>
-    <GenericLayout type="md">
-      <ContactSection />
-    </GenericLayout>
-  </div>
-);
+const Contact = () => <h1>Contact</h1>;
 
 export default Contact;

@@ -1,10 +1,11 @@
-import Link from 'next/link';
+export const metadata = {
+  title: 'Home',
+};
 
 function App() {
   return (
     <>
-      <h1>asd</h1>
-      <Link href="contact">Go toContact</Link>
+      <h1>Hola mundo</h1>
     </>
   );
 }
