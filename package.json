@@ -38,5 +38,10 @@
     "**/*.{ts,tsx,json,css}": [
       "eslint --fix"
     ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   }
 }
