@@ -1,15 +1,17 @@
 import React from 'react';
 
-import styles from 'app/components/Footer/footer.modules.css';
-import Discord from 'public/Discord';
-import Github from 'public/Github';
-import Instagram from 'public/Instagram';
-import LinkedIn from 'public/LinkedIn';
-import Spotify from 'public/Spotify';
-import TikTok from 'public/TikTok';
-import Twitch from 'public/Twitch';
-import Twitter from 'public/twitter';
-import YouTube from 'public/YouTube';
+import styles from './footer.module.css';
+import {
+  DiscordIcon,
+  GithubIcon,
+  InstagramIcon,
+  LinkedInIcon,
+  SpotifyIcon,
+  TikTokIcon,
+  TwitchIcon,
+  TwitterIcon,
+  YouTubeIcon,
+} from './Icons';
 
 const Footer = () => {
   return (
@@ -17,35 +19,35 @@ const Footer = () => {
       <hr className="divider" />
       <section className="up">
         <button className="card1">
-          <Instagram />
+          <InstagramIcon />
         </button>
         <button className="card2">
-          <Github />
+          <GithubIcon />
         </button>
         <button className="card7">
-          <TikTok />
+          <TikTokIcon />
         </button>
         <button className="card3">
-          <Discord />
+          <DiscordIcon />
         </button>
       </section>
       <section className="middle">
         <button className="cardMid">
-          <YouTube />
+          <YouTubeIcon />
         </button>
       </section>
       <section className="down">
         <button className="card4">
-          <Twitter />
+          <TwitterIcon />
         </button>
         <button className="card5">
-          <Spotify />
+          <SpotifyIcon />
         </button>
         <button className="card8">
-          <LinkedIn />
+          <LinkedInIcon />
         </button>
         <button className="card6">
-          <Twitch />
+          <TwitchIcon />
         </button>
       </section>
       <hr className="divider" />
