@@ -1,0 +1,248 @@
+.footercinho {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3em;
+  background: linear-gradient(
+    180deg,
+    #000000 75%,
+    rgba(255, 255, 255, 0.05) 100%
+  );
+}
+
+.up {
+  display: flex;
+  flex-direction: row;
+  gap: 0.3em;
+}
+
+.down {
+  display: flex;
+  flex-direction: row;
+  gap: 0.3em;
+}
+
+.card1 {
+  width: 70px;
+  height: 45px;
+  outline: none;
+  border: none;
+  background: white;
+  border-radius: 90px 5px 5px 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: 0.2s ease-in-out;
+}
+
+.instagram {
+  margin-top: 1em;
+  margin-left: 1.2em;
+  fill: #cc39a4;
+}
+
+.card2 {
+  width: 70px;
+  height: 45px;
+  outline: none;
+  border: none;
+  background: white;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: 0.2s ease-in-out;
+}
+
+.github {
+  margin-top: 0.8em;
+}
+
+.card7 {
+  width: 70px;
+  height: 45px;
+  outline: none;
+  border: none;
+  background: white;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: 0.2s ease-in-out;
+}
+.tiktok {
+  margin-bottom: -0.8em;
+  /* filter: drop-shadow(-15px -5px 0px #69c9d0, 15px 5px 0px #ee1d52); */
+}
+.card3 {
+  width: 70px;
+  height: 45px;
+  outline: none;
+  border: none;
+  background: white;
+  border-radius: 5px 90px 5px 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: 0.2s ease-in-out;
+}
+.discord {
+  margin-top: 1em;
+  margin-left: -1.2em;
+  fill: #8c9eff;
+}
+
+.cardMid {
+  width: 295px;
+  height: 35px;
+  outline: none;
+  border: none;
+  background: white;
+  margin: 0.3em 0 0.3em 0;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: 0.2s ease-in-out;
+}
+.youtube {
+  fill: #ff0000;
+}
+.card4 {
+  width: 70px;
+  height: 45px;
+  outline: none;
+  border: none;
+  background: white;
+  border-radius: 5px 5px 5px 90px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: 0.2s ease-in-out;
+}
+
+.twitter {
+  margin-right: -1.3em;
+  fill: #03a9f4;
+}
+.card5 {
+  width: 70px;
+  height: 45px;
+  outline: none;
+  border: none;
+  background: white;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: 0.2s ease-in-out;
+}
+.spotify {
+  fill: #2ebd59;
+}
+
+.card8 {
+  width: 70px;
+  height: 45px;
+  outline: none;
+  border: none;
+  background: white;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: 0.2s ease-in-out;
+}
+.linkedin {
+  fill: #0077b5;
+}
+.card6 {
+  width: 70px;
+  height: 45px;
+  outline: none;
+  border: none;
+  background: white;
+  border-radius: 5px 5px 90px 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: 0.2s ease-in-out;
+}
+.twitch {
+  margin-left: -1.2em;
+  fill: #65459b;
+}
+/*HOVERS*/
+.card1:hover {
+  cursor: pointer;
+  scale: 1.1;
+  background-color: #cc39a4;
+}
+
+.card1:hover .instagram {
+  fill: white;
+}
+
+.card2:hover {
+  cursor: pointer;
+  scale: 1.1;
+  background-color: black;
+}
+
+.card3:hover .discord {
+  fill: white;
+}
+
+.card3:hover {
+  cursor: pointer;
+  scale: 1.1;
+  background-color: #8c9eff;
+}
+
+.card2:hover .github {
+  filter: invert(100%);
+}
+
+.card7:hover {
+  cursor: pointer;
+  scale: 1.1;
+  background-color: black;
+}
+.card7:hover .tiktok {
+  filter: invert(100%);
+}
+.cardMid:hover {
+  cursor: pointer;
+  scale: 1.1;
+  background-color: #ff0000;
+}
+.cardMid:hover .youtube {
+  fill: white;
+}
+
+.card4:hover {
+  cursor: pointer;
+  scale: 1.1;
+  background-color: #03a9f4;
+}
+
+.card4:hover .twitter {
+  fill: white;
+}
+.card5:hover {
+  cursor: pointer;
+  scale: 1.1;
+  background-color: #2ebd59;
+}
+.card5:hover .spotify {
+  fill: white;
+}
+.card8:hover {
+  cursor: pointer;
+  scale: 1.1;
+  background-color: #0077b5;
+}
+.card8:hover .linkedin {
+  fill: white;
+}
+.card6:hover {
+  cursor: pointer;
+  scale: 1.1;
+  background-color: #65459b;
+}
+.card6:hover .twitch {
+  fill: white;
+}
+.divider {
+  border-top: 1px solid rgba(105, 105, 105, 0.5);
+}
