@@ -23,7 +23,6 @@ export const ServerButton = ({
   link,
 }: PropsSB) => {
   const Tag = link ? 'a' : 'button';
-  const a = 5;
 
   return (
     <Tag

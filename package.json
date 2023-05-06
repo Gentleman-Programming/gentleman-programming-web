@@ -35,7 +35,7 @@
     "typescript": "5.0.4"
   },
   "lint-staged": {
-    "**/*.{ts,tsx,json,css}": [
+    "**/*.{ts,tsx,json}": [
       "eslint --fix"
     ]
   }

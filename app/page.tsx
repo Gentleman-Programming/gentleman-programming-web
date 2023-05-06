@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <h1>Hola mundo</h1>
-      <ServerButton description="Hola" isLive selected mentions={2} />
+      <ServerButton description="Hola" link="https://google.com" mentions={2} />
     </>
   );
 }
