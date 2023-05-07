@@ -1,0 +1,58 @@
+@import './shared/ui/styles/palette';
+
+.root {
+  background: $color-bg;
+  padding: 1rem 3rem;
+
+}
+
+.container {
+  max-width: 72rem;
+  margin: 0 auto;
+
+}
+
+.header {
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media (min-width:790px) {
+  .gentleman {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.gentleman {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+@media (min-width:790px) {
+  .gentleman {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.contentButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentSvg {
+  margin-right: .2rem;
+  display: contents;
+
+}
+
+.contentText {
+  font-weight: 400;
+  margin-left: .3rem;
+}
