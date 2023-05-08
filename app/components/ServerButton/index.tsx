@@ -1,6 +1,3 @@
-'use client';
-import type { FC } from 'react';
-
 import tuti from '@page/assets/TutiPink.webp';
 import Image, { StaticImageData } from 'next/image';
 
@@ -16,7 +13,7 @@ export interface PropsSB {
   description?: string;
   link?: string;
 }
-export const ServerButton: FC<PropsSB> = ({
+export const ServerButton = ({
   selected,
   isHome,
   hasNotifications,
@@ -24,23 +21,22 @@ export const ServerButton: FC<PropsSB> = ({
   mentions,
   description,
   link,
-}) => {
+}: PropsSB) => {
+  const Tag = link ? 'a' : 'button';
+
   return (
-    <button
+    <Tag
       data-notifications={hasNotifications}
       data-selected={selected}
       data-isLive={isLive}
       data-hasMentions={mentions && mentions > 0}
       data-mentions={mentions}
       data-isHome={isHome}
-      className={`${styles.button}`}
-      onClick={() => {
-        if (link) {
-          window.open(link, '_blank');
-        }
-      }}
+      className={styles.button}
+      href={link}
+      target={link ? '_blank' : undefined}
     >
       <Image src={tuti} alt={description || ''} />
-    </button>
+    </Tag>
   );
 };
