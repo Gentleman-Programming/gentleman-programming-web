@@ -1,0 +1,22 @@
+@import '../../styles/_palette.scss';
+
+.Avatar{
+     display: block;
+     gap: 1rem;
+}
+@media (min-width:516px){
+     .Avatar{
+          display: flex;
+          gap: 1rem;
+     }
+}
+.AvatarLogo{
+border-radius: 100rem;
+border: 1px solid $color-primary-text;
+}
+.AvatarTitle{
+     display: inline;
+     font-size: 1.5rem;
+     color:$color-primary-text;
+     
+}
