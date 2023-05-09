@@ -1,3 +1,4 @@
+import Footer from './components/Footer/Footer';
 import { ServerButton } from './components/ServerButton';
 
 export const metadata = {
@@ -9,6 +10,7 @@ function App() {
     <>
       <h1>Hola mundo</h1>
       <ServerButton description="Hola" link="https://google.com" mentions={2} />
+      <Footer />
     </>
   );
 }
