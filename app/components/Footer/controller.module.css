@@ -1,0 +1,252 @@
+.footer__controller {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1em;
+  align-items: flex-end;
+  z-index: 40;
+  right: 0%;
+  bottom: 50%;
+  padding: 1.5rem;
+  position: absolute;
+}
+.footer__controller > legend {
+  font-size: large;
+  font-weight: 600;
+  text-align: center;
+  padding: 0 0 1em 0;
+  margin-right: 1em;
+}
+.footer__controllerup {
+  display: flex;
+  flex-direction: row;
+  gap: 0.3em;
+}
+
+.footer__controllerdown {
+  display: flex;
+  flex-direction: row;
+  gap: 0.3em;
+}
+
+.footer__controllercard1 {
+  width: 3.75em;
+  height: 2em;
+  outline: none;
+  border: none;
+  background: white;
+  border-radius: 90px 5px 5px 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: 0.2s ease-in-out;
+}
+
+.instagram {
+  margin-top: -0.05em;
+  fill: #cc39a4;
+}
+
+.footer__controllercard2 {
+  width: 3.75em;
+  height: 2em;
+  outline: none;
+  border: none;
+  background: white;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: 0.2s ease-in-out;
+}
+
+.github {
+  margin-top: 0em;
+}
+
+.footer__controllercard7 {
+  width: 3.75em;
+  height: 2em;
+  outline: none;
+  border: none;
+  background: white;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: 0.2s ease-in-out;
+}
+.tiktok {
+  margin-bottom: -0.3em;
+  filter: drop-shadow(-15px -5px 0px #69c9d0, 15px 5px 0px #ee1d52);
+}
+.footer__controllercard3 {
+  width: 3.75em;
+  height: 2em;
+  outline: none;
+  border: none;
+  background: white;
+  border-radius: 5px 90px 5px 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: 0.2s ease-in-out;
+}
+.discord {
+  margin-top: -0.1em;
+  margin-left: -0.6em;
+  fill: #8c9eff;
+}
+
+.footer__controllercardMid {
+  width: 16.15em;
+  height: 2em;
+  outline: none;
+  border: none;
+  background: white;
+  margin: 0.3em 0 0.3em 0;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: 0.2s ease-in-out;
+}
+.youtube {
+  fill: #ff0000;
+}
+.footer__controllercard4 {
+  width: 3.75em;
+  height: 2em;
+  outline: none;
+  border: none;
+  background: white;
+  border-radius: 5px 5px 5px 90px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: 0.2s ease-in-out;
+}
+
+.twitter {
+  margin-right: -0.85em;
+  margin-top: -0.15em;
+  fill: #03a9f4;
+}
+.footer__controllercard5 {
+  width: 3.75em;
+  height: 2em;
+  outline: none;
+  border: none;
+  background: white;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: 0.2s ease-in-out;
+}
+.spotify {
+  fill: #2ebd59;
+}
+
+.footer__controllercard8 {
+  width: 3.75em;
+  height: 2em;
+  outline: none;
+  border: none;
+  background: white;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: 0.2s ease-in-out;
+}
+.linkedin {
+  fill: #0077b5;
+}
+.footer__controllercard6 {
+  width: 3.75em;
+  height: 2em;
+  outline: none;
+  border: none;
+  background: white;
+  border-radius: 5px 5px 90px 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: 0.2s ease-in-out;
+}
+.twitch {
+  margin-left: -0.5em;
+  fill: #65459b;
+}
+/*HOVERS*/
+.footer__controllercard1:hover {
+  cursor: pointer;
+  scale: 1.1;
+  background-color: #cc39a4;
+}
+
+.footer__controllercard1:hover .instagram {
+  fill: white;
+}
+
+.footer__controllercard2:hover {
+  cursor: pointer;
+  scale: 1.1;
+  background-color: black;
+}
+
+.footer__controllercard3:hover .discord {
+  fill: white;
+}
+
+.footer__controllercard3:hover {
+  cursor: pointer;
+  scale: 1.1;
+  background-color: #8c9eff;
+}
+
+.footer__controllercard2:hover .github {
+  filter: invert(100%);
+}
+
+.footer__controllercard7:hover {
+  cursor: pointer;
+  scale: 1.1;
+  background-color: black;
+}
+.footer__controllercard7:hover .tiktok {
+  filter: invert(100%);
+}
+.footer__controllercardMid:hover {
+  cursor: pointer;
+  scale: 1.1;
+  background-color: #ff0000;
+}
+.footer__controllercardMid:hover .youtube {
+  fill: white;
+}
+
+.footer__controllercard4:hover {
+  cursor: pointer;
+  scale: 1.1;
+  background-color: #03a9f4;
+}
+
+.footer__controllercard4:hover .twitter {
+  fill: white;
+}
+.footer__controllercard5:hover {
+  cursor: pointer;
+  scale: 1.1;
+  background-color: #2ebd59;
+}
+.footer__controllercard5:hover .spotify {
+  fill: white;
+}
+.footer__controllercard8:hover {
+  cursor: pointer;
+  scale: 1.1;
+  background-color: #0077b5;
+}
+.footer__controllercard8:hover .linkedin {
+  fill: white;
+}
+.footer__controllercard6:hover {
+  cursor: pointer;
+  scale: 1.1;
+  background-color: #65459b;
+}
+.footer__controllercard6:hover .twitch {
+  fill: white;
+}
