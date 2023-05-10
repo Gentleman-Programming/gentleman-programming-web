@@ -1,0 +1,68 @@
+[
+  {
+    "name": "David Caycedo",
+    "role": "Software Engineer",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in venenatis ex, nec elementum arcu. Mauris et purus quis urna malesuada sollicitudin. Nulla rhoncus eu turpis vitae suscipit. Sed maximus nisi id accumsan imperdiet. Mauris pulvinar eu ligula eget blandit.",
+    "linkedin": "https://www.linkedin.com/in/alanbuscaglia/",
+    "portfolio": "https://www.google.com/",
+    "github": "https://github.com/",
+    "fb": "https://www.facebook.com/",
+    "twitter": "https://twitter.com/",
+    "twitch": "https://www.twitch.tv/"
+  },
+  {
+    "name": "Jose Espinosa",
+    "role": "Project Manager",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in venenatis ex, nec elementum arcu. Mauris et purus quis urna malesuada sollicitudin. Nulla rhoncus eu turpis vitae suscipit. Sed maximus nisi id accumsan imperdiet. Mauris pulvinar eu ligula eget blandit.",
+    "linkedin": "https://www.linkedin.com/in/alanbuscaglia/",
+    "portfolio": "https://www.google.com/",
+    "github": "https://github.com/",
+    "fb": "https://www.facebook.com/",
+    "twitter": "https://twitter.com/",
+    "twitch": "https://www.twitch.tv/"
+  },
+  {
+    "name": "Fernando Hernández",
+    "role": "Software Engineer",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in venenatis ex, nec elementum arcu. Mauris et purus quis urna malesuada sollicitudin. Nulla rhoncus eu turpis vitae suscipit. Sed maximus nisi id accumsan imperdiet. Mauris pulvinar eu ligula eget blandit.",
+    "linkedin": "https://www.linkedin.com/in/alanbuscaglia/",
+    "portfolio": "https://www.google.com/",
+    "github": "https://github.com/",
+    "fb": "https://www.facebook.com/",
+    "twitter": "https://twitter.com/",
+    "twitch": "https://www.twitch.tv/"
+  },
+  {
+    "name": "Joel Angel Ocaño",
+    "role": "Software Engineer",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in venenatis ex, nec elementum arcu. Mauris et purus quis urna malesuada sollicitudin. Nulla rhoncus eu turpis vitae suscipit. Sed maximus nisi id accumsan imperdiet. Mauris pulvinar eu ligula eget blandit.",
+    "linkedin": "https://www.linkedin.com/in/alanbuscaglia/",
+    "portfolio": "https://www.google.com/",
+    "github": "https://github.com/",
+    "fb": "https://www.facebook.com/",
+    "twitter": "https://twitter.com/",
+    "twitch": "https://www.twitch.tv/"
+  },
+  {
+    "name": "Angel Scutari",
+    "role": "Software Engineer",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in venenatis ex, nec elementum arcu. Mauris et purus quis urna malesuada sollicitudin. Nulla rhoncus eu turpis vitae suscipit. Sed maximus nisi id accumsan imperdiet. Mauris pulvinar eu ligula eget blandit.",
+    "linkedin": "https://www.linkedin.com/in/alanbuscaglia/",
+    "portfolio": "https://www.google.com/",
+    "github": "https://github.com/",
+    "fb": "https://www.facebook.com/",
+    "twitter": "https://twitter.com/",
+    "twitch": "https://www.twitch.tv/"
+  },
+  {
+    "name": "Jean Pierre Jeri",
+    "role": "Software Engineer",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in venenatis ex, nec elementum arcu. Mauris et purus quis urna malesuada sollicitudin. Nulla rhoncus eu turpis vitae suscipit. Sed maximus nisi id accumsan imperdiet. Mauris pulvinar eu ligula eget blandit.",
+    "linkedin": "https://www.linkedin.com/in/alanbuscaglia/",
+    "portfolio": "https://www.google.com/",
+    "github": "https://github.com/",
+    "fb": "https://www.facebook.com/",
+    "twitter": "https://twitter.com/",
+    "twitch": "https://www.twitch.tv/"
+  }
+]
