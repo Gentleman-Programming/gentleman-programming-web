@@ -1,8 +1,9 @@
 [
   {
     "name": "David Caycedo",
+    "pic": "https://source.unsplash.com/240x320/?portrait?0",
     "role": "Software Engineer",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in venenatis ex, nec elementum arcu. Mauris et purus quis urna malesuada sollicitudin. Nulla rhoncus eu turpis vitae suscipit. Sed maximus nisi id accumsan imperdiet. Mauris pulvinar eu ligula eget blandit.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in venenatis ex, nec elementum arcu. Mauris et purus quis urna malesuada sollicitudin.",
     "linkedin": "https://www.linkedin.com/in/alanbuscaglia/",
     "portfolio": "https://www.google.com/",
     "github": "https://github.com/",
@@ -12,8 +13,9 @@
   },
   {
     "name": "Jose Espinosa",
+    "pic": "https://source.unsplash.com/240x320/?portrait?2",
     "role": "Project Manager",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in venenatis ex, nec elementum arcu. Mauris et purus quis urna malesuada sollicitudin. Nulla rhoncus eu turpis vitae suscipit. Sed maximus nisi id accumsan imperdiet. Mauris pulvinar eu ligula eget blandit.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in venenatis ex, nec elementum arcu. Mauris et purus quis urna malesuada sollicitudin.",
     "linkedin": "https://www.linkedin.com/in/alanbuscaglia/",
     "portfolio": "https://www.google.com/",
     "github": "https://github.com/",
@@ -23,8 +25,9 @@
   },
   {
     "name": "Fernando Hernández",
+    "pic": "https://source.unsplash.com/240x320/?portrait?5",
     "role": "Software Engineer",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in venenatis ex, nec elementum arcu. Mauris et purus quis urna malesuada sollicitudin. Nulla rhoncus eu turpis vitae suscipit. Sed maximus nisi id accumsan imperdiet. Mauris pulvinar eu ligula eget blandit.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in venenatis ex, nec elementum arcu. Mauris et purus quis urna malesuada sollicitudin.",
     "linkedin": "https://www.linkedin.com/in/alanbuscaglia/",
     "portfolio": "https://www.google.com/",
     "github": "https://github.com/",
@@ -34,8 +37,9 @@
   },
   {
     "name": "Joel Angel Ocaño",
+    "pic": "https://source.unsplash.com/240x320/?portrait?4",
     "role": "Software Engineer",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in venenatis ex, nec elementum arcu. Mauris et purus quis urna malesuada sollicitudin. Nulla rhoncus eu turpis vitae suscipit. Sed maximus nisi id accumsan imperdiet. Mauris pulvinar eu ligula eget blandit.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in venenatis ex, nec elementum arcu. Mauris et purus quis urna malesuada sollicitudin.",
     "linkedin": "https://www.linkedin.com/in/alanbuscaglia/",
     "portfolio": "https://www.google.com/",
     "github": "https://github.com/",
@@ -45,8 +49,9 @@
   },
   {
     "name": "Angel Scutari",
+    "pic": "https://source.unsplash.com/240x320/?portrait?1",
     "role": "Software Engineer",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in venenatis ex, nec elementum arcu. Mauris et purus quis urna malesuada sollicitudin. Nulla rhoncus eu turpis vitae suscipit. Sed maximus nisi id accumsan imperdiet. Mauris pulvinar eu ligula eget blandit.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in venenatis ex, nec elementum arcu. Mauris et purus quis urna malesuada sollicitudin.",
     "linkedin": "https://www.linkedin.com/in/alanbuscaglia/",
     "portfolio": "https://www.google.com/",
     "github": "https://github.com/",
@@ -56,8 +61,9 @@
   },
   {
     "name": "Jean Pierre Jeri",
+    "pic": "https://source.unsplash.com/240x320/?portrait?6",
     "role": "Software Engineer",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in venenatis ex, nec elementum arcu. Mauris et purus quis urna malesuada sollicitudin. Nulla rhoncus eu turpis vitae suscipit. Sed maximus nisi id accumsan imperdiet. Mauris pulvinar eu ligula eget blandit.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in venenatis ex, nec elementum arcu. Mauris et purus quis urna malesuada sollicitudin.",
     "linkedin": "https://www.linkedin.com/in/alanbuscaglia/",
     "portfolio": "https://www.google.com/",
     "github": "https://github.com/",
