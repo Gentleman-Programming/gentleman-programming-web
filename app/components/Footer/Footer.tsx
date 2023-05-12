@@ -2,19 +2,8 @@ import React from 'react';
 
 import Image from 'next/image';
 
-import controlStyles from './controller.module.css';
+import Controller from './Controller';
 import styles from './footer.module.css';
-import {
-  DiscordIcon,
-  GithubIcon,
-  InstagramIcon,
-  LinkedInIcon,
-  SpotifyIcon,
-  TikTokIcon,
-  TwitchIcon,
-  TwitterIcon,
-  YouTubeIcon,
-} from './Icons';
 import alan from '../../assets/alan-buscaglia.png';
 
 const Footer = () => {
@@ -22,30 +11,25 @@ const Footer = () => {
     <footer className={styles.footer}>
       <hr className={styles.footer__divider} />
       <div className={styles.footer__container}>
-        <section className={styles.footer__shortAbout}>
-          <article className={styles.footer__alanCard}>
-            <Image
-              className={styles.footer__alanImg}
-              src={alan}
-              alt="foto de Alan Buscaglia"
-            />
-            <section className={styles.footer__textContainer}>
-              <header className={styles.footer__alanTitle}>
-                Alan Buscaglia
-              </header>
-              <p>Ingeniero y arquitecto de Software Front-end</p>
-              <p>
-                ChatGPT dice que mi contenido es
-                <i> valioso y cumple con los estándares de calidad.</i>
-              </p>
-              <p>
-                <q>
-                  Desde mi cabeza, corazón y experiencia, para todo el mundo.
-                </q>
-              </p>
-            </section>
-          </article>
-        </section>
+        <article className={styles.footer__alanCard}>
+          <Image
+            className={styles.footer__alanImg}
+            src={alan}
+            alt="foto de Alan Buscaglia"
+          />
+          <section className={styles.footer__textContainer}>
+            <header className={styles.footer__alanTitle}>Alan Buscaglia</header>
+            <p>Ingeniero y arquitecto de Software Front-end</p>
+            <p>
+              ChatGPT dice que mi contenido es
+              <i> valioso y cumple con los estándares de calidad.</i>
+            </p>
+            <p>
+              <q>Desde mi cabeza, corazón y experiencia, para todo el mundo.</q>
+            </p>
+          </section>
+        </article>
+
         <section className={styles.footer__aboutCommunityContent}>
           <header>Sobre mi contenido</header>
           <p>
@@ -58,43 +42,17 @@ const Footer = () => {
             patrones de arquitectura.
           </p>
         </section>
+        <section className={styles.footer__aboutCommunityContent}>
+          <header>Lorem ipsum</header>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nibh
+            nulla, tempus vitae fringilla ut, laoreet a tellus. Orci varius
+            natoque penatibus et magnis dis parturient montes, nascetur
+            ridiculus mus.
+          </p>
+        </section>
+        <Controller />
       </div>
-      <section className={controlStyles.footer__controller}>
-        <legend>Podés encontrarme en:</legend>
-        <section className={controlStyles.footer__controllerup}>
-          <button className={controlStyles.footer__controllercard1}>
-            <InstagramIcon />
-          </button>
-          <button className={controlStyles.footer__controllercard2}>
-            <GithubIcon />
-          </button>
-          <button className={controlStyles.footer__controllercard7}>
-            <TikTokIcon />
-          </button>
-          <button className={controlStyles.footer__controllercard3}>
-            <DiscordIcon />
-          </button>
-        </section>
-        <section className={controlStyles.footer__controllermiddle}>
-          <button className={controlStyles.footer__controllercardMid}>
-            <YouTubeIcon />
-          </button>
-        </section>
-        <section className={controlStyles.footer__controllerdown}>
-          <button className={controlStyles.footer__controllercard4}>
-            <TwitterIcon />
-          </button>
-          <button className={controlStyles.footer__controllercard5}>
-            <SpotifyIcon />
-          </button>
-          <button className={controlStyles.footer__controllercard8}>
-            <LinkedInIcon />
-          </button>
-          <button className={controlStyles.footer__controllercard6}>
-            <TwitchIcon />
-          </button>
-        </section>
-      </section>
       <hr className={styles.footer__divider} />
       <section className={styles.footer__lastSection}>
         <p>Made with 💜 by the community</p>

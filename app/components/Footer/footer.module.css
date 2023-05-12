@@ -3,20 +3,24 @@
   display: flow-root;
   background: linear-gradient(180deg, #000000 88%, #ea1889 100%);
   color: rgba(255, 255, 255, 0.9);
+  height: 20%;
+  font-size: 12px;
+  margin: -1em -1em -1em -1em;
+  align-self: flex-end;
 }
 
 .footer__container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  max-width: calc(100% / 3 * 2);
-  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
   margin-left: 1.5em;
 }
 .footer__alanCard {
   display: flex;
   flex-direction: row;
   padding: 1em;
-  border-radius: 10px;
+  border-radius: 6px;
 }
 .footer__alanCard:hover {
   transition: 250ms;
@@ -39,7 +43,7 @@
 .footer__alanImg:hover {
   transition: 250ms;
   border: hsla(328, 83%, 51%, 0.85);
-  box-shadow: 0px 0px 10px #ea1889;
+  box-shadow: 0px 0px 6px #ea1889;
 }
 .footer__textContainer {
   display: flex;
@@ -50,13 +54,9 @@
   margin: 0.25em;
   text-align: center;
 }
-.footer__shortAbout {
-  flex: 1;
-}
 .footer__aboutCommunityContent {
-  flex: 1;
-  max-width: 40%;
   text-align: center;
+  margin-left: 6em;
   margin-bottom: 0.5em;
   padding: 1em;
 }
@@ -73,7 +73,7 @@
   background-image: linear-gradient(
     to right,
     rgba(0, 0, 0, 0),
-    rgba(255, 255, 255, 0.75),
+    rgba(255, 255, 255, 0.25),
     rgba(0, 0, 0, 0)
   );
 }
@@ -83,6 +83,7 @@
   align-items: center;
   font-weight: 200;
   font-size: medium;
+  font-size: 11px;
 }
 .footer__lastSection > p {
   margin: 0;
