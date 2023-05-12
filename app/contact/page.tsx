@@ -1,7 +1,4 @@
-import { createRef } from 'react';
-
-import Image from 'next/image';
-
+import { Card, FormContact } from './components';
 import styles from './styles.module.css';
 
 export const metadata = {
@@ -10,52 +7,12 @@ export const metadata = {
 
 const Contact = () => (
   <div className={styles.container}>
-    <section className={styles['section-contact']}>
-      <div className={styles['section-form']}>
-        <h1>Contact</h1>
-        <p>Quieres una mentora con de Tuti?</p>
-        <form>
-          <div>
-            <label htmlFor="name">Name</label>
-            <input type="text" id="name" />
-          </div>
-          <div>
-            <label htmlFor="email">Email</label>
-            <input type="email" id="email" />
-          </div>
-          <div>
-            <label htmlFor="message">Message</label>
-            <textarea id="message" />
-          </div>
-          <button type="submit">Send</button>
-        </form>
+    <section className={styles['grid-contact']}>
+      <div className={styles['grid-contact__form']}>
+        <FormContact />
       </div>
-      <div className={styles['section-social']}>
-        <h1>Social media links</h1>
-        <p>¿Por que no mejor me sigues en mis redes sociales?</p>
-        <div className={styles['section-social__links']}>
-          <a
-            href="https://www.instagram.com/tutidev/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            IG
-          </a>
-          <a
-            href="https://www.linkedin.com/in/tutidev/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            LI
-          </a>
-          <a
-            href="https://twitter.com/tutidev"
-            target="_blank"
-            rel="noreferrer"
-          >
-            TW
-          </a>
-        </div>
+      <div className={styles['grid-contact__social']}>
+        <Card />
       </div>
     </section>
     <section className={styles['section-question']}>
