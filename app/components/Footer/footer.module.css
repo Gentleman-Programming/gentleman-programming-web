@@ -60,11 +60,9 @@
 }
 .footer__aboutCommunityContent {
   text-align: center;
-  gap: 2em;
+  margin-left: 2.5em;
   margin-bottom: 0.5em;
   padding: 1em;
-}
-.footer__aboutCommunityContent:last-child {
 }
 .footer__aboutCommunityContent > header {
   font-size: larger;
