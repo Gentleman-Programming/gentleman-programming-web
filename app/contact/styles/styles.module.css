@@ -52,6 +52,9 @@
   gap: 1rem;
 }
 
+/* Q&A section
+ */
+
 .section-qa {
   display: flex;
   flex-direction: column;
@@ -63,6 +66,7 @@
   padding: 40px 20px;
   width: 90%;
 }
+
 
 .collapsible {
   background-color: #777;
