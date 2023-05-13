@@ -1,17 +1,18 @@
-import styles from './styles/card.module.css';
-import { SOCIAL_LINKS, IconType } from '../../data/social-links';
 import {
   DiscordIcon,
   GithubIcon,
   InstagramIcon,
   LinkedInIcon,
+  SocialLink,
   SpotifyIcon,
   TikTokIcon,
   TwitchIcon,
   TwitterIcon,
   YouTubeIcon,
-} from '../SocialLinks/Icons';
-import { SocialLink } from '../SocialLinks/SocialLink';
+} from './components';
+import styles from './styles/card.module.css';
+import { SOCIAL_LINKS, IconType } from '../../data/social-links';
+
 export const Card = () => {
   return (
     <div className={styles['profile-card']}>
