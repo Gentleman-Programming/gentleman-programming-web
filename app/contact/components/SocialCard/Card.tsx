@@ -1,4 +1,5 @@
 import styles from './styles/card.module.css';
+import { SOCIAL_LINKS, IconType } from '../../data/social-links';
 import {
   DiscordIcon,
   GithubIcon,
@@ -9,8 +10,7 @@ import {
   TwitchIcon,
   TwitterIcon,
   YouTubeIcon,
-} from '../../../components/Footer/Icons';
-import { SOCIAL_LINKS, IconType } from '../../data/social-links';
+} from '../SocialLinks/Icons';
 import { SocialLink } from '../SocialLinks/SocialLink';
 export const Card = () => {
   return (
@@ -35,6 +35,9 @@ export const Card = () => {
             </svg>
           </span>
           <span className={styles['profile-card-loc__text']}>Spain</span>
+        </div>
+        <div className={styles['profile-card__txt']}>
+          También puedes encontrarme en:
         </div>
         <div className={styles['profile-card-social']}>
           {SOCIAL_LINKS.map((link) => (

@@ -8,7 +8,7 @@
   justify-content: center;
   color: #fff;
   background: #405de6;
-  box-shadow: 0px 7px 30px rgba(43, 98, 169, 0.5);
+  box-shadow: 0px 4px 15px rgba(43, 98, 169, 0.5);
   position: relative;
   font-size: 21px;
   flex-shrink: 0;
@@ -26,16 +26,6 @@
     transform: scale(1.2);
   }
 }
-
-/* {link.icon === IconType.InstagramIcon && <InstagramIcon />}
-              {link.icon === IconType.TwitterIcon && <TwitterIcon />}
-              {link.icon === IconType.DiscordIcon && <DiscordIcon />}
-              {link.icon === IconType.GithubIcon && <GithubIcon />}
-              {link.icon === IconType.LinkedinIcon && <LinkedInIcon />}
-              {link.icon === IconType.SpotifyIcon && <SpotifyIcon />}
-              {link.icon === IconType.TiktokIcon && <TikTokIcon />}
-              {link.icon === IconType.TwitchIcon && <TwitchIcon />}
-              {link.icon === IconType.YoutubeIcon && <YouTubeIcon />}  */
 
 .profile-card-social__item.instagram {
   background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
@@ -63,12 +53,12 @@
 }
 
 .profile-card-social__item.spotify {
-  background: linear-gradient(45deg, #1db954, #0e71c8);
+  background: linear-gradient(45deg, #1db954, #075c31);
   box-shadow: 0px 4px 30px rgba(29, 185, 84, 0.6);
 }
 
 .profile-card-social__item.tiktok {
-  background: linear-gradient(45deg, #69c9d0, #0e71c8);
+  background: linear-gradient(45deg, #161616, #075c31 , #963016);
   box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.6);
 }
 
@@ -78,10 +68,17 @@
 }
 
 .profile-card-social__item.youtube {
-  background: linear-gradient(45deg, #ff0000, #0e71c8);
+  background: linear-gradient(45deg, #ff0000, #6b0505);
   box-shadow: 0px 4px 30px rgba(255, 0, 0, 0.6);
 }
 
 .profile-card-social .icon-font {
   display: inline-flex;
+}
+
+.icon {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
