@@ -1,0 +1,98 @@
+.prefooter {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  max-height: fit-content;
+}
+.cards__container {
+  display: flex;
+  padding: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: row;
+  justify-content: center;
+  max-height: 20%;
+  align-items: center;
+  transition: transform 0.5s ease-in-out;
+}
+.prefooter__title {
+  padding: 0.5rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+.prefooter__card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+  width: 50%;
+}
+.prefooter__card_info {
+  display: flex;
+  background-color: rgb(255, 245, 245);
+  border: 2px solid hotpink;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  border-radius: 0.375rem;
+
+  @media (min-width: 768px) {
+    width: 24rem;
+  }
+  @media (min-width: 1024px) {
+    width: 20rem;
+  }
+  @media (min-width: 1280px) {
+    width: 16rem;
+  }
+}
+.prefooter__card_pic {
+  margin-top: -3rem;
+  background-position: center;
+  background-size: cover;
+  flex-shrink: 0;
+  align-self: center;
+  width: 6rem;
+  height: 6rem;
+  border-radius: 9999px;
+  border-top: 2px solid hotpink;
+  border-left: 2px solid hotpink;
+  border-right: 2px solid hotpink;
+}
+.prefooter__card_header {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-bottom: 1rem;
+  flex: 1 1 0%;
+}
+.prefooter__card_name {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+  line-height: 1.375;
+}
+.prefooter__card_description {
+  margin-top: -1.5rem;
+  font-size: 12px;
+  font-family: "Courier New", Courier, monospace;
+  word-wrap: break-word;
+}
+.prefooter__card_info_socials {
+  display: flex;
+  padding: 0.75rem;
+  margin-left: 0.75rem;
+  margin-left: 0.875rem;
+  justify-content: space-between;
+  align-items: center;
+  border-top-width: 2px;
+}

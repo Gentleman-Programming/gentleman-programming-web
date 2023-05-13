@@ -1,0 +1,74 @@
+[
+  {
+    "name": "David Caycedo",
+    "pic": "https://source.unsplash.com/240x320/?portrait?0",
+    "role": "Software Engineer",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in venenatis ex, nec elementum arcu. Mauris et purus quis urna malesuada sollicitudin.",
+    "linkedin": "https://www.linkedin.com/in/alanbuscaglia/",
+    "portfolio": "https://www.google.com/",
+    "github": "https://github.com/",
+    "fb": "https://www.facebook.com/",
+    "twitter": "https://twitter.com/",
+    "twitch": "https://www.twitch.tv/"
+  },
+  {
+    "name": "Jose Espinosa",
+    "pic": "https://source.unsplash.com/240x320/?portrait?2",
+    "role": "Project Manager",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in venenatis ex, nec elementum arcu. Mauris et purus quis urna malesuada sollicitudin.",
+    "linkedin": "https://www.linkedin.com/in/alanbuscaglia/",
+    "portfolio": "https://www.google.com/",
+    "github": "https://github.com/",
+    "fb": "https://www.facebook.com/",
+    "twitter": "https://twitter.com/",
+    "twitch": "https://www.twitch.tv/"
+  },
+  {
+    "name": "Fernando Hernández",
+    "pic": "https://source.unsplash.com/240x320/?portrait?5",
+    "role": "Software Engineer",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in venenatis ex, nec elementum arcu. Mauris et purus quis urna malesuada sollicitudin.",
+    "linkedin": "https://www.linkedin.com/in/alanbuscaglia/",
+    "portfolio": "https://www.google.com/",
+    "github": "https://github.com/",
+    "fb": "https://www.facebook.com/",
+    "twitter": "https://twitter.com/",
+    "twitch": "https://www.twitch.tv/"
+  },
+  {
+    "name": "Joel Angel Ocaño",
+    "pic": "https://source.unsplash.com/240x320/?portrait?4",
+    "role": "Software Engineer",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in venenatis ex, nec elementum arcu. Mauris et purus quis urna malesuada sollicitudin.",
+    "linkedin": "https://www.linkedin.com/in/alanbuscaglia/",
+    "portfolio": "https://www.google.com/",
+    "github": "https://github.com/",
+    "fb": "https://www.facebook.com/",
+    "twitter": "https://twitter.com/",
+    "twitch": "https://www.twitch.tv/"
+  },
+  {
+    "name": "Angel Scutari",
+    "pic": "https://source.unsplash.com/240x320/?portrait?1",
+    "role": "Software Engineer",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in venenatis ex, nec elementum arcu. Mauris et purus quis urna malesuada sollicitudin.",
+    "linkedin": "https://www.linkedin.com/in/alanbuscaglia/",
+    "portfolio": "https://www.google.com/",
+    "github": "https://github.com/",
+    "fb": "https://www.facebook.com/",
+    "twitter": "https://twitter.com/",
+    "twitch": "https://www.twitch.tv/"
+  },
+  {
+    "name": "Jean Pierre Jeri",
+    "pic": "https://source.unsplash.com/240x320/?portrait?6",
+    "role": "Software Engineer",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in venenatis ex, nec elementum arcu. Mauris et purus quis urna malesuada sollicitudin.",
+    "linkedin": "https://www.linkedin.com/in/alanbuscaglia/",
+    "portfolio": "https://www.google.com/",
+    "github": "https://github.com/",
+    "fb": "https://www.facebook.com/",
+    "twitter": "https://twitter.com/",
+    "twitch": "https://www.twitch.tv/"
+  }
+]
