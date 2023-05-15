@@ -1,5 +1,4 @@
-import Footer from './components/Footer/Footer';
-import { ServerButton } from './components/Navbar/components/NavButton/NavButton';
+import { Home } from './Home/Home';
 
 export const metadata = {
   title: 'Home',
@@ -8,9 +7,7 @@ export const metadata = {
 function App() {
   return (
     <>
-      <h1>Hola mundo</h1>
-      <ServerButton description="Hola" link="https://google.com" mentions={2} />
-      <Footer />
+      <Home />
     </>
   );
 }

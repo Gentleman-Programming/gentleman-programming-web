@@ -1,7 +1,8 @@
 import tuti from '@page/assets/TutiPink.webp';
 import Image, { StaticImageData } from 'next/image';
 
-import styles from './styles.module.css';
+import styles from './navButton.module.css';
+
 export interface PropsSB {
   id?: string;
   selected?: boolean;

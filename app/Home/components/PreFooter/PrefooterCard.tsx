@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { Member } from './Prefooter';
 import styles from './prefooter__card.module.css';
 import {
