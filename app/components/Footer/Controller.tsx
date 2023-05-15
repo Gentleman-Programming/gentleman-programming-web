@@ -16,7 +16,7 @@ import {
 const Controller = () => {
   return (
     <section className={controlStyles.footer__controller}>
-      <header>Podés encontrarme en:</header>
+      <header>Enlaces al exterior:</header>
       <section className={controlStyles.footer__controllerup}>
         <button className={controlStyles.footer__controllercard1}>
           <InstagramIcon />

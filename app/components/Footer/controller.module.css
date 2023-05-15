@@ -1,6 +1,7 @@
 .footer__controller {
   display: flex;
   flex-direction: column;
+  margin-left: 20%;
   gap: 0.1em;
   padding: 1rem;
   position: relative;
@@ -31,7 +32,8 @@
   height: 2em;
   outline: none;
   border: none;
-  background: white;
+  background: black;
+  border: 1px solid #ea1889;
   border-radius: 90px 5px 5px 5px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
     rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
@@ -39,8 +41,9 @@
 }
 
 .instagram {
-  margin-top: -0.05em;
-  fill: #cc39a4;
+  margin-top: -0.15em;
+  margin-left: 0.25em;
+  fill: #ea1889;
 }
 
 .footer__controllercard2 {
@@ -48,7 +51,8 @@
   height: 2em;
   outline: none;
   border: none;
-  background: white;
+  background: black;
+  border: 1px solid #ea1889;
   border-radius: 5px 5px 5px 5px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
     rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
@@ -56,7 +60,8 @@
 }
 
 .github {
-  margin-top: 0em;
+  margin-top: -0.15em;
+  fill: #ea1889;
 }
 
 .footer__controllercard7 {
@@ -64,7 +69,8 @@
   height: 2em;
   outline: none;
   border: none;
-  background: white;
+  background: black;
+  border: 1px solid #ea1889;
   border-radius: 5px 5px 5px 5px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
     rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
@@ -72,14 +78,15 @@
 }
 .tiktok {
   margin-bottom: -0.3em;
-  filter: drop-shadow(-15px -5px 0px #69c9d0, 15px 5px 0px #ee1d52);
+  fill: #ea1889;
 }
 .footer__controllercard3 {
   width: 3.75em;
   height: 2em;
   outline: none;
   border: none;
-  background: white;
+  background: black;
+  border: 1px solid #ea1889;
   border-radius: 5px 90px 5px 5px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
     rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
@@ -88,7 +95,7 @@
 .discord {
   margin-top: -0.1em;
   margin-left: -0.6em;
-  fill: #8c9eff;
+  fill: #ea1889;
 }
 
 .footer__controllercardMid {
@@ -96,7 +103,8 @@
   height: 2em;
   outline: none;
   border: none;
-  background: white;
+  background: black;
+  border: 1px solid #ea1889;
   margin: 0.3em 0 0.3em 0;
   border-radius: 5px 5px 5px 5px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
@@ -104,14 +112,15 @@
   transition: 0.2s ease-in-out;
 }
 .youtube {
-  fill: #ff0000;
+  fill: #ea1889;
 }
 .footer__controllercard4 {
   width: 3.75em;
   height: 2em;
   outline: none;
   border: none;
-  background: white;
+  background: black;
+  border: 1px solid #ea1889;
   border-radius: 5px 5px 5px 90px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
     rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
@@ -119,23 +128,24 @@
 }
 
 .twitter {
-  margin-right: -0.85em;
-  margin-top: -0.15em;
-  fill: #03a9f4;
+  margin-right: -0.45em;
+  margin-top: -0.2em;
+  fill: #ea1889;
 }
 .footer__controllercard5 {
   width: 3.75em;
   height: 2em;
   outline: none;
   border: none;
-  background: white;
+  background: black;
+  border: 1px solid #ea1889;
   border-radius: 5px 5px 5px 5px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
     rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
   transition: 0.2s ease-in-out;
 }
 .spotify {
-  fill: #2ebd59;
+  fill: #ea1889;
 }
 
 .footer__controllercard8 {
@@ -143,21 +153,24 @@
   height: 2em;
   outline: none;
   border: none;
-  background: white;
+  background: black;
+  border: 1px solid #ea1889;
   border-radius: 5px 5px 5px 5px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
     rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
   transition: 0.2s ease-in-out;
 }
 .linkedin {
-  fill: #0077b5;
+  margin-top: 0.12em;
+  fill: #ea1889;
 }
 .footer__controllercard6 {
   width: 3.75em;
   height: 2em;
   outline: none;
   border: none;
-  background: white;
+  background: black;
+  border: 1px solid #ea1889;
   border-radius: 5px 5px 90px 5px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
     rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
@@ -165,86 +178,108 @@
 }
 .twitch {
   margin-left: -0.5em;
-  fill: #65459b;
+  margin-top: 0.12em;
+  fill: #ea1889;
 }
+.fb {
+  fill: #ea1889;
+}
+
 /*HOVERS*/
 .footer__controllercard1:hover {
   cursor: pointer;
   scale: 1.1;
   background-color: #cc39a4;
+  border: none;
 }
 
 .footer__controllercard1:hover .instagram {
   fill: white;
+  border: none;
 }
 
 .footer__controllercard2:hover {
   cursor: pointer;
   scale: 1.1;
   background-color: black;
+  border: 1px solid white;
 }
 
 .footer__controllercard3:hover .discord {
   fill: white;
+  border: none;
 }
 
 .footer__controllercard3:hover {
   cursor: pointer;
   scale: 1.1;
   background-color: #8c9eff;
+  border: none;
 }
 
 .footer__controllercard2:hover .github {
-  filter: invert(100%);
+  fill: white;
 }
 
 .footer__controllercard7:hover {
   cursor: pointer;
   scale: 1.1;
   background-color: black;
+  border: 1px solid white;
 }
 .footer__controllercard7:hover .tiktok {
-  filter: invert(100%);
+  fill: white;
+  filter: drop-shadow(-15px -5px 0px #69c9d0, 15px 5px 0px #ee1d52);
 }
 .footer__controllercardMid:hover {
   cursor: pointer;
   scale: 1.1;
   background-color: #ff0000;
+  border: none;
 }
 .footer__controllercardMid:hover .youtube {
   fill: white;
+  border: none;
 }
 
 .footer__controllercard4:hover {
   cursor: pointer;
   scale: 1.1;
   background-color: #03a9f4;
+  border: none;
 }
 
 .footer__controllercard4:hover .twitter {
   fill: white;
+  border: none;
 }
 .footer__controllercard5:hover {
   cursor: pointer;
   scale: 1.1;
   background-color: #2ebd59;
+  border: none;
 }
 .footer__controllercard5:hover .spotify {
   fill: white;
+  border: none;
 }
 .footer__controllercard8:hover {
   cursor: pointer;
   scale: 1.1;
   background-color: #0077b5;
+  border: none;
 }
 .footer__controllercard8:hover .linkedin {
   fill: white;
+  border: none;
 }
 .footer__controllercard6:hover {
   cursor: pointer;
   scale: 1.1;
   background-color: #65459b;
+  border: none;
 }
 .footer__controllercard6:hover .twitch {
   fill: white;
+  border: none;
 }
