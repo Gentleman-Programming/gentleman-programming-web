@@ -3,28 +3,29 @@
   padding: 0;
   box-sizing: border-box;
 
-  --primary: #36393f;
-  --secondary: #2f3136;
-  --tertiary: rgb(32, 34, 37);
-  --quaternary: #292b2f;
-  --quinary: #393d42;
-  --senary: #828386;
+  --COLOR-PRIMARY: #36393f;
+  --COLOR-SECONDARY: #2f3136;
+  --COLOR-TERTIARY: rgb(32, 34, 37);
+  --COLOR-QUATERNARY: #292b2f;
+  --COLOR-QUINARY: #393d42;
+  --COLOR-SENARY: #828386;
 
-  --white: #fff;
-  --gray: #8a8c90;
-  --chat-input: rgb(64, 68, 75);
-  --symbol: #74777a;
+  --COLOR-WHITE: #FFFFFF;
+  --COLOR-GRAY: #8a8c90;
+  --COLOR-RED: #FF0606;
 
-  --live: #43b581;
-  --notification: #f84a4b;
-  --notificationDc: #dc274350;
-  --discord: #6e86d6;
-  --mention-detail: #f9a839;
-  --mention-message: #413f3f;
+  --COLOR-CHAT-INPUT: rgb(64, 68, 75);
+  --COLOR-SYMBOL: #74777a;
+  --COLOR-LINK: #5d80d6;
 
-  --link: #5d80d6;
+  --COLOR-LIVE: #43b581;
+  --COLOR-NOTIFICATION: #f84a4b;
+  --COLOR-NOTIFICATION-DC: #dc274350;
+  --COLOR-DISCORD: #6e86d6;
+  --COLOR-MENTION-DETAIL: #f9a839;
+  --COLOR-MENTION-MESSAGE: #413f3f;
 
-  --tutiPrimary: #000000;
-  --tutiSecondary: #ea1889;
-  --fondoNavBarTuti: rgb(32, 34, 37);
+  --COLOR-TUTI-PRIMARY: #000000;
+  --COLOR-TUTI-SECONDARY: #ea1889;
+  --COLOR-TUTI-FONDO-NAVBAR: rgb(32, 34, 37);
 }
