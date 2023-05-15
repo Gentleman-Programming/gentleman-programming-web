@@ -181,6 +181,10 @@
   margin-top: 0.12em;
   fill: #ea1889;
 }
+.fb {
+  fill: #ea1889;
+}
+
 /*HOVERS*/
 .footer__controllercard1:hover {
   cursor: pointer;
