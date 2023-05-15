@@ -1,5 +1,5 @@
 import Footer from './components/Footer/Footer';
-import { ServerButton } from './components/ServerButton';
+import { ServerButton } from './components/Navbar/components/NavButton/NavButton';
 
 export const metadata = {
   title: 'Home',
