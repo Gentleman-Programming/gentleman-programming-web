@@ -1,15 +1,15 @@
 [
   {
     "name": "David Caycedo",
-    "pic": "https://source.unsplash.com/240x320/?portrait?0",
+    "pic": "https://imgur.com/WScXlLn",
     "role": "Software Engineer",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in venenatis ex, nec elementum arcu. Mauris et purus quis urna malesuada sollicitudin.",
-    "linkedin": "https://www.linkedin.com/in/alanbuscaglia/",
-    "portfolio": "https://www.google.com/",
-    "github": "https://github.com/",
-    "fb": "https://www.facebook.com/",
-    "twitter": "https://twitter.com/",
-    "twitch": "https://www.twitch.tv/"
+    "description": "Hola soy un desarrollador web y de software.",
+    "linkedin": "https://www.linkedin.com/in/dcdevtk/",
+    "portfolio": "https://dcdev.tk",
+    "github": "https://github.com/DcDevRep",
+    "fb": "https://www.facebook.com/dcdevfb/",
+    "twitter": "https://twitter.com/Dc_Dev_Tw",
+    "twitch": "https://www.twitch.tv/dcdevtk"
   },
   {
     "name": "Jose Espinosa",
