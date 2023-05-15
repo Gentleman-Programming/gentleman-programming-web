@@ -30,6 +30,9 @@ package-lock.json
 
 # vercel
 .vercel
+.history
+.vscode
+
 
 # typescript
 *.tsbuildinfo
