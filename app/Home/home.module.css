@@ -1,14 +1,11 @@
-.root {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-
+.home__theme {
   --COLOR-PRIMARY: #36393f;
   --COLOR-SECONDARY: #2f3136;
   --COLOR-TERTIARY: rgb(32, 34, 37);
   --COLOR-QUATERNARY: #292b2f;
   --COLOR-QUINARY: #393d42;
   --COLOR-SENARY: #828386;
+  --COLOR-TRASNPARENT: rgb(64, 68, 75);
 
   --COLOR-WHITE: #FFFFFF;
   --COLOR-GRAY: #8a8c90;
@@ -27,5 +24,5 @@
 
   --COLOR-TUTI-PRIMARY: #000000;
   --COLOR-TUTI-SECONDARY: #ea1889;
-  --COLOR-TUTI-FONDO-NAVBAR: rgb(32, 34, 37);
+  --COLOR-TUTI-FONDO-NAVBAR: #000000;
 }

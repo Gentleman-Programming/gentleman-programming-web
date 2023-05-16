@@ -1,4 +1,5 @@
 .footer {
+  grid-area: FT;
   font-family: "Fira Mono";
   display: flow-root;
   background: linear-gradient(180deg, #000000 88%, #ea1889 100%);

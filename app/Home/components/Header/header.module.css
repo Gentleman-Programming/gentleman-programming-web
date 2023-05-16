@@ -1,14 +1,11 @@
-.header__text {
-  .navList__container {
-  grid-area: SL;
+.header__container {
+  grid-area: HD;
   display: flex;
-  flex-direction: column;
+  flex-direction: columm;
   align-items: center;
-  background-color: var(--COLOR-PRIMARY);
+  background-color: var(--COLOR-TUTI-PRIMARY);
+  color: var(--COLOR-WHITE);
   padding: 11px 0;
   max-height: 100vh;
   overflow-y: nome;
-}
-  background-color: #000000;
-  color: #FF0000;
 }

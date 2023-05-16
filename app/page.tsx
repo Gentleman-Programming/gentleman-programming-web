@@ -1,14 +1,10 @@
 import { Home } from './Home/Home';
 
 export const metadata = {
-  title: 'Home',
+  title: 'GP -> HOME',
 };
 
 function App() {
-  return (
-    <>
-      <Home />
-    </>
-  );
+  return <Home />;
 }
 export default App;

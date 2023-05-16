@@ -1,11 +1,11 @@
-.app__grid {
+.layout__grid {
   display: grid;
-  grid-template-columns: 71px 240px auto;
-  grid-template-rows: 46px auto 52px;
+  grid-template-columns: 20% 80%;
+  grid-template-rows: 10% 60% 15% 15%;
   grid-template-areas:
-    "NL HD HD"
-    "NL CL CD "
-    "NL  CD "
-    "NL UI UI";
-  height: 100vh;
+    "NL HD"
+    "NL BD"
+    "NL PF"
+    "NL FT";
+  max-height: 100vh;
 }
