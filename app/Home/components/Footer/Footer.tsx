@@ -1,10 +1,10 @@
 import React from 'react';
 
+import alan from '@page/assets/alan-buscaglia.png';
 import Image from 'next/image';
 
 import Controller from './Controller';
 import styles from './footer.module.css';
-import alan from '../../assets/alan-buscaglia.png';
 
 const Footer = () => {
   return (

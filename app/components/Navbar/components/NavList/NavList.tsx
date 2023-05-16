@@ -1,3 +1,26 @@
+import { ServerButton } from '@page/components';
+
+import style from './navList.module.css';
+
 export function NavList() {
-  return <div>Navbar</div>;
+  return (
+    <div className={style.navList__container}>
+      <ServerButton
+        description="Hola"
+        link="https://google.com"
+        mentions={3}
+        isHome={true}
+        isLive={true}
+      />
+      <div className={style.navList__separador}></div>
+      <ServerButton description="Hola" link="https://google.com" mentions={3} />
+      <ServerButton description="Hola" link="https://google.com" />
+      <ServerButton description="Hola" link="https://google.com" />
+      <ServerButton description="Hola" link="https://google.com" />
+      <ServerButton description="Hola" link="https://google.com" />
+      <ServerButton description="Hola" link="https://google.com" />
+      <ServerButton description="Hola" link="https://google.com" />
+      <ServerButton description="Hola" link="https://google.com" />
+    </div>
+  );
 }
