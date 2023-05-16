@@ -24,5 +24,16 @@
 
   --COLOR-TUTI-PRIMARY: #000000;
   --COLOR-TUTI-SECONDARY: #ea1889;
+
   --COLOR-TUTI-FONDO-NAVBAR: #000000;
+  --COLOR-TUTI-NAVBAR-ICONS: #ea1889;
+
+  display: grid;
+  grid-template-columns: 20% 80%;
+  grid-template-rows: 10% 60% 15% 15%;
+  grid-template-areas:
+    "NL HD"
+    "NL BD"
+    "NL PF"
+    "NL FT";
 }

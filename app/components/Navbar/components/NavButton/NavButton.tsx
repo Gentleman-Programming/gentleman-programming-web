@@ -1,4 +1,4 @@
-import tuti from '@page/assets/TutiPink.webp';
+import tuti from '@app/assets/TutiPink.webp';
 import Image, { StaticImageData } from 'next/image';
 
 import styles from './navButton.module.css';

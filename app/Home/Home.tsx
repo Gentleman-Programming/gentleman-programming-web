@@ -1,7 +1,7 @@
 import { FC } from 'react';
 
-import { NavBar } from '@page/components';
-import { Header, Body, Prefooter, Footer } from '@page/Home';
+import { NavBar } from '@app/components';
+import { Header, Body, Footer, Prefooter } from '@app/Home';
 
 import style from './Home.module.css';
 
