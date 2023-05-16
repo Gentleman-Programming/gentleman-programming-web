@@ -29,8 +29,8 @@
   --COLOR-TUTI-NAVBAR-ICONS: #ea1889;
 
   display: grid;
-  grid-template-columns: 70px 95%;
-  grid-template-rows: 10% 60% 15% 15%;
+  grid-template-columns: 70px auto;
+  grid-template-rows: 10% 50% 20% 20%;
   grid-template-areas:
     "NL HD"
     "NL BD"
