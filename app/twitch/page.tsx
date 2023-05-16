@@ -1,4 +1,4 @@
-import { getCalendar } from '@page/twitch/services';
+import { getCalendar } from '@app/twitch/services';
 
 import pageStyles from './page.module.scss';
 import Avatar from './shared/ui/components/Avatar/Avatar';
