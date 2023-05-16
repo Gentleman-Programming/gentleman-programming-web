@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 import {
   DiscordIcon,
   GithubIcon,
@@ -11,15 +13,17 @@ import {
   YouTubeIcon,
 } from './components';
 import styles from './styles/card.module.css';
+import alan from '../../../assets/alan-buscaglia.png';
 import { SOCIAL_LINKS, IconType } from '../../data/social-links';
 
 export const Card = () => {
   return (
     <div className={styles['profile-card']}>
       <div className={styles['profile-card__img']}>
-        <img
-          src="https://media.licdn.com/dms/image/C4D03AQFHobtl97DF5w/profile-displayphoto-shrink_800_800/0/1649089253186?e=1689206400&v=beta&t=3OhjGboDs2lvSnseM2SLAQBXO3z4owRYiy_kpvRjUJM"
-          alt="profile card"
+        <Image
+          className={styles.footer__alanImg}
+          src={alan}
+          alt="foto de Alan Buscaglia"
         />
       </div>
       <div className={styles['profile-card__cnt']}>

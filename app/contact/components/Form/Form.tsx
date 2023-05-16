@@ -1,6 +1,6 @@
-import styles from './styles/styles.module.css';
+import styles from './styles/form.module.css';
 
-const FormContact = () => {
+const Form = () => {
   return (
     <form className={`${styles.form} ${styles['contact-form']}`}>
       <h1 className={styles.form__heading}>Contact me</h1>
@@ -48,4 +48,4 @@ const FormContact = () => {
   );
 };
 
-export default FormContact;
+export default Form;
