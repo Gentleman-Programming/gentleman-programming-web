@@ -9,7 +9,6 @@
   border-radius: 50px;
   background-color: var(--COLOR-PRIMARY);
   position: relative;
-  border: 2px solid buttonBorder;
   cursor: pointer;
 
   &[data-notifications="true"] {
