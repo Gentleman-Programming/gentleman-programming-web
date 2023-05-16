@@ -1,4 +1,4 @@
-export * from './Faq/FaqList';
+export * from './Faq/Faq';
 export * from './Faq/components/ListItem';
 export * from './Faq/components';
 export * from './Form';

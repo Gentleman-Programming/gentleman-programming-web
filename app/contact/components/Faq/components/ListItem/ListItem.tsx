@@ -1,11 +1,11 @@
-import styles from './styles/styles.module.css';
+import styles from './styles/listItem.module.css';
 import { Faq } from '../../../../data/faq';
 
 interface Props {
   questionList: Faq[];
 }
 
-export const ListItem = ({ questionList }: Props) => {
+const ListItem = ({ questionList }: Props) => {
   return (
     <>
       {questionList?.map((question: Faq, index: number) => (
@@ -24,3 +24,5 @@ export const ListItem = ({ questionList }: Props) => {
     </>
   );
 };
+
+export default ListItem;

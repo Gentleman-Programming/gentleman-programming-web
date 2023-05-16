@@ -1,7 +1,6 @@
 import { ListItem } from './components';
-import styles from './styles/styles.module.css';
 import { faq } from '../../data/faq';
-export const FaqList = () => {
+export const Faq = () => {
   return (
     <div>
       <h1>¿Tienes alguna pregunta?</h1>

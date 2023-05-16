@@ -1,1 +1,1 @@
-export { default as FormContact } from './FormContact';
+export { default as Form } from './Form';
