@@ -29,12 +29,12 @@
   --COLOR-TUTI-NAVBAR-ICONS: #ea1889;
 
   display: grid;
-  grid-template-columns: 5% 95%;
+  grid-template-columns: 70px 95%;
   grid-template-rows: 10% 60% 15% 15%;
   grid-template-areas:
     "NL HD"
     "NL BD"
     "NL PF"
     "NL FT";
-  max-height: 100vh;
+  max-height: 100%;
 }
