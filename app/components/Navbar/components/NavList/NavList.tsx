@@ -1,4 +1,4 @@
-import { ServerButton } from '@page/components';
+import { ServerButton } from '@app/components';
 
 import style from './navList.module.css';
 
@@ -13,7 +13,12 @@ export function NavList() {
         isLive={true}
       />
       <div className={style.navList__separador}></div>
-      <ServerButton description="Hola" link="https://google.com" mentions={3} />
+      <ServerButton
+        description="Hola"
+        selected={true}
+        link="https://google.com"
+        mentions={3}
+      />
       <ServerButton description="Hola" link="https://google.com" />
       <ServerButton description="Hola" link="https://google.com" />
       <ServerButton description="Hola" link="https://google.com" />

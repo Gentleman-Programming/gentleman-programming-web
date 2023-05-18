@@ -5,11 +5,11 @@
   --COLOR-QUATERNARY: #292b2f;
   --COLOR-QUINARY: #393d42;
   --COLOR-SENARY: #828386;
-  --COLOR-TRASNPARENT: rgb(64, 68, 75);
+  --COLOR-TRASNPARENT: transparent;
 
-  --COLOR-WHITE: #FFFFFF;
+  --COLOR-WHITE: #ffffff;
   --COLOR-GRAY: #8a8c90;
-  --COLOR-RED: #FF0606;
+  --COLOR-RED: #ff0606;
 
   --COLOR-CHAT-INPUT: rgb(64, 68, 75);
   --COLOR-SYMBOL: #74777a;
@@ -28,8 +28,13 @@
   --COLOR-TUTI-FONDO-NAVBAR: #000000;
   --COLOR-TUTI-NAVBAR-ICONS: #ea1889;
 
+  --COLOR-TUTI-NAVBAR-HOVER-PRIMARY: #fca2b7;
+  --COLOR-TUTI-NAVBAR-HOVER-SECONDARY: #f872a0;
+  --COLOR-TUTI-NAVBAR-SELECTED: #E5E5E5;
+  --COLOR-TUTI-NAVBAR-SELECTED-HOME: #FDD0D6;
+
   display: grid;
-  grid-template-columns: 70px auto;
+  grid-template-columns: 75px auto;
   grid-template-rows: 10% 50% 20% 20%;
   grid-template-areas:
     "NL HD"

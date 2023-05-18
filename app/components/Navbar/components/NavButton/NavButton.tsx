@@ -1,7 +1,7 @@
-import tuti from '@app/assets/TutiPink.webp';
 import Image, { StaticImageData } from 'next/image';
 
 import styles from './navButton.module.css';
+import { GentlemanProgramming } from '../Icons';
 
 export interface PropsSB {
   id?: string;
@@ -37,7 +37,7 @@ export const ServerButton = ({
       href={link}
       target={link ? '_blank' : undefined}
     >
-      <Image src={tuti} alt={description || ''} />
+      <GentlemanProgramming />
     </Tag>
   );
 };
