@@ -9,7 +9,8 @@ import {
   TwitchIcon,
   TwitterIcon,
   YouTubeIcon,
-  GentlemanProgramming,
+  GentlemanProgrammingIcon,
+  BookIcon,
 } from '../Icons';
 
 export interface PropsSB {
@@ -47,7 +48,7 @@ export const ServerButton = ({
       href={link}
       target={link ? '_blank' : undefined}
     >
-      {img == 'GP' && <GentlemanProgramming />}
+      {img == 'GP' && <GentlemanProgrammingIcon />}
       {img == 'TW' && <TwitchIcon />}
       {img == 'DS' && <DiscordIcon />}
       {img == 'YT' && <YouTubeIcon />}
@@ -57,6 +58,7 @@ export const ServerButton = ({
       {img == 'IN' && <InstagramIcon />}
       {img == 'SP' && <SpotifyIcon />}
       {img == 'TK' && <TikTokIcon />}
+      {img == 'BK' && <BookIcon />}
     </Tag>
   );
 };
