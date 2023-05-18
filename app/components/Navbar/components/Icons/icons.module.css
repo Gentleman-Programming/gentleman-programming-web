@@ -17,6 +17,8 @@
   fill: var(--COLOR-TUTI-NAVBAR-ICONS);
 }
 .youtube {
+ margin-left: -0.5em;
+  margin-top: 0.12em;
   fill: var(--COLOR-TUTI-NAVBAR-ICONS);
 }
 .twitter {
@@ -24,6 +26,7 @@
   margin-top: -0.2em;
   fill: var(--COLOR-TUTI-NAVBAR-ICONS);
 }
+
 .spotify {
   fill: var(--COLOR-TUTI-NAVBAR-ICONS);
 }

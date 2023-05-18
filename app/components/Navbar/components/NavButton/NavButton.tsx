@@ -12,6 +12,7 @@ import {
   GentlemanProgrammingIcon,
   BookIcon,
   ContactIcon,
+  FacebookIcon,
 } from '../Icons';
 
 export interface PropsSB {
@@ -26,9 +27,7 @@ export interface PropsSB {
   link?: string;
 }
 export const ServerButton = ({
-  selected,
   img,
-  isHome,
   hasNotifications,
   isLive,
   mentions,
@@ -44,7 +43,7 @@ export const ServerButton = ({
       data-isLive={isLive}
       data-hasmentions={mentions && mentions > 0}
       data-mentions={mentions}
-      data-isHome={isHome}
+      data-isHome={description == 'HM' && true}
       className={styles.button}
       href={link}
       target={link ? '_blank' : undefined}
@@ -57,6 +56,7 @@ export const ServerButton = ({
       {img == 'LK' && <LinkedInIcon />}
       {img == 'GH' && <GithubIcon />}
       {img == 'IN' && <InstagramIcon />}
+      {img == 'FB' && <FacebookIcon />}
       {img == 'SP' && <SpotifyIcon />}
       {img == 'TK' && <TikTokIcon />}
       {img == 'BK' && <BookIcon />}

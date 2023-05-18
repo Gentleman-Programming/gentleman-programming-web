@@ -5,14 +5,7 @@ import style from './navList.module.css';
 export function NavList() {
   return (
     <div className={style.navList__container}>
-      <ServerButton
-        description="HM"
-        link="https://google.com"
-        mentions={3}
-        isHome={true}
-        isLive={true}
-        img="HM"
-      />
+      <ServerButton description="HM" link="https://google.com" img="HM" />
       <div className={style.navList__separador}></div>
       <ServerButton
         description="TW"
@@ -31,6 +24,7 @@ export function NavList() {
       <ServerButton description="LK" link="https://google.com" img="LK" />
       <ServerButton description="GH" link="https://google.com" img="GH" />
       <ServerButton description="IN" link="https://google.com" img="IN" />
+      <ServerButton description="FB" link="https://google.com" img="FB" />
       <ServerButton description="SP" link="https://google.com" img="SP" />
       <ServerButton description="TK" link="https://google.com" img="TK" />
       <ServerButton description="BK" link="https://google.com" img="BK" />
