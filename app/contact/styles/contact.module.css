@@ -1,38 +1,11 @@
 /** Colors Palette **/
-
-.container {
-  --COLOR-PRIMARY: #36393f;
-  --COLOR-SECONDARY: #2f3136;
-  --COLOR-TERTIARY: rgb(32, 34, 37);
-  --COLOR-QUATERNARY: #292b2f;
-  --COLOR-QUINARY: #393d42;
-  --COLOR-SENARY: #828386;
-  --COLOR-TRASNPARENT: rgb(64, 68, 75);
-
-  --COLOR-WHITE: #ffffff;
-  --COLOR-GRAY: #8a8c90;
-  --COLOR-RED: #ff0606;
-
-  --COLOR-CHAT-INPUT: rgb(64, 68, 75);
-  --COLOR-SYMBOL: #74777a;
-  --COLOR-LINK: #5d80d6;
-
-  --COLOR-LIVE: #43b581;
-  --COLOR-NOTIFICATION: #f84a4b;
-  --COLOR-NOTIFICATION-DC: #dc274350;
-  --COLOR-DISCORD: #6e86d6;
-  --COLOR-MENTION-DETAIL: #f9a839;
-  --COLOR-MENTION-MESSAGE: #413f3f;
-
-  --COLOR-TUTI-PRIMARY: #000000;
-  --COLOR-TUTI-SECONDARY: #ea1889;
-
-  --COLOR-TUTI-FONDO-NAVBAR: #000000;
-  --COLOR-TUTI-NAVBAR-ICONS: #ea1889;
-
+ 
+.container-contact {
   display: flex;
   flex-direction: column;
   margin-top: 80px;
+  margin-left: 20px;
+  flex-grow: 1;
 }
 
 .grid-contact {

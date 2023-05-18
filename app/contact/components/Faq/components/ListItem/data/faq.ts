@@ -3,7 +3,7 @@ export interface Faq {
   answer: string;
 }
 
-export const faq: Faq[] = [
+export const FAQ: Faq[] = [
   {
     question: 'What is the difference between a single and a double room?',
     answer:

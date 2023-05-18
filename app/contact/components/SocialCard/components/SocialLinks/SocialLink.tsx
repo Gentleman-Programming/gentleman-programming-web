@@ -5,6 +5,7 @@ interface Props {
   children: React.ReactNode;
   socialClass: string;
 }
+
 export const SocialLink = ({ href, children, socialClass }: Props) => {
   return (
     <a

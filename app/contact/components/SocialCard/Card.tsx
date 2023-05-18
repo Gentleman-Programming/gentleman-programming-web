@@ -12,9 +12,9 @@ import {
   TwitterIcon,
   YouTubeIcon,
 } from './components';
+import { SOCIAL_LINKS, IconType } from './data';
 import styles from './styles/card.module.css';
 import alan from '../../../assets/alan-buscaglia.png';
-import { SOCIAL_LINKS, IconType } from '../../data/social-links';
 
 export const Card = () => {
   return (
