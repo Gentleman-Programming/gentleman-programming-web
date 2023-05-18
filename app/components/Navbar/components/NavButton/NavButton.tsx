@@ -36,7 +36,7 @@ export const ServerButton = ({
   link,
 }: PropsSB) => {
   const Tag = link ? 'a' : 'button';
-  const appDir = '';
+  const appDir = 'HM';
   return (
     <Tag
       data-notifications={hasNotifications}
