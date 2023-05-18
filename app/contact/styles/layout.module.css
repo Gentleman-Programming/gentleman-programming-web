@@ -26,18 +26,11 @@
   --COLOR-TUTI-SECONDARY: #ea1889;
 
   --COLOR-TUTI-FONDO-NAVBAR: #000000;
-  --COLOR-TUTI-NAVBAR-ICONS: #ea1889;
-}
+  --COLOR-TUTI-NAVBAR-ICONS: #d6177d;
 
-.contact-theme__grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  align-items: center;
-  justify-content: center;
-}
+  display: flex;
+  flex-direction: row;
+  background-color: var(--COLOR-TUTI-PRIMARY); 
+  flex-shrink: 1;
 
-@media (min-width: 768px) {
-  .contact-theme__grid {
-    grid-template-columns: 1fr 1fr;
-  }
 }

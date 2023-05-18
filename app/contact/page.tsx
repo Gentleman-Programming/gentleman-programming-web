@@ -1,6 +1,7 @@
 import { NavBar } from '@app/components';
 
 import { Card, Faq, Form } from './components';
+import ContactLayout from './layout';
 import styles from './styles/contact.module.css';
 
 export const metadata = {
@@ -9,8 +10,7 @@ export const metadata = {
 };
 
 const Contact = () => (
-  <div className={styles['main-container']}>
-    <NavBar />
+  <ContactLayout>
     <div className={styles['container-contact']}>
       <section className={styles['grid-contact']}>
         <div className={styles['grid-contact__form']}>
@@ -24,7 +24,7 @@ const Contact = () => (
         <Faq />
       </section>
     </div>
-  </div>
+  </ContactLayout>
 );
 
 export default Contact;

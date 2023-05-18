@@ -1,8 +1,9 @@
 .form {
-  width: 95%;
+  width: 100%;
   max-width: 1200px;
   margin: 0 auto;
   padding: 40px;
+  
 }
 
 .form__heading {
@@ -45,18 +46,19 @@
   Contact Form
 */
 .contact-form {
-  width: 100%;
+  width: 90%;
   max-width: 1200px;
   padding: 40px;
   border-radius: 12px;
   box-shadow: 0px 8px 60px -10px rgba(13, 28, 39, 0.6);
   box-sizing: border-box;
-  background-color: #eb6e76;
+  background-color: var(--COLOR-TUTI-SECONDARY);
 }
 
 @media (min-width: 768px) {
   .contact-form {
     order: 1;
+    width: 100%;
   }
 }
 
