@@ -81,7 +81,7 @@
   &:hover {
     border-radius: 16px;
     background-color: var(--COLOR-TUTI-NAVBAR-HOVER-SECONDARY);
-    fill: var(--COLOR-TUTI-NAVBAR-SELECTED-ICONS);
+    fill: var(--COLOR-TUTI-PRIMARY);
   }
 
   &[data-ishome="true"]:hover {
