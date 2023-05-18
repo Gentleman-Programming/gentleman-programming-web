@@ -158,7 +158,7 @@ export const FacebookIcon = () => {
     </svg>
   );
 };
-export const GentlemanProgramming = () => {
+export const GentlemanProgrammingIcon = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -195,6 +195,19 @@ export const GentlemanProgramming = () => {
         d="M113.846 198.724C84.7386 225.366 55.5152 234.862 8 209.381C16.8205 258.225 41.015 288.836 63.5693 308.845C134.134 356.801 224.103 344.368 276.144 277.763C317.6 341.704 445.45 355.025 490.483 308.845C535.516 262.665 540.76 246.68 545.17 209.381C499.988 235.703 472.3 229.828 435.796 195.172C362.973 138.584 329.21 142.455 276.144 185.403C216.642 135.439 180.728 143.737 113.846 198.724Z"
         fill="#EA1889"
       />
+    </svg>
+  );
+};
+export const BookIcon = () => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="30"
+      height="25"
+      viewBox="0 0 32 32"
+      fillRule="nonzero"
+    >
+      <path d="M27,27V2H7L5,4v26h20v-1H7l2-2H27z M14,11h8v1h-8V11z M14,13h8v1h-8V13z M14,15h8v1h-8V15z" />
     </svg>
   );
 };

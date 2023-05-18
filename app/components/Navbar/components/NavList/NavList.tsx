@@ -6,29 +6,29 @@ export function NavList() {
   return (
     <div className={style.navList__container}>
       <ServerButton
-        description="Hola"
+        description="HM"
         link="https://google.com"
         mentions={3}
         isHome={true}
         isLive={true}
-        img="GP"
+        img="HM"
       />
       <div className={style.navList__separador}></div>
       <ServerButton
         description="Hola"
-        selected={true}
         link="https://google.com"
         mentions={3}
         img="TW"
       />
-      <ServerButton description="Hola" link="https://google.com" img="DS" />
-      <ServerButton description="Hola" link="https://google.com" img="YT" />
-      <ServerButton description="Hola" link="https://google.com" img="TT" />
-      <ServerButton description="Hola" link="https://google.com" img="LK" />
-      <ServerButton description="Hola" link="https://google.com" img="GH" />
-      <ServerButton description="Hola" link="https://google.com" img="IN" />
-      <ServerButton description="Hola" link="https://google.com" img="SP" />
-      <ServerButton description="Hola" link="https://google.com" img="TK" />
+      <ServerButton description="DS" link="https://google.com" img="DS" />
+      <ServerButton description="YT" link="https://google.com" img="YT" />
+      <ServerButton description="TT" link="https://google.com" img="TT" />
+      <ServerButton description="LK" link="https://google.com" img="LK" />
+      <ServerButton description="GH" link="https://google.com" img="GH" />
+      <ServerButton description="IN" link="https://google.com" img="IN" />
+      <ServerButton description="SP" link="https://google.com" img="SP" />
+      <ServerButton description="TK" link="https://google.com" img="TK" />
+      <ServerButton description="BK" link="https://google.com" img="BK" />
     </div>
   );
 }
