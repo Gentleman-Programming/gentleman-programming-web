@@ -15,7 +15,7 @@ export function NavList() {
       />
       <div className={style.navList__separador}></div>
       <ServerButton
-        description="Hola"
+        description="TW"
         link="https://google.com"
         mentions={3}
         img="TW"
@@ -29,6 +29,7 @@ export function NavList() {
       <ServerButton description="SP" link="https://google.com" img="SP" />
       <ServerButton description="TK" link="https://google.com" img="TK" />
       <ServerButton description="BK" link="https://google.com" img="BK" />
+      <ServerButton description="CT" link="https://google.com" img="CT" />
     </div>
   );
 }

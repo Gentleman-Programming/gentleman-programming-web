@@ -11,6 +11,7 @@ import {
   YouTubeIcon,
   GentlemanProgrammingIcon,
   BookIcon,
+  ContactIcon,
 } from '../Icons';
 
 export interface PropsSB {
@@ -35,7 +36,7 @@ export const ServerButton = ({
   link,
 }: PropsSB) => {
   const Tag = link ? 'a' : 'button';
-  const appDir = 'HM';
+  const appDir = '';
   return (
     <Tag
       data-notifications={hasNotifications}
@@ -59,6 +60,7 @@ export const ServerButton = ({
       {img == 'SP' && <SpotifyIcon />}
       {img == 'TK' && <TikTokIcon />}
       {img == 'BK' && <BookIcon />}
+      {img == 'CT' && <ContactIcon />}
     </Tag>
   );
 };
