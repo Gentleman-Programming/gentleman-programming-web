@@ -8,12 +8,15 @@
   margin-bottom: 8px;
   border-radius: 50px;
   background-color: var(--COLOR-TUTI-FONDO-NAVBAR);
+  fill: var(--COLOR-TUTI-NAVBAR-ICONS);
   position: relative;
   cursor: pointer;
-
+  
   &[data-selected="true"] {
     border-radius: 16px;
     background-color: var(--COLOR-TUTI-NAVBAR-SELECTED);
+    fill: var(--COLOR-TUTI-NAVBAR-ICONS-SELECTED);
+
   }
 
   > img {
@@ -27,7 +30,7 @@
     position: absolute;
     left: -17px;
     top: calc(50% - 4.5px);
-    background-color: var(--COLOR-WHITE);
+    background-color: var(--COLOR-TUTI-SECONDARY);
     border-radius: 50px;
     content: '';
     display: none;
@@ -78,6 +81,7 @@
   &:hover {
     border-radius: 16px;
     background-color: var(--COLOR-TUTI-NAVBAR-HOVER-SECONDARY);
+    fill: var(--COLOR-TUTI-NAVBAR-SELECTED-ICONS);
   }
 
   &[data-ishome="true"]:hover {
@@ -88,3 +92,4 @@
     background-color: var(--COLOR-TUTI-NAVBAR-SELECTED-HOME);
   }
 }
+
