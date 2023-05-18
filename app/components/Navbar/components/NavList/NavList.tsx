@@ -1,4 +1,4 @@
-import { ServerButton } from 'app/components';
+import { ServerButton } from '@app/components';
 
 import style from './navList.module.css';
 
