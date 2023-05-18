@@ -17,11 +17,16 @@ export function NavList() {
       <ServerButton
         description="TW"
         link="https://google.com"
-        mentions={3}
+        isLive={true}
         img="TW"
       />
       <ServerButton description="DS" link="https://google.com" img="DS" />
-      <ServerButton description="YT" link="https://google.com" img="YT" />
+      <ServerButton
+        description="YT"
+        link="https://google.com"
+        img="YT"
+        mentions={3}
+      />
       <ServerButton description="TT" link="https://google.com" img="TT" />
       <ServerButton description="LK" link="https://google.com" img="LK" />
       <ServerButton description="GH" link="https://google.com" img="GH" />
