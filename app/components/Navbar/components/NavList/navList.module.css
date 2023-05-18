@@ -7,6 +7,7 @@
 .navList__separador {
   grid-area: NL;
   width: 50px;
-  border-bottom: 3px solid var(--COLOR-QUATERNARY);
+  border-bottom: 3px solid var(--COLOR-TUTI-NAVBAR-ICONS);
   margin-bottom: 8px;
+  margin-top: 8px;
 }

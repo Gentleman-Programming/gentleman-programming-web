@@ -1,7 +1,16 @@
-import tuti from '@app/assets/TutiPink.webp';
-import Image, { StaticImageData } from 'next/image';
-
 import styles from './navButton.module.css';
+import {
+  DiscordIcon,
+  GithubIcon,
+  InstagramIcon,
+  LinkedInIcon,
+  SpotifyIcon,
+  TikTokIcon,
+  TwitchIcon,
+  TwitterIcon,
+  YouTubeIcon,
+  GentlemanProgramming,
+} from '../Icons';
 
 export interface PropsSB {
   id?: string;
@@ -10,12 +19,13 @@ export interface PropsSB {
   hasNotifications?: boolean;
   isLive?: boolean;
   mentions?: number;
-  img?: StaticImageData;
+  img?: string;
   description?: string;
   link?: string;
 }
 export const ServerButton = ({
   selected,
+  img,
   isHome,
   hasNotifications,
   isLive,
@@ -37,7 +47,16 @@ export const ServerButton = ({
       href={link}
       target={link ? '_blank' : undefined}
     >
-      <Image src={tuti} alt={description || ''} />
+      {img == 'GP' && <GentlemanProgramming />}
+      {img == 'TW' && <TwitchIcon />}
+      {img == 'DS' && <DiscordIcon />}
+      {img == 'YT' && <YouTubeIcon />}
+      {img == 'TT' && <TwitterIcon />}
+      {img == 'LK' && <LinkedInIcon />}
+      {img == 'GH' && <GithubIcon />}
+      {img == 'IN' && <InstagramIcon />}
+      {img == 'SP' && <SpotifyIcon />}
+      {img == 'TK' && <TikTokIcon />}
     </Tag>
   );
 };
