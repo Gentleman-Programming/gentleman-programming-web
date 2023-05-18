@@ -1,5 +1,5 @@
+import { Faq } from './data';
 import styles from './styles/listItem.module.css';
-import { Faq } from '../../../../data/faq';
 
 interface Props {
   questionList: Faq[];
