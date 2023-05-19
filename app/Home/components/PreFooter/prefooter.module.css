@@ -1,22 +1,12 @@
 .prefooter {
   grid-area: PF;
-  display: flex;
   flex-direction: row;
-  background-color: black;
-  height: 30rem;
-  margin-left: -0.5rem;
-  margin-right: -0.5rem;
-  border: 2px solid red;
-}
-.cards__container {
   display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding-left: 3rem;
-  transition: transform 0.5s ease-in-out;
+  background-color: transparent;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-around;
+  margin-top: -10rem;
 }
 .prefooter__title {
   font-family: "Fira Mono";
@@ -28,7 +18,5 @@
   font-weight: 500;
   letter-spacing: 0.05em;
   width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  border: 2px solid red;
+  justify-content: center;
 }
