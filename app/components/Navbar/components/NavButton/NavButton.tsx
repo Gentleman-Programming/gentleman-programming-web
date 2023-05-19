@@ -14,7 +14,8 @@ import {
   ContactIcon,
   FacebookIcon,
   AppleIcon,
-} from '../Icons';
+  AmazonIcon,
+} from '../../../Icons';
 
 export interface PropsSB {
   id?: string;
@@ -62,6 +63,7 @@ export const ServerButton = ({
       {img == 'AP' && <AppleIcon />}
       {img == 'TK' && <TikTokIcon />}
       {img == 'BK' && <BookIcon />}
+      {img == 'AM' && <AmazonIcon />}
       {img == 'CT' && <ContactIcon />}
     </Tag>
   );

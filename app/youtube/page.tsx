@@ -1,7 +1,16 @@
+import '@app/styles/global.css';
+
+import { Container } from './components';
+import style from './page.module.css';
 export const metadata = {
-  title: 'Youtube',
+  title: 'GP -> YouTube',
+  description: 'YouTube page',
 };
 
-export default function Youtube() {
-  return <div>Youtube - 120</div>;
+export default function Discord() {
+  return (
+    <div className={style.discord__theme}>
+      <Container />
+    </div>
+  );
 }

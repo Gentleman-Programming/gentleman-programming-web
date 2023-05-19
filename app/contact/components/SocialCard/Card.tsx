@@ -1,3 +1,4 @@
+import alan from '@app/assets/img/alan-buscaglia.png';
 import Image from 'next/image';
 
 import {
@@ -14,7 +15,6 @@ import {
 } from './components';
 import { SOCIAL_LINKS, IconType } from './data';
 import styles from './styles/card.module.css';
-import alan from '../../../assets/alan-buscaglia.png';
 
 export const Card = () => {
   return (
