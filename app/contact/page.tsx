@@ -5,12 +5,13 @@ import ContactLayout from './layout';
 import styles from './styles/contact.module.css';
 
 export const metadata = {
-  title: 'Contact',
+  title: 'GP -> Contact',
   description: 'Contact page',
 };
 
 const Contact = () => (
   <ContactLayout>
+    <NavBar />
     <div className={styles['container-contact']}>
       <section className={styles['grid-contact']}>
         <div className={styles['grid-contact__form']}>

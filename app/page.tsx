@@ -1,7 +1,8 @@
 import { Home } from './Home/Home';
 
 export const metadata = {
-  title: 'GP -> HOME',
+  title: 'GP -> Home',
+  description: 'Home page',
 };
 
 import '@app/styles/global.css';
