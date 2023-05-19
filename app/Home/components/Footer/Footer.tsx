@@ -1,6 +1,6 @@
 import React from 'react';
 
-import alan from '@app/assets/alan-buscaglia.png';
+import alan from '@app/assets/img/alan-buscaglia.png';
 import Image from 'next/image';
 
 import Controller from './Controller';
