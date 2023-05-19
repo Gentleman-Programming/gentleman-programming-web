@@ -14,7 +14,7 @@ import {
   ContactIcon,
   FacebookIcon,
   AppleIcon,
-} from '../Icons';
+} from '../../../Icons';
 
 export interface PropsSB {
   id?: string;
