@@ -29,6 +29,7 @@ export function NavList() {
       <ServerButton description="SP" link="https://google.com" img="SP" />
       <ServerButton description="AP" link="https://google.com" img="AP" />
       <ServerButton description="BK" link="https://google.com" img="BK" />
+      <ServerButton description="AM" link="https://google.com" img="AM" />
       <ServerButton description="CT" link="https://google.com" img="CT" />
     </div>
   );
