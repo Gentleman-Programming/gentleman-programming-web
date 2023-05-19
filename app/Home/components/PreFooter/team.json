@@ -9,7 +9,8 @@
     "github": "https://github.com/DcDevRep",
     "fb": "https://www.facebook.com/dcdevfb/",
     "twitter": "https://twitter.com/Dc_Dev_Tw",
-    "twitch": "https://www.twitch.tv/dcdevtk"
+    "twitch": "https://www.twitch.tv/dcdevtk",
+    "visibility": true
   },
   {
     "name": "Jose Espinosa",
@@ -21,7 +22,8 @@
     "github": "https://github.com/",
     "fb": "https://www.facebook.com/",
     "twitter": "https://twitter.com/",
-    "twitch": "https://www.twitch.tv/"
+    "twitch": "https://www.twitch.tv/",
+    "visibility": true
   },
   {
     "name": "Fernando Hernández",
@@ -33,7 +35,8 @@
     "github": "https://github.com/Xansiety",
     "fb": "",
     "twitter": "https://twitter.com/ferando543",
-    "twitch": "https://www.twitch.tv/xansiety__"
+    "twitch": "https://www.twitch.tv/xansiety__",
+    "visibility": true
   },
   {
     "name": "Joel Angel Ocaño",
@@ -45,7 +48,8 @@
     "github": "https://github.com/",
     "fb": "https://www.facebook.com/",
     "twitter": "https://twitter.com/",
-    "twitch": "https://www.twitch.tv/"
+    "twitch": "https://www.twitch.tv/",
+    "visibility": true
   },
   {
     "name": "Angel Scutari",
@@ -57,7 +61,8 @@
     "github": "https://github.com/AngelVDev",
     "fb": "",
     "twitter": "https://twitter.com/AngelScutariV",
-    "twitch": ""
+    "twitch": "",
+    "visibility": true
   },
   {
     "name": "Jean Pierre Jeri",
@@ -69,6 +74,7 @@
     "github": "https://github.com/",
     "fb": "https://www.facebook.com/",
     "twitter": "https://twitter.com/",
-    "twitch": "https://www.twitch.tv/"
+    "twitch": "https://www.twitch.tv/",
+    "visibility": false
   }
 ]
