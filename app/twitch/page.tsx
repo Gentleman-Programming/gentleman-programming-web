@@ -4,6 +4,11 @@ import pageStyles from './page.module.scss';
 import Avatar from './shared/ui/components/Avatar/Avatar';
 import Button from './shared/ui/components/Button/Button';
 import { Calendar } from './shared/ui/components/Calendar/Calendar';
+
+export const metadata = {
+  title: 'GP -> Twitch',
+  description: 'Twitch page',
+};
 async function Twitch() {
   async function fetchEvents() {
     return await getCalendar();

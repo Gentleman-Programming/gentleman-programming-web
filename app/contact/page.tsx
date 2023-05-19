@@ -5,7 +5,7 @@ import ContactLayout from './layout';
 import styles from './styles/contact.module.css';
 
 export const metadata = {
-  title: 'Contact',
+  title: 'GP -> Contact',
   description: 'Contact page',
 };
 
