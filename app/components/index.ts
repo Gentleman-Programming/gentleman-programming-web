@@ -5,3 +5,5 @@ export * from './Navbar/components/NavButton';
 export * from './Navbar/components/NavList';
 export * from './Navbar/components';
 export * from './Navbar';
+export * from './Pag404';
+export * from './inConstruction';
