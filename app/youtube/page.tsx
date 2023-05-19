@@ -1,7 +1,12 @@
-export const metadata = {
-  title: 'Youtube',
-};
+import '@app/styles/global.css';
 
-export default function Youtube() {
-  return <div>Youtube - 120</div>;
+import { Container } from './components';
+import style from './page.module.css';
+
+export default function Discord() {
+  return (
+    <div className={style.discord__theme}>
+      <Container />
+    </div>
+  );
 }
