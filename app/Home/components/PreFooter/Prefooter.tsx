@@ -15,33 +15,29 @@ export interface Member {
   fb: string;
   twitter: string;
   twitch: string;
+  visibility: boolean;
 }
 
 const Prefooter = () => {
-  const [currentSlide, setCurrentSlide] = React.useState(0);
-
+  const [currentContent, setCurrentContent] = React.useState(0);
   React.useEffect(() => {
     const interval = setInterval(() => {
-      setCurrentSlide((currentSlide) =>
-        currentSlide + 2 >= team.length ? 0 : currentSlide + 2
-      );
+      setCurrentContent((prevContent) => {
+        if (prevContent === team.length - 1) {
+          return 0;
+        } else {
+          return prevContent + 1;
+        }
+      });
     }, 3000);
-
     return () => clearInterval(interval);
-  }, []);
+  }, [currentContent]);
+  const croppedTeam = team[currentContent];
   return (
     <section className={styles.prefooter}>
       <h2 className={styles.prefooter__title}>Gentleman Rockstars</h2>
-      <div
-        className={styles.cards__container}
-        style={{
-          width: `${50 * team.length}%`,
-          transform: `translateX(-${currentSlide * 10}%)`,
-        }}
-      >
-        {team.map((member: Member) => (
-          <PrefooterCard key={'card' + member.name} member={member} />
-        ))}
+      <div className={styles.cards__container}>
+        <PrefooterCard key={'card' + croppedTeam.name} member={croppedTeam} />
       </div>
     </section>
   );
