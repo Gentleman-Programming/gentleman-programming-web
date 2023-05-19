@@ -11,6 +11,7 @@ export const metadata = {
 
 const Contact = () => (
   <ContactLayout>
+    <NavBar />
     <div className={styles['container-contact']}>
       <section className={styles['grid-contact']}>
         <div className={styles['grid-contact__form']}>

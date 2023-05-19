@@ -5,7 +5,7 @@
   --COLOR-QUATERNARY: #292b2f;
   --COLOR-QUINARY: #393d42;
   --COLOR-SENARY: #828386;
-  --COLOR-TRASNPARENT: rgb(64, 68, 75);
+  --COLOR-TRASNPARENT: transparent;
 
   --COLOR-WHITE: #ffffff;
   --COLOR-GRAY: #8a8c90;
@@ -27,10 +27,16 @@
 
   --COLOR-TUTI-FONDO-NAVBAR: #000000;
   --COLOR-TUTI-NAVBAR-ICONS: #d6177d;
+  
+  --COLOR-TUTI-NAVBAR-HOVER-PRIMARY: #f872a0;
+  --COLOR-TUTI-NAVBAR-HOVER-SECONDARY: #fca2b7;
+  --COLOR-TUTI-NAVBAR-SELECTED: #E5E5E5;
+  --COLOR-TUTI-NAVBAR-SELECTED-ICONS: #666666;
+  --COLOR-TUTI-NAVBAR-SELECTED-HOME: #FDD0D6;
 
   display: flex;
   flex-direction: row;
-  background-color: var(--COLOR-TUTI-PRIMARY); 
+  background-color: var(--COLOR-TUTI-PRIMARY);
   flex-shrink: 1;
 
 }
