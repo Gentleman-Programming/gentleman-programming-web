@@ -1,15 +1,13 @@
 .footer {
+  display: flow-root;
   grid-area: FT;
   font-family: "Fira Mono";
-  display: flow-root;
   background: linear-gradient(180deg, #000000 88%, #ea1889 100%);
   color: rgba(255, 255, 255, 0.9);
-  height: 20%;
   font-size: 12px;
-  margin: -1em -1em -1em -1em;
-  align-self: flex-end;
+  height: 15rem;
+  margin: 4.7rem 0 0 -4.7rem;
 }
-
 .footer__container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
@@ -33,6 +31,7 @@
   box-shadow: 0px 0px 6px #ea1889;
   background-color: #ea1889;
   border-radius: 3px;
+  z-index: 99999;
 }
 .footer__alanTitle {
   font-weight: 600;
