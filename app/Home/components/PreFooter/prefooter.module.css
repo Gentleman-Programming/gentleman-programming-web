@@ -8,15 +8,3 @@
   justify-content: space-around;
   margin-top: -10rem;
 }
-.prefooter__title {
-  font-family: "Fira Mono";
-  color: aliceblue;
-  display: flex;
-  text-align: center;
-  height: fit-content;
-  font-size: 1.15rem;
-  font-weight: 500;
-  letter-spacing: 0.05em;
-  width: 100%;
-  justify-content: center;
-}
