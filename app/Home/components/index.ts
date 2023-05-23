@@ -4,4 +4,4 @@ export { default as Footer } from './Footer/Footer';
 export * from './Footer/Icons';
 export * from './Header';
 export { default as Prefooter } from './PreFooter/Prefooter';
-export { default as PrefooterCard } from './PreFooter/PrefooterCard';
+export { default as FooterCard } from './Footer/FooterCard';
