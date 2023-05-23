@@ -6,18 +6,17 @@
   color: rgba(255, 255, 255, 0.9);
   font-size: 12px;
   height: fit-content;
-  margin: 4.7rem 0 0 -4.7rem;
+  margin-left: -4.688rem;
+  /* position: absolute;
+  bottom: 0; */
 }
 .footercard__title {
-  font-family: "Fira Mono";
   color: aliceblue;
   display: flex;
-  height: -moz-fit-content;
-  height: fit-content;
   font-size: 1.15rem;
   font-weight: 500;
   letter-spacing: 0.05em;
-  width: 100%;
+  width:fit-content;
   margin-left: 4.5rem;
   justify-content: flex-start;
 }
