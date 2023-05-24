@@ -1,5 +1,4 @@
 /** Colors Palette **/
- 
 .container-contact {
   display: flex;
   flex-direction: column;
@@ -45,9 +44,7 @@
   }
 }
 
-/*  Social Media section
- */
-
+/**  Social Media section */
 .section-social__links {
   display: flex;
   flex-direction: row;
@@ -56,9 +53,7 @@
   gap: 1rem;
 }
 
-/* Q&A section
- */
-
+/** Q&A section */
 .section-qa {
   display: flex;
   flex-direction: column;
