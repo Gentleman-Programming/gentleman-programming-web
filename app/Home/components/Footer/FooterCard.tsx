@@ -1,44 +1,34 @@
-'use client';
-
 import React from 'react';
 
-import { Member } from './Prefooter';
-import styles from './prefooter__card.module.css';
-import {
-  FacebookIcon,
-  GithubIcon,
-  LinkedInIcon,
-  TwitterIcon,
-} from '../Footer/Icons';
+import { Member } from './Footer';
+import styles from './footer__card.module.css';
+import { FacebookIcon, GithubIcon, LinkedInIcon, TwitterIcon } from './Icons';
 
 type Props = {
   member: Member;
 };
 
-const PrefooterCard = ({ member }: Props) => {
+const FooterCard = ({ member }: Props) => {
   if (member.visibility === true)
     return (
-      <article
-        key={member.name + ' article'}
-        className={styles.prefooter__card}
-      >
-        <div className={styles.prefooter__card_info}>
-          <section className={styles.prefooter__card_side}>
+      <article key={member.name + ' article'} className={styles.footer__card}>
+        <div className={styles.footer__card_info}>
+          <section className={styles.footer__card_side}>
             <img
               alt={member.name + ' pic'}
-              className={styles.prefooter__card_pic}
+              className={styles.footer__card_pic}
               src={member.pic}
             />
-            <header className={styles.prefooter__card_header}>
-              <p className={styles.prefooter__card_name}>{member.name}</p>
+            <header className={styles.footer__card_header}>
+              <p className={styles.footer__card_name}>{member.name}</p>
               <p>{member.role}</p>
             </header>
           </section>
-          <section className={styles.prefooter__card_description}>
+          <section className={styles.footer__card_description}>
             <p>{member.description}</p>
           </section>
         </div>
-        <div className={styles.prefooter__card_info_socials}>
+        <div className={styles.footer__card_info_socials}>
           {member.fb !== '' ? (
             <a
               href={member.fb}
@@ -84,4 +74,4 @@ const PrefooterCard = ({ member }: Props) => {
     );
 };
 
-export default PrefooterCard;
+export default FooterCard;
