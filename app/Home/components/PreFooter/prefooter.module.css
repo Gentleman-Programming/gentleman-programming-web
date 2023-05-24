@@ -1,6 +1,6 @@
 .prefooter {
   font-family: "Fira Mono";
-  grid-area: PF;
+  /* grid-area: PF; */
   flex-direction: row;
   display: flex;
   background-color: black;

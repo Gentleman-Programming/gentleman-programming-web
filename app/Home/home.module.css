@@ -18,13 +18,13 @@
   --COLOR-TUTI-NAVBAR-SELECTED-ICONS: #ea1889;
   --COLOR-TUTI-NAVBAR-SELECTED-HOME: #fdd0d6;
 
-  display: grid;
+  /* display: grid;
   grid-template-columns: 75px auto;
   grid-template-rows: 10% 50% 20% 20%;
   grid-template-areas:
     "NL HD"
     "NL BD"
     "NL PF"
-    "NL FT";
-  max-height: 100%;
+    "NL FT"; */
+  min-height: 100%;
 }
