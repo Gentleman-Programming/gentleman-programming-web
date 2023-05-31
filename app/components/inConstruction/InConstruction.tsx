@@ -3,7 +3,7 @@ import { FC } from 'react';
 import inConstructionImg from '@app/assets/img/inConstruction.png';
 import Image from 'next/image';
 
-import style from './inConstruction.module.css';
+import style from './styles/inConstruction.module.css';
 
 export const InConstruction: FC = () => {
   return (

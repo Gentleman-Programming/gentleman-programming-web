@@ -1,1 +1,1 @@
-export { default as AlanCard } from './AlanCard';
+export * from './AlanCard';

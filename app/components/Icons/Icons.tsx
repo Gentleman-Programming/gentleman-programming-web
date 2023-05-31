@@ -1,5 +1,3 @@
-import './icons.module.css';
-
 export const DiscordIcon = () => {
   return (
     <svg

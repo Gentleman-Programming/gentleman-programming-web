@@ -1,8 +1,6 @@
-import Alan from '@app/assets/img/AlanBuscaglia.png';
-import Image from 'next/image';
+import { FC } from 'react';
 
-import { SocialLink } from './components';
-import { SOCIAL_LINKS, IconType } from './data';
+import Alan from '@app/assets/img/AlanBuscaglia.png';
 import {
   DiscordIcon,
   GithubIcon,
@@ -13,10 +11,14 @@ import {
   TwitchIcon,
   TwitterIcon,
   YouTubeIcon,
-} from './resources/Icons';
+} from '@app/components';
+import Image from 'next/image';
+
+import { SocialLink } from './components';
+import { SOCIAL_LINKS, IconType } from './data';
 import styles from './styles/card.module.css';
 
-export const Card = () => {
+export const Card: FC = () => {
   return (
     <div className={styles['profile-card']}>
       <div className={styles['profile-card__img']}>

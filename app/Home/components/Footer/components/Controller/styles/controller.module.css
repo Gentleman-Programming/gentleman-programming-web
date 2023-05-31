@@ -33,7 +33,6 @@
   width: 3.75em;
   height: 2em;
   outline: none;
-  border: none;
   background: var(--COLOR-TUTI-PRIMARY);
   border: 1px solid var(--COLOR-TUTI-SECONDARY);
   border-radius: 90px 5px 5px 5px;
@@ -46,7 +45,6 @@
   width: 3.75em;
   height: 2em;
   outline: none;
-  border: none;
   background: var(--COLOR-TUTI-PRIMARY);
   border: 1px solid var(--COLOR-TUTI-SECONDARY);
   border-radius: 5px 5px 5px 5px;
@@ -59,7 +57,6 @@
   width: 3.75em;
   height: 2em;
   outline: none;
-  border: none;
   background: var(--COLOR-TUTI-PRIMARY);
   border: 1px solid var(--COLOR-TUTI-SECONDARY);
   border-radius: 5px 5px 5px 5px;
@@ -72,7 +69,6 @@
   width: 3.75em;
   height: 2em;
   outline: none;
-  border: none;
   background: var(--COLOR-TUTI-PRIMARY);
   border: 1px solid var(--COLOR-TUTI-SECONDARY);
   border-radius: 5px 90px 5px 5px;
@@ -85,7 +81,6 @@
   width: 16.15em;
   height: 2em;
   outline: none;
-  border: none;
   background: var(--COLOR-TUTI-PRIMARY);
   border: 1px solid var(--COLOR-TUTI-SECONDARY);
   margin: 0.3em 0;
@@ -99,7 +94,6 @@
   width: 3.75em;
   height: 2em;
   outline: none;
-  border: none;
   background: var(--COLOR-TUTI-PRIMARY);
   border: 1px solid var(--COLOR-TUTI-SECONDARY);
   border-radius: 5px 5px 5px 90px;
@@ -112,7 +106,6 @@
   width: 3.75em;
   height: 2em;
   outline: none;
-  border: none;
   background: var(--COLOR-TUTI-PRIMARY);
   border: 1px solid var(--COLOR-TUTI-SECONDARY);
   border-radius: 5px 5px 5px 5px;
@@ -125,7 +118,6 @@
   width: 3.75em;
   height: 2em;
   outline: none;
-  border: none;
   background: var(--COLOR-TUTI-PRIMARY);
   border: 1px solid var(--COLOR-TUTI-SECONDARY);
   border-radius: 5px 5px 5px 5px;
@@ -138,7 +130,6 @@
   width: 3.75em;
   height: 2em;
   outline: none;
-  border: none;
   background: var(--COLOR-TUTI-PRIMARY);
   border: 1px solid var(--COLOR-TUTI-SECONDARY);
   border-radius: 5px 5px 90px 5px;
@@ -213,6 +204,7 @@
 .instagram {
   margin-top: -0.15em;
   margin-left: 0.25em;
+  fill: var(--COLOR-TUTI-NAVBAR-ICONS);
 }
 .github {
   margin-top: -0.15em;
