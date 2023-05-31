@@ -73,7 +73,7 @@
     font-size: 12px;
     font-weight: bold;
     color: var(--COLOR-WHITE);
-    content: 'Live';
+    content: ' Live ';
   }
 
   transition: border-radius .2s, background-color .2s;

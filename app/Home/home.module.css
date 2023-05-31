@@ -14,17 +14,17 @@
 
   --COLOR-TUTI-NAVBAR-HOVER-PRIMARY: #f872a0;
   --COLOR-TUTI-NAVBAR-HOVER-SECONDARY: #fca2b7;
-  --COLOR-TUTI-NAVBAR-SELECTED: #E5E5E5;
-  --COLOR-TUTI-NAVBAR-SELECTED-ICONS: #666666;
-  --COLOR-TUTI-NAVBAR-SELECTED-HOME: #FDD0D6;
+  --COLOR-TUTI-NAVBAR-SELECTED: #e5e5e5;
+  --COLOR-TUTI-NAVBAR-SELECTED-ICONS: #ea1889;
+  --COLOR-TUTI-NAVBAR-SELECTED-HOME: #fdd0d6;
 
-  display: grid;
+  /* display: grid;
   grid-template-columns: 75px auto;
   grid-template-rows: 10% 50% 20% 20%;
   grid-template-areas:
     "NL HD"
     "NL BD"
     "NL PF"
-    "NL FT";
-  max-height: 100%;
+    "NL FT"; */
+  min-height: 100%;
 }
