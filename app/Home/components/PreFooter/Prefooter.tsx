@@ -1,17 +1,14 @@
-'use client';
-import React from 'react';
+import { FC } from 'react';
 
-import AlanCard from './AlanCard';
-import styles from './prefooter.module.css';
+import { AlanCard } from './components';
+import styles from './styles/preFooter.module.css';
 
-const Prefooter = () => {
+export const PreFooter: FC = () => {
   return (
-    <section className={styles.prefooter}>
+    <section className={styles.preFooter}>
       <div className={styles.cards__container}>
         <AlanCard />
       </div>
     </section>
   );
 };
-
-export default Prefooter;

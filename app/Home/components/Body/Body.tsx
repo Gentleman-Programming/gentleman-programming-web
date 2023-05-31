@@ -1,11 +1,16 @@
-import React from 'react';
+import { FC } from 'react';
 
-import style from './body.module.css';
+import style from './styles/body.module.css';
 
-export const Body: React.FC = () => {
+export const Body: FC = () => {
   return (
     <div className={style.body__container}>
-      <h2>Body</h2>
+      <h2 className={style.title}>Ultimo Contenido</h2>
+      <div className={style.iframe_container}>
+        <iframe src=""></iframe>
+        <iframe src=""></iframe>
+        <iframe src=""></iframe>
+      </div>
     </div>
   );
 };

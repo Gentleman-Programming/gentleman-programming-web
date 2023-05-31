@@ -1,7 +1,12 @@
 export * from './Body';
-export { default as Controller } from './Footer/Controller';
-export { default as Footer } from './Footer/Footer';
-export * from './Footer/Icons';
+export * from './Footer/components/Controller';
+export * from './Footer/components/FooterCard';
+export * from './Footer/components';
+export * from './Footer';
+export * from './Footer/resources/Icons';
+export * from './Footer/resources';
 export * from './Header';
-export { default as Prefooter } from './PreFooter/Prefooter';
-export { default as FooterCard } from './Footer/FooterCard';
+export * from './PreFooter/components/AlanCard';
+export * from './PreFooter/components';
+export * from './PreFooter';
+export * from './index';
