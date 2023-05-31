@@ -1,6 +1,6 @@
 import { ServerButton } from '@app/components';
 
-import style from './navList.module.css';
+import style from './styles/navList.module.css';
 
 export function NavList() {
   return (

@@ -1,27 +1,14 @@
 'use client';
-import React from 'react';
+import { FC, useEffect, useState } from 'react';
 
-import Controller from './Controller';
-import styles from './footer.module.css';
-import FooterCard from './FooterCard';
-import team from '../PreFooter/team.json';
-export interface Member {
-  name: string;
-  pic: string;
-  role: string;
-  description: string;
-  linkedin: string;
-  portfolio: string;
-  github: string;
-  fb: string;
-  twitter: string;
-  twitch: string;
-  visibility: boolean;
-}
+import { Controller, FooterCard } from './components';
+import { Member } from './interface/Member';
+import team from './resources/Team/team.json';
+import styles from './styles/footer.module.css';
 
-const Footer = () => {
-  const [currentContent, setCurrentContent] = React.useState(3);
-  React.useEffect(() => {
+export const Footer: FC = () => {
+  const [currentContent, setCurrentContent] = useState(3);
+  useEffect(() => {
     const interval = setInterval(() => {
       setCurrentContent((prevContent) => {
         if (prevContent === team.length - 1) {
@@ -33,13 +20,15 @@ const Footer = () => {
     }, 3000);
     return () => clearInterval(interval);
   }, [currentContent]);
-  const croppedTeam = team[currentContent];
+  const croppedTeam: Member = team[currentContent] ?? team[currentContent];
   return (
     <footer className={styles.footer}>
       <hr className={styles.footer__divider} />
       <h2 className={styles.footercard__title}>Gentleman Rockstars</h2>
       <div className={styles.footer__container}>
-        <FooterCard key={'card' + croppedTeam.name} member={croppedTeam} />
+        {croppedTeam.visibility && (
+          <FooterCard key={'card' + croppedTeam.name} member={croppedTeam} />
+        )}
         <section className={styles.footer__aboutCommunityContent}>
           <header>Sobre mi contenido</header>
           <p>
@@ -73,5 +62,3 @@ const Footer = () => {
     </footer>
   );
 };
-
-export default Footer;

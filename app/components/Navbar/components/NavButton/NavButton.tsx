@@ -1,4 +1,4 @@
-import styles from './navButton.module.css';
+import styles from './styles/navButton.module.css';
 import {
   DiscordIcon,
   GithubIcon,
@@ -40,12 +40,12 @@ export const ServerButton = ({
   const appDir = 'DS';
   return (
     <Tag
-      data-notifications={hasNotifications}
-      data-selected={description == appDir && true}
-      data-isLive={isLive}
-      data-hasmentions={mentions && mentions > 0}
-      data-mentions={mentions}
-      data-isHome={description == 'HM' && true}
+      dataNotifications={hasNotifications}
+      dataSelected={description == appDir && true}
+      dataIsLive={isLive}
+      dataHasmentions={mentions && mentions > 0}
+      dataMentions={mentions}
+      dataIsHome={description == 'HM' && true}
       className={styles.button}
       href={link}
       target={link ? '_blank' : undefined}

@@ -1,19 +1,19 @@
-import alan from '@app/assets/img/alan-buscaglia.png';
+import Alan from '@app/assets/img/AlanBuscaglia.png';
 import Image from 'next/image';
 
+import { SocialLink } from './components';
+import { SOCIAL_LINKS, IconType } from './data';
 import {
   DiscordIcon,
   GithubIcon,
   InstagramIcon,
   LinkedInIcon,
-  SocialLink,
   SpotifyIcon,
   TikTokIcon,
   TwitchIcon,
   TwitterIcon,
   YouTubeIcon,
-} from './components';
-import { SOCIAL_LINKS, IconType } from './data';
+} from './resources/Icons';
 import styles from './styles/card.module.css';
 
 export const Card = () => {
@@ -22,7 +22,7 @@ export const Card = () => {
       <div className={styles['profile-card__img']}>
         <Image
           className={styles.footer__alanImg}
-          src={alan}
+          src={Alan}
           alt="foto de Alan Buscaglia"
         />
       </div>

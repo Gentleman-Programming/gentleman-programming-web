@@ -1,0 +1,9 @@
+.navbar__container {
+  position: absolute;
+  /* grid-area: NL; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--COLOR-TUTI-FONDO-NAVBAR);
+  max-height: 100vh;
+}

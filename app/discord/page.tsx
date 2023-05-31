@@ -1,7 +1,7 @@
 import '@app/styles/global.css';
 
 import { Container } from './components';
-import style from './page.module.css';
+import style from './styles/page.module.css';
 export const metadata = {
   title: 'GP -> Discord',
   description: 'Discord page',

@@ -1,8 +1,6 @@
-import '@app/styles/global.css';
 import { ReactNode } from 'react';
 
-import styles from './styles/layout.module.css';
-
+import style from './styles/layout.module.css';
 export default function RootLayout({ children }: { children: ReactNode }) {
-  return <div className={styles['contact-theme']}>{children}</div>;
+  return <div className={style.home__layout}>{children}</div>;
 }

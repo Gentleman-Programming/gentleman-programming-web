@@ -1,6 +1,6 @@
 import { FC } from 'react';
 
-import style from './header.module.css';
+import style from './styles/header.module.css';
 
 export const Header: FC = () => {
   return (

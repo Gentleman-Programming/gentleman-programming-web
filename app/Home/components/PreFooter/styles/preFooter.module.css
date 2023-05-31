@@ -1,0 +1,12 @@
+.preFooter {
+  font-family: "Fira Mono";
+  /* grid-area: PF; */
+  flex-direction: row;
+  display: flex;
+  background-color: black;
+  justify-content: space-around;
+  align-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-bottom: 4rem;
+}

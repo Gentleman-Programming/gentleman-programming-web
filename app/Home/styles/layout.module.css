@@ -1,0 +1,6 @@
+.home__layout{
+  display: grid;
+  grid-template-columns: 75px auto;
+  grid-template-rows: 100vh;
+  grid-template-areas: "NB BD";
+}

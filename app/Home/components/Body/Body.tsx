@@ -1,8 +1,8 @@
-import React from 'react';
+import { FC } from 'react';
 
-import style from './body.module.css';
+import style from './styles/body.module.css';
 
-export const Body: React.FC = () => {
+export const Body: FC = () => {
   return (
     <div className={style.body__container}>
       <h2 className={style.title}>Ultimo Contenido</h2>
