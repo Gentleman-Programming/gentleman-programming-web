@@ -17,7 +17,6 @@ export const Header: FC = () => {
             <ComillasCerrarIcon />
           </h2>
         </div>
-
         <IframeContainer
           width={'600'}
           height={'300'}
