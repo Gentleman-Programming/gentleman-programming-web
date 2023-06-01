@@ -1,6 +1,5 @@
 .footer {
   grid-area: BD;
-  /* display: flow-root; */
   font-family: "Fira Mono", monospace;
   background: linear-gradient(180deg, #000000 88%, #ea1889 100%);
   color: rgba(255, 255, 255, 0.9);
@@ -26,6 +25,77 @@
   align-items: start;
   align-content: center;
 }
+.footer__carousel{
+  margin: 0 15%;
+}
+ul.footer__carouselSlides{
+  display: block;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  list-style: none;
+}
+.footer__carouselSlides{
+  user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+}
+.footer__carouselControls{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  font-size: 100px;
+  line-height: 600px;
+  color: #fff;
+}
+.footer__carouselControls label{
+  display: none;
+  position: absolute;
+  padding: 0 20px;
+  opacity: 0;
+  transition: opacity .2s;
+  cursor: pointer;
+}
+.footer__carouselControls label:hover{
+  opacity: 1;
+}
+.footer__carouselControls .footer__carouselPrevSlide{
+  width: 49%;
+  text-align: left;
+  left: 0;
+}
+.footer__carouselControls .footer__carouselNextSlide{
+  width: 49%;
+  text-align: right;
+  left: 0;
+}
+.footer_carouselDots{
+  position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 20px;
+    z-index: 999;
+    text-align: center;
+}
+.footer__carouselDots .footer__carouselDot{
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #fff;
+  opacity: 0.5;
+  margin: 10px;
+}
+ input:checked + .footer_carouselSlideContainer{
+  opacity: 1;
+  transform: scale(1);
+  transition: opacity 1s ease-in-out;}
 .footer__aboutCommunityContent {
   text-align: center;
   margin-left: 2.5em;
