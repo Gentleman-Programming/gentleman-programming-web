@@ -17,8 +17,9 @@
   --COLOR-TUTI-NAVBAR-SELECTED-ICONS: #666666;
   --COLOR-TUTI-NAVBAR-SELECTED-HOME: #FDD0D6;
 
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: 75px auto;
+  grid-template-rows: 100vh;
+  grid-template-areas: "NB CC";
   background-color: var(--COLOR-TUTI-PRIMARY);
-  flex-shrink: 1;
 }

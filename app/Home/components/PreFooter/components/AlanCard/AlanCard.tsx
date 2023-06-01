@@ -2,7 +2,7 @@ import Alan from '@app/assets/img/AlanBuscaglia.png';
 import Image from 'next/image';
 
 import styles from './styles/alanCard.module.css';
-const AlanCard = () => {
+export const AlanCard = () => {
   return (
     <article className={styles.footer__alanCard}>
       <Image
@@ -24,5 +24,3 @@ const AlanCard = () => {
     </article>
   );
 };
-
-export default AlanCard;

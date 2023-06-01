@@ -1,8 +1,0 @@
-.body__container{
-  grid-area: BD;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  background-color: var(--COLOR-TUTI-PRIMARY);
-  color: var(--COLOR-WHITE);
-}

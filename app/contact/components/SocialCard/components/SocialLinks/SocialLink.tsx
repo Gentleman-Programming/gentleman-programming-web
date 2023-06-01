@@ -1,12 +1,18 @@
+import { FC, ReactNode } from 'react';
+
 import styles from './styles/SocialLink.module.css';
 
 interface Props {
   href: string;
-  children: React.ReactNode;
+  children: ReactNode;
   socialClass: string;
 }
 
-export const SocialLink = ({ href, children, socialClass }: Props) => {
+export const SocialLink: FC<Props> = ({
+  href,
+  children,
+  socialClass,
+}: Props) => {
   return (
     <a
       href={href}

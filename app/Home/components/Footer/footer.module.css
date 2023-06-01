@@ -1,14 +1,10 @@
 .footer {
-  display: flow-root;
-  grid-area: FT;
-  font-family: "Fira Mono";
+  grid-area: BD;
+  font-family: "Fira Mono", monospace;
   background: linear-gradient(180deg, #000000 88%, #ea1889 100%);
   color: rgba(255, 255, 255, 0.9);
   font-size: 12px;
   height: fit-content;
-  margin-left: -4.688rem;
-  /* position: absolute;
-  bottom: 0; */
 }
 .footercard__title {
   color: aliceblue;
@@ -96,11 +92,11 @@ ul.footer__carouselSlides{
   opacity: 0.5;
   margin: 10px;
 }
-input:checked + .footer_carouselSlideContainer{
+/* input:checked + .footer_carouselSlideContainer{
   opacity: 1;
   transform: scale(1);
   transition: opacity 1s ease-in-out;
-}
+} */
 .footer__aboutCommunityContent {
   text-align: center;
   margin-left: 2.5em;

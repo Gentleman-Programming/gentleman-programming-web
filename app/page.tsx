@@ -3,7 +3,7 @@ export const metadata = {
   description: 'Home page',
 };
 import '@app/styles/global.css';
-import { Home } from '@app/Home';
+import { Home } from './Home/page';
 
 function App() {
   return <Home />;

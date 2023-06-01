@@ -1,13 +1,14 @@
 import { FC } from 'react';
 
-import styles from './styles/footerCard.module.css';
-import { Member } from '../../interface/Member';
 import {
   FacebookIcon,
   GithubIcon,
   LinkedInIcon,
   TwitterIcon,
-} from '../../resources/Icons/Icons';
+} from '@app/components';
+
+import styles from './styles/footerCard.module.css';
+import { Member } from '../../interface';
 
 type Props = {
   member: Member;
@@ -23,12 +24,12 @@ export const FooterCard: FC<Props> = ({ member }) => {
             className={styles.footer__card_pic}
             src={member.pic}
           />
+        </section>
+        <section className={styles.footer__card_description}>
           <header className={styles.footer__card_header}>
             <p className={styles.footer__card_name}>{member.name}</p>
             <p>{member.role}</p>
           </header>
-        </section>
-        <section className={styles.footer__card_description}>
           <p>{member.description}</p>
         </section>
       </div>

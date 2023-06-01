@@ -1,6 +1,7 @@
 .footer {
-  display: flow-root;
-  font-family: "Fira Mono";
+  grid-area: BD;
+  /* display: flow-root; */
+  font-family: "Fira Mono", monospace;
   background: linear-gradient(180deg, #000000 88%, #ea1889 100%);
   color: rgba(255, 255, 255, 0.9);
   font-size: 12px;

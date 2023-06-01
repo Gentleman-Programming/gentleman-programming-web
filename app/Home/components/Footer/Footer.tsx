@@ -66,15 +66,6 @@ export const Footer: FC = () => {
             patrones de arquitectura.
           </p>
         </section>
-        <section className={styles.footer__aboutCommunityContent}>
-          <header>Lorem ipsum</header>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nibh
-            nulla, tempus vitae fringilla ut, laoreet a tellus. Orci varius
-            natoque penatibus et magnis dis parturient montes, nascetur
-            ridiculus mus.
-          </p>
-        </section>
         <Controller />
       </div>
       <hr className={styles.footer__divider} />

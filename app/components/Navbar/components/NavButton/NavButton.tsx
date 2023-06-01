@@ -1,4 +1,5 @@
-import styles from './styles/navButton.module.css';
+import { FC } from 'react';
+
 import {
   DiscordIcon,
   GithubIcon,
@@ -15,9 +16,11 @@ import {
   FacebookIcon,
   AppleIcon,
   AmazonIcon,
-} from '../../../Icons';
+} from '@app/components';
 
-export interface PropsSB {
+import styles from './styles/navButton.module.css';
+
+interface PropsNB {
   id?: string;
   selected?: boolean;
   isHome?: boolean;
@@ -28,14 +31,14 @@ export interface PropsSB {
   description?: string;
   link?: string;
 }
-export const ServerButton = ({
+export const NavButton: FC = ({
   img,
   hasNotifications,
   isLive,
   mentions,
   description,
   link,
-}: PropsSB) => {
+}: PropsNB) => {
   const Tag = link ? 'a' : 'button';
   const appDir = 'DS';
   return (

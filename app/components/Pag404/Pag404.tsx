@@ -3,7 +3,7 @@ import { FC } from 'react';
 import pag404Img from '@app/assets/img/pag404.png';
 import Image from 'next/image';
 
-import style from './pag404.module.css';
+import style from './styles/pag404.module.css';
 
 export const Pag404: FC = () => {
   return (
