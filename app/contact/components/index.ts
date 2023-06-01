@@ -6,5 +6,4 @@ export * from './Faq';
 export * from './Form';
 export * from './SocialCard/components/SocialLinks';
 export * from './SocialCard/components';
-export * from './SocialCard/data';
 export * from './SocialCard';

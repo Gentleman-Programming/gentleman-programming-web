@@ -1,4 +1,7 @@
-.IframeContainer__container{
-  flex-direction: row;
-  align-items: center;
+.iframe {
+  border-color: var(--COLOR-TUTI-SECONDARY);
+}
+
+.iframe:hover {
+border-color: var(--COLOR-WHITE);
 }
