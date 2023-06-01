@@ -26,8 +26,8 @@ export const Card: FC = () => {
 
         <div className={styles['profile-card__name']}>Mantente conectado</div>
         <div className={styles['profile-card__txt']}>
-          Discutiremos con Con Alan opiniones profesionales y experiencias que
-          te servirán en tu día a día en tu camino a ser Senior.
+          Disfruta escuchando a Alan, sus consejos profesionales y experiencias
+          que te ayudaran en tu día a día para convertirte en todo un Senior.
         </div>
         <div className={styles['profile-card-loc']}>
           <span className={styles['profile-card-loc__icon']}>

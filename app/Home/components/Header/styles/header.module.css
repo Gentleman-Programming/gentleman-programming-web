@@ -6,11 +6,16 @@
   justify-content: center;
   color: var(--COLOR-WHITE);
   padding: 11px;
-  margin: 0 50px 0 50px;
   max-height: 100vh;
   overflow-y: nome;
 }
 
+.divContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .div{
   width: 100%;
   display: flex;
@@ -18,7 +23,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 100px;
+  gap: 50px;
   column-gap: 20px;
 }
 
@@ -28,5 +33,17 @@
 }
 
 .title{
-  font-size: 4rem;
+  font-size: 3rem;
+}
+
+.subtitle {
+  display: flex;
+  flex-direction: row;
+  font-size: 2rem;
+  top: -5rem;
+  fill: var(--COLOR-TUTI-SECONDARY);
+}
+
+.subtitletext {
+  color: var(--COLOR-WHITE);
 }
