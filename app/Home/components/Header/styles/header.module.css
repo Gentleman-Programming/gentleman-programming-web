@@ -4,6 +4,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 20px;
   color: var(--COLOR-WHITE);
   padding: 11px;
   max-height: 100vh;
