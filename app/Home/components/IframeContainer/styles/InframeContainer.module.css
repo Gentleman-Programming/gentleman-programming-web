@@ -1,7 +1,7 @@
 .iframe {
-  border-color: var(--COLOR-TUTI-SECONDARY);
+  border-color: var(--COLOR-WHITE);
 }
 
 .iframe:hover {
-border-color: var(--COLOR-WHITE);
+border-color: var(--COLOR-TUTI-SECONDARY);
 }
