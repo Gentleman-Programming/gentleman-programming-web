@@ -3,19 +3,23 @@
   grid-area: CC;
   display: flex;
   flex-direction: column;
-  margin-top: 80px;
-  margin-left: 20px;
+  /* margin-top: 80px;  */
+  padding: 40px;
+  margin: 0 auto;
 }
 
 .grid-contact {
-  display: grid;
-  grid-template-columns: auto;
+  /* display: grid;
+  grid-template-columns: auto; */
+  display: flex;
+  flex-direction: column;
   gap: 1rem;
   align-items: center;
 }
 
 @media (min-width: 768px) {
   .grid-contact {
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
     align-items: center;
@@ -35,6 +39,7 @@
 }
 .grid-contact__social {
   grid-row: 1;
+  width: 100%;
 }
 
 @media (min-width: 768px) {
