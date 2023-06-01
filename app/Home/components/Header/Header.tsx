@@ -16,7 +16,14 @@ export const Header: FC = () => {
             <ComillasCerrarIcon />
           </h2>
         </div>
-        <iframe src="" width={'600px'} height={'300px'}></iframe>
+
+        <iframe
+          width={'600'}
+          height={'300'}
+          src="https://www.youtube.com/embed/KZCA_BRAkSA"
+          title="Trailer Gentleman Programming"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        ></iframe>
       </div>
     </header>
   );

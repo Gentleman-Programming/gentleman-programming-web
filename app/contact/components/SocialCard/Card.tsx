@@ -18,12 +18,6 @@ export const Card: FC = () => {
         />
       </div>
       <div className={styles['profile-card__cnt']}>
-        {/* <div className={styles['profile-card__name']}>Alan Buscaglia</div>
-        <div className={styles['profile-card__txt']}>
-          Front End Lead Architect & Agile Coach at Erudit AI | Gentleman
-          Programming Community & Content Creator | “Como ser front-end sin
-          fallar en el intento” Book Author */}
-
         <div className={styles['profile-card__name']}>Mantente conectado</div>
         <div className={styles['profile-card__txt']}>
           Disfruta escuchando a Alan, sus consejos profesionales y experiencias
@@ -41,23 +35,6 @@ export const Card: FC = () => {
           También puedes encontrarme en:
         </div>
         <div className={styles['profile-card-social']}>
-          {/* {SOCIAL_LINKS.map((link) => (
-            <SocialLink
-              key={link.link}
-              href={link.link}
-              socialClass={link.socialClass}
-            >
-              {link.icon === IconType.InstagramIcon && <InstagramIcon />}
-              {link.icon === IconType.TwitterIcon && <TwitterIcon />}
-              {link.icon === IconType.DiscordIcon && <DiscordIcon />}
-              {link.icon === IconType.GithubIcon && <GithubIcon />}
-              {link.icon === IconType.LinkedinIcon && <LinkedInIcon />}
-              {link.icon === IconType.SpotifyIcon && <SpotifyIcon />}
-              {link.icon === IconType.TiktokIcon && <TikTokIcon />}
-              {link.icon === IconType.TwitchIcon && <TwitchIcon />}
-              {link.icon === IconType.YoutubeIcon && <YouTubeIcon />}
-            </SocialLink>
-          ))} */}
           <AppleIcon />
           <SpotifyIcon />
         </div>
