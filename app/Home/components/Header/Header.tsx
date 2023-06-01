@@ -5,15 +5,9 @@ import style from './styles/header.module.css';
 export const Header: FC = () => {
   return (
     <header className={style.header__container}>
-      <h1 className={style.title}>Web de Gentleman Programming</h1>
       <div className={style.div}>
+        <h1 className={style.title}>Gentleman Programming Web.</h1>
         <iframe src="" width={'600px'} height={'300px'}></iframe>
-        <p className={style.content}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque odit
-          perspiciatis officia commodi nulla magnam illum, quae nihil ab, ea
-          ducimus! Alias laborum vel ipsum aliquam voluptatibus, doloribus iusto
-          eos.
-        </p>
       </div>
     </header>
   );

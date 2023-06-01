@@ -24,7 +24,7 @@
 
 /** Contact Form section */
 .grid-contact__form {
-  grid-row: 2;
+  grid-row: 1;
 }
 
 @media (min-width: 768px) {

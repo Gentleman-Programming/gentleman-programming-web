@@ -10,10 +10,10 @@ export const ContactBody: FC = () => {
     <div className={styles['container-contact']}>
       <section className={styles['grid-contact']}>
         <div className={styles['grid-contact__form']}>
-          <Form />
+          <Card />
         </div>
         <div className={styles['grid-contact__social']}>
-          <Card />
+          <Form />
         </div>
       </section>
       <section className={styles['section-question']}>
