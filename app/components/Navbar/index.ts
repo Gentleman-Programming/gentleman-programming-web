@@ -1,4 +1,3 @@
-export * from '../Icons';
 export * from './components/NavBar';
 export * from './components/NavButton';
 export * from './components/NavList';

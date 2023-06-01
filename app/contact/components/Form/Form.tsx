@@ -1,6 +1,8 @@
+import { FC } from 'react';
+
 import styles from './styles/form.module.css';
 
-const Form = () => {
+export const Form: FC = () => {
   return (
     <form className={`${styles.form} ${styles['contact-form']}`}>
       <h1 className={styles.form__heading}>Contact me</h1>
@@ -47,5 +49,3 @@ const Form = () => {
     </form>
   );
 };
-
-export default Form;

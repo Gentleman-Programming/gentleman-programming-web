@@ -31,10 +31,10 @@
 .footer__controllerCard1 {
   display: block;
   width: 3.75em;
-  height: 2em;
+  height: 2em ;
   outline: none;
-  border: none;
   background: var(--COLOR-TUTI-PRIMARY);
+  fill: var(--COLOR-TUTI-SECONDARY);
   border: 1px solid var(--COLOR-TUTI-SECONDARY);
   border-radius: 90px 5px 5px 5px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
@@ -46,8 +46,8 @@
   width: 3.75em;
   height: 2em;
   outline: none;
-  border: none;
   background: var(--COLOR-TUTI-PRIMARY);
+  fill: var(--COLOR-TUTI-SECONDARY);
   border: 1px solid var(--COLOR-TUTI-SECONDARY);
   border-radius: 5px 5px 5px 5px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
@@ -59,8 +59,8 @@
   width: 3.75em;
   height: 2em;
   outline: none;
-  border: none;
   background: var(--COLOR-TUTI-PRIMARY);
+  fill: var(--COLOR-TUTI-SECONDARY);
   border: 1px solid var(--COLOR-TUTI-SECONDARY);
   border-radius: 5px 5px 5px 5px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
@@ -72,8 +72,8 @@
   width: 3.75em;
   height: 2em;
   outline: none;
-  border: none;
   background: var(--COLOR-TUTI-PRIMARY);
+  fill: var(--COLOR-TUTI-SECONDARY);
   border: 1px solid var(--COLOR-TUTI-SECONDARY);
   border-radius: 5px 90px 5px 5px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
@@ -85,8 +85,8 @@
   width: 16.15em;
   height: 2em;
   outline: none;
-  border: none;
   background: var(--COLOR-TUTI-PRIMARY);
+  fill: var(--COLOR-TUTI-SECONDARY);
   border: 1px solid var(--COLOR-TUTI-SECONDARY);
   margin: 0.3em 0;
   border-radius: 5px 5px 5px 5px;
@@ -99,8 +99,8 @@
   width: 3.75em;
   height: 2em;
   outline: none;
-  border: none;
   background: var(--COLOR-TUTI-PRIMARY);
+  fill: var(--COLOR-TUTI-SECONDARY);
   border: 1px solid var(--COLOR-TUTI-SECONDARY);
   border-radius: 5px 5px 5px 90px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
@@ -112,8 +112,8 @@
   width: 3.75em;
   height: 2em;
   outline: none;
-  border: none;
   background: var(--COLOR-TUTI-PRIMARY);
+  fill: var(--COLOR-TUTI-SECONDARY);
   border: 1px solid var(--COLOR-TUTI-SECONDARY);
   border-radius: 5px 5px 5px 5px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
@@ -125,8 +125,8 @@
   width: 3.75em;
   height: 2em;
   outline: none;
-  border: none;
   background: var(--COLOR-TUTI-PRIMARY);
+  fill: var(--COLOR-TUTI-SECONDARY);
   border: 1px solid var(--COLOR-TUTI-SECONDARY);
   border-radius: 5px 5px 5px 5px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
@@ -138,8 +138,8 @@
   width: 3.75em;
   height: 2em;
   outline: none;
-  border: none;
   background: var(--COLOR-TUTI-PRIMARY);
+  fill: var(--COLOR-TUTI-SECONDARY);
   border: 1px solid var(--COLOR-TUTI-SECONDARY);
   border-radius: 5px 5px 90px 5px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
@@ -152,13 +152,15 @@
   cursor: pointer;
   scale: 1.1;
   border: none;
-  background-color: #ea18886c
+  background-color: #ea18886c;
+  fill: var(--COLOR-TUTI-PRIMARY);
 }
 
 .footer__controllerCard2:hover {
   cursor: pointer;
   scale: 1.1;
   background-color: #ea18886c;
+  fill: var(--COLOR-TUTI-PRIMARY);
   border: none;
 }
 
@@ -166,6 +168,7 @@
   cursor: pointer;
   scale: 1.1;
   background-color: #ea18886c;
+  fill: var(--COLOR-TUTI-PRIMARY);
   border: none;
 }
 
@@ -173,6 +176,7 @@
   cursor: pointer;
   scale: 1.1;
   background-color: #ea18886c;
+  fill: var(--COLOR-TUTI-PRIMARY);
   border: none;
 }
 
@@ -180,6 +184,7 @@
   cursor: pointer;
   scale: 1.1;
   background-color: #ea18886c;
+  fill: var(--COLOR-TUTI-PRIMARY);
   border: none;
 }
 
@@ -187,6 +192,7 @@
   cursor: pointer;
   scale: 1.1;
   background-color: #ea18886c;
+  fill: var(--COLOR-TUTI-PRIMARY);
   border: none;
 }
 
@@ -194,6 +200,7 @@
   cursor: pointer;
   scale: 1.1;
   background-color: #ea18886c;
+  fill: var(--COLOR-TUTI-PRIMARY);
   border: none;
 }
 
@@ -201,6 +208,7 @@
   cursor: pointer;
   scale: 1.1;
   background-color: #ea18886c;
+  fill: var(--COLOR-TUTI-PRIMARY);
   border: none;
 }
 
@@ -208,11 +216,13 @@
   cursor: pointer;
   scale: 1.1;
   background-color: #ea18886c;
+  fill: var(--COLOR-TUTI-PRIMARY);
   border: none;
 }
 .instagram {
   margin-top: -0.15em;
   margin-left: 0.25em;
+  fill: var(--COLOR-TUTI-NAVBAR-ICONS);
 }
 .github {
   margin-top: -0.15em;

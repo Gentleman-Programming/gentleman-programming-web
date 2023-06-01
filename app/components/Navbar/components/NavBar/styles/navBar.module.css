@@ -1,4 +1,5 @@
 .navbar__container {
+  grid-area: NB;
   position: absolute;
   /* grid-area: NL; */
   display: flex;

@@ -54,10 +54,16 @@
 
 .accordion label {
   display: block;
+  color: #333;
+  cursor: pointer;
+  font-weight: normal;
+  padding: 15px;
+  background: #e8e8e8;
 }
 
 .accordion {
   margin-bottom: 1em;
+  max-width: 100%;
 }
 
 .accordion > input[type='checkbox']:checked ~ .content {
@@ -70,14 +76,6 @@
   margin: 0;
   font-size: 1.125em;
   line-height: 1.2em;
-}
-
-.accordion label {
-  color: #333;
-  cursor: pointer;
-  font-weight: normal;
-  padding: 15px;
-  background: #e8e8e8;
 }
 
 .accordion label:hover,
@@ -96,10 +94,6 @@
 
 .accordion > input[type='checkbox']:checked ~ .handle label:before {
   content: '\002d';
-}
-
-.accordion {
-  max-width: 100%;
 }
 
 .accordion .paragraph:last-child {

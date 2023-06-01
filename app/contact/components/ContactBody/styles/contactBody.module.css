@@ -1,15 +1,15 @@
 /** Colors Palette **/
 .container-contact {
+  grid-area: CC;
   display: flex;
   flex-direction: column;
   margin-top: 80px;
   margin-left: 20px;
-  flex-grow: 1;
 }
 
 .grid-contact {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: auto;
   gap: 1rem;
   align-items: center;
 }
@@ -24,7 +24,7 @@
 
 /** Contact Form section */
 .grid-contact__form {
-  grid-row: 2;
+  grid-row: 1;
 }
 
 @media (min-width: 768px) {

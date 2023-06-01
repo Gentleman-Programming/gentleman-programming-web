@@ -1,5 +1,5 @@
 .preFooter {
-  font-family: "Fira Mono";
+  font-family: "Fira Mono", monospace;
   /* grid-area: PF; */
   flex-direction: row;
   display: flex;

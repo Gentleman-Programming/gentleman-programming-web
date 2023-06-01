@@ -2,7 +2,7 @@
 import { FC, useEffect, useState } from 'react';
 
 import { Controller, FooterCard } from './components';
-import { Member } from './interface/Member';
+import { Member } from './interface';
 import team from './resources/Team/team.json';
 import styles from './styles/footer.module.css';
 
@@ -20,7 +20,7 @@ export const Footer: FC = () => {
     }, 3000);
     return () => clearInterval(interval);
   }, [currentContent]);
-  const croppedTeam: Member = team[currentContent] ?? team[currentContent];
+  const croppedTeam: Member = team[currentContent];
   return (
     <footer className={styles.footer}>
       <hr className={styles.footer__divider} />
@@ -39,15 +39,6 @@ export const Footer: FC = () => {
             Entrevistas a la comunidad; mejores prácticas ( o sea más que{' '}
             <i>buenas prácticas</i>); dominar TypeScript; patrones de diseño;
             patrones de arquitectura.
-          </p>
-        </section>
-        <section className={styles.footer__aboutCommunityContent}>
-          <header>Lorem ipsum</header>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nibh
-            nulla, tempus vitae fringilla ut, laoreet a tellus. Orci varius
-            natoque penatibus et magnis dis parturient montes, nascetur
-            ridiculus mus.
           </p>
         </section>
         <Controller />
