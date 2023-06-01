@@ -1,6 +1,5 @@
 .form {
   width: 100%;
-  max-width: 1200px;
   margin: 0 auto;
   padding: 40px;
 }
@@ -47,7 +46,7 @@
 .contact-form {
   width: 90%;
   max-width: 1200px;
-  padding: 40px;
+  padding: 34px;
   border-radius: 12px;
   box-shadow: 0px 8px 60px -10px rgba(13, 28, 39, 0.6);
   box-sizing: border-box;
@@ -66,7 +65,7 @@
 */
 .form__submit {
   margin-top: 2rem;
-  background-color: #333;
+  background-color: var(--COLOR-TUTI-PRIMARY);
   font-size: 16px;
   padding: 12px 30px;
   border-radius: 1rem;
@@ -78,11 +77,11 @@
   text-decoration: none;
   transition: all 0.3s ease;
   border: none;
+  color: var(--COLOR-TUTI-SECONDARY);
 }
 
-.form__submit:hover {
-  background-color: #555;
+.form__submit:hover {  
   cursor: pointer;
-  transform: scale(1.05);
+  transform: scale(1.05) skewX(-5deg);
   color: white;
 }
