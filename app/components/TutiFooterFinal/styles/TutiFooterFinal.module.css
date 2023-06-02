@@ -1,0 +1,20 @@
+.tutiFooterFinal__container {
+  grid-area: BD;
+  font-family: "Fira Mono", monospace;
+  background: linear-gradient(180deg, #000000 30%, #ea1889 100%);
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 12px;
+  height: fit-content;
+}
+
+.tutiFooterFinal__lastSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 200;
+  font-size: medium;
+  font-size: 11px;
+}
+.tutiFooterFinal__lastSection > p {
+  margin: 0;
+}

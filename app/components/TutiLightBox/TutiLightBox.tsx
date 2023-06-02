@@ -1,17 +1,31 @@
 import { FC } from 'react';
 
+import Image from 'next/image';
+
+import { ITutiLightBoxProps } from './interface';
 import styles from './styles/TutiLightBox.module.css';
+import { TutiImg } from '../TutiImg';
 
-export const TutiLightBox: FC = () => {
+export const TutiLightBox: FC<ITutiLightBoxProps> = ({
+  id,
+  url,
+  alt,
+  width,
+  height,
+}: ITutiLightBoxProps) => {
+  let auxId = '0';
+  if (auxId !== id) {
+    auxId = id;
+  }
+
   return (
-    <div className={styles.TutiLightBox}>
-      <a href="#img1" className={styles.lightbox} id="img">
-        <img src="https://picsum.photos/seed/9/500/300" />
+    <>
+      <a href={`#img${auxId}`}>
+        <TutiImg url={url} alt={alt} width={width} height={height} />
       </a>
-
-      <a href="#" className={styles.lightbox} id="img1">
-        <img src="https://picsum.photos/seed/9/900/450" />
+      <a href="#" className={styles.lightbox} id={`img${auxId}`}>
+        <Image src={url} alt={alt} width={width} height={height} />
       </a>
-    </div>
+    </>
   );
 };
