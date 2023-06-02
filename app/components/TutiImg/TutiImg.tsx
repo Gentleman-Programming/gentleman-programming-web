@@ -4,6 +4,7 @@ import Image from 'next/image';
 
 import { ITutiImgProps } from './interface';
 import style from './styles/TutiImg.module.css';
+import { TutiLoaderIcon } from '../Icons';
 
 export const TutiImg: FC<ITutiImgProps> = ({
   url,
