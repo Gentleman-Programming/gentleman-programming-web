@@ -1,34 +1,17 @@
-'use client';
-import { FC, useEffect, useState } from 'react';
+import { FC } from 'react';
 
-import { Controller, FooterCard } from './components';
-import { Member } from './interface';
+import { Controller } from './components';
+import { Carousel } from './components/Carousel/Carousel';
 import team from './resources/Team/team.json';
 import styles from './styles/footer.module.css';
 
 export const Footer: FC = () => {
-  const [currentContent, setCurrentContent] = useState(3);
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentContent((prevContent) => {
-        if (prevContent === team.length - 1) {
-          return 0;
-        } else {
-          return prevContent + 1;
-        }
-      });
-    }, 3000);
-    return () => clearInterval(interval);
-  }, [currentContent]);
-  const croppedTeam: Member = team[currentContent];
   return (
     <footer className={styles.footer}>
       <hr className={styles.footer__divider} />
       <h2 className={styles.footercard__title}>Gentleman Rockstars</h2>
       <div className={styles.footer__container}>
-        {croppedTeam.visibility && (
-          <FooterCard key={'card' + croppedTeam.name} member={croppedTeam} />
-        )}
+        <Carousel team={team} />
         <section className={styles.footer__aboutCommunityContent}>
           <header>Sobre mi contenido</header>
           <p>
