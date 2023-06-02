@@ -1,0 +1,97 @@
+ul.carouselSlides {
+  display: block;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  list-style: none;
+  height: auto;
+  width: 100%;
+}
+.carouselSlides * {
+  user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+}
+.carouselSlideCard {
+  display: block;
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  transition: all 0.7s ease-in-out;
+  width: fit-content;
+  min-width: 100%;
+  height: 100%;
+}
+.carouselControls {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  font-size: 3rem;
+  line-height: 5rem;
+  color: #fff;
+}
+.carouselControls label {
+  display: none;
+  position: absolute;
+  padding: 0 20px;
+  opacity: 0;
+  transition: opacity 0.2s;
+  cursor: pointer;
+}
+.carouselSlideCard + .carouselControls label:hover {
+  opacity: 0.5;
+}
+.carouselControls label:hover {
+  opacity: 1;
+}
+.carouselControls .carouselPrevSlide {
+  width: 49%;
+  text-align: left;
+  left: 0;
+}
+.carouselControls .carouselNextSlide {
+  width: 49%;
+  text-align: right;
+  left: 0;
+}
+.footer_carouselDots {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 20px;
+  z-index: 999;
+  text-align: center;
+}
+.carouselDots .carouselDot {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #fff;
+  opacity: 0.5;
+  margin: 10px;
+}
+input:checked + .carouselSlideContainer .carouselSlideCard {
+  opacity: 1;
+  transform: scale(1);
+  transition: opacity 1s ease-in-out;
+}
+input:checked + .carouselSlideContainer .carouselControls label {
+  display: block;
+}
+input#1:checked ~ .carousel-dots label#dot-1,
+input#2:checked ~ .carousel-dots label#dot-2,
+input#3:checked ~ .carousel-dots label#dot-3,
+input#4:checked ~ .carousel-dots label#dot-4,
+input#5:checked ~ .carousel-dots label#dot-5 {
+  opacity: 1;
+}
+input:checked + .carouselSlideContainerr label {
+  display: block;
+}
