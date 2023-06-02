@@ -1,7 +1,6 @@
 import { FC } from 'react';
 
-import { Controller } from './components';
-import { Carousel } from './components/Carousel/Carousel';
+import { Carousel, Controller } from './components';
 import team from './resources/Team/team.json';
 import styles from './styles/footer.module.css';
 

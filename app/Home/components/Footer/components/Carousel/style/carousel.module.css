@@ -43,7 +43,7 @@ ul.carouselSlides input {
   z-index: 999;
   font-size: 3rem;
   line-height: 10rem;
-  color: #fff;
+  color: var(--COLOR-WHITE);
 }
 .carouselControls label {
   display: none;
@@ -60,12 +60,12 @@ ul.carouselSlides input {
   opacity: 1;
 }
 .carouselControls .carouselPrevSlide {
-  width: 49%;
+  width: 10%;
   text-align: left;
   left: 0;
 }
 .carouselControls .carouselNextSlide {
-  width: 49%;
+  width: 10%;
   text-align: right;
   right: 0;
 }
@@ -90,7 +90,7 @@ ul.carouselSlides input {
   width: 1.5rem;
   height: 1.5rem;
   border-radius: 50%;
-  background-color: #fff;
+  background-color: var(--COLOR-WHITE);
   opacity: 0.5;
   margin: 10px;
 }
