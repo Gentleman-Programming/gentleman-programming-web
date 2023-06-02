@@ -1,6 +1,6 @@
 import { FC } from 'react';
 
-import { NavBar, TutiLightBox } from '@app/components';
+import { NavBar } from '@app/components';
 
 import { Body, Footer, Header, PreFooter } from './components';
 import style from './styles/page.module.css';
@@ -13,7 +13,6 @@ export const Home: FC = () => {
       <Body />
       <PreFooter />
       <Footer />
-      <TutiLightBox id={'#1'} />
     </div>
   );
 };
