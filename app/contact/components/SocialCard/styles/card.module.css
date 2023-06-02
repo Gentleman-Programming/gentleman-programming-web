@@ -117,3 +117,8 @@
     flex-wrap: wrap;
   }
 }
+
+  
+.animated-icon:hover {
+  transform: scale(1.2);
+}
