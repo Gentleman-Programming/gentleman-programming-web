@@ -4,6 +4,7 @@ import {
   FacebookIcon,
   GithubIcon,
   LinkedInIcon,
+  TutiImg,
   TwitterIcon,
 } from '@app/components';
 
@@ -19,10 +20,16 @@ export const FooterCard: FC<Props> = ({ member }) => {
     <article key={member.name + ' article'} className={styles.footer__card}>
       <div className={styles.footer__card_info}>
         <section className={styles.footer__card_side}>
-          <img
+          {/* <img
             alt={member.name + ' pic'}
             className={styles.footer__card_pic}
             src={member.pic}
+          /> */}
+          <TutiImg
+            url={member.pic}
+            alt={member.name}
+            width={150}
+            height={150}
           />
         </section>
         <section className={styles.footer__card_description}>
