@@ -23,7 +23,7 @@ export const Carousel: FC<Props> = ({ team }) => {
         />
         <li className={styles.carouselSlideContainer} key={'slide' + name}>
           <div className={styles.carouselSlideCard}>
-            <FooterCard key={'card' + name} member={member} />
+            <FooterCard key={member.index} member={member} />
           </div>
           {/*CONTROLES */}
           <div className={styles.carouselControls}>

@@ -1,5 +1,7 @@
 import { FC } from 'react';
 
+import { TutiFooterFinal, TutiHr } from '@app/components';
+
 import { Carousel, Controller } from './components';
 import team from './resources/Team/team.json';
 import styles from './styles/footer.module.css';
@@ -7,7 +9,7 @@ import styles from './styles/footer.module.css';
 export const Footer: FC = () => {
   return (
     <footer className={styles.footer}>
-      <hr className={styles.footer__divider} />
+      <TutiHr />
       <h2 className={styles.footercard__title}>Gentleman Rockstars</h2>
       <div className={styles.footer__container}>
         <Carousel team={team} />
@@ -25,13 +27,7 @@ export const Footer: FC = () => {
         </section>
         <Controller />
       </div>
-      <hr className={styles.footer__divider} />
-      <section className={styles.footer__lastSection}>
-        <p>Made with 💜 by the community</p>
-        <legend>
-          Gentleman Programming⟨™⟩ 2023 // Casi todos los derechos reservados{' '}
-        </legend>
-      </section>
+      <TutiFooterFinal />
     </footer>
   );
 };

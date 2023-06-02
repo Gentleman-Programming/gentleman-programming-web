@@ -22,16 +22,8 @@ export const NavList: FC = () => {
         img="YT"
         mentions={3}
       />
-      <NavButton description="TT" link="https://google.com" img="TT" />
       <NavButton description="LK" link="https://google.com" img="LK" />
-      <NavButton description="GH" link="https://google.com" img="GH" />
-      <NavButton description="FB" link="https://google.com" img="FB" />
-      <NavButton description="IN" link="https://google.com" img="IN" />
-      <NavButton description="TK" link="https://google.com" img="TK" />
-      <NavButton description="SP" link="https://google.com" img="SP" />
-      <NavButton description="AP" link="https://google.com" img="AP" />
       <NavButton description="BK" link="https://google.com" img="BK" />
-      <NavButton description="AM" link="https://google.com" img="AM" />
       <NavButton description="CT" link="https://google.com" img="CT" />
     </div>
   );

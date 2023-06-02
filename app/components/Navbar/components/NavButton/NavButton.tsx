@@ -1,21 +1,14 @@
 import { FC } from 'react';
 
 import {
+  BookIcon,
+  ContactIcon,
   DiscordIcon,
-  GithubIcon,
-  InstagramIcon,
+  GentlemanProgrammingIcon,
   LinkedInIcon,
-  SpotifyIcon,
-  TikTokIcon,
   TwitchIcon,
   TwitterIcon,
   YouTubeIcon,
-  GentlemanProgrammingIcon,
-  BookIcon,
-  ContactIcon,
-  FacebookIcon,
-  AppleIcon,
-  AmazonIcon,
 } from '@app/components';
 
 import styles from './styles/navButton.module.css';
@@ -59,14 +52,7 @@ export const NavButton: FC = ({
       {img == 'YT' && <YouTubeIcon />}
       {img == 'TT' && <TwitterIcon />}
       {img == 'LK' && <LinkedInIcon />}
-      {img == 'GH' && <GithubIcon />}
-      {img == 'IN' && <InstagramIcon />}
-      {img == 'FB' && <FacebookIcon />}
-      {img == 'SP' && <SpotifyIcon />}
-      {img == 'AP' && <AppleIcon />}
-      {img == 'TK' && <TikTokIcon />}
       {img == 'BK' && <BookIcon />}
-      {img == 'AM' && <AmazonIcon />}
       {img == 'CT' && <ContactIcon />}
     </Tag>
   );
