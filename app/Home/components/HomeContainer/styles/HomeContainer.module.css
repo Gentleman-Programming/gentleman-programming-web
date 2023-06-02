@@ -1,4 +1,4 @@
-.HomeConteiner {
+.HomeContainer {
   grid-area: CC;
   display: flex;
   flex-direction: column;

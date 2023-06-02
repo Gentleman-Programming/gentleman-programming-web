@@ -8,7 +8,7 @@ import { PreFooter } from '../PreFooter';
 
 export const HomeContainer: FC = () => {
   return (
-    <div className={styles.HomeConteiner}>
+    <div className={styles.HomeContainer}>
       <header className={styles.header}>
         <div>
           <Header />
