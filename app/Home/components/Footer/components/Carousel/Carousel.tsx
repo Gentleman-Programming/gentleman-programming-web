@@ -19,7 +19,7 @@ export const Carousel: FC<Props> = ({ team }) => {
           type={'radio'}
           name={'radio-buttons'}
           id={`${index}`}
-          checked={index === 1}
+          defaultChecked={index === 1}
         />
         <li className={styles.carouselSlideContainer} key={'slide' + name}>
           <div className={styles.carouselSlideCard}>
