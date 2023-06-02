@@ -1,9 +1,12 @@
 import { FC } from 'react';
 
-import { ComillasAbrirIcon, ComillasCerrarIcon } from '@app/components';
+import {
+  ComillasAbrirIcon,
+  ComillasCerrarIcon,
+  TutiIframe,
+} from '@app/components';
 
 import style from './styles/header.module.css';
-import { IframeContainer } from '../IframeContainer';
 
 export const Header: FC = () => {
   return (
@@ -17,7 +20,7 @@ export const Header: FC = () => {
             <ComillasCerrarIcon />
           </h2>
         </div>
-        <IframeContainer
+        <TutiIframe
           width={'600'}
           height={'300'}
           src="https://www.youtube.com/embed/KZCA_BRAkSA"

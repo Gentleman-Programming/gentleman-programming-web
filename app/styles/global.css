@@ -3,3 +3,33 @@ body {
   padding: 0 0 0 0;
   background-color: #000000;
 }
+
+--COLOT-TUTI-SCROLLBAR: #ea1889;
+--COLOT-TUTI-SCROLLBAR-BG: #fca2b7;
+--COLOT-TUTI-SCROLLBAR-THUMB: #f872a0;
+--COLOT-TUTI-SCROLLBAR-SHADOW: rgba(0,0,0,0.9);
+--COLOT-TUTI-SCROLLBAR-SHADOW-1: rgba(0,0,0,0.4);
+
+::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.9);
+	border-radius: 10px;
+	background-color:  #fca2b7;
+}
+
+::-webkit-scrollbar
+{
+	width: 8px;
+	background-color: #f872a0;
+}
+
+::-webkit-scrollbar-thumb
+{
+	border-radius: 6px;
+	background-color: #ea1889;
+	background-image: -webkit-linear-gradient(90deg,
+											  transparent,
+											  rgba(0, 0, 0, 0.4) 50%,
+											  transparent,
+											  transparent)
+}

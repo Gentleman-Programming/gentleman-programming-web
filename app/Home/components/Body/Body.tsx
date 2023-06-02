@@ -1,14 +1,15 @@
 import { FC } from 'react';
 
+import { TutiIframe } from '@app/components';
+
 import style from './styles/body.module.css';
-import { IframeContainer } from '../IframeContainer';
 
 export const Body: FC = () => {
   return (
     <div className={style.body__container}>
       <h2 className={style.title}>Ultimo Contenido</h2>
       <div className={style.iframe_container}>
-        <IframeContainer
+        <TutiIframe
           width={'300'}
           height={'150'}
           src="https://www.youtube.com/embed/dHAZmECoqZ8"
@@ -16,7 +17,7 @@ export const Body: FC = () => {
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowFullScreen
         />
-        <IframeContainer
+        <TutiIframe
           width={'300'}
           height={'150'}
           src="https://www.youtube.com/embed/5izwbm7fRMw"
@@ -24,7 +25,7 @@ export const Body: FC = () => {
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowFullScreen
         />
-        <IframeContainer
+        <TutiIframe
           width={'300'}
           height={'150'}
           src="https://www.youtube.com/embed/BstBfqq7npY"

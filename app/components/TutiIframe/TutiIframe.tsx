@@ -1,24 +1,16 @@
 import { FC } from 'react';
 
-import style from './styles/InframeContainer.module.css';
+import { ITutiIframeProps } from './interface';
+import style from './styles/TutiIframe.module.css';
 
-interface PropsIframe {
-  width: string;
-  height: string;
-  src: string;
-  title?: string;
-  allow?: string;
-  allowFullScreen?: boolean;
-}
-
-export const IframeContainer: FC<PropsIframe> = ({
+export const TutiIframe: FC<ITutiIframeProps> = ({
   width,
   height,
   src,
   title,
   allow,
   allowFullScreen,
-}: PropsIframe) => {
+}: ITutiIframeProps) => {
   return (
     <iframe
       className={style.iframe}

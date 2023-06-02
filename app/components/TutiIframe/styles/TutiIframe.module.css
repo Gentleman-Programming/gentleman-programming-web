@@ -1,0 +1,7 @@
+.iframe {
+  border-color: var(--COLOR-WHITE);
+}
+
+.iframe:hover {
+border-color: var(--COLOR-TUTI-SECONDARY);
+}
