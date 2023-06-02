@@ -27,6 +27,7 @@
   transition: transform .3s,--_r .15s,--_l .15s .15s;
   transition-timing-function: linear;
   cursor: pointer;
+  z-index:1;
 }
 
 .TutiImg__container:hover,
