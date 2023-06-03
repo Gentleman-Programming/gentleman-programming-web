@@ -14,4 +14,7 @@ export * from './TutiImg/interface';
 export * from './TutiLightBox';
 export * from './TutiLightBox/interface';
 export * from './TutiLoader';
+export * from './TutiModal';
+export * from './TutiModal/interface';
+export * from './TutiTop';
 export * from './inConstruction';

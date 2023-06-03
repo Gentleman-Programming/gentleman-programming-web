@@ -1,24 +1,9 @@
-.home__theme {
-  --COLOR-TRASNPARENT: transparent;
-  --COLOR-WHITE: #ffffff;
-  --COLOR-GRAY: #8a8c90;
-
-  --COLOR-GRAY-FOOTER-CARD: rgb(37, 37, 37);
-  --COLOR-WHITE-FOOTER-CARD: rgb(216, 216, 216);
-
-  --COLOR-LIVE: #43b581;
-  --COLOR-NOTIFICATION: #f84a4b;
-
-  --COLOR-TUTI-PRIMARY: #000000;
-  --COLOR-TUTI-SECONDARY: #ea1889;
-
-  --COLOR-TUTI-FONDO-NAVBAR: #000000;
-  --COLOR-TUTI-NAVBAR-ICONS: #ea1889;
-
-  --COLOR-TUTI-NAVBAR-HOVER-PRIMARY: #f872a0;
-  --COLOR-TUTI-NAVBAR-HOVER-SECONDARY: #fca2b7;
-  --COLOR-TUTI-NAVBAR-SELECTED: #e5e5e5;
-  --COLOR-TUTI-NAVBAR-SELECTED-ICONS: #ea1889;
-  --COLOR-TUTI-NAVBAR-SELECTED-HOME: #fdd0d6;
-
+.Home__container {
+   grid-area: HC;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  display: flex;
+  flex-direction: column;
+  padding: 40px 40px 40px 0 ;
+  margin: 0 auto;
 }

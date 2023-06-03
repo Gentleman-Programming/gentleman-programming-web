@@ -1,0 +1,29 @@
+
+.TutiTop__container {
+  grid-area: TP;
+  display: flex;
+  --fade: 120px;
+  align-items: flex-end;
+  width: 60px;
+  -webkit-mask:linear-gradient(#0000 100vh,#000 calc(100vh + var(--fade)));
+}
+
+.TutiTop {
+  position: sticky;
+  bottom: 20px;
+  margin-right:10px;
+  /* visual styling */
+  width:100%;
+  aspect-ratio:1;
+  background: var(--COLOR-TUTI-SECONDARY);
+  border-radius: 10px;
+}
+
+.TutiTop:before {
+  content:"";
+  position:absolute;
+  inset:30%;
+  transform:translateY(20%) rotate(-45deg);
+  border-top:5px solid #fff;
+  border-right:5px solid #fff;
+}

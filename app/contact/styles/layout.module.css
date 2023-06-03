@@ -18,8 +18,8 @@
   --COLOR-TUTI-NAVBAR-SELECTED-HOME: #FDD0D6;
 
   display: grid;
-  grid-template-columns: 75px auto;
-  grid-template-rows: 100vh;
-  grid-template-areas: "NB CC";
+  grid-template-columns: 60px 1fr 60px;
+  grid-template-rows: 100%;
+  grid-template-areas: "NB CC TP";
   background-color: var(--COLOR-TUTI-PRIMARY);
 }

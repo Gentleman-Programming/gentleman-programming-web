@@ -7,7 +7,6 @@ export * from './Footer/components';
 export * from './Footer';
 export * from './Footer/interface';
 export * from './Header';
-export * from './HomeContainer';
 export * from './PreFooter/components/AlanCard';
 export * from './PreFooter/components';
 export * from './PreFooter';

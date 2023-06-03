@@ -1,15 +1,23 @@
 import { FC } from 'react';
 
-import { NavBar } from '@app/components';
+import { NavBar, TutiTop } from '@app/components';
 
-import { HomeContainer } from './components';
+import { Body, Footer, Header, PreFooter } from './components';
 import style from './styles/page.module.css';
 
 export const Home: FC = () => {
   return (
-    <div className={style.home__theme}>
+    <>
       <NavBar />
-      <HomeContainer />
-    </div>
+      <div className={style.HomeContainer}>
+        <header>
+          <Header />
+        </header>
+        <Body />
+        <PreFooter />
+        <Footer />
+      </div>
+      <TutiTop />
+    </>
   );
 };
