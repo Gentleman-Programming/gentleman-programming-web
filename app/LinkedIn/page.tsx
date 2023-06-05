@@ -23,7 +23,7 @@ export const metadata = {
  */
 export default function LinkedIn() {
   return (
-    <>
+    <div className={style.linkedIn__theme}>
       {/* Renders the navigation bar */}
       <NavBar />
       {/* Container for the Discord component */}
@@ -35,6 +35,6 @@ export default function LinkedIn() {
       <TutiFooterFinal />
       {/* Render back-to-top button */}
       <TutiTop />
-    </>
+    </div>
   );
 }

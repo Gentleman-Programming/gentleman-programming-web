@@ -1,4 +1,31 @@
 /* This CSS code is styling an element with the class name "discord__container". */
+.linkedIn__theme { /* This is a CSS class selector that selects elements with the class `Linkedin__theme`. */
+  /*Color Variables Theme*/
+  --COLOR-TRASNPARENT: transparent; /* This is a CSS variable that defines the color transparent. */
+  --COLOR-WHITE: #ffffff; /* This is a CSS variable that defines the color white. */
+  --COLOR-GRAY: #8a8c90; /* This is a CSS variable that defines the color gray. */
+  --COLOR-RED: #ff0606; /* This is a CSS variable that defines the color red. */
+  --COLOR-LIVE: #43b581; /* This is a CSS variable that defines the color live. */
+  --COLOR-NOTIFICATION: #f84a4b; /* This is a CSS variable that defines the color notification. */
+  --COLOR-TUTI-PRIMARY: #000000; /* This is a CSS variable that defines the color primary. */
+  --COLOR-TUTI-SECONDARY: #ea1889; /* This is a CSS variable that defines the color secondary. */
+  --COLOR-TUTI-FONDO-NAVBAR: #000000; /* This is a CSS variable that defines the color fondo navbar. */
+  --COLOR-TUTI-NAVBAR-ICONS: #ea1889; /* This is a CSS variable that defines the color navbar icons. */
+  --COLOR-TUTI-NAVBAR-HOVER-PRIMARY: #f872a0;  /* This is a CSS variable that defines the color navbar hover primary. */
+  --COLOR-TUTI-NAVBAR-HOVER-SECONDARY: #fca2b7; /* This is a CSS variable that defines the color navbar hover secondary. */
+  --COLOR-TUTI-NAVBAR-SELECTED: #e5e5e5; /* This is a CSS variable that defines the color navbar selected. */
+  --COLOR-TUTI-NAVBAR-SELECTED-ICONS: #666666; /* This is a CSS variable that defines the color navbar selected icons. */
+  --COLOR-TUTI-NAVBAR-SELECTED-HOME: #fdd0d6; /* This is a CSS variable that defines the color navbar selected home. */
+  /*Grid Layout*/
+  display: grid; /* This is a CSS property that defines the element as a grid container. */
+  grid-template-columns: 60px 1fr auto; /* This defines the columns of the grid. */
+  grid-template-rows: 100%; /* This defines the rows of the grid. */
+  grid-template-areas: /* This assigns the grid areas to specific parts of the layout. */
+    'NB CL TP' /* This is the first row of the grid. */
+    'FT FT FT'; /* This is the second row of the grid. */
+  background-color: var(--COLOR-TUTI-PRIMARY); /* This sets the background color. */
+}
+
 .linkedIn__container{
   grid-area: CL; /* This is the grid area that the element is in. */
   display: flex; /* This is making the element a flexbox. */

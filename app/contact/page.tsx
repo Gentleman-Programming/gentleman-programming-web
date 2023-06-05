@@ -4,6 +4,7 @@
  * files and modules.
  */
 import { NavBar, TutiFooterFinal, TutiTop } from '@app/components';
+import '@app/styles/global.css';
 
 import { Card, Faq, Form } from './components';
 import styles from './styles/page.module.css';
@@ -21,7 +22,7 @@ export const metadata = {
  */
 export default function Contact() {
   return (
-    <>
+    <div className={styles['contact-theme']}>
       {/* Render navigation bar*/}
       <NavBar />
       {/* Render contact container */}
@@ -46,6 +47,6 @@ export default function Contact() {
       <TutiFooterFinal />
       {/* Render back-to-top button */}
       <TutiTop />
-    </>
+    </div>
   );
 }
