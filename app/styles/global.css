@@ -1,11 +1,20 @@
+/* Setting the scroll behavior of the HTML element to smooth, which means that when a user clicks on a
+link that takes them to a different part of the page, the scrolling will be animated and smooth
+instead of abrupt. */
 html {
 	scroll-behavior: smooth;
 }
+
+/* This CSS code is setting the style properties for the `body` element. */
 body {
   margin: 0 0 0 0;
   padding: 0 0 0 0;
   background-color: #000000;
 }
+
+/* This CSS code is styling the track of the scrollbar in webkit browsers (such as Chrome and Safari).
+It is setting a box shadow on the inside of the track, giving it a rounded border radius of 10px,
+and setting the background color to #fca2b7. */
 ::-webkit-scrollbar-track
 {
 	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.9);
@@ -13,6 +22,8 @@ body {
 	background-color:  #fca2b7;
 }
 
+/* This CSS code is setting the width and background color of the scrollbar in webkit browsers (such as
+Chrome and Safari). The width is set to 8px and the background color is set to #f872a0. */
 ::-webkit-scrollbar
 {
 	width: 8px;
@@ -20,6 +31,11 @@ body {
 
 }
 
+/* This CSS code is styling the thumb of the scrollbar in webkit browsers (such as Chrome and Safari).
+It is setting the border radius of the thumb to 6px, setting the background color to #ea1889, and
+setting a background image using a linear gradient. The linear gradient is set to be transparent on
+either end of the thumb and to have a semi-transparent black color in the middle, creating a
+gradient effect. */
 ::-webkit-scrollbar-thumb
 {
 	border-radius: 6px;

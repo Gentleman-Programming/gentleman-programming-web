@@ -1,6 +1,6 @@
 import { FC } from 'react';
 
-import { TutiFooterFinal, TutiHr } from '@app/components';
+import { TutiHr } from '@app/components';
 
 import { Carousel, Controller } from './components';
 import team from './resources/Team/team.json';
@@ -27,7 +27,6 @@ export const Footer: FC = () => {
         </section>
         <Controller />
       </div>
-      <TutiFooterFinal />
     </footer>
   );
 };

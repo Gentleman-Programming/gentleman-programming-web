@@ -1,3 +1,9 @@
+/**
+ * This is a React component with TypeScript that renders
+ * a Discord logo icon as an SVG.
+ * @returns A React component with TypeScript that renders
+ * an SVG icon for Discord logo.
+ */
 export const DiscordIcon = () => {
   return (
     <svg
@@ -13,6 +19,13 @@ export const DiscordIcon = () => {
     </svg>
   );
 };
+
+/**
+ * This is a React component that renders
+ * a Github icon as an SVG.
+ * @returns A React component that renders
+ * an SVG icon for the GitHub logo.
+ */
 export const GithubIcon = () => {
   return (
     <svg
@@ -27,6 +40,13 @@ export const GithubIcon = () => {
     </svg>
   );
 };
+
+/**
+ * This is a React component with TypeScript that renders
+ * an Instagram logo icon as an SVG..
+ * @returns A React component with TypeScript that renders
+ * an SVG icon for Instagram logo.
+ */
 export const InstagramIcon = () => {
   return (
     <svg
@@ -42,6 +62,12 @@ export const InstagramIcon = () => {
   );
 };
 
+/**
+ * TThis is a React component with TypeScript that renders
+ * a LinkedIn logo icon as an SVG.
+ * @returns A React component with TypeScript that renders
+ * an SVG icon for LinkedIn logo.
+ */
 export const LinkedInIcon = () => {
   return (
     <svg
@@ -59,6 +85,13 @@ export const LinkedInIcon = () => {
     </svg>
   );
 };
+
+/**
+ * This is a React component with TypeScript that renders
+ * a Spotify logo icon as an SVG.
+ * @returns A React component with TypeScript that renders
+ * an SVG icon for the Spotify logo.
+ */
 export const SpotifyIcon = () => {
   return (
     <svg
@@ -74,6 +107,13 @@ export const SpotifyIcon = () => {
     </svg>
   );
 };
+
+/**
+ * This is a React component with TypeScript that renders
+ * a TikTok logo icon as an SVG.
+ * @returns A React component with TypeScript that renders
+ * an SVG icon for TikTok logo.
+ */
 export const TikTokIcon = () => {
   return (
     <svg
@@ -89,6 +129,13 @@ export const TikTokIcon = () => {
     </svg>
   );
 };
+
+/**
+ * This is a React component with TypeScript that renders
+ * a Twitch logo icon as an SVG.
+ * @returns A React component with TypeScript  that renders
+ * an SVG icon for Twitch logo.
+ */
 export const TwitchIcon = () => {
   return (
     <svg
@@ -104,6 +151,13 @@ export const TwitchIcon = () => {
     </svg>
   );
 };
+
+/**
+ * This is a React component with TypeScript that renders
+ * a Twitter logo icon as an SVG.
+ * @returns A React component with TypeScript that renders
+ * an SVG icon for Twitter logo.
+ */
 export const TwitterIcon = () => {
   return (
     <svg
@@ -118,6 +172,13 @@ export const TwitterIcon = () => {
     </svg>
   );
 };
+
+/**
+ * This is a React component with TypeScript that renders
+ * a YouTube logo icon as an SVG.
+ * @returns A React component with TypeScript that renders
+ * an SVG icon for YouTube logo.
+ */
 export const YouTubeIcon = () => {
   return (
     <svg
@@ -132,6 +193,13 @@ export const YouTubeIcon = () => {
     </svg>
   );
 };
+
+/**
+ * This is a React component with TypeScript that renders
+ * a Facebook icon as an SVG.
+ * @returns A React component with TypeScript that renders
+ * an SVG icon for Facebook.
+ */
 export const FacebookIcon = () => {
   return (
     <svg
@@ -146,6 +214,13 @@ export const FacebookIcon = () => {
     </svg>
   );
 };
+
+/**
+ * This is a React component with TypeScript that renders
+ * a gentleman programming logo icon as an SVG.
+ * @returns A React component with TypeScript that renders
+ * an SVG icon of a gentleman programming logo.
+ */
 export const GentlemanProgrammingIcon = () => {
   return (
     <svg
@@ -182,6 +257,13 @@ export const GentlemanProgrammingIcon = () => {
     </svg>
   );
 };
+
+/**
+ * This is a React component with TypeScript that renders
+ * a book icon as an SVG.
+ * @returns A React component with TypeScript that renders
+ * an SVG icon of a book.
+ */
 export const BookIcon = () => {
   return (
     <svg
@@ -196,6 +278,13 @@ export const BookIcon = () => {
     </svg>
   );
 };
+
+/**
+ * This is a React component with TypeScript that renders
+ * a contact icon as an SVG.
+ * @returns A React component with TypeScript that renders
+ * an SVG icon of a contact.
+ */
 export const ContactIcon = () => {
   return (
     <svg
@@ -234,6 +323,13 @@ export const ContactIcon = () => {
     </svg>
   );
 };
+
+/**
+ * This is a React component with TypeScript that renders
+ * a appel icon as an SVG.
+ * @returns A React component with TypeScript that renders
+ * an SVG icon of a appel.
+ */
 export const AppleIcon = () => {
   return (
     <svg
@@ -247,6 +343,13 @@ export const AppleIcon = () => {
     </svg>
   );
 };
+
+/**
+ * This is a React component with TypeScript that renders
+ * a  icon as an SVG.
+ * @returns A React component with TypeScript that renders
+ * an SVG icon of a .
+ */
 export const AmazonIcon = () => {
   return (
     <svg
@@ -283,6 +386,12 @@ export const AmazonIcon = () => {
   );
 };
 
+/**
+ * This is a React component with TypeScript that renders
+ * a open quotes icon as an SVG.
+ * @returns A React component with TypeScript that renders
+ * an SVG icon for open quotes.
+ */
 export const ComillasAbrirIcon = () => {
   return (
     <svg
@@ -297,6 +406,12 @@ export const ComillasAbrirIcon = () => {
   );
 };
 
+/**
+ * This is a React component with TypeScript that renders
+ * a close quotes icon as an SVG.
+ * @returns A React component with TypeScript that renders
+ * an SVG icon close quotes.
+ */
 export const ComillasCerrarIcon = () => {
   return (
     <svg
@@ -311,6 +426,12 @@ export const ComillasCerrarIcon = () => {
   );
 };
 
+/**
+ * This is a React component with TypeScript that renders
+ * a Loader icon as an SVG.
+ * @returns A React component with TypeScript that renders
+ * an SVG icon for Loader.
+ */
 export const TutiLoaderIcon = () => {
   return (
     <svg

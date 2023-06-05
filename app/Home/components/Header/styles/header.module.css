@@ -1,4 +1,14 @@
-.header__container {
+/* This CSS code is styling a container element with the class "Header__container". It is setting the
+display property to flex and the flex-direction to column, which means that the child elements will
+be stacked vertically. The align-items and justify-content properties are set to center, which will
+center the child elements horizontally and vertically. The flex-wrap property is set to wrap, which
+means that the child elements will wrap to the next line if they exceed the container's width. The
+column-gap property sets the gap between columns to 20px. The color property sets the text color to
+a variable called "--COLOR-WHITE". The padding property sets the padding around the container to
+11px. The max-height property sets the maximum height of the container to 100vh (100% of the
+viewport height). The overflow-y property is set to "none", which means that the container will not
+have a vertical scrollbar if the content overflows. */
+.Header__container {
   grid-area: CH;
   display: flex;
   flex-direction: column;
@@ -12,13 +22,27 @@
   overflow-y: nome;
 }
 
-.divContainer {
+
+/* This CSS code is styling a container element with the class "Header__divContainer". It is setting
+the display property to flex and the flex-direction to column, which means that the child elements
+will be stacked vertically. The justify-content and align-items properties are set to center, which
+will center the child elements horizontally and vertically. */
+.Header__divContainer {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.div{
+
+
+/* This CSS code is styling a container element with the class "Header__div". It is setting the width
+of the container to 100% of its parent element. The display property is set to flex and the
+flex-direction is set to row, which means that the child elements will be displayed in a row. The
+flex-wrap property is set to wrap, which means that the child elements will wrap to the next line if
+they exceed the container's width. The justify-content and align-items properties are set to center,
+which will center the child elements horizontally and vertically. The gap property sets the gap
+between rows to 50px and the column-gap property sets the gap between columns to 20px. */
+.Header__div{
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -29,16 +53,27 @@
   column-gap: 20px;
 }
 
-.content{
+
+/* This CSS code is styling an element with the class "Header__content". It is setting the width of the
+element to 400px and the text-align property to center, which means that the content inside the
+element will be centered horizontally. */
+.Header__content{
   width: 400px;
   text-align: center;
 }
 
-.title{
+/* Setting the font size of an element with the class "Header__title" to 3rem. */
+.Header__title{
   font-size: 3rem;
 }
 
-.subtitle {
+/* This CSS code is styling an element with the class "Header__subtitle". It is setting the display
+property to flex and the flex-direction to row, which means that the child elements will be
+displayed in a row. The font-size property sets the size of the text to 2rem. The top property sets
+the position of the element relative to its parent element, in this case, it is setting the element
+5rem above its original position. The fill property sets the color of the SVG fill to a variable
+called "--COLOR-TUTI-SECONDARY". */
+.Header__subtitle {
   display: flex;
   flex-direction: row;
   font-size: 2rem;
@@ -46,6 +81,8 @@
   fill: var(--COLOR-TUTI-SECONDARY);
 }
 
-.subtitletext {
+/* This CSS code is setting the text color of an element with the class "Header__subtitletext" to a
+variable called "--COLOR-WHITE". */
+.Header__subtitletext {
   color: var(--COLOR-WHITE);
 }

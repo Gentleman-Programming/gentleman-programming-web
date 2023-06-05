@@ -1,9 +1,52 @@
+/* This CSS code is styling the container element with the 
+class name "Home__container". It sets the
+grid area to "HC", which is likely used in a CSS grid layout. It also sets the display to flex with
+a column direction, adds padding to the top, right, and bottom, sets the margin to 0, and sets the
+background color to red. */
 .Home__container {
-   grid-area: HC;
-  overflow-y: scroll;
-  scroll-behavior: smooth;
+  grid-area: HC;
   display: flex;
   flex-direction: column;
-  padding: 40px 40px 40px 0 ;
-  margin: 0 auto;
+  padding: 40px 40px 0 40px ;
+  margin: 0;
+  background-color: red;
+}
+
+
+.Home__headerSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: purple;
+}
+
+.Home__BodySection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+}
+
+.Home__PreFooterSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+}
+.Home__FooterSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: yellow;
+}
+.Home__TutiFooterFinalSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: orange;
 }

@@ -1,9 +1,18 @@
+/* This CSS code is styling a container element with the class "navList__container". It sets the
+background color to a variable called "--COLOR-TRASNPARENT", which is likely a transparent color. It
+also adds padding of 11 pixels on the top and bottom of the container, and sets the maximum height
+to 100% of the viewport height. */
 .navList__container {
   background-color: var(--COLOR-TRASNPARENT);
   padding: 11px 0;
   max-height: 100vh;
 }
 
+/* This CSS code is styling an element with the class "navList__separador". It sets the width of the
+element to 50 pixels, adds a border to the bottom of the element with a thickness of 3 pixels and a
+color defined by the variable "--COLOR-TUTI-NAVBAR-ICONS". It also adds a margin of 8 pixels to the
+top and bottom of the element. This code is likely used to create a visual separator between
+elements in a navigation list. */
 .navList__separador {
   width: 50px;
   border-bottom: 3px solid var(--COLOR-TUTI-NAVBAR-ICONS);

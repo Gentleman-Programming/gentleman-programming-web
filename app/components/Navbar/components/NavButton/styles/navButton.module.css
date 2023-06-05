@@ -1,3 +1,8 @@
+/* This is a CSS code block defining the styles for a button element. It sets the display to flex,
+aligns and justifies the content to the center, sets a fixed width and height, adds a border radius,
+sets a background color and cursor, and positions it relatively. It also includes conditional styles
+for when the button is selected, has mentions, or is live. It also includes hover styles and styles
+for when the button represents the home page. */
 .button {
   display: flex;
   align-items: center;
@@ -12,18 +17,31 @@
   position: relative;
   cursor: pointer;
 
+  /* This CSS code block is defining conditional styles for a button element that has a `dataSelected`
+  attribute set to "true". When the button has this attribute, the styles within the curly braces
+  will be applied. Specifically, it will set the border radius to 16px, change the background color
+  to a selected color, and change the fill color of any icons within the button to a selected color. */
+  /* &[dataSelected="true"] { */
   &[dataSelected="true"] {
     border-radius: 16px;
     background-color: var(--COLOR-TUTI-NAVBAR-SELECTED);
     fill: var(--COLOR-TUTI-NAVBAR-ICONS-SELECTED);
-
   }
 
+  /* This CSS code block is selecting any `img` element that is a direct child of the `.button` element
+  and setting its width and height to 30 pixels. This is likely used to ensure that any icons or
+  images within the button are consistently sized and aligned. */
   > img {
     width: 30px;
     height: 30px;
   }
 
+  /* This CSS code block is defining a pseudo-element `::before` for the `.button` element. It sets the
+  width and height to 9 pixels, positions it absolutely to the left of the button with a negative
+  left value of 17 pixels, and vertically centers it using the `calc()` function. It sets the
+  background color to a variable `--COLOR-TUTI-SECONDARY`, adds a border radius of 50 pixels, and
+  sets the content to an empty string. Finally, it sets the display to none, which means that the
+  pseudo-element will not be visible by default. */
   &::before {
     width: 9px;
     height: 9px;
@@ -36,10 +54,21 @@
     display: none;
   }
 
+  /* This CSS code block is selecting the pseudo-element `::before` for the `.button` element when the
+  button has a `dataSelected` attribute set to "true". It sets the display property of the
+  pseudo-element to "inline", which means that the pseudo-element will be visible. This is likely
+  used to add a visual indicator to the button when it is selected. */
   &[dataSelected="true"]::before {
     display: inline;
   }
 
+  /* This CSS code block is defining styles for a pseudo-element `::after` for the `.button` element
+  when the button has a `dataHasmentions` attribute set to "true". It sets the background color to a
+  variable `--COLOR-NOTIFICATION`, adds padding, sets the position to absolute, and positions it at
+  the bottom right of the button. It also sets the border radius, border, font size, font weight,
+  and color. The `content` property is set to the value of the `data-mentions` attribute of the
+  button element, and the `display` property is set to "inline". This is likely used to add a visual
+  indicator to the button when it has mentions or notifications. */
   &[dataHasmentions="true"]::after {
     background-color: var(--COLOR-NOTIFICATION);
     width: auto;
@@ -59,6 +88,13 @@
   }
 
 
+  /* This CSS code block is defining styles for a pseudo-element `::after` for the `.button` element
+  when the button has a `dataIslive` attribute set to "true". It sets the background color to a
+  variable `--COLOR-LIVE`, adds padding, sets the position to absolute, and positions it at the top
+  right of the button. It also sets the border radius, border, font size, font weight, and color.
+  The `content` property is set to the string " Live ", and the `display` property is not specified,
+  which means it will default to "inline". This is likely used to add a visual indicator to the
+  button when it represents a live event or stream. */
   &[dataIslive="true"]::after {
     background-color: var(--COLOR-LIVE);
     width: auto;
@@ -76,18 +112,35 @@
     content: ' Live ';
   }
 
+  /* `transition: border-radius .2s, background-color .2s;` is setting a transition effect for the
+  `border-radius` and `background-color` properties of the `.button` element. This means that when
+  these properties change, such as when the button is hovered over or selected, the change will be
+  animated over a duration of 0.2 seconds. */
   transition: border-radius .2s, background-color .2s;
 
+  /* This CSS code block is defining styles for when the `.button` element is being hovered over by the
+  user. It sets the `border-radius` property to 16 pixels, changes the `background-color` to a
+  secondary hover color, and changes the `fill` color of any icons within the button to a primary
+  color. This is likely used to provide visual feedback to the user when they are interacting with
+  the button. */
   &:hover {
     border-radius: 16px;
     background-color: var(--COLOR-TUTI-NAVBAR-HOVER-SECONDARY);
     fill: var(--COLOR-TUTI-PRIMARY);
   }
 
+  /* This CSS code block is defining styles for when the `.button` element has a `dataIshome` attribute
+  set to "true" and is being hovered over by the user. It sets the `background-color` property to a
+  primary hover color. This is likely used to provide visual feedback to the user when they are
+  hovering over the button that represents the home page. */
   &[dataIshome="true"]:hover {
     background-color: var(--COLOR-TUTI-NAVBAR-HOVER-PRIMARY);
   }
 
+  /* This CSS code block is selecting the `.button` element that has a `dataIsHome` attribute set to
+  "true" and setting its `background-color` property to a specific color defined by the
+  `--COLOR-TUTI-NAVBAR-SELECTED-HOME` variable. This is likely used to provide a visual indicator to
+  the user that the button represents the home page and is currently selected. */
   &[dataIsHome="true"] {
     background-color: var(--COLOR-TUTI-NAVBAR-SELECTED-HOME);
   }

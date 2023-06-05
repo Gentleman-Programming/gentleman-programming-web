@@ -1,10 +1,13 @@
+/* This CSS code is styling a container element with the class "navbar__container". It sets the grid
+area to "NB", which is likely a reference to a CSS grid layout. It also sets the display to flex
+with a column direction, aligns items to the center, and sets the background color to a custom
+variable. Finally, it sets the height to 100% to fill the available space. */
 .navbar__container {
   grid-area: NB;
+  position: fixed;
   /* grid-area: NL; */
   display: flex;
   flex-direction: column;
-  background-color: var(--COLOR-TUTI-FONDO-NAVBAR);
   align-items: center;
-  height: 100%;
-
+  background-color: var(--COLOR-TUTI-FONDO-NAVBAR);
 }

@@ -6,9 +6,9 @@ import style from './styles/body.module.css';
 
 export const Body: FC = () => {
   return (
-    <div className={style.body__container}>
-      <h2 className={style.title}>Ultimo Contenido</h2>
-      <div className={style.iframe_container}>
+    <div className={style.Body__container}>
+      <h2 className={style.Body__title}>Ultimo Contenido</h2>
+      <div className={style.Body__iframe}>
         <TutiIframe
           width={'300'}
           height={'150'}
