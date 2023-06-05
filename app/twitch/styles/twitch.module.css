@@ -1,7 +1,7 @@
 /** This is the css code for the Home Components */
 
 /* This is styling the element with the class name "Home__theme". */
-.home__theme {
+.twitch__theme {
   --COLOR-TRASNPARENT: transparent;
   --COLOR-WHITE: #ffffff;
   --COLOR-GRAY: #8a8c90;
@@ -29,7 +29,7 @@
   background-color: var(--COLOR-TUTI-PRIMARY);
 }
 
-.home__container {
+.twitch__container {
   grid-area: CT;
   display: flex;
   flex-direction: column;
@@ -37,36 +37,42 @@
   margin: 0;
 }
 
-.home__headerSection {
+.twitch__headerSection {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: purple;
 }
 
-.home__BodySection {
+.twitch__BodySection {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: blue;
 }
 
-.home__PreFooterSection {
+.twitch__PreFooterSection {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: green;
 }
 
-.home__FooterSection {
+.twitch__FooterSection {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: yellow;
 }
-.Home__TutiFooterFinalSection {
+
+.witch__TutiFooterFinalSection {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: orange;
 }

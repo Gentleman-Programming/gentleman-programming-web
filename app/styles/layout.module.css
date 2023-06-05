@@ -1,35 +1,26 @@
-.Home__layout{
-  --COLOR-TRASNPARENT: transparent;
+.app__layout {
+    --COLOR-TRASNPARENT: transparent;
   --COLOR-WHITE: #ffffff;
-  --COLOR-GRAY: #8a8c90;
-
-  --COLOR-GRAY-FOOTER-CARD: rgb(37, 37, 37);
-  --COLOR-WHITE-FOOTER-CARD: rgb(216, 216, 216);
-  --COLOR-TUTI-FOOTER-GARDIENT: rgb(255, 255, 255);
 
   --COLOR-LIVE: #43b581;
   --COLOR-NOTIFICATION: #f84a4b;
 
   --COLOR-TUTI-PRIMARY: #000000;
   --COLOR-TUTI-SECONDARY: #ea1889;
-  
+
   --COLOR-TUTI-FONDO-NAVBAR: #000000;
-  --COLOR-TUTI-NAVBAR-ICONS: #ea1889;
+  --COLOR-TUTI-NAVBAR-ICONS: #d6177d;
 
   --COLOR-TUTI-NAVBAR-HOVER-PRIMARY: #f872a0;
   --COLOR-TUTI-NAVBAR-HOVER-SECONDARY: #fca2b7;
   --COLOR-TUTI-NAVBAR-SELECTED: #e5e5e5;
-  --COLOR-TUTI-NAVBAR-SELECTED-ICONS: #ea1889;
+  --COLOR-TUTI-NAVBAR-SELECTED-ICONS: #666666;
   --COLOR-TUTI-NAVBAR-SELECTED-HOME: #fdd0d6;
-  
-  --TEXT-TUTI-PRIMARY: "Fira Mono";
-
 
   display: grid;
   grid-template-columns: 60px 1fr auto;
   grid-template-rows: 100%;
   grid-template-areas:
-    "NB CH TP"
-    "FT FT FT" ;
-  background-color: var(--COLOR-TUTI-PRIMARY);
+    'NB CT TP'
+    'FT FT FT';
 }
