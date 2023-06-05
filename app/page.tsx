@@ -3,9 +3,13 @@ export const metadata = {
   description: 'Home page',
 };
 import '@app/styles/global.css';
-import { Home } from './Home/page';
+import Home from './Home/page';
 
-function App() {
-  return <Home />;
+export default function App() {
+  return (
+    <>
+      {/* Renders the Home component */}
+      <Home />
+    </>
+  );
 }
-export default App;

@@ -1,4 +1,4 @@
-.home__layout{
+.Home__layout{
   --COLOR-TRASNPARENT: transparent;
   --COLOR-WHITE: #ffffff;
   --COLOR-GRAY: #8a8c90;
@@ -22,8 +22,10 @@
   --COLOR-TUTI-NAVBAR-SELECTED-HOME: #fdd0d6;
 
   display: grid;
-  grid-template-columns: 60px 1fr 60px;
+  grid-template-columns: 60px 1fr auto;
   grid-template-rows: 100%;
-  grid-template-areas: "NB CH TP";
+  grid-template-areas:
+    "NB CH TP"
+    "FT FT FT" ;
   background-color: var(--COLOR-TUTI-PRIMARY);
 }

@@ -1,3 +1,5 @@
+/* This CSS code is setting the background color of an element with the class "isLive__container" to
+the value of the CSS variable "TUTIL_BACKGROUND_COLOR". */
 .isLive__container{
   background-color: var(TUTIL_BACKGROUND_COLOR);
 }

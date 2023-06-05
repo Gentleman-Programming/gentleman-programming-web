@@ -12,9 +12,9 @@ export const Header: FC = () => {
   return (
     <header className={style.header__container}>
       <div className={style.div}>
-        <div className={style.divContainer}>
-          <h1 className={style.title}>Gentleman Programming Web.</h1>
-          <h2 className={style.subtitle}>
+        <div className={style.Header__divContainer}>
+          <h1 className={style.Header__title}>Gentleman Programming Web</h1>
+          <h2 className={style.Header__subtitle}>
             <ComillasAbrirIcon />
             &nbsp;Te carreo a senior, papu&nbsp;
             <ComillasCerrarIcon />

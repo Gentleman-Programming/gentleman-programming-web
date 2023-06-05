@@ -1,0 +1,9 @@
+/* This CSS code is styling an element with the class name "discord__container". */
+.linkedIn__container{
+  grid-area: CL; /* This is the grid area that the element is in. */
+  display: flex; /* This is making the element a flexbox. */
+  flex-direction: column; /* This is making the flexbox a column. */
+  /* margin-top: 80px;  */
+  padding: 40px 40px 0 40px; /* This is adding padding to the element. */
+  margin: 0; /* This is removing the margin from the element. */
+}
