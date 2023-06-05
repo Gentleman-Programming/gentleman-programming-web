@@ -11,9 +11,9 @@
 
 /* Styling the image element with the class "pag404__img" */
 .pag404__img {
-  align-items: center; /* This is aligning the child elements to the center of the container.*/
   height: 90%; /* This is setting the height of the image to 90% of its container's height.*/
-  width: 90%; //This is setting the width of the image to 90% of its container's width.
+  width: 90%; /*This is setting the width of the image to 90% of its container's width.*/
+  align-items: center; /* This is aligning the child elements to the center of the container.*/
   border: 3px solid var(--COLOR-WHITE); /* This is setting the border property to a 3px solid white border.*/
 }
 
