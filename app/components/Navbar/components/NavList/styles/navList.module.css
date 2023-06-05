@@ -1,21 +1,15 @@
-/* This CSS code is styling a container element with the class "navList__container". It sets the
-background color to a variable called "--COLOR-TRASNPARENT", which is likely a transparent color. It
-also adds padding of 11 pixels on the top and bottom of the container, and sets the maximum height
-to 100% of the viewport height. */
+/** This is the css code for the NavList Components */
+
+/* This is styling the element with the class name "navList__container". */
 .navList__container {
-  background-color: var(--COLOR-TRASNPARENT);
-  padding: 11px 0;
-  max-height: 100vh;
+  background-color: var(--COLOR-TRASNPARENT); /* This is setting the background-color property to a custom CSS variable named "--COLOR-TUTI-PRIMARY". */
+  padding: 11px; /* This is setting the padding property to 11px at the top and bottom and the left and right. */
+  max-height: 100vh; /* This is setting the max-height property to 100vh at the bottom and the right.  */
 }
 
-/* This CSS code is styling an element with the class "navList__separador". It sets the width of the
-element to 50 pixels, adds a border to the bottom of the element with a thickness of 3 pixels and a
-color defined by the variable "--COLOR-TUTI-NAVBAR-ICONS". It also adds a margin of 8 pixels to the
-top and bottom of the element. This code is likely used to create a visual separator between
-elements in a navigation list. */
+/* This is selecting the element with the class name "navList __separardor". */
 .navList__separador {
-  width: 50px;
-  border-bottom: 3px solid var(--COLOR-TUTI-NAVBAR-ICONS);
-  margin-bottom: 8px;
-  margin-top: 8px;
+  width: 50px; /* This is setting the width property to 50px at the bottom and the left and right. */
+  border-bottom: 3px solid var(--COLOR-TUTI-NAVBAR-ICONS); /* This is setting the border property to a 3px solid line with a color defined by a custom CSS variable named "--COLOR-TUTI-NAVBAR-ICONS". */
+  margin-top: 8px; /* This is setting the margin-top property to 8px at the bottom and the right. */
 }

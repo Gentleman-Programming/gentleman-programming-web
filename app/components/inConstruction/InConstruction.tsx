@@ -1,9 +1,9 @@
-/* `import { FC } from 'react';` */
+/* `import { FC } from 'react'. */
 import { FC } from 'react';
 
-/* `import inConstructionImg from '@app/assets/img/inConstruction.png';` */
+/* `import inConstructionImg from '@app/assets/img/inConstruction.png' */
 import inConstructionImg from '@app/assets/img/inConstruction.png';
-/* `import Image from 'next/image';`  */
+/* `import Image from 'next/image'  */
 import Image from 'next/image';
 
 /* `import style from './styles/inConstruction.module.css';` */

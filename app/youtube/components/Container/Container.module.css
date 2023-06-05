@@ -1,7 +1,0 @@
-.discord__container{
-  display: grid;
-  grid-template-columns: 75px auto;
-  grid-template-rows: 100%;
-  grid-template-areas: "NL CD";
-  background-color: var(--COLOR-TUTI-PRIMARY);
-}

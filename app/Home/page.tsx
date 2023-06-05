@@ -1,12 +1,10 @@
-/**
- * These lines of code are importing various
- * components and styles from different
- * files and modules.
- */
-
+/* Importing the `NavBar`, `TutiFooterFinal`, and `TutiTop` components from the `@app/components`
+module. */
 import { NavBar, TutiFooterFinal, TutiTop } from '@app/components';
 
+/* Importing the `Body`, `Footer`, `Header`, and `PreFooter` components from the `./components` directory. */
 import { Body, Footer, Header, PreFooter } from './components';
+/* `import style from './styles/page.module.css'. */
 import style from './styles/page.module.css';
 
 /**
@@ -15,32 +13,33 @@ import style from './styles/page.module.css';
  */
 export default function Home() {
   return (
-    <>
-      {/* Render navigation bar*/}
+    <div className={style.home__theme}>
+      {/* Renders the navigation bar */}
       <NavBar />
       {/* Render  Home Container */}
-      <div className={style.Home__container}>
+      <section className={style.home__container}>
         {/* Render header section */}
-        <section className={style.Home__headerSection}>
+        <section className={style.home__headerSection}>
           <Header />
         </section>
         {/* Render Body section */}
-        <section className={style.Home__BodySection}>
+        <section className={style.home__BodySection}>
+          {/* Render Body component */}
           <Body />
         </section>
-        {/* Render PreFooter section */}
-        <section className={style.Home__PreFooterSection}>
+        <section className={style.home__PreFooterSection}>
+          {/* Render Pre Footer component */}
           <PreFooter />
         </section>
-        {/* Render Footer section */}
-        <section className={style.Home__FooterSection}>
+        <section className={style.home__FooterSection}>
+          {/* Render Footer component */}
           <Footer />
         </section>
-      </div>
-      {/* Render Tuti footer Final section */}
+      </section>
+      {/* Render footer line final component */}
       <TutiFooterFinal />
-      {/* Render Tuti Top section */}
+      {/* Render back-to-top button */}
       <TutiTop />
-    </>
+    </div>
   );
 }
