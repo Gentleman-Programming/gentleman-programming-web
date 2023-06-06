@@ -23,7 +23,7 @@ export const FooterCard: FC<Props> = ({ member }) => {
           <TutiLightBox
             id={`${member.index}`}
             url={member.pic}
-            alt={member.name + ' pic'}
+            alt={`${member.name} pic`}
             width={150}
             height={150}
           />

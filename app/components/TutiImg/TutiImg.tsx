@@ -10,15 +10,13 @@ export const TutiImg: FC<ITutiImgProps> = ({
   width,
   height,
 }: ITutiImgProps) => {
-  return (
-    <>
-      <Image
-        className={style.TutiImg__container}
-        width={width}
-        height={height}
-        src={url}
-        alt={alt}
-      />
-    </>
-  );
+  const imageProps = {
+    className: style.TutiImg__container,
+    width,
+    height,
+    src: url,
+    alt,
+  };
+
+  return <Image {...imageProps} />;
 };

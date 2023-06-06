@@ -1,0 +1,40 @@
+.TutiToolTip__tooltip {
+  position: relative;
+}
+
+.TutiToolTip__tooltip .TutiToolTip__tooltiptext {
+  top: 5px;
+  left: 130%;
+  visibility: hidden;
+  width: 120px;
+  color: var(--COLOR-WHITE);
+  text-align: center;
+  padding: 5px;
+  /* From https://css.glass */
+  /* From https://css.glass */
+  background: var(--COLOR-TUTI-GLAS-FONDO);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px var(--COLOR-TUTI-GLAS-SHADOW);
+  backdrop-filter: blur(6.5px);
+  -webkit-backdrop-filter: blur(6.5px);
+  border: 1px solid var(--COLOR-TUTI-GLAS-BORDER);
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.TutiToolTip__tooltip:hover .TutiToolTip__tooltiptext {
+  visibility: visible;
+}
+
+.TutiToolTip__tooltip .TutiToolTip__tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 100%;
+  margin-top: 7px;
+  border-width: 5px;
+  border-style: solid;
+  border: 10px solid var(--COLOR-TUTI-GLAS-BORDER);
+  border-color: var(--COLOR-TRASNPARENT) var(--COLOR-TUTI-GLAS-BORDER) var(--COLOR-TRASNPARENT) var(--COLOR-TRASNPARENT);
+}
