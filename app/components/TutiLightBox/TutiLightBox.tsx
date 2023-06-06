@@ -20,10 +20,10 @@ export const TutiLightBox: FC<ITutiLightBoxProps> = ({
 
   return (
     <>
-      <a href={`#img${auxId}`}>
+      <a href={`#img${id}`}>
         <TutiImg url={url} alt={alt} width={width} height={height} />
       </a>
-      <a href="#" className={styles.lightbox} id={`img${auxId}`}>
+      <a href="#" className={styles.lightbox} id={`img${id}`}>
         <Image src={url} alt={alt} width={width} height={height} />
       </a>
     </>

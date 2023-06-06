@@ -15,47 +15,47 @@ export const NavList: FC = () => {
   return (
     // Container for the NavList component
     <div className={style.navList__container}>
-      {/* Navigation button for HM */}
-      <NavButton description={'HM'} link="https://google.com" img="HM" />
+      {/* Navigation button for Home */}
+      <NavButton description="" link="/" img="Home" />
       {/* Separator between navigation buttons */}
       <div className={style.navList__separador}></div>
-      {/* Navigation button for TW */}
+      {/* Navigation button for Twitch */}
       <NavButton
-        description={'TW'} // description
-        link="https://google.com" // link
+        description="twitch" // description
+        link="/twitch" // link
         isLive={true} // isLive
-        img="TW" // img
+        img="Twitch" // img
       />
-      {/* Navigation button for DS */}
+      {/* Navigation button for Discord */}
       <NavButton
-        description={'DS'} // description
-        link="https://google.com" // link
-        img="DS" // img
+        description="discord" // description
+        link="/discord" // link
+        img="Discord" // img
       />
-      {/* Navigation button for YT */}
+      {/* Navigation button for YouTube */}
       <NavButton
-        description={'YT'} // description
-        link="https://google.com" // link
-        img="YT" // img
+        description="youtube" // description
+        link="/youtube" // link
+        img="YouTube" // img
         mentions={3} // mentions
       />
-      {/* Navigation button for LK */}
+      {/* Navigation button for Linkedin */}
       <NavButton
-        description={'LK'} // description
-        link="https://google.com" // link
-        img="LK" // img
+        description="linkedin" // description
+        link="/linkedin" // link
+        img="LinkedIn" // img
       />
-      {/* Navigation button for BK */}
+      {/* Navigation button for Book */}
       <NavButton
-        description={'BK'} // description
-        link="https://google.com" // link
-        img="BK" // img
+        description="book" // description
+        link="https://gentleman-programming-book.vercel.app/es" // link
+        img="Book" // img
       />
-      {/* Navigation button for CT */}
+      {/* Navigation button for Contact */}
       <NavButton
-        description={'CT'} // description
-        link="https://google.com" // link
-        img="CT" // img
+        description="contact" // description
+        link="/contact" // link
+        img="Contact" // img
       />
     </div>
   );
