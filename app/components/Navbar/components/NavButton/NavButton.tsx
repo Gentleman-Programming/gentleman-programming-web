@@ -33,8 +33,8 @@ export const NavButton: FC<INavButtonProps> = ({
   link,
 }: INavButtonProps) => {
   const isLink = Boolean(link);
-  const isSelected = description === TutiNamePage({ linkPage: link ?? '/' });
-  const isHome = description === 'Home';
+  const isSelected = description !== TutiNamePage({ linkPage: link ?? '/' });
+  const isHome = description === '';
   const hasMentions = Boolean(mentions && mentions > 0);
   const target = isLink ? undefined : '_blank';
   const className = isLink ? styles.a : styles.button;
@@ -56,7 +56,6 @@ export const NavButton: FC<INavButtonProps> = ({
         return <GentlemanProgrammingIcon />;
     }
   };
-
   const commonProps = {
     'data-selected': isSelected,
     'data-is-live': isLive,
