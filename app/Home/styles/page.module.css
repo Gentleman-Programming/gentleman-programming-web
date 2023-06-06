@@ -5,6 +5,9 @@
   --COLOR-TRASNPARENT: transparent;
   --COLOR-WHITE: #ffffff;
   --COLOR-GRAY: #8a8c90;
+  --COLOR-TUTI-GLAS-FONDO: rgba(234, 24, 137, 0.32);
+  --COLOR-TUTI-GLAS-BORDER: rgba(234, 24, 137, 0.34);
+  --COLOR-TUTI-GLAS-SHADOW: rgba(0, 0, 0, 0.1);
   --COLOR-GRAY-FOOTER-CARD: rgb(37, 37, 37);
   --COLOR-WHITE-FOOTER-CARD: rgb(216, 216, 216);
   --COLOR-TUTI-FOOTER-GARDIENT: rgb(255, 255, 255);
@@ -19,7 +22,7 @@
   --COLOR-TUTI-NAVBAR-SELECTED: #e5e5e5;
   --COLOR-TUTI-NAVBAR-SELECTED-ICONS: #ea1889;
   --COLOR-TUTI-NAVBAR-SELECTED-HOME: #fdd0d6;
-  --TEXT-TUTI-PRIMARY: 'Fira Mono';
+  
   display: grid;
   grid-template-columns: 60px 1fr auto;
   grid-template-rows: 100%;

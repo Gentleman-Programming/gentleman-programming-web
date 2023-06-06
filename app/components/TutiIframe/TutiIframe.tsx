@@ -4,22 +4,22 @@ import { ITutiIframeProps } from './interface';
 import style from './styles/TutiIframe.module.css';
 
 export const TutiIframe: FC<ITutiIframeProps> = ({
-  width,
-  height,
+  width = '100%',
+  height = '400',
   src,
-  title,
-  allow,
-  allowFullScreen,
-}: ITutiIframeProps) => {
-  return (
-    <iframe
-      className={style.iframe}
-      width={width}
-      height={height}
-      src={src}
-      title={title}
-      allow={allow}
-      allowFullScreen={allowFullScreen}
-    />
-  );
+  title = '',
+  allow = '',
+  allowFullScreen = false,
+}) => {
+  const iframeProps = {
+    className: style.iframe,
+    width,
+    height,
+    src,
+    title,
+    allow,
+    allowFullScreen,
+  };
+
+  return <iframe {...iframeProps} />;
 };

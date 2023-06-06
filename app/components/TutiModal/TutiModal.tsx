@@ -14,12 +14,12 @@ export const TutiModal: FC<ITutiModalProps> = ({ id }: ITutiModalProps) => {
           />
         </center>
       </a>
-      <div id={`img${id}`} className={styles.wrap}>
-        <div className={styles.modal}>
+      <div id={`img${id}`} className={styles.TutiModal__wrap}>
+        <div className={styles.TutiModal__modal}>
           <h2>I&rsquo;m A Sleek Modal</h2>
           <p>Pretty sweet, eh?</p>
           <br />
-          <a href="#" className={styles.close}>
+          <a href="#" className={styles.TutiModal__close}>
             X
           </a>
         </div>

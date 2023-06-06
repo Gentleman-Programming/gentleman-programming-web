@@ -1,6 +1,7 @@
 /** This is the css code for the NavButton Components */
 
 /* this is a CSS code block defining the styles for a button element. */
+.a,
 .button {
   display: flex; /* this is setting the display property of the button element to "flex". */
   align-items: center; /* this is setting the align-items property of the button element to "center". */
@@ -10,17 +11,25 @@
   height: 48px; /* this is setting the height property of the button element to "48px". */
   margin-bottom: 8px; /* this is setting the margin-bottom property of the button element to "8px". */
   border-radius: 50px; /* this is setting the border-radius property of the button element to "50px". */
-  background-color: var(--COLOR-TUTI-FONDO-NAVBAR); /* this is setting the background-color property of the button element to "var(--COLOR-TUTI-FONDO-NAVBAR)". */
-  fill: var(--COLOR-TUTI-NAVBAR-ICONS); /* this is setting the fill property of the button element to "var(--COLOR-TUTI-NAVBAR-ICONS)". */
+  background-color: var(
+    --COLOR-TUTI-FONDO-NAVBAR
+  ); /* this is setting the background-color property of the button element to "var(--COLOR-TUTI-FONDO-NAVBAR)". */
+  fill: var(
+    --COLOR-TUTI-NAVBAR-ICONS
+  ); /* this is setting the fill property of the button element to "var(--COLOR-TUTI-NAVBAR-ICONS)". */
   position: relative; /* this is setting the position property of the button element to "relative". */
-  cursor: pointer;  /* this is setting the cursor property of the button element to "pointer". */
+  cursor: pointer; /* this is setting the cursor property of the button element to "pointer". */
 
-  /* This CSS code block is defining conditional styles for a button element that has a `dataSelected`
+  /* This CSS code block is defining conditional styles for a button element that has a `data-selected`
   attribute set to "true". */
-  &[dataSelected="true"] {
+  &[data-selected='true'] {
     border-radius: 16px; /* This is the border radius of the button element to "selected by default */
-    background-color: var(--COLOR-TUTI-NAVBAR-SELECTED); /* This is the background color of the button element to "selected by default */
-    fill: var(--COLOR-TUTI-NAVBAR-ICONS-SELECTED); /* This is the fill color of the button element to "selected by default */
+    background-color: var(
+      --COLOR-TUTI-NAVBAR-SELECTED
+    ); /* This is the background color of the button element to "selected by default */
+    fill: var(
+      --COLOR-TUTI-NAVBAR-ICONS-SELECTED
+    ); /* This is the fill color of the button element to "selected by default */
   }
 
   /* This CSS code block is selecting any `img` element that is a direct child of the `.button` element.*/
@@ -31,105 +40,100 @@
 
   /* This CSS code block is defining a pseudo-element `::before` for the `.button` element. */
   &::before {
-    width: 9px;
-    height: 9px;
-    position: absolute;
-    left: -17px;
-    top: calc(50% - 4.5px);
-    background-color: var(--COLOR-TUTI-SECONDARY);
-    border-radius: 50px;
-    content: '';
-    display: none;
+    width: 9px; /* This is the width of the pseudo-element. */
+    height: 9px; /* This is the height of the pseudo-element. */
+    position: absolute; /* This is the position of the pseudo-element. */
+    left: -17px; /* This is the left position of the pseudo-element. */
+    top: calc(
+      50% - 4.5px
+    ); /* This is the top position of the pseudo-element. */
+    background-color: var(
+      --COLOR-TUTI-SECONDARY
+    ); /* This is the background color of the pseudo-element. */
+    border-radius: 50px; /* This is the border radius of the pseudo-element. */
+    content: ''; /* This is the content of the pseudo-element. */
+    display: none; /* This is the display of the pseudo-element. */
   }
 
   /* This CSS code block is selecting the pseudo-element `::before` for the `.button` element when the
-  button has a `dataSelected` attribute set to "true". It sets the display property of the
-  pseudo-element to "inline", which means that the pseudo-element will be visible. This is likely
-  used to add a visual indicator to the button when it is selected. */
-  &[dataSelected="true"]::before {
-    display: inline;
+  button has a `data-selected` attribute set to "true". */
+  &[data-selected='true']::before {
+    display: inline; /* This is the display of the pseudo-element. */
   }
 
   /* This CSS code block is defining styles for a pseudo-element `::after` for the `.button` element
-  when the button has a `dataHasmentions` attribute set to "true". It sets the background color to a
-  variable `--COLOR-NOTIFICATION`, adds padding, sets the position to absolute, and positions it at
-  the bottom right of the button. It also sets the border radius, border, font size, font weight,
-  and color. The `content` property is set to the value of the `data-mentions` attribute of the
-  button element, and the `display` property is set to "inline". This is likely used to add a visual
-  indicator to the button when it has mentions or notifications. */
-  &[dataHasmentions="true"]::after {
-    background-color: var(--COLOR-NOTIFICATION);
-    width: auto;
-    height: 16px;
-    padding: 0 4px;
-    position: absolute;
-    bottom: -4px;
-    right: -4px;
-    border-radius: 12px;
-    border: 2px solid var( --COLOR-TUTI-SECONDARY);
-    text-align: right;
-    font-size: 13px;
-    font-weight: bold;
-    color: var(--COLOR-WHITE);
-    content: attr(data-mentions);
-    display: inline;
+  when the button has a `data-has-mentions` attribute set to "true".  */
+  &[data-has-mentions='true']::after {
+    background-color: var(
+      --COLOR-NOTIFICATION
+    ); /* This is the background color of the pseudo-element. */
+    width: auto; /* This is the width of the pseudo-element. */
+    height: 16px; /* This is the height of the pseudo-element. */
+    padding: 0 4px; /* This is the padding of the pseudo-element. */
+    position: absolute; /* This is the position of the pseudo-element. */
+    bottom: -4px; /* This is the bottom position of the pseudo-element. */
+    right: -4px; /* This is the right position of the pseudo-element. */
+    border-radius: 12px; /* This is the border radius of the pseudo-element. */
+    border: 2px solid var(--COLOR-TUTI-SECONDARY); /* This is the border of the pseudo-element. */
+    text-align: right; /* This is the text alignment of the pseudo-element. */
+    font-size: 13px; /* This is the font size of the pseudo-element. */
+    font-weight: bold; /* This is the font weight of the pseudo-element. */
+    color: var(--COLOR-WHITE); /* This is the color of the pseudo-element. */
+    content: attr(
+      data-mentions
+    ); /* This is the content of the pseudo-element. */
+    display: inline; /* This is the display of the pseudo-element. */
   }
 
-
   /* This CSS code block is defining styles for a pseudo-element `::after` for the `.button` element
-  when the button has a `dataIslive` attribute set to "true". It sets the background color to a
-  variable `--COLOR-LIVE`, adds padding, sets the position to absolute, and positions it at the top
-  right of the button. It also sets the border radius, border, font size, font weight, and color.
-  The `content` property is set to the string " Live ", and the `display` property is not specified,
-  which means it will default to "inline". This is likely used to add a visual indicator to the
-  button when it represents a live event or stream. */
-  &[dataIslive="true"]::after {
-    background-color: var(--COLOR-LIVE);
-    width: auto;
-    height: 14px;
-    padding: 2px;
-    position: absolute;
-    top: -6px;
-    right:  -14px;
-    border-radius: 12px;
-    border: 2px solid var(--COLOR-TUTI-SECONDARY);
-    text-align: right;
-    font-size: 12px;
-    font-weight: bold;
-    color: var(--COLOR-WHITE);
-    content: ' Live ';
+  when the button has a `data-is-live` attribute set to "true".  */
+  &[data-is-live='true']::after {
+    background-color: var(
+      --COLOR-LIVE
+    ); /* This is the background color of the pseudo-element. */
+    width: auto; /* This is the width of the pseudo-element. */
+    height: 14px; /* This is the height of the pseudo-element. */
+    padding: 2px; /* This is the padding of the pseudo-element. */
+    position: absolute; /* This is the position of the pseudo-element. */
+    top: -6px; /* This is the top position of the pseudo-element. */
+    right: -14px; /* This is the right position of the pseudo-element. */
+    border-radius: 12px; /* This is the border radius of the pseudo-element. */
+    border: 2px solid var(--COLOR-TUTI-SECONDARY); /* This is the border of the pseudo-element. */
+    text-align: right; /* This is the text alignment of the pseudo-element. */
+    font-size: 12px; /* This is the font size of the pseudo-element. */
+    font-weight: bold; /* This is the font weight of the pseudo-element. */
+    color: var(--COLOR-WHITE); /* This is the color of the pseudo-element. */
+    content: ' Live '; /* This is the content of the pseudo-element. */
   }
 
   /* `transition: border-radius .2s, background-color .2s;` is setting a transition effect for the
-  `border-radius` and `background-color` properties of the `.button` element. This means that when
-  these properties change, such as when the button is hovered over or selected, the change will be
-  animated over a duration of 0.2 seconds. */
-  transition: border-radius .2s, background-color .2s;
+  `border-radius` and `background-color` properties of the `.button` element. */
+  transition: border-radius 0.2s, background-color 0.2s;
 
   /* This CSS code block is defining styles for when the `.button` element is being hovered over by the
-  user. It sets the `border-radius` property to 16 pixels, changes the `background-color` to a
-  secondary hover color, and changes the `fill` color of any icons within the button to a primary
-  color. This is likely used to provide visual feedback to the user when they are interacting with
-  the button. */
+  user. */
   &:hover {
-    border-radius: 16px;
-    background-color: var(--COLOR-TUTI-NAVBAR-HOVER-SECONDARY);
-    fill: var(--COLOR-TUTI-PRIMARY);
+    border-radius: 16px; /* This is the border radius of the `.button` element. */
+    background-color: var(
+      --COLOR-TUTI-NAVBAR-HOVER-SECONDARY
+    ); /* This is the background color of the `.button` element. */
+    fill: var(
+      --COLOR-TUTI-PRIMARY
+    ); /* This is the fill of the `.button` element. */
   }
 
-  /* This CSS code block is defining styles for when the `.button` element has a `dataIshome` attribute
-  set to "true" and is being hovered over by the user. It sets the `background-color` property to a
-  primary hover color. This is likely used to provide visual feedback to the user when they are
-  hovering over the button that represents the home page. */
-  &[dataIshome="true"]:hover {
-    background-color: var(--COLOR-TUTI-NAVBAR-HOVER-PRIMARY);
+  /* This CSS code block is defining styles for when the `.button` element has a `data-is-home` attribute
+  set to "true" and is being hovered over by the user. */
+  &[data-is-home='true']:hover {
+    background-color: var(
+      --COLOR-TUTI-NAVBAR-HOVER-PRIMARY
+    ); /* This is the background color of the `.button` element. */
   }
 
-  /* This CSS code block is selecting the `.button` element that has a `dataIsHome` attribute set to
-  "true" and setting its `background-color` property to a specific color defined by the
-  `--COLOR-TUTI-NAVBAR-SELECTED-HOME` variable. This is likely used to provide a visual indicator to
-  the user that the button represents the home page and is currently selected. */
-  &[dataIsHome="true"] {
-    background-color: var(--COLOR-TUTI-NAVBAR-SELECTED-HOME);
+  /* This CSS code block is selecting the `.button` element that has a `data-is-home` attribute. */
+  &[data-is-home='true'] {
+    background-color: var(
+      --COLOR-TUTI-NAVBAR-SELECTED-HOME
+    ); /* This is the background color of the `.button` element. */
   }
 }

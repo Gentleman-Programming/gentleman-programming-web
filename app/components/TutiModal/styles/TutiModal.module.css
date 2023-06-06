@@ -17,7 +17,7 @@
 }
 
 
-.wrap {
+.TutiModal__wrap {
   position: fixed;
   top: 0;
   left: 0;
@@ -29,7 +29,7 @@
   display: flex;
 }
 
-.modal {
+.TutiModal__modal {
 /*   width: 50%; */
   background: #fff;
   padding: 3rem;
@@ -37,30 +37,30 @@
 }
 
 
-.wrap:not(:target) {
+.TutiModal__wrap:not(:target) {
   opacity: 0;
   visibility: hidden;
   transition: opacity 1s, visibility 1s;
 }
 
-.wrap:target {
+.TutiModal__wrap:target {
   opacity: 1;
   visibility: visible;
   transition: opacity 1s, visibility 1s;
 }
 
-.open a {
+.TutiModal__open a {
   text-decoration: none;
   color: white;
 }
 
-.wrap .close {
+.TutiModal__wrap .TutiModal__close {
   background: #DB00B8;
   color: #fff;
   font-size: 24px;
   margin: 0;
   opacity: 1;
-  position: absolute;
+ 
   right: 0;
   text-shadow: none;
   top: 0;

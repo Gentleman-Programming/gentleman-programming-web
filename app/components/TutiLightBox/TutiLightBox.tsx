@@ -13,17 +13,14 @@ export const TutiLightBox: FC<ITutiLightBoxProps> = ({
   width,
   height,
 }: ITutiLightBoxProps) => {
-  let auxId = '0';
-  if (auxId !== id) {
-    auxId = id;
-  }
+  const lightboxId = `lightbox-${id}`;
 
   return (
     <>
-      <a href={`#img${auxId}`}>
+      <a href={`#${lightboxId}`}>
         <TutiImg url={url} alt={alt} width={width} height={height} />
       </a>
-      <a href="#" className={styles.lightbox} id={`img${auxId}`}>
+      <a href="#" className={styles.lightbox} id={lightboxId}>
         <Image src={url} alt={alt} width={width} height={height} />
       </a>
     </>
