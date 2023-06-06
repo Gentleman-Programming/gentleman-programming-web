@@ -11,10 +11,10 @@ import style from './styles/header.module.css';
 export const Header: FC = () => {
   return (
     <header className={style.header__container}>
-      <div className={style.div}>
-        <div className={style.Header__divContainer}>
-          <h1 className={style.Header__title}>Gentleman Programming Web</h1>
-          <h2 className={style.Header__subtitle}>
+      <div className={style.header__div}>
+        <div className={style.header__divContainer}>
+          <h1 className={style.header__title}>Gentleman Programming Web</h1>
+          <h2 className={style.header__subTitle}>
             <ComillasAbrirIcon />
             &nbsp;Te carreo a senior, papu&nbsp;
             <ComillasCerrarIcon />

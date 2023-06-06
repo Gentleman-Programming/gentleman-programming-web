@@ -2,7 +2,6 @@
 module. */
 import { NavBar, TutiFooterFinal, TutiTop } from '@app/components';
 
-import './@app/styles/golbal.css';
 /* Importing the `Body`, `Footer`, `Header`, and `PreFooter` components from the `./components` directory. */
 import { Body, Footer, Header, PreFooter } from './components';
 /* `import style from './styles/page.module.css'. */
