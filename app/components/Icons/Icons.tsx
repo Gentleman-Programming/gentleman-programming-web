@@ -96,7 +96,7 @@ export const TwitchIcon = () => {
       width="30"
       height="30"
       viewBox="0 0 300 300"
-      className="witch"
+      className="twitch"
       fillRule="nonzero"
     >
       <path d="M215.2 260.8h-58.7L117.4 300H78.3v-39.2H6.6V52.2L26.1 0h267.3v182.6l-78.2 78.2zm52.2-91.2V26.1H52.2v189.1h58.7v39.1l39.1-39.1h71.7l45.7-45.6z" />
