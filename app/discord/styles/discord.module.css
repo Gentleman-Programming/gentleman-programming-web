@@ -15,7 +15,11 @@
   --COLOR-TUTI-NAVBAR-HOVER-SECONDARY: #fca2b7; /* This is a CSS variable that defines the color navbar hover secondary. */
   --COLOR-TUTI-NAVBAR-SELECTED: #e5e5e5; /* This is a CSS variable that defines the color navbar selected. */
   --COLOR-TUTI-NAVBAR-SELECTED-ICONS: #666666; /* This is a CSS variable that defines the color navbar selected icons. */
-  --COLOR-TUTI-NAVBAR-SELECTED-HOME: #fdd0d6; /* This is a CSS variable that defines the color navbar selected home. */
+  --COLOR-TUTI-NAVBAR-SELECTED-HOME: #fdd0d6; 
+  --COLOR-TUTI-GLAS-FONDO: rgba(234, 24, 137, 0.32);
+  --COLOR-TUTI-GLAS-BORDER: rgba(234, 24, 137, 0.34);
+  --COLOR-TUTI-GLAS-SHADOW: rgba(0, 0, 0, 0.1);
+  /* This is a CSS variable that defines the color navbar selected home. */
   /*Grid Layout*/
   display: grid; /* This is a CSS property that defines the element as a grid container. */
   grid-template-columns: 60px 1fr auto; /* This defines the columns of the grid. */

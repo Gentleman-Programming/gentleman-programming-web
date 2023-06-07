@@ -1,7 +1,7 @@
-import { ReactNode } from 'react';
+import { FC, ReactNode } from 'react';
 
 export interface INavButtonIconDataProps {
   id: string;
   name: string;
-  icon: ReactNode;
+  icon: ReactNode | string | FC;
 }

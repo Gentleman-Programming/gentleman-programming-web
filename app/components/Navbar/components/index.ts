@@ -1,6 +1,5 @@
 export * from './NavButton';
 export * from './NavList';
-export * from './TutiNavButtonIcon';
 export * from './data/NavButtonIconsData';
 export * from './data/NavButtonsData';
 export * from './data';

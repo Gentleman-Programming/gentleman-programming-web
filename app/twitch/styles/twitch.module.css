@@ -19,7 +19,9 @@
   --COLOR-TUTI-NAVBAR-SELECTED: #e5e5e5;
   --COLOR-TUTI-NAVBAR-SELECTED-ICONS: #ea1889;
   --COLOR-TUTI-NAVBAR-SELECTED-HOME: #fdd0d6;
-  --TEXT-TUTI-PRIMARY: 'Fira Mono';
+  --COLOR-TUTI-GLAS-FONDO: rgba(234, 24, 137, 0.32);
+  --COLOR-TUTI-GLAS-BORDER: rgba(234, 24, 137, 0.34);
+  --COLOR-TUTI-GLAS-SHADOW: rgba(0, 0, 0, 0.1);
   display: grid;
   grid-template-columns: 60px 1fr auto;
   grid-template-rows: 100%;

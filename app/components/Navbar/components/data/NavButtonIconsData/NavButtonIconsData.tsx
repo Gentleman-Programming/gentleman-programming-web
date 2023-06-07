@@ -3,13 +3,12 @@ import {
   ContactIcon,
   DiscordIcon,
   GentlemanProgrammingIcon,
+  INavButtonIconDataProps,
   LinkedInIcon,
   ProjectIcon,
   TwitchIcon,
   YouTubeIcon,
 } from '@app/components';
-
-import { INavButtonIconDataProps } from '../../interface';
 
 export const navButtonIconsData: INavButtonIconDataProps[] = [
   { id: '1', name: 'Twitch', icon: <TwitchIcon /> },
@@ -19,5 +18,10 @@ export const navButtonIconsData: INavButtonIconDataProps[] = [
   { id: '5', name: 'Book', icon: <BookIcon /> },
   { id: '6', name: 'Project', icon: <ProjectIcon /> },
   { id: '7', name: 'Contact', icon: <ContactIcon /> },
-  { id: '8', name: 'GentlemanProgramming', icon: <GentlemanProgrammingIcon /> },
+  { id: '8', name: 'Home', icon: <GentlemanProgrammingIcon /> },
 ];
+export const TutiNavButtonIcon = (img: string) => {
+  const icon =
+    navButtonIconsData.find((item) => item.name === img)?.icon ?? null;
+  return icon;
+};

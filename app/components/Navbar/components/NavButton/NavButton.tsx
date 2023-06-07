@@ -32,7 +32,7 @@ export const NavButton: FC<INavButtonProps> = ({
   const hasMentions = Boolean(mentions && mentions > 0);
   const target = isLink ? undefined : '_blank';
   const className = isLink ? styles.a : styles.button;
-  const icon = TutiNavButtonIcon({ img });
+  const icon = TutiNavButtonIcon(img);
   const commonProps = {
     'data-selected': isSelected,
     'data-is-live': isLive,
