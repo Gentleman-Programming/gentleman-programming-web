@@ -1,15 +1,57 @@
-import { FC } from 'react';
+/* Importing the `NavBar`, `TutiFooterFinal`, and `TutiTop` components from the `@app/components`
+module. */
+import {
+  NavBar,
+  TutiFooterFinal,
+  TutiModal,
+  TutiToolTip,
+  TutiTop,
+} from '@app/components';
 
-import { NavBar } from '@app/components';
-
-import { HomeContainer } from './components';
+/* Importing the `Body`, `Footer`, `Header`, and `PreFooter` components from the `./components` directory. */
+import { Body, Footer, Header, PreFooter } from './components';
+/* `import style from './styles/page.module.css'. */
 import style from './styles/page.module.css';
 
-export const Home: FC = () => {
+/**
+ * Renders a home component.
+ * @returns {JSX.Element} The rendered component.
+ */
+export default function Home() {
   return (
     <div className={style.home__theme}>
+      {/* Renders the navigation bar */}
       <NavBar />
-      <HomeContainer />
+      {/* Render  Home Container */}
+      <section className={style.home__container}>
+        {/* Render header section */}
+        <section className={style.home__headerSection}>
+          <Header />
+        </section>
+        {/* Render Body section */}
+        <section className={style.home__BodySection}>
+          {/* Render Body component */}
+          <Body />
+        </section>
+        <section className={style.home__PreFooterSection}>
+          {/* Render Pre Footer component */}
+          <PreFooter />
+          <TutiModal id={'1'} />
+          <TutiToolTip
+            id={'2'}
+            title={'Title a tooltip'}
+            description={'Description a description'}
+          />
+        </section>
+        <section className={style.home__FooterSection}>
+          {/* Render Footer component */}
+          <Footer />
+        </section>
+      </section>
+      {/* Render footer line final component */}
+      <TutiFooterFinal />
+      {/* Render back-to-top button */}
+      <TutiTop />
     </div>
   );
-};
+}

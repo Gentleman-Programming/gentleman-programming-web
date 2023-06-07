@@ -1,21 +1,34 @@
-.inConstruction__container{
-  grid-area: BD;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: var(--COLOR-TUTI-PRIMARY);
-  max-height: 100vh;
+/** This is the css code for the inContruction Components */
+
+/* This is styling the element with the class name "inConstruction__". */
+.inConstruction__container {
+  display: flex; /* This is setting the display property to "flex".*/
+  flex-direction: column; /* This is setting the flex-direction property to "column".*/
+  align-items: center; /* This is setting the align-items property to "center".*/
+  gap: 1rem; /* This is setting the gap property to 1rem.*/
+  background-color: var(--COLOR-TUTI-PRIMARY); /* This is setting the background-color property to a custom CSS variable named "--COLOR-TUTI-PRIMARY".*/
 }
+
+/* This is selecting the element with the class name "inConstruction__img".*/
 .inConstruction__img {
-  align-items: center;
-  height: 90%;
-  width: 90%;
+  height: 100%; /* This is setting the height property to 100%.*/
+  width: 100%; /* This is setting the width property to 100%.*/
+  align-items: center; /* This is setting the align-items property to "center".*/
+  border: 3px solid var(--COLOR-WHITE); /* This is setting the border property to a 3px solid white border. with a color defined by a custom CSS variable named "--COLOR-WHITE". */
 }
+
+/* This is selecting the element with the class name "inConstruction__img" when it is being hovered over by the user's mouse.
+*/
+.inConstruction__img:hover {
+  border: 3px solid var(--COLOR-TUTI-SECONDARY); /* This is setting the border property to a 3px solid line with a color defined by a custom CSS variable named "--COLOR-TUTI-SECONDARY".*/
+}
+
+/* This is selecting the element with the class name "inConstruction__title". */
 .inConstruction__title {
-  font-size: 1.5rem;
-  font-weight: 600;
-  margin: 0;
-  padding: 10px;
-  text-align: center;
-  color: var(--COLOR-TUTI-SECONDARY);
+  font-size: 1.5rem; /* This is setting the font-size property to 1.5rem.*/
+  font-weight: 600; /* This is setting the font-weight property to 600.*/
+  margin: 0; /* This is setting the margin property to 0.*/
+  padding: 10px 0 10px 0; /* This is setting the padding property to 10px at the top and bottom and 0px at the left and right.*/
+  text-align: center; /* This is setting the text-align property to "center".*/
+  color: var(--COLOR-TUTI-SECONDARY); /* This is setting the color property to a custom CSS variable named "--COLOR-TUTI-SECONDARY".*/
 }

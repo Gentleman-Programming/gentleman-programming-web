@@ -1,4 +1,3 @@
-export * from './ContactBody';
 export * from './Faq/components/ListItem/data';
 export * from './Faq/components/ListItem';
 export * from './Faq/components';

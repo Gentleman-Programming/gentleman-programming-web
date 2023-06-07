@@ -1,0 +1,29 @@
+.discord__theme {
+  --COLOR-TRASNPARENT: transparent;
+  --COLOR-WHITE: #ffffff;
+  --COLOR-GRAY: #8a8c90;
+  --COLOR-RED: #ff0606;
+
+  --COLOR-LIVE: #43b581;
+  --COLOR-NOTIFICATION: #f84a4b;
+
+  --COLOR-TUTI-PRIMARY: #000000;
+  --COLOR-TUTI-SECONDARY: #ea1889;
+
+  --COLOR-TUTI-FONDO-NAVBAR: #000000;
+  --COLOR-TUTI-NAVBAR-ICONS: #ea1889;
+
+  --COLOR-TUTI-NAVBAR-HOVER-PRIMARY: #f872a0;
+  --COLOR-TUTI-NAVBAR-HOVER-SECONDARY: #fca2b7;
+  --COLOR-TUTI-NAVBAR-SELECTED: #e5e5e5;
+  --COLOR-TUTI-NAVBAR-SELECTED-ICONS: #666666;
+  --COLOR-TUTI-NAVBAR-SELECTED-HOME: #fdd0d6;
+
+  display: grid;
+  grid-template-columns: 60px 1fr auto;
+  grid-template-rows: 100%;
+  grid-template-areas:
+    'NB CT TP'
+    'FT FT FT';
+  background-color: var(--COLOR-TUTI-PRIMARY);
+}

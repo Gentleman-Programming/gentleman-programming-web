@@ -1,30 +1,33 @@
+/* Importing the `FC` type from the `react` module.*/
 import { FC } from 'react';
 
-import { NavButton } from '@app/components';
+/* Importing the `NavButton` component from the `@app/components` module. */
+import { NavButton, NavButtonData, TutiToolTip } from '@app/components';
 
+/* `import style from './styles/navList.module.css';`  */
 import style from './styles/navList.module.css';
 
+/**
+ * Renders a NavList component.
+ * @returns {JSX.Element} The rendered component.
+ */
 export const NavList: FC = () => {
   return (
     <div className={style.navList__container}>
-      <NavButton description="HM" link="https://google.com" img="HM" />
-      <div className={style.navList__separador}></div>
-      <NavButton
-        description="TW"
-        link="https://google.com"
-        isLive={true}
-        img="TW"
-      />
-      <NavButton description="DS" link="https://google.com" img="DS" />
-      <NavButton
-        description="YT"
-        link="https://google.com"
-        img="YT"
-        mentions={3}
-      />
-      <NavButton description="LK" link="https://google.com" img="LK" />
-      <NavButton description="BK" link="https://google.com" img="BK" />
-      <NavButton description="CT" link="https://google.com" img="CT" />
+      {NavButtonData.map(
+        ({ id, description, toolTip, link, isLive, img, mentions }) => (
+          <TutiToolTip key={id} id={id} description={toolTip}>
+            <NavButton
+              description={description}
+              link={link}
+              isLive={isLive}
+              img={img}
+              mentions={mentions}
+              key={id}
+            />
+          </TutiToolTip>
+        )
+      )}
     </div>
   );
 };

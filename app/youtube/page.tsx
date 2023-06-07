@@ -1,7 +1,13 @@
 import '@app/styles/global.css';
 
-import { Container } from './components';
-import style from './page.module.css';
+import {
+  InConstruction,
+  NavBar,
+  TutiFooterFinal,
+  TutiTop,
+} from '@app/components';
+
+import style from './styles/page.module.css';
 export const metadata = {
   title: 'GP -> YouTube',
   description: 'YouTube page',
@@ -9,8 +15,17 @@ export const metadata = {
 
 export default function Discord() {
   return (
-    <div className={style.discord__theme}>
-      <Container />
+    <div className={style.youtube__theme}>
+      {/* Renders the navigation bar */}
+      <NavBar />
+      <section className={style.youtube__container}>
+        {/* Renders the "In Construction" component */}
+        <InConstruction />
+      </section>
+      {/* Render footer component */}
+      <TutiFooterFinal />
+      {/* Render back-to-top button */}
+      <TutiTop />
     </div>
   );
 }

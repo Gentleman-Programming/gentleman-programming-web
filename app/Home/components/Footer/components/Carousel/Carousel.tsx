@@ -9,23 +9,20 @@ type Props = {
 export const Carousel: FC<Props> = ({ team }) => {
   const renderMember = (member: Member) => {
     const { visibility, name, index } = member;
-
-    if (!visibility) {
-      return null;
-    }
+    if (!visibility) return null;
     return (
       <>
         <input
-          type={'radio'}
-          name={'radio-buttons'}
+          type="radio"
+          name="radio-buttons"
           id={`${index}`}
           defaultChecked={index === 1}
         />
-        <li className={styles.carouselSlideContainer} key={'slide' + name}>
+        <li key={`slide-${name}`} className={styles.carouselSlideContainer}>
           <div className={styles.carouselSlideCard}>
-            <FooterCard key={member.index} member={member} />
+            <FooterCard member={member} key={member.index} />
           </div>
-          {/*CONTROLES */}
+          {/* Controls */}
           <div className={styles.carouselControls}>
             {index > 1 && (
               <label
@@ -44,7 +41,7 @@ export const Carousel: FC<Props> = ({ team }) => {
               </label>
             )}
           </div>
-          {/*CONTROLES */}
+          {/* Controls */}
         </li>
       </>
     );
@@ -58,10 +55,10 @@ export const Carousel: FC<Props> = ({ team }) => {
             (member) =>
               member.visibility && (
                 <label
-                  key={member.index}
+                  key={`dot-${member.index}`}
                   htmlFor={`${member.index}`}
                   className={styles.carouselDot}
-                  id={'dot-' + member.index}
+                  id={`dot-${member.index}`}
                 />
               )
           )}

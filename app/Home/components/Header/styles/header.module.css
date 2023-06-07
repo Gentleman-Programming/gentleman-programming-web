@@ -1,5 +1,5 @@
+/* This CSS code is styling a container element with the class "Header__container". */
 .header__container {
-  grid-area: HM;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -12,13 +12,18 @@
   overflow-y: nome;
 }
 
-.divContainer {
+
+/* This CSS code is styling a container element with the class "Header__divContainer". */
+.header__divContainer {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.div{
+
+
+/* This CSS code is styling a container element with the class "Header__div" */
+.header__div{
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -29,16 +34,21 @@
   column-gap: 20px;
 }
 
-.content{
+
+/* This CSS code is styling an element with the class "Header__content". */
+.header__content{
   width: 400px;
   text-align: center;
 }
 
-.title{
+/* Setting the font size of an element with the class "Header__title" to 3rem. */
+.header__title{
   font-size: 3rem;
+  
 }
 
-.subtitle {
+/* This CSS code is styling an element with the class "Header__subtitle". */
+.header__subTitle {
   display: flex;
   flex-direction: row;
   font-size: 2rem;
@@ -46,6 +56,8 @@
   fill: var(--COLOR-TUTI-SECONDARY);
 }
 
-.subtitletext {
+/* This CSS code is setting the text color of an element with the class "Header__subtitletext" to a
+variable called "--COLOR-WHITE". */
+.header__subtitletext {
   color: var(--COLOR-WHITE);
 }
