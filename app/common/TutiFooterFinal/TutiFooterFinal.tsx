@@ -2,13 +2,12 @@
 import { FC } from 'react';
 
 /* `import styles from './styles/TutiFooterFinal.module.css'. */
+import { TutiCurrentYear } from '@app/util';
+
 import styles from './styles/TutiFooterFinal.module.css';
 /* his component is then used in the `TutiFooterFinal` component to render a horizontal
 line. */
-import {
-  TutiCurrentYear /* is TutiCurrentYear the component */,
-} from '../TutiCurrentYear';
-import { TutiHr /* is TutiHr the component */ } from '../TutiHr';
+import { TutiHr } from '../TutiHr';
 /**
  * Renders a TutiFooterFinal component.
  * @returns {JSX.Element} The rendered component.

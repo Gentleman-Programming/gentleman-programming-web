@@ -1,6 +1,6 @@
 import { FC } from 'react';
 
-import { TutiHr } from '@app/components';
+import { TutiHr } from '@app/common';
 
 import { Carousel, Controller } from './components';
 import team from './resources/Team/team.json';

@@ -3,9 +3,10 @@
  * components and styles from different
  * files and modules.
  */
-import { NavBar, TutiFooterFinal, TutiTop } from '@app/components';
-import '@app/styles/global.css';
+import { TutiFooterFinal, TutiTop } from '@app/common';
+import { NavBar } from '@app/components';
 
+import '@app/styles/global.css';
 import { Card, Faq, Form } from './components';
 import styles from './styles/page.module.css';
 

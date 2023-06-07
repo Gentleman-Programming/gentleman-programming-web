@@ -1,10 +1,10 @@
 import { FC } from 'react';
 
+import { TutiLightBox } from '@app/common';
 import {
   FacebookIcon,
   GithubIcon,
   LinkedInIcon,
-  TutiLightBox,
   TwitterIcon,
 } from '@app/components';
 
@@ -21,6 +21,7 @@ export const FooterCard: FC<Props> = ({ member }) => {
       <div className={styles.footer__card_info}>
         <section className={styles.footer__card_side}>
           <TutiLightBox
+            key={member.index}
             id={`${member.index}`}
             url={member.pic}
             alt={`${member.name} pic`}

@@ -1,8 +1,0 @@
-.discord__container{
-  grid-area: CT;
-  display: flex;
-  flex-direction: column;
-  /* margin-top: 80px;  */
-  padding: 40px 40px 0 40px;
-  margin: 0;
-}

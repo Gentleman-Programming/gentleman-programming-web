@@ -3,15 +3,9 @@ import { FC } from 'react';
 
 /* Importing various icons/components from the `@app/components` module. */
 import {
-  BookIcon,
-  ContactIcon,
-  DiscordIcon,
-  GentlemanProgrammingIcon,
   INavButtonProps,
-  LinkedInIcon,
   TutiNamePage,
-  TwitchIcon,
-  YouTubeIcon,
+  TutiNavButtonIcon,
 } from '@app/components';
 
 /*`import styles from './styles/navButton.module.css';` */
@@ -38,24 +32,7 @@ export const NavButton: FC<INavButtonProps> = ({
   const hasMentions = Boolean(mentions && mentions > 0);
   const target = isLink ? undefined : '_blank';
   const className = isLink ? styles.a : styles.button;
-  const getIcon = () => {
-    switch (img) {
-      case 'Twitch':
-        return <TwitchIcon />;
-      case 'Discord':
-        return <DiscordIcon />;
-      case 'YouTube':
-        return <YouTubeIcon />;
-      case 'LinkedIn':
-        return <LinkedInIcon />;
-      case 'Book':
-        return <BookIcon />;
-      case 'Contact':
-        return <ContactIcon />;
-      default:
-        return <GentlemanProgrammingIcon />;
-    }
-  };
+  const icon = TutiNavButtonIcon({ img });
   const commonProps = {
     'data-selected': isSelected,
     'data-is-live': isLive,
@@ -67,11 +44,11 @@ export const NavButton: FC<INavButtonProps> = ({
 
   return isLink ? (
     <a {...commonProps} href={link} target={target}>
-      {getIcon()}
+      {icon}
     </a>
   ) : (
     <button {...commonProps} type="button">
-      {getIcon()}
+      {icon}
     </button>
   );
 };
