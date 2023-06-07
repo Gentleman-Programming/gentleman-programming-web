@@ -1,7 +1,8 @@
 import { FC } from 'react';
 
+import { TutiLoaderIcon } from '@app/components';
+
 import styles from './styles/TutiLoader.module.css';
-import { TutiLoaderIcon } from '../Icons';
 
 export const TutiLoader: FC = () => {
   return (

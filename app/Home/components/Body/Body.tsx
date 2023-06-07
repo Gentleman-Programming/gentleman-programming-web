@@ -1,6 +1,6 @@
 import { FC } from 'react';
 
-import { TutiIframe } from '@app/components';
+import { TutiIframe } from '@app/common';
 
 import style from './styles/body.module.css';
 

@@ -3,11 +3,8 @@ import { FC } from 'react';
 
 /* Importing three components (`ComillasAbrirIcon`, `ComillasCerrarIcon`, and `TutiIframe`) from the
 `@app/components` module. */
-import {
-  ComillasAbrirIcon,
-  ComillasCerrarIcon,
-  TutiIframe,
-} from '@app/components';
+import { TutiIframe } from '@app/common';
+import { ComillasAbrirIcon, ComillasCerrarIcon } from '@app/components';
 
 /* `import style from './styles/header.module.css' */
 import style from './styles/header.module.css';

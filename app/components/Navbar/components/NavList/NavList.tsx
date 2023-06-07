@@ -2,7 +2,8 @@
 import { FC } from 'react';
 
 /* Importing the `NavButton` component from the `@app/components` module. */
-import { NavButton, NavButtonData, TutiToolTip } from '@app/components';
+import { NavButton, NavButtonsData } from '@app/components';
+import { TutiToolTip } from '@app/util';
 
 /* `import style from './styles/navList.module.css';`  */
 import style from './styles/navList.module.css';
@@ -14,7 +15,7 @@ import style from './styles/navList.module.css';
 export const NavList: FC = () => {
   return (
     <div className={style.navList__container}>
-      {NavButtonData.map(
+      {NavButtonsData.map(
         ({ id, description, toolTip, link, isLive, img, mentions }) => (
           <TutiToolTip key={id} id={id} description={toolTip}>
             <NavButton

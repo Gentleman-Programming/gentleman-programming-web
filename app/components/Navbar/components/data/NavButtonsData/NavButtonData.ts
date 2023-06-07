@@ -1,6 +1,6 @@
 import { INavButtonDataProps } from '../../interface';
 
-export const NavButtonData: INavButtonDataProps[] = [
+export const NavButtonsData: INavButtonDataProps[] = [
   { id: '1', description: '', toolTip: 'Home', link: '/', img: 'Home' },
   {
     id: '2',
@@ -41,6 +41,13 @@ export const NavButtonData: INavButtonDataProps[] = [
   },
   {
     id: '7',
+    description: 'project',
+    toolTip: 'Project',
+    link: '/project',
+    img: 'Project',
+  },
+  {
+    id: '8',
     description: 'contact',
     toolTip: 'Contact',
     link: '/contact',

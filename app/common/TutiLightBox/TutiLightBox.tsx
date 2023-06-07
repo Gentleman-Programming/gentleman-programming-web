@@ -1,10 +1,10 @@
 import { FC } from 'react';
 
+import { TutiImg } from '@app/common';
 import Image from 'next/image';
 
 import { ITutiLightBoxProps } from './interface';
 import styles from './styles/TutiLightBox.module.css';
-import { TutiImg } from '../TutiImg';
 
 export const TutiLightBox: FC<ITutiLightBoxProps> = ({
   id,

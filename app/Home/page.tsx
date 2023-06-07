@@ -1,16 +1,10 @@
 /* Importing the `NavBar`, `TutiFooterFinal`, and `TutiTop` components from the `@app/components`
 module. */
-import {
-  NavBar,
-  TutiFooterFinal,
-  TutiModal,
-  TutiToolTip,
-  TutiTop,
-} from '@app/components';
+import { TutiFooterFinal, TutiTop } from '@app/common';
+import { NavBar } from '@app/components';
 
-/* Importing the `Body`, `Footer`, `Header`, and `PreFooter` components from the `./components` directory. */
-import { Body, Footer, Header, PreFooter } from './components';
-/* `import style from './styles/page.module.css'. */
+/* Importing the `Body`, `Footer`, `Header`, and `PreFooter` components from the `components` module. */
+import { Body, Header, PreFooter } from './components';
 import style from './styles/page.module.css';
 
 /**
@@ -36,16 +30,6 @@ export default function Home() {
         <section className={style.home__PreFooterSection}>
           {/* Render Pre Footer component */}
           <PreFooter />
-          <TutiModal id={'1'} />
-          <TutiToolTip
-            id={'2'}
-            title={'Title a tooltip'}
-            description={'Description a description'}
-          />
-        </section>
-        <section className={style.home__FooterSection}>
-          {/* Render Footer component */}
-          <Footer />
         </section>
       </section>
       {/* Render footer line final component */}

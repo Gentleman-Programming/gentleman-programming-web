@@ -2,14 +2,14 @@
 import '@app/styles/global.css';
 
 /* Importing four components the `@app/components` */
+import { TutiFooterFinal, TutiTop } from '@app/common';
 import {
   NavBar, // imports the `NavBar` component
   Pag404, // imports the `Pag404` component
-  TutiFooterFinal, // imports the `TutiFooterFinal` component
-  TutiTop, // imports the `TutiTop` component
 } from '@app/components';
 
 /* `import style from './styles/page.module.css' */
+
 import style from './styles/page.module.css';
 
 /* Export the object named metadata */

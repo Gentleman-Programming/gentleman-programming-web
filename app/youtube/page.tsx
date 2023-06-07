@@ -1,13 +1,9 @@
 import '@app/styles/global.css';
 
-import {
-  InConstruction,
-  NavBar,
-  TutiFooterFinal,
-  TutiTop,
-} from '@app/components';
+import { TutiFooterFinal, TutiTop } from '@app/common';
+import { InConstruction, NavBar } from '@app/components';
 
-import style from './styles/page.module.css';
+import style from './styles/youtube.module.css';
 export const metadata = {
   title: 'GP -> YouTube',
   description: 'YouTube page',

@@ -5,12 +5,8 @@
  * */
 import '@app/styles/global.css';
 
-import {
-  InConstruction,
-  NavBar,
-  TutiFooterFinal,
-  TutiTop,
-} from '@app/components';
+import { TutiFooterFinal, TutiTop } from '@app/common';
+import { InConstruction, NavBar } from '@app/components';
 
 import style from './styles/twitch.module.css';
 
