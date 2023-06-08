@@ -9,7 +9,7 @@ export const metadata = {
   description: 'YouTube page',
 };
 
-export default function Discord() {
+export default function YouTube() {
   return (
     <div className={style.youtube__theme}>
       {/* Renders the navigation bar */}
