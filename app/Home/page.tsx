@@ -6,7 +6,6 @@ import { NavBar } from '@app/components';
 /* Importing the `Body`, `Footer`, `Header`, and `PreFooter` components from the `components` module. */
 import { Body, Header, PreFooter } from './components';
 import style from './styles/page.module.css';
-
 /**
  * Renders a home component.
  * @returns {JSX.Element} The rendered component.
