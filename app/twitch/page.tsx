@@ -25,7 +25,7 @@ export const metadata = {
  * Renders a discord component.
  * @returns {JSX.Element} The rendered component.
  */
-export default function Discord() {
+export default function Twitch() {
   return (
     <div className={style.twitch__theme}>
       {/* Renders the navigation bar */}
