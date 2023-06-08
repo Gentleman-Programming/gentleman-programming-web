@@ -8,18 +8,18 @@ import {
   TwitterIcon,
 } from '@app/components';
 
-import styles from './styles/footerCard.module.css';
-import { Member } from '../../interface';
+import { Member } from './interface';
+import styles from './styles/memberCard.module.css';
 
 type Props = {
   member: Member;
 };
 
-export const FooterCard: FC<Props> = ({ member }) => {
+export const MemberCard: FC<Props> = ({ member }) => {
   return (
-    <article key={member.name + ' article'} className={styles.footer__card}>
-      <div className={styles.footer__card_info}>
-        <section className={styles.footer__card_side}>
+    <article key={member.name + ' article'} className={styles.member__card}>
+      <div className={styles.member__card_info}>
+        <section className={styles.member__card_side}>
           <TutiLightBox
             key={member.index}
             id={`${member.index}`}
@@ -29,15 +29,15 @@ export const FooterCard: FC<Props> = ({ member }) => {
             height={150}
           />
         </section>
-        <section className={styles.footer__card_description}>
-          <header className={styles.footer__card_header}>
-            <p className={styles.footer__card_name}>{member.name}</p>
+        <section className={styles.member__card_description}>
+          <header className={styles.member__card_header}>
+            <p className={styles.member__card_name}>{member.name}</p>
             <p>{member.role}</p>
           </header>
           <p>{member.description}</p>
         </section>
       </div>
-      <div className={styles.footer__card_info_socials}>
+      <div className={styles.member__card_info_socials}>
         {member.fb !== '' ? (
           <a
             href={member.fb}

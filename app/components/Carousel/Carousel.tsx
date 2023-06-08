@@ -1,8 +1,8 @@
 import { FC } from 'react';
 
 import styles from './style/carousel.module.css';
-import { Member, Team } from '../../interface';
-import { FooterCard } from '../FooterCard';
+import { Member, Team } from '../MemberCard/interface';
+// import { MemberCard } from '../MemberCard';
 type Props = {
   team: Team;
 };
@@ -20,7 +20,7 @@ export const Carousel: FC<Props> = ({ team }) => {
         />
         <li key={`slide-${name}`} className={styles.carouselSlideContainer}>
           <div className={styles.carouselSlideCard}>
-            <FooterCard member={member} key={member.index} />
+            {/* <MemberCard member={member} key={member.index} /> */}
           </div>
           {/* Controls */}
           <div className={styles.carouselControls}>
