@@ -10,7 +10,7 @@ import {
 
 /* `import style from './styles/page.module.css' */
 
-import style from './styles/page.module.css';
+import style from './styles/linkedin.module.css';
 
 /* Export the object named metadata */
 export const metadata = {
