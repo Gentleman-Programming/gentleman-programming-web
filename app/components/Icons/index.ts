@@ -11,6 +11,7 @@ export * from './GithubIcon';
 export * from './InstagramIcon';
 export * from './LinkedInIcon';
 export * from './LoaderImageIcon';
+export * from './ProjectIcon';
 export * from './SpotifyIcon';
 export * from './TikTokIcon';
 export * from './TutiLoaderIcon';

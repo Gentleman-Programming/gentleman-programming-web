@@ -26,15 +26,3 @@
 .TutiToolTip__tooltip:hover .TutiToolTip__tooltiptext {
   visibility: visible;
 }
-
-.TutiToolTip__tooltip .TutiToolTip__tooltiptext::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 100%;
-  margin-top: 7px;
-  border-width: 5px;
-  border-style: solid;
-  border: 10px solid var(--COLOR-TUTI-GLAS-BORDER);
-  border-color: var(--COLOR-TRASNPARENT) var(--COLOR-TUTI-GLAS-BORDER) var(--COLOR-TRASNPARENT) var(--COLOR-TRASNPARENT);
-}

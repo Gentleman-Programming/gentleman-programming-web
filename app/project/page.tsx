@@ -10,24 +10,24 @@ import {
 
 /* `import style from './styles/page.module.css' */
 
-import style from './styles/discord.module.css';
+import style from './styles/project.module.css';
 
 /* Export the object named metadata */
 export const metadata = {
-  title: 'GP -> Discord', // page title
-  description: 'Discord page', // page description
+  title: 'GP -> Project', // page title
+  description: 'Project page', // page description
 };
 /**
  * Renders a discord component.
  * @returns {JSX.Element} The rendered component.
  */
-export default function Discord() {
+export default function Project() {
   return (
-    <div className={style.discord__theme}>
+    <div className={style.project__theme}>
       {/* Renders the navigation bar */}
       <NavBar />
       {/* Container for the Discord component */}
-      <div className={style.discord__container}>
+      <div className={style.project__container}>
         {/* Renders the "page 404" component */}
         <Pag404 />
         {/* Render footer */}
