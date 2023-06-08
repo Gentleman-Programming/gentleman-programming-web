@@ -3,8 +3,6 @@ export interface Event {
   pagination: any;
 }
 
-// export interface Pagination {}
-
 export interface Data {
   segments: Segment[];
   broadcaster_id: string;

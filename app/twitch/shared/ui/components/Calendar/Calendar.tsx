@@ -36,12 +36,3 @@ export function Calendar({ events }: Props) {
     </div>
   );
 }
-
-// function renderEventContent(eventInfo: any) {
-//   return (
-//     <div style={{ backgroundColor: 'white' }}>
-//       <b>{eventInfo.timeText}</b>
-//       <i>{eventInfo.event.title}</i>
-//     </div>
-//   );
-// }
