@@ -219,7 +219,7 @@
   fill: var(--COLOR-TUTI-PRIMARY);
   border: none;
 }
-.instagram {
+/* .instagram {
   margin-top: -0.15em;
   margin-left: 0.25em;
   fill: var(--COLOR-TUTI-NAVBAR-ICONS);
@@ -271,4 +271,4 @@
 .fb {
   fill: var(--COLOR-TUTI-NAVBAR-ICONS);
   scale: 0.5;
-}
+} */
