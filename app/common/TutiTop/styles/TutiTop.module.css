@@ -27,6 +27,7 @@
   border-right: 5px solid var(--COLOR-WHITE);
 }
 
-.TutiTop:active {
+.TutiTop:active,
+.TutiTop:hover {
   border: 5px solid var(--COLOR-TUTI-PRIMARY);
 }
