@@ -15,6 +15,18 @@
         "kind": "youtube#video",
         "videoId": "-ZeCdlsSAxU"
       },
+      "brandingSettings": {
+        "channel": {
+          "title": "Gentleman Programming",
+          "description": "Hola gente !! Cómo andamos ? \n\nAsí que bienvenidos a este canal especial para programadores y gente a la que le gusta el mundo de la programación web ! Se suben clases y todo tipo de eventos de manera semanal y se dispone también un canal de discord de la comunidad!. \n\nAsí que...qué esperas ? a por ello!\n\n🔴▬ LINKS DE INTERÉS ▬🔴  \n\n😎LIVE todos los Domingos, Martes, Miércoles & Viernes.\nTwitch: https://t.co/vodIqiCH9N\n\n💬Escúchame aquí: \nSpotify: https://spoti.fi/3y281cY\nApple Podcast: https://podcasts.apple.com/es/podcast/gentleman-programming/id1661415820\n\n🤓¡Únete a nuestra comunidad!\nDiscord: https://discord.gg/KEavKkDc5Y\nFacebook: https://shorturl.at/jkmL6\nInstagram: https://www.instagram.com/gentlemanprogramming/\nTwitter: https://twitter.com/G_Programming\n\n📘Encuentra mi libro: ¿Cómo ser front-end sin fallar en el intento? + Tus primeros pasos en la programación web aquí: https://amzn.to/2ReBuzL\n",
+          "keywords": "justtalking podcast chatting programming coding tech tecnologia programacion charla frontend backend devops tradicionales profesor tips agiles metodologias angular vue react es6 typescript",
+          "unsubscribedTrailer": "KZCA_BRAkSA",
+          "country": "ES"
+        },
+        "image": {
+          "bannerExternalUrl": "https://yt3.googleusercontent.com/2yWxLiM81iSmz9b7I_x9V1VCvsNVoYYo-KxII_oRRDAWJJGMkeaKy6L-aHpbJbeP4kuc9I-RZQA"
+        }
+      },
       "snippet": {
         "publishedAt": "2023-02-08T14:44:08Z",
         "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
