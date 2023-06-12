@@ -18,10 +18,20 @@ const HomeYoutube = () => {
       <div className={styles.youtube__banner}>
         <img src={channelBanner} alt="Gentleman Banner" />
       </div>
-      <div className="channel-details">
+      <section className={styles.youtubeChannelDetails}>
+        <img
+          className={styles.youtubeChannelPic}
+          draggable="false"
+          alt="GentlemanProgramming Channel Pic"
+          width="128"
+          src={
+            'https://yt3.googleusercontent.com/RerL_HygEZuzI-VMS6GRtuSneViN7j6fjCYIGPNqzoLGlbBd0C4GKqBu3g7hJWiEJskeoYBc=s176-c-k-c0x00ffffff-no-rj'
+          }
+        />
         <h1>{channelTitle}</h1>
+        <h4>@GentlemanProgramming</h4>
         <p>Hola gente !! Cómo andamos ?</p>
-      </div>
+      </section>
       <section className="video-section">
         {items.map((video) => (
           <div
