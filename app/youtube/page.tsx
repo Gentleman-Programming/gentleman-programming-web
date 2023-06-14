@@ -1,8 +1,9 @@
 import '@app/styles/global.css';
 
 import { TutiFooterFinal, TutiTop } from '@app/common';
-import { InConstruction, NavBar } from '@app/components';
+import { NavBar } from '@app/components';
 
+import HomeYoutube from './components/Home/HomeYoutube';
 import style from './styles/youtube.module.css';
 export const metadata = {
   title: 'GP -> YouTube',
@@ -16,7 +17,7 @@ export default function YouTube() {
       <NavBar />
       <section className={style.youtube__container}>
         {/* Renders the "In Construction" component */}
-        <InConstruction />
+        <HomeYoutube />
       </section>
       {/* Render footer component */}
       <TutiFooterFinal />
