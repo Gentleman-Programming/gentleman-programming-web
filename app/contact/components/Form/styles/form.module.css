@@ -79,13 +79,7 @@
 
 .form__input:focus:valid {
   border-bottom: 3px solid green;
-}
-
-/* .form__input::-webkit-input-placeholder {
-  color: var(--COLOR-TUTI-PRIMARY);
-  font-size: 1.5rem;
-} */
-
+} 
 /*
   Button
 */
