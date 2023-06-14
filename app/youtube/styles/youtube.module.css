@@ -4,10 +4,13 @@
   --COLOR-GRAY: #8a8c90;
   --COLOR-RED: #ff0606;
 
-  --FONT-COLOR:#f1f1f1;
+  --FONT-COLOR: #f1f1f1;
   --FONT-COLOR-SECONDARY: #aaa;
+  --FONT-INPUT: hsla(0, 100%, 100%, 0.88);
   --BG-CONTAINER: #0f0f0f;
   --BUTTON-PRIMARY: #212121;
+  --BUTTON-INPUT-BORDER-COLOR: hsl(0, 0%, 18.82%);
+  --BUTTON-INPUT-BG-COLOR: hsla(0, 0%, 100%, 0.08);
 
   --COLOR-LIVE: #43b581;
   --COLOR-NOTIFICATION: #f84a4b;
@@ -40,14 +43,46 @@
   grid-area: CT;
   display: flex;
   flex-direction: column;
-  /* margin-top: 80px;  */
-  padding: 40px 40px 0 40px;
+  padding: 40px 40px 0;
   margin: 0;
   color: var(--FONT-COLOR);
   font-family: Roboto, Arial, sans-serif;
 }
-.youtube__navbarSection {
-  grid-area: NB;
+.youtubeInputSearch {
+  color: var(--FONT-INPUT);
+  -webkit-font-smoothing: antialiased;
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  font-family: Roboto, Noto, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-left: 4px;
+  max-width: 100%;
+  outline: none;
+  text-align: inherit;
+  width: 100%;
+  -ms-flex: 1 1 0.000000001px;
+  -webkit-flex: 1;
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  flex: 1;
+  -webkit-flex-basis: 1e-9px;
+  -ms-flex-preferred-size: 0.000000001px;
+  flex-basis: 1e-9px;
+}
+.youtubeInputButton {
+  border: 1px solid var(--BUTTON-INPUT-BORDER-COLOR);
+  background-color: var(--BUTTON-INPUT-BG-COLOR);
+  border-radius: 0 40px 40px 0;
+  cursor: pointer;
+  height: 40px;
+  width: 64px;
+  margin: 0;
+}
+
+.youtube__searchbarSection {
   background-color: #0f0f0f;
   display: flex;
   flex-direction: row;
@@ -56,14 +91,75 @@
   min-width: 0px;
 }
 .youtube__banner {
+  display: block;
   height: calc(16.1290322581vw - 1px);
-  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 1;
 }
-.youtubeChannelPic{
+.youtubeChannelPic {
   border-radius: 9999999px;
 }
-.youtubeChannelDetails{
+.youtubeChannelDetails {
+  display: flex;
+  padding: 1.7rem 2rem;
+  width: 100%;
   margin-top: 16px;
   align-items: flex-start;
   background-color: var(--BG-CONTAINER);
+}
+.youtubeChannelDetailsTexts{
+  display: flex;
+  padding-left: 2rem;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.youtubeChannelDetailsTitle{
+  font-size: 2rem;
+}
+.youtubeChannelDetailsTexts > *{
+  margin: 0.25rem 0;
+}
+.youtubeChannelTabs {
+  padding-bottom: 1rem;
+  padding-right: 4rem;
+  background-color: var(--BG-CONTAINER);
+  width: 100%;
+}
+.youtubeChannelSingleTab {
+  font-family: "Roboto", "Noto", sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  padding: 0.75rem 1.8rem;
+  color: var(--FONT-COLOR-SECONDARY);
+  vertical-align: middle;
+  text-decoration: none;
+}
+.youtubeChannelSingleTab:focus {
+  color: var(--FONT-COLOR);
+  border: none;
+  background-color: hsla(0, 0%, 100%, 0.308);
+}
+.youtubeChannelSingleTab:hover {
+  color: var(--FONT-COLOR);
+}
+.youtubeSecondaryText {
+  color: var(--FONT-COLOR-SECONDARY);
+}
+.youtubeChannelListContainer{
+  margin: 2rem 0;
+}
+.youtubeVideoCard{
+  margin: 0 3px;
+  vertical-align: top;
+  white-space: normal;
+}
+.youtubeVideoCardImage{
+  width: 20rem;
+  border-radius: 8px;
+}
+.youtubeVideoCardTitle{
+  color: var(--FONT-COLOR);
+  text-overflow: ellipsis;
+  text-decoration: none;
 }
