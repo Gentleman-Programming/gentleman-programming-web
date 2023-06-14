@@ -6,40 +6,42 @@ export const Form: FC = () => {
   return (
     <form className={`${styles.form} ${styles['contact-form']}`}>
       <h1 className={styles.form__heading}>Contact me</h1>
-      <div>
-        <label className={styles.form__label} htmlFor="name">
-          Name
-        </label>
+
+      <div className={styles.form__group}>
         <input
-          className={styles.form__control}
-          id="name"
-          name="name"
           type="text"
+          className={styles.form__input}
+          placeholder="You name"
+          id="name"
           required
         />
-      </div>
-      <div>
-        <label className={styles.form__label} htmlFor="email">
-          Email
+        <label htmlFor="name" className={styles.form__label}>
+          Nice to meet you!
         </label>
+      </div>
+      <div className={styles.form__group}>
         <input
-          className={styles.form__control}
-          id="email"
-          name="email"
           type="email"
+          className={styles.form__input}
+          placeholder="You email"
+          id="email"
           required
         />
-      </div>
-      <div>
-        <label className={styles.form__label} htmlFor="message">
-          Message
+        <label htmlFor="email" className={styles.form__label}>
+          Nice email!
         </label>
+      </div>
+      <div className={styles.form__group}>
         <textarea
-          className={styles.form__control}
+          className={styles.form__input}
           id="message"
           name="message"
+          placeholder="Describe your problem locura ;)"
           required
         ></textarea>
+        <label className={styles.form__label} htmlFor="message">
+          Tell me more!!
+        </label>
       </div>
       <div>
         <button className={styles.form__submit} type="submit">

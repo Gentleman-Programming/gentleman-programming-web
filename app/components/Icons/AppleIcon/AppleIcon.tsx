@@ -4,12 +4,17 @@
  * @returns A React component with TypeScript that renders
  * an SVG icon of a appel.
  */
-export const AppleIcon = () => {
+interface Props {
+  width?: number;
+  height?: number;
+}
+
+export const AppleIcon = ({ width = 40, height = 40 }: Props) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="30"
-      height="30"
+      width={width}
+      height={height}
       viewBox="0 0 24 24"
       fillRule="nonzero"
     >

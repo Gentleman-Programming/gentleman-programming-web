@@ -9,14 +9,16 @@ import styles from './styles/card.module.css';
 export const Card: FC = () => {
   return (
     <div className={styles['profile-card']}>
-      <div className={styles['profile-card__img']}>
+      <figure className={styles['profile-card__img']}>
         <Image
-          className={styles.footer__alanImg}
-          // src={Alan}
           src={Tuti}
-          alt="foto de Alan Buscaglia"
+          alt="Foto de Alan Buscaglia"
+          className={`${styles.footer__alanImg}`}
+          height={500}
+          width={500}
         />
-      </div>
+        <figcaption className="story__caption">Mary Smith</figcaption>
+      </figure>
       <div className={styles['profile-card__cnt']}>
         <div className={styles['profile-card__name']}>Mantente conectado</div>
         <div className={styles['profile-card__txt']}>
@@ -36,7 +38,7 @@ export const Card: FC = () => {
         </div>
         <div className={styles['profile-card-social']}>
           <AppleIcon />
-          <SpotifyIcon />
+          <SpotifyIcon height={44} />
         </div>
       </div>
     </div>
