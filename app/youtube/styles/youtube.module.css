@@ -4,6 +4,11 @@
   --COLOR-GRAY: #8a8c90;
   --COLOR-RED: #ff0606;
 
+  --FONT-COLOR:#f1f1f1;
+  --FONT-COLOR-SECONDARY: #aaa;
+  --BG-CONTAINER: #0f0f0f;
+  --BUTTON-PRIMARY: #212121;
+
   --COLOR-LIVE: #43b581;
   --COLOR-NOTIFICATION: #f84a4b;
 
@@ -26,8 +31,8 @@
   grid-template-columns: 60px 1fr auto;
   grid-template-rows: 100%;
   grid-template-areas:
-    'NB CT TP'
-    'FT FT FT';
+    "NB CT TP"
+    "FT FT FT";
   background-color: var(--COLOR-TUTI-PRIMARY);
 }
 
@@ -38,12 +43,27 @@
   /* margin-top: 80px;  */
   padding: 40px 40px 0 40px;
   margin: 0;
+  color: var(--FONT-COLOR);
+  font-family: Roboto, Arial, sans-serif;
 }
 .youtube__navbarSection {
   grid-area: NB;
+  background-color: #0f0f0f;
   display: flex;
-  flex-direction: column;
-  /* margin-top: 80px;  */
-  padding: 40px 40px 0 40px;
-  margin: 0;
+  flex-direction: row;
+  align-items: center;
+  flex: 0 1 728px;
+  min-width: 0px;
+}
+.youtube__banner {
+  height: calc(16.1290322581vw - 1px);
+  width: 100%;
+}
+.youtubeChannelPic{
+  border-radius: 9999999px;
+}
+.youtubeChannelDetails{
+  margin-top: 16px;
+  align-items: flex-start;
+  background-color: var(--BG-CONTAINER);
 }
