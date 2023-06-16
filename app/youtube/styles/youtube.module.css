@@ -48,77 +48,12 @@
   color: var(--FONT-COLOR);
   font-family: Roboto, Arial, sans-serif;
 }
-.youtubeInputSearch {
-  color: var(--FONT-INPUT);
-  -webkit-font-smoothing: antialiased;
-  background-color: transparent;
-  border: none;
-  box-shadow: none;
-  font-family: Roboto, Noto, sans-serif;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 24px;
-  margin-left: 4px;
-  max-width: 100%;
-  outline: none;
-  text-align: inherit;
-  width: 100%;
-  -ms-flex: 1 1 0.000000001px;
-  -webkit-flex: 1;
-  -webkit-box-flex: 1;
-  -moz-box-flex: 1;
-  flex: 1;
-  -webkit-flex-basis: 1e-9px;
-  -ms-flex-preferred-size: 0.000000001px;
-  flex-basis: 1e-9px;
-}
-.youtubeInputButton {
-  border: 1px solid var(--BUTTON-INPUT-BORDER-COLOR);
-  background-color: var(--BUTTON-INPUT-BG-COLOR);
-  border-radius: 0 40px 40px 0;
-  cursor: pointer;
-  height: 40px;
-  width: 64px;
-  margin: 0;
-}
-
-.youtube__searchbarSection {
-  background-color: #0f0f0f;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  flex: 0 1 728px;
-  min-width: 0px;
-}
 .youtube__banner {
   display: block;
   height: calc(16.1290322581vw - 1px);
   margin-left: auto;
   margin-right: auto;
   z-index: 1;
-}
-.youtubeChannelPic {
-  border-radius: 9999999px;
-}
-.youtubeChannelDetails {
-  display: flex;
-  padding: 1.7rem 2rem;
-  width: 100%;
-  margin-top: 16px;
-  align-items: flex-start;
-  background-color: var(--BG-CONTAINER);
-}
-.youtubeChannelDetailsTexts{
-  display: flex;
-  padding-left: 2rem;
-  align-items: flex-start;
-  flex-direction: column;
-}
-.youtubeChannelDetailsTitle{
-  font-size: 2rem;
-}
-.youtubeChannelDetailsTexts > *{
-  margin: 0.25rem 0;
 }
 .youtubeChannelTabs {
   padding-bottom: 1rem;

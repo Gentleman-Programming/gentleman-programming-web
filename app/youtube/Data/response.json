@@ -15,6 +15,12 @@
         "kind": "youtube#video",
         "videoId": "-ZeCdlsSAxU"
       },
+      "statistics": {
+        "viewCount": 1040578,
+        "subscriberCount": 23600,
+        "hiddenSubscriberCount": false,
+        "videoCount": 291
+      },
       "brandingSettings": {
         "channel": {
           "title": "Gentleman Programming",
