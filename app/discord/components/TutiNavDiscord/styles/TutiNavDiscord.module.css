@@ -1,0 +1,62 @@
+.TutiNavDiscord__container{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.TutiNavDiscord__header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  background-color: rgba(0, 0, 0, 0);
+  transition: background-color 0.3s ease-out;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.TutiNavDiscord__header.shrunk {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.TutiNavDiscord__headerImg{
+  height: 40px;
+  width: 40px;
+  background-image: url('https://i.imgur.com/8jy9fae.png');
+  background-size: cover;
+  background-position: center;
+  margin-right: 20px;
+  transition: transform 0.3s ease-out, opacity 0.3s ease-out, height 0.3s ease-out;
+}
+
+.TutiNavDiscord__header.shrunk,
+.TutiNavDiscord__headerImg {
+  opacity: 0;
+  transform: scale(0.5);
+  height: 20px;
+}
+
+.TutiNavDiscord__header:hover .TutiNavDiscord__headerImg {
+  transform: translateY(-20px);
+}
+
+.TutiNavDiscord__links{
+  display: flex;
+  align-items: center;
+}
+
+.TutiNavDiscord__linksA{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+
+.TutiNavDiscord__controller{
+  flex-grow: 1;
+  padding-top: 80px;
+}
