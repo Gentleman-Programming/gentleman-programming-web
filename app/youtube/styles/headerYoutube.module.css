@@ -1,0 +1,52 @@
+.youtube__theme {
+  --FONT-COLOR: #f1f1f1;
+  --FONT-COLOR-SECONDARY: #aaa;
+  --FONT-INPUT: hsla(0, 100%, 100%, 0.88);
+  --BG-CONTAINER: #0f0f0f;
+  --BUTTON-PRIMARY: #212121;
+  --BUTTON-INPUT-BORDER-COLOR: hsl(0, 0%, 18.82%);
+  --BUTTON-INPUT-BG-COLOR: hsla(0, 0%, 100%, 0.08);
+}
+
+.youtubeInputSearch {
+  color: var(--FONT-INPUT);
+  -webkit-font-smoothing: antialiased;
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  font-family: Roboto, Noto, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-left: 4px;
+  max-width: 100%;
+  outline: none;
+  text-align: inherit;
+  width: 100%;
+  -ms-flex: 1 1 0.000000001px;
+  -webkit-flex: 1;
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  flex: 1;
+  -webkit-flex-basis: 1e-9px;
+  -ms-flex-preferred-size: 0.000000001px;
+  flex-basis: 1e-9px;
+}
+.youtubeInputButton {
+  border: 1px solid var(--BUTTON-INPUT-BORDER-COLOR);
+  background-color: var(--BUTTON-INPUT-BG-COLOR);
+  border-radius: 0 40px 40px 0;
+  cursor: pointer;
+  height: 40px;
+  width: 64px;
+  margin: 0;
+}
+
+.youtube__searchbarSection {
+  background-color: #0f0f0f;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex: 0 1 728px;
+  min-width: 0px;
+}

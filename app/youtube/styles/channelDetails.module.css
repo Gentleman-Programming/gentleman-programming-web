@@ -1,0 +1,23 @@
+.youtubeChannelPic {
+    border-radius: 9999999px;
+  }
+  .youtubeChannelDetails {
+    display: flex;
+    padding: 1.7rem 2rem;
+    width: 100%;
+    margin-top: 16px;
+    align-items: flex-start;
+    background-color: var(--BG-CONTAINER);
+  }
+  .youtubeChannelDetailsTexts{
+    display: flex;
+    padding-left: 2rem;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .youtubeChannelDetailsTitle{
+    font-size: 2rem;
+  }
+  .youtubeChannelDetailsTexts > *{
+    margin: 0.25rem 0;
+  }
