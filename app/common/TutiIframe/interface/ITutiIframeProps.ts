@@ -1,3 +1,6 @@
+/** This is the interface  for the TutiIframe component. */
+
+/* Defining an interface named `ITutiIframeProps`. */
 export interface ITutiIframeProps {
   width: string;
   height: string;
