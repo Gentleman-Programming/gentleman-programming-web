@@ -1,0 +1,18 @@
+.Nav__Link {
+  background-color: #9147FF;
+  text-decoration: none;
+  color: #BF94FF;
+  padding: 0 2rem;
+  line-height: 1.8;
+  border-radius: 0.2rem;
+  display: inline;
+  margin-right: 0;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+@media (min-width: 790px) {
+  .Nav__Link {
+    margin-right: 2rem;
+  }
+}/*# sourceMappingURL=Button.module.css.map */

@@ -2,25 +2,27 @@
 
 /* This is styling the element with the class name "tutiFooterFinal__container". */
 .tutiFooterFinal__container {
-  grid-area: FT; /* This is the area FT the grid */
-  font-family: 'Fira Mono', monospace; /* This is the font used by element. */
-  background: linear-gradient(180deg, var(--COLOR-TUTI-PRIMARY) 30%, var(--COLOR-TUTI-SECONDARY) 100%); /*linear-gradient(180deg, var(--COLOR-TUTI-PRIMARY) 30%, var(--COLOR-TUTI-SECONDARY) 100%); This is the background color of the element. */
-  color: var(--COLOR-WHITE); /* This is the font color of the element. */
-  font-size: 12px; /* This is the font size of the element. */
-  height: fit-content; /* This is the height of the element in the grid. */
+  grid-area: FT;
+  font-family: 'Fira Mono', monospace;
+  background: linear-gradient(180deg, var(--COLOR-TUTI-PRIMARY) 30%, var(--COLOR-TUTI-SECONDARY) 100%);
+  color: var(--COLOR-WHITE);
+  font-size: 12px;
+  height: fit-content;
 }
 
-/* This is styling the element with the class name "tutiFooterFinal__lastSection". */
+/* This is styling the element with the class name
+"tutiFooterFinal__lastSection". */
 .tutiFooterFinal__lastSection {
-  display: flex; /* This is the display of the element. */
-  flex-direction: column; /* This is the flex-direction of the element. */
-  align-items: center; /* This is the align-items of the element. */
-  font-weight: 200; /* This is the font-weight of the element. */
-  font-size: medium; /* This is the font-size of the element. */
-  font-size: 11px; /* This is the font-size of the element. */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 200;
+  font-size: medium; 
+  font-size: 11px;
 }
 
-/* This is the style of the element with the class name "tutiFooterFinal__lastsection" of its direct child p.*/
+/* This is the style of the element with the class name
+"tutiFooterFinal__lastsection" of its direct child p.*/
 .tutiFooterFinal__lastSection > p {
-  margin: 0; /* This is the margin 0px of the element. */
+  margin: 0;
 }
