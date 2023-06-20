@@ -1,0 +1,13 @@
+/** This is the css code for the TutiHr Components */
+
+/* This is styling the element with the class name "TutiHr__divider". */
+.TutiHr__divider {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+    var(--COLOR-TUTI-PRIMARY),
+    var(--COLOR-WHITE),
+    var(--COLOR-TUTI-PRIMARY)
+  ); /* This is the background color */
+}

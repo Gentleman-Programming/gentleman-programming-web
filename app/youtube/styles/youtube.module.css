@@ -1,0 +1,100 @@
+.youtube__theme {
+  --COLOR-TRASNPARENT: transparent;
+  --COLOR-WHITE: #ffffff;
+  --COLOR-GRAY: #8a8c90;
+  --COLOR-RED: #ff0606;
+
+  --FONT-COLOR: #f1f1f1;
+  --FONT-COLOR-SECONDARY: #aaa;
+  --FONT-INPUT: hsla(0, 100%, 100%, 0.88);
+  --BG-CONTAINER: #0f0f0f;
+  --BUTTON-PRIMARY: #212121;
+  --BUTTON-INPUT-BORDER-COLOR: hsl(0, 0%, 18.82%);
+  --BUTTON-INPUT-BG-COLOR: hsla(0, 0%, 100%, 0.08);
+
+  --COLOR-LIVE: #43b581;
+  --COLOR-NOTIFICATION: #f84a4b;
+
+  --COLOR-TUTI-PRIMARY: #000000;
+  --COLOR-TUTI-SECONDARY: #ea1889;
+
+  --COLOR-TUTI-FONDO-NAVBAR: #000000;
+  --COLOR-TUTI-NAVBAR-ICONS: #ea1889;
+
+  --COLOR-TUTI-NAVBAR-HOVER-PRIMARY: #f872a0;
+  --COLOR-TUTI-NAVBAR-HOVER-SECONDARY: #fca2b7;
+  --COLOR-TUTI-NAVBAR-SELECTED: #e5e5e5;
+  --COLOR-TUTI-NAVBAR-SELECTED-ICONS: #666666;
+  --COLOR-TUTI-NAVBAR-SELECTED-HOME: #fdd0d6;
+  --COLOR-TUTI-GLAS-FONDO: rgba(234, 24, 137, 0.32);
+  --COLOR-TUTI-GLAS-BORDER: rgba(234, 24, 137, 0.34);
+  --COLOR-TUTI-GLAS-SHADOW: rgba(0, 0, 0, 0.1);
+
+  display: grid;
+  grid-template-columns: 60px 1fr auto;
+  grid-template-rows: 100%;
+  grid-template-areas:
+    "NB CT TP"
+    "FT FT FT";
+  background-color: var(--COLOR-TUTI-PRIMARY);
+}
+
+.youtube__container {
+  grid-area: CT;
+  display: flex;
+  flex-direction: column;
+  padding: 40px 40px 0;
+  margin: 0;
+  color: var(--FONT-COLOR);
+  font-family: Roboto, Arial, sans-serif;
+}
+.youtube__banner {
+  display: block;
+  height: calc(16.1290322581vw - 1px);
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 1;
+}
+.youtubeChannelTabs {
+  padding-bottom: 1rem;
+  padding-right: 4rem;
+  background-color: var(--BG-CONTAINER);
+  width: 100%;
+}
+.youtubeChannelSingleTab {
+  font-family: "Roboto", "Noto", sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  padding: 0.75rem 1.8rem;
+  color: var(--FONT-COLOR-SECONDARY);
+  vertical-align: middle;
+  text-decoration: none;
+}
+.youtubeChannelSingleTab:focus {
+  color: var(--FONT-COLOR);
+  border: none;
+  background-color: hsla(0, 0%, 100%, 0.308);
+}
+.youtubeChannelSingleTab:hover {
+  color: var(--FONT-COLOR);
+}
+.youtubeSecondaryText {
+  color: var(--FONT-COLOR-SECONDARY);
+}
+.youtubeChannelListContainer{
+  margin: 2rem 0;
+}
+.youtubeVideoCard{
+  margin: 0 3px;
+  vertical-align: top;
+  white-space: normal;
+}
+.youtubeVideoCardImage{
+  width: 20rem;
+  border-radius: 8px;
+}
+.youtubeVideoCardTitle{
+  color: var(--FONT-COLOR);
+  text-overflow: ellipsis;
+  text-decoration: none;
+}

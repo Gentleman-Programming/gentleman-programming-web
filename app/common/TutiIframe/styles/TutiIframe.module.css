@@ -1,0 +1,10 @@
+/** This is the css code for the TutiIframe omponents */
+
+/* This is styling the element with the class name "tutiIframe__iframe". */
+.tutiIframe__iframe {
+  border-color: var(--COLOR-WHITE);
+}
+
+.tutiIframe__iframe:hover {
+border-color: var(--COLOR-TUTI-SECONDARY);
+}

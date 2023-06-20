@@ -1,0 +1,106 @@
+/*
+  Contact Form
+*/
+.contact-form {
+  width: 90%;
+  max-width: 1200px;
+  padding: 34px;
+  border-radius: 12px;
+  box-shadow: 0px 8px 60px -10px rgba(13, 28, 39, 0.6);
+  box-sizing: border-box;
+  background-color: var(--COLOR-TUTI-SECONDARY);
+}
+
+@media (min-width: 768px) {
+  .contact-form {
+    order: 1;
+    width: 100%;
+  }
+}
+
+.form {
+  width: 100%;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.form__heading {
+  text-align: center;
+  color: #fff;
+  font-size: 35PX;
+  margin: 0 0 20px 0;
+} 
+
+.form__group:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.form__label {
+  font-size: 21px;
+  font-weight: bold;
+  margin-left: 15px;
+  margin-top: 0;
+  display: block;
+  transition: all 0.3s;
+  color: white;
+}
+
+/* seleccionar hermanos de un elemento slibing selector */
+.form__input:placeholder-shown + .form__label {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-4rem);
+  font-size: 1.5rem;
+
+}
+
+.form__input {
+  font-size: 22px;
+  color: inherit;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  background-color: rgba(white, 0.5);
+  border: none;
+  border-bottom: 3px solid transparent;
+  width: 100%;
+  display: block; /* para que el ancho sea del 100% */
+  transition: all 0.3s;
+}
+
+.form__input:focus {
+  outline: none;
+  box-shadow: 0 1rem 2rem rgba(black, 0.1);
+  border-bottom: 3px solid var(--COLOR-TUTI-PRIMARY);
+}
+
+.form__input:focus:invalid {
+  border-bottom: 3px solid red;
+}
+
+.form__input:focus:valid {
+  border-bottom: 3px solid green;
+} 
+/*
+  Button
+*/
+.form__submit { 
+  background-color: var(--COLOR-TUTI-PRIMARY);
+  font-size: 16px;
+  padding: 12px 30px;
+  border-radius: 1rem;
+  font-weight: 700;
+  display: block;
+  width: 100%;
+  text-align: center;
+  color: '#fff';
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border: none;
+  color: var(--COLOR-TUTI-SECONDARY);
+}
+
+.form__submit:hover {
+  cursor: pointer;
+  transform: scale(1.05) skewX(-5deg);
+  color: white;
+}

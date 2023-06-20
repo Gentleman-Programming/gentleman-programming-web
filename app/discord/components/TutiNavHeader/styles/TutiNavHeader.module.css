@@ -1,0 +1,16 @@
+/* TutiNavHeader */
+
+.TutiNavHeader__header {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  align-items: center;
+}
+
+.TutiNavHeader__title{
+  color: var(--COLOR-WHITE);
+  max-width: 95%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

@@ -1,0 +1,6 @@
+/** This is the css code for the isLive Components */
+
+/* This is styling the element with the class name "isLive". */
+.isLive__container{
+  background-color: var(TUTIL_BACKGROUND_COLOR);/* This is setting the background-color property to a custom CSS variable named "--COLOR-TUTI-PRIMARY".*/
+}

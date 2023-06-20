@@ -1,0 +1,28 @@
+/** This is the css code for the TuitFooterFinal Components */
+
+/* This is styling the element with the class name "tutiFooterFinal__container". */
+.tutiFooterFinal__container {
+  grid-area: FT;
+  font-family: 'Fira Mono', monospace;
+  background: linear-gradient(180deg, var(--COLOR-TUTI-PRIMARY) 30%, var(--COLOR-TUTI-SECONDARY) 100%);
+  color: var(--COLOR-WHITE);
+  font-size: 12px;
+  height: fit-content;
+}
+
+/* This is styling the element with the class name
+"tutiFooterFinal__lastSection". */
+.tutiFooterFinal__lastSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 200;
+  font-size: medium; 
+  font-size: 11px;
+}
+
+/* This is the style of the element with the class name
+"tutiFooterFinal__lastsection" of its direct child p.*/
+.tutiFooterFinal__lastSection > p {
+  margin: 0;
+}

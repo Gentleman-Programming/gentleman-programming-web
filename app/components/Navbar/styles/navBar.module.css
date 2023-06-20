@@ -1,0 +1,11 @@
+/** This is the css code for the navBar Components */
+
+/* This is styling the element with the class name "navBar__container". */
+.navbar__container {
+  grid-area: NB; /* This is the area NB the grid */
+  position: fixed; /* This is setting the flex position of the grid area. */
+  display: flex; /* This is the flex direction of the grid area. */
+  flex-direction: column; /* This is the flex direction of the grid area. */
+  align-items: center; /* This is the flex direction of the grid area. */
+  background-color: var(--COLOR-TUTI-FONDO-NAVBAR); /* This is setting the background-color property to a custom CSS variable named "--COLOR-TUTI-FONDO-NAVBAR". */
+}

@@ -1,0 +1,19 @@
+@import '../../styles/_palette.scss';
+
+.Nav__Link{
+     background-color:$color-twitch-default;
+     text-decoration: none;
+     color: $color-twitch-text;
+     padding: 0 2rem;
+     line-height: 1.8;
+     border-radius: .2rem;
+     display: inline;
+     margin-right: 0;
+     height: fit-content;
+}
+
+@media (min-width:790px){
+     .Nav__Link{
+          margin-right: 2rem;
+     }
+}

@@ -3,27 +3,28 @@
     "browser": true,
     "es2021": true
   },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
   "extends": [
     "eslint:recommended",
     "plugin:react/recommended",
     "plugin:prettier/recommended",
-    "plugin:import/errors", 
+    "plugin:import/errors",
     "plugin:import/warnings",
     "plugin:@typescript-eslint/recommended"
   ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
     "ecmaFeatures": {
-        "jsx": true
+      "jsx": true
     },
     "ecmaVersion": "latest",
     "sourceType": "module"
   },
-  "plugins": [
-    "react",
-    "@typescript-eslint",
-    "import"
-  ],
+  "plugins": ["react", "@typescript-eslint", "import"],
   "rules": {
     "react/react-in-jsx-scope": "off",
     "import/no-unresolved": "off",
@@ -55,5 +56,6 @@
     ],
     "@typescript-eslint/no-explicit-any": ["off"],
     "react/display-name": "off"
-  }
+  },
+  "ignorePatterns": ["*.yml"]
 }

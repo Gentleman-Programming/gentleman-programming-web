@@ -1,0 +1,33 @@
+
+/* Defining the styles for an HTML element with the class "Body__container". It sets the grid area to
+"CH", displays the element as a flex container with a column direction, centers the items vertically
+and horizontally, wraps the items if they exceed the container's width, sets the background color to
+a custom variable called "--COLOR-TUTI-PRIMARY", and sets the text color to white. */
+.Body__container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: var(--COLOR-TUTI-PRIMARY);
+  color: var(--COLOR-WHITE);
+}
+
+
+/* Defining the style for an HTML element with the class "Body__title" by setting its font size to
+2rem. */
+.Body__title{
+  font-size: 2rem;
+}
+
+
+/* Defining the styles for an HTML element with the class "Body__iframe". It sets the display property
+to "flex", which makes the element a flex container. It also sets the flex-wrap property to "wrap",
+which allows the items inside the container to wrap to the next line if they exceed the container's
+width. The gap property sets the spacing between the items inside the container to 16 pixels.
+Finally, the justify-content property centers the items horizontally within the container. */
+.Body__iframe{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+}

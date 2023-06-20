@@ -1,0 +1,124 @@
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+}
+
+.profile-card {
+  width: 90%;
+  min-height: 460px;
+  margin: 10px auto;
+  box-shadow: 0px 4px 15px -8px rgba(13, 28, 39, 0.6);
+  border-radius: 12px;
+  max-width: 700px;
+  background-color: var(--COLOR-TUTI-SECONDARY);
+  color: white;
+}
+
+@media (min-width: 768px) {
+  .profile-card {
+    width: 100%;
+  }
+}
+
+.profile-card.active .profile-card__cnt {
+  filter: blur(6px);
+}
+.profile-card.active .profile-card-message,
+.profile-card.active .profile-card__overlay {
+  opacity: 1;
+  pointer-events: auto;
+  transition-delay: 0.1s;
+}
+.profile-card.active .profile-card-form {
+  transform: none;
+  transition-delay: 0.1s;
+}
+.profile-card__img {
+  width: 150px;
+  height: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  transform: translateY(-10%);
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  z-index: 4;
+  box-shadow: 0px 5px 50px 0px var(--COLOR-WHITE), 0px 0px 0px 7px var(--COLOR-TUTI-PRIMARY);
+}
+
+@media screen and (max-width: 576px) {
+  .profile-card__img {
+    width: 120px;
+    height: 120px;
+    transform: translateY(-30%);
+  }
+}
+.profile-card__img img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.profile-card__cnt {
+  margin-top: -35px;
+  text-align: center;
+  padding: 0 20px;
+  padding-bottom: 40px;
+  transition: all 0.3s;
+}
+.profile-card__name {
+  font-weight: 700;
+  font-size: 24px;
+  color: var(--COLOR-WHITE);
+  margin-bottom: 15px;
+  margin-top: 50px;
+  transform: skewX(-12deg);
+}
+.profile-card__txt {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--COLOR-WHITE);
+  margin-bottom: 15px;
+}
+.profile-card__txt strong {
+  font-weight: 700;
+}
+.profile-card-loc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 600;
+}
+.profile-card-loc__icon {
+  display: inline-flex;
+  font-size: 27px;
+  margin-right: 10px;
+}
+
+.profile-card-social {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.profile-card-ctr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+@media screen and (max-width: 576px) {
+  .profile-card-ctr {
+    flex-wrap: wrap;
+  }
+}
+
+  
+.animated-icon:hover {
+  transform: scale(1.2);
+}

@@ -1,0 +1,84 @@
+.profile-card-social__item {
+  display: inline-flex;
+  width: 55px;
+  height: 55px;
+  margin: 15px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background: #405de6;
+  box-shadow: 0px 4px 15px rgba(43, 98, 169, 0.5);
+  position: relative;
+  font-size: 21px;
+  flex-shrink: 0;
+  transition: all 0.3s;
+}
+@media screen and (max-width: 768px) {
+  .profile-card-social__item {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .profile-card-social__item:hover {
+    transform: scale(1.2);
+  }
+}
+
+.profile-card-social__item.instagram {
+  background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+  box-shadow: 0px 4px 30px rgba(120, 64, 190, 0.6);
+}
+
+.profile-card-social__item.twitter {
+  background: linear-gradient(45deg, #1da1f2, #0e71c8);
+  box-shadow: 0px 4px 30px rgba(19, 127, 212, 0.7);
+}
+
+.profile-card-social__item.discord {
+  background: linear-gradient(45deg, #7289da, #5865f2);
+  box-shadow: 0px 4px 30px rgba(88, 101, 242, 0.6);
+}
+
+.profile-card-social__item.github {
+  background: linear-gradient(45deg, #333333, #626b73);
+  box-shadow: 0px 4px 30px rgba(63, 65, 67, 0.6);
+}
+
+.profile-card-social__item.linkedin {
+  background: linear-gradient(45deg, #0077b5, #0e71c8);
+  box-shadow: 0px 4px 30px rgba(0, 119, 181, 0.6);
+}
+
+.profile-card-social__item.spotify {
+  background: linear-gradient(45deg, #1db954, #075c31);
+  box-shadow: 0px 4px 30px rgba(29, 185, 84, 0.6);
+}
+
+.profile-card-social__item.tiktok {
+  background: linear-gradient(45deg, #161616, #075c31 , #963016);
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.6);
+}
+
+.profile-card-social__item.twitch {
+  background: linear-gradient(45deg, #6441a5, #0e71c8);
+  box-shadow: 0px 4px 30px rgba(100, 65, 165, 0.6);
+}
+
+.profile-card-social__item.youtube {
+  background: linear-gradient(45deg, #ff0000, #6b0505);
+  box-shadow: 0px 4px 30px rgba(255, 0, 0, 0.6);
+}
+
+.profile-card-social .icon-font {
+  display: inline-flex;
+}
+
+.icon {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

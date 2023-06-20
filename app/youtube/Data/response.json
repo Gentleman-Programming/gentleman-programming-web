@@ -1,0 +1,200 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "StWjjK0oLsTbG3h4nnXVzN0AwnQ",
+  "nextPageToken": "CAUQAA",
+  "regionCode": "AR",
+  "pageInfo": {
+    "totalResults": 280,
+    "resultsPerPage": 5
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Y8WkcmAjToeQTMT7xMVFm3igYHU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "-ZeCdlsSAxU"
+      },
+      "statistics": {
+        "viewCount": 1040578,
+        "subscriberCount": 23600,
+        "hiddenSubscriberCount": false,
+        "videoCount": 291
+      },
+      "brandingSettings": {
+        "channel": {
+          "title": "Gentleman Programming",
+          "description": "Hola gente !! Cómo andamos ? \n\nAsí que bienvenidos a este canal especial para programadores y gente a la que le gusta el mundo de la programación web ! Se suben clases y todo tipo de eventos de manera semanal y se dispone también un canal de discord de la comunidad!. \n\nAsí que...qué esperas ? a por ello!\n\n🔴▬ LINKS DE INTERÉS ▬🔴  \n\n😎LIVE todos los Domingos, Martes, Miércoles & Viernes.\nTwitch: https://t.co/vodIqiCH9N\n\n💬Escúchame aquí: \nSpotify: https://spoti.fi/3y281cY\nApple Podcast: https://podcasts.apple.com/es/podcast/gentleman-programming/id1661415820\n\n🤓¡Únete a nuestra comunidad!\nDiscord: https://discord.gg/KEavKkDc5Y\nFacebook: https://shorturl.at/jkmL6\nInstagram: https://www.instagram.com/gentlemanprogramming/\nTwitter: https://twitter.com/G_Programming\n\n📘Encuentra mi libro: ¿Cómo ser front-end sin fallar en el intento? + Tus primeros pasos en la programación web aquí: https://amzn.to/2ReBuzL\n",
+          "keywords": "justtalking podcast chatting programming coding tech tecnologia programacion charla frontend backend devops tradicionales profesor tips agiles metodologias angular vue react es6 typescript",
+          "unsubscribedTrailer": "KZCA_BRAkSA",
+          "country": "ES"
+        },
+        "image": {
+          "bannerExternalUrl": "https://yt3.googleusercontent.com/2yWxLiM81iSmz9b7I_x9V1VCvsNVoYYo-KxII_oRRDAWJJGMkeaKy6L-aHpbJbeP4kuc9I-RZQA"
+        }
+      },
+      "snippet": {
+        "publishedAt": "2023-02-08T14:44:08Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "☑️Configurá #ESLint con #Airbnb y #Prettier.",
+        "description": "Para que NUNCA MÁS tu código se vea horrible o tenga malas prácticas.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/-ZeCdlsSAxU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/-ZeCdlsSAxU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/-ZeCdlsSAxU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-02-08T14:44:08Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "_Wlgj0xDyQGECMLO57SrGK8doIs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "rXC3gjLj_-k"
+      },
+      "snippet": {
+        "publishedAt": "2023-02-10T18:27:24Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "🤔¿Deberías usar #Typescript en el 2023?",
+        "description": "Aquí te lo explico.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/rXC3gjLj_-k/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/rXC3gjLj_-k/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/rXC3gjLj_-k/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-02-10T18:27:24Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "_m779-5tYbP2CYf3zjzZOnSSEnM",
+      "id": {
+        "kind": "youtube#playlist",
+        "playlistId": "PL42UNLc8e48SHf92Vjbmty6U4i8jDWdYL"
+      },
+      "snippet": {
+        "publishedAt": "2021-04-09T20:54:05Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "TODO contenido sobre ReactJs",
+        "description": "Videos relacionados con ReactJs ! desde cursos hasta implementaciones.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/5LqhlCd2_nE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/5LqhlCd2_nE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/5LqhlCd2_nE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-04-09T20:54:05Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Qpu3w9-dIZ_vMudCl9qyx5Td5Bc",
+      "id": {
+        "kind": "youtube#playlist",
+        "playlistId": "PL42UNLc8e48SlXDha2RcXlPHBZcXhiLw-"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-20T18:59:47Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "🎩 Gentleman Mentoring 🥋",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/LrDnAn86GjU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/LrDnAn86GjU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/LrDnAn86GjU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-20T18:59:47Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "G-7HA2HCe3YRCaeyxGkhZYB3CPk",
+      "id": {
+        "kind": "youtube#playlist",
+        "playlistId": "PL42UNLc8e48TK24-hBKfDMbZjQB8xFrOA"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-21T15:16:36Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "🅰Angular: de 0 a EXPERTO🚀",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/awRq1SSKLeI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/awRq1SSKLeI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/awRq1SSKLeI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-21T15:16:36Z"
+      }
+    }
+  ]
+}

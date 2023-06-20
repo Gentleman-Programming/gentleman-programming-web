@@ -24,12 +24,16 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
-
+package-lock.json
 # local env files
 .env*.local
 
 # vercel
 .vercel
+.history
+.lh
+.vscode
+
 
 # typescript
 *.tsbuildinfo

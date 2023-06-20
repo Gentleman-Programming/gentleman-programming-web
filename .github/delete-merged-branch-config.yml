@@ -1,0 +1,4 @@
+exclude:
+  - main
+  - dev
+delete_closed_pr: true
