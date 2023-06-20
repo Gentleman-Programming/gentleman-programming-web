@@ -2,7 +2,7 @@
 
 /* This is styling the element with the class name "Home__theme". */
 .home__theme {
-  --COLOR-TRASNPARENT: transparent;
+  --COLOR-TRANSPARENT: transparent;
   --COLOR-WHITE: #ffffff;
   --COLOR-GRAY: #8a8c90;
   --COLOR-TUTI-GLAS-FONDO: rgba(234, 24, 137, 0.32);
@@ -22,7 +22,7 @@
   --COLOR-TUTI-NAVBAR-SELECTED: #e5e5e5;
   --COLOR-TUTI-NAVBAR-SELECTED-ICONS: #ea1889;
   --COLOR-TUTI-NAVBAR-SELECTED-HOME: #fdd0d6;
-  
+
   display: grid;
   grid-template-columns: 60px 1fr auto;
   grid-template-rows: 100%;

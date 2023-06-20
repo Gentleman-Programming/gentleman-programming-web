@@ -1,40 +1,51 @@
-/* This CSS code is styling an element with the class name "discord__container". */
-.discord__theme { /* This is a CSS class selector that selects elements with the class `Linkedin__theme`. */
+/* This CSS code is styling an element with the class name "discord__container".
+*/
+.discord__theme {
+  /* This is a CSS class selector that selects elements with the class
+
+  `Linkedin__theme`. */
   /*Color Variables Theme*/
-  --COLOR-TRASNPARENT: transparent; /* This is a CSS variable that defines the color transparent. */
-  --COLOR-WHITE: #ffffff; /* This is a CSS variable that defines the color white. */
-  --COLOR-GRAY: #8a8c90; /* This is a CSS variable that defines the color gray. */
-  --COLOR-RED: #ff0606; /* This is a CSS variable that defines the color red. */
-  --COLOR-LIVE: #43b581; /* This is a CSS variable that defines the color live. */
-  --COLOR-NOTIFICATION: #f84a4b; /* This is a CSS variable that defines the color notification. */
-  --COLOR-TUTI-PRIMARY: #000000; /* This is a CSS variable that defines the color primary. */
-  --COLOR-TUTI-SECONDARY: #ea1889; /* This is a CSS variable that defines the color secondary. */
-  --COLOR-TUTI-FONDO-NAVBAR: #000000; /* This is a CSS variable that defines the color fondo navbar. */
-  --COLOR-TUTI-NAVBAR-ICONS: #ea1889; /* This is a CSS variable that defines the color navbar icons. */
-  --COLOR-TUTI-NAVBAR-HOVER-PRIMARY: #f872a0;  /* This is a CSS variable that defines the color navbar hover primary. */
-  --COLOR-TUTI-NAVBAR-HOVER-SECONDARY: #fca2b7; /* This is a CSS variable that defines the color navbar hover secondary. */
-  --COLOR-TUTI-NAVBAR-SELECTED: #e5e5e5; /* This is a CSS variable that defines the color navbar selected. */
-  --COLOR-TUTI-NAVBAR-SELECTED-ICONS: #666666; /* This is a CSS variable that defines the color navbar selected icons. */
-  --COLOR-TUTI-NAVBAR-SELECTED-HOME: #fdd0d6; 
+  --COLOR-TRASNPARENT: transparent;
+  --COLOR-WHITE: #ffffff;
+  --COLOR-GRAY: #8a8c90;
+  --COLOR-RED: #ff0606;
+  --COLOR-LIVE: #43b581;
+  --COLOR-NOTIFICATION: #f84a4b;
+  --COLOR-TUTI-PRIMARY: #000000;
+  --COLOR-TUTI-SECONDARY: #ea1889;
+  --COLOR-TUTI-FONDO-NAVBAR: #000000;
+  --COLOR-TUTI-NAVBAR-ICONS: #ea1889;
+  --COLOR-TUTI-NAVBAR-HOVER-PRIMARY: #f872a0;
+  --COLOR-TUTI-NAVBAR-HOVER-SECONDARY: #fca2b7;
+  --COLOR-TUTI-NAVBAR-SELECTED: #e5e5e5;
+  --COLOR-TUTI-NAVBAR-SELECTED-ICONS: #666666;
+  --COLOR-TUTI-NAVBAR-SELECTED-HOME: #fdd0d6;
   --COLOR-TUTI-GLAS-FONDO: rgba(234, 24, 137, 0.32);
+  --COLOR-TUTI-DROPDOWN-FONDO: rgba(234, 24, 137, 0.75);
   --COLOR-TUTI-GLAS-BORDER: rgba(234, 24, 137, 0.34);
-  --COLOR-TUTI-GLAS-SHADOW: rgba(0, 0, 0, 0.1);
-  /* This is a CSS variable that defines the color navbar selected home. */
+  --COLOR-TUTI-GLAS-SHADOW: rgba(0,0,0,0.1);
+  /* font family*/
+  --font-primary: "gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  --font-display: "gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  --font-headline: "ABC Ginto Nord", "Noto Sans", "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
   /*Grid Layout*/
-  display: grid; /* This is a CSS property that defines the element as a grid container. */
-  grid-template-columns: 60px 1fr auto; /* This defines the columns of the grid. */
-  grid-template-rows: 100%; /* This defines the rows of the grid. */
-  grid-template-areas: /* This assigns the grid areas to specific parts of the layout. */
-    'NB CL TP' /* This is the first row of the grid. */
-    'FT FT FT'; /* This is the second row of the grid. */
-  background-color: var(--COLOR-TUTI-PRIMARY); /* This sets the background color. */
+  display: grid;
+  grid-template-columns: 60px 1fr auto;
+  grid-template-rows: 100%;
+  grid-template-areas:
+    "NB CL TP"
+    "FT FT FT";
+  background-color: var(--COLOR-TUTI-PRIMARY);
 }
 
-.discord__container{
-  grid-area: CL; /* This is the grid area that the element is in. */
-  display: flex; /* This is making the element a flexbox. */
-  flex-direction: column; /* This is making the flexbox a column. */
+.discord__container {
+  grid-area: CL;
+  display: flex;
+  flex-direction: column;
   /* margin-top: 80px;  */
-  padding: 40px 40px 0 40px; /* This is adding padding to the element. */
-  margin: 0; /* This is removing the margin from the element. */
+  padding: 0px 40px 0 40px;
+  margin: 0;
 }

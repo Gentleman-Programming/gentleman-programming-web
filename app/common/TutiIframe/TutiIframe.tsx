@@ -12,7 +12,7 @@ export const TutiIframe: FC<ITutiIframeProps> = ({
   allowFullScreen = false,
 }) => {
   const iframeProps = {
-    className: style.iframe,
+    className: style.tutiIframe__iframe,
     width,
     height,
     src,

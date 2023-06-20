@@ -56,5 +56,6 @@
     ],
     "@typescript-eslint/no-explicit-any": ["off"],
     "react/display-name": "off"
-  }
+  },
+  "ignorePatterns": ["*.yml"]
 }

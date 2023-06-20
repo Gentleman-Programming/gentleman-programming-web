@@ -1,0 +1,101 @@
+/* Dropdown */
+
+.TutiNavDropdown__dropdown {
+  position: fixed;
+  cursor: pointer;
+  width: 250px;
+}
+
+.TutiNavDropdown__dropdownButton {
+  display: inline-block;
+  width: -webkit-fill-available;
+  border: 1px solid var(--COLOR-TUTI-SECONDARY);
+  border-radius: 4px;
+  padding: 0px 10px 0px 10px;
+  background-color: var(--COLOR-TUTI-GLAS-FONDO);
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.TutiNavDropdown__dropdownButton:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid var(--COLOR-TUTI-SECONDARY);
+}
+
+.TutiNavDropdown__dropdownButton:hover {
+  background-color: var(--COLOR-TUTI-DROPDOWN-FONDO);
+  color: var(--COLOR-TUTI-SECONDARY);
+}
+
+.TutiNavDropdown__dropdownInput {
+  display: none;
+}
+
+.TutiNavDropdown__dropdownMenu {
+  position: absolute;
+  width: -webkit-fill-available;
+  top: 100%;
+  border: 1px solid var(--COLOR-TUTI-SECONDARY);
+  border-radius: 4px;
+  padding: 0;
+  margin: 2px 0 0 0;
+  box-shadow: 0 0 6px 0 var(--COLOR-TUTI-GLAS-SHADOW);
+  background-color: var(--COLOR-TUTI-DROPDOWN-FONDO);
+  list-style-type: none;
+}
+
+.TutiNavDropdown__dropdownInput + .TutiNavDropdown__dropdownMenu {
+  display: none;
+}
+
+.TutiNavDropdown__dropdownInput:checked + .TutiNavDropdown__dropdownMenu {
+  display: block;
+}
+
+.TutiNavDropdown__dropdownMenu,
+.TutiNavDropdown__dropdownItem {
+  padding: 10px 20px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.TutiNavDropdown__dropdownItem:hover {
+  background-color: var(--COLOR-TUTI-GLAS-SHADOW);
+}
+
+.TutiNavDropdown__dropdownMenu,
+.TutiNavDropdown__dropdownItem,
+.TutiNavDropdown__dropdownLinkA {
+  display: block;
+  margin: -10px -20px;
+  padding: 10px 20px;
+}
+
+.TutiNavDropdown__dropdownMenu,
+.TutiNavDropdown__dropdownItem,
+.TutiNavDropdown__dropdownDivider {
+  padding: 10px;
+  margin:2px;
+  border-bottom: 1px solid var(--COLOR-TUTI-SECONDARY);
+}
+
+.TutiNavDropdown__dropdownTitle {
+  color: var(--COLOR-WHITE);
+  max-width: 30px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.TutiNavDropdown__dropdownLinkA {
+  text-decoration: none;
+  color: var(--COLOR-WHITE);
+}
