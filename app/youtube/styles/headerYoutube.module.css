@@ -18,11 +18,11 @@
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
-  margin-left: 4px;
+  margin-left: 1rem;
   max-width: 100%;
   outline: none;
   text-align: inherit;
-  width: 100%;
+  width: 60%;
   -ms-flex: 1 1 0.000000001px;
   -webkit-flex: 1;
   -webkit-box-flex: 1;
@@ -49,4 +49,8 @@
   align-items: center;
   flex: 0 1 728px;
   min-width: 0px;
+  width: 50%;
+  margin: 0 0 0.45rem 9.25rem;
+  border:1px solid hsla(0, 0%, 18.82%);
+  border-radius: 40px;
 }

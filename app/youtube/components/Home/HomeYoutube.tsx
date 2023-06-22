@@ -4,6 +4,7 @@ import data from '@app/youtube/Data/response.json';
 import styles from '@app/youtube/styles/youtube.module.css';
 
 import { ChannelDetails } from '../ChannelDetails/ChannelDetails';
+import TabsBar from '../ChannelTabs/TabsBar';
 import { HeaderSearchbar } from '../HeaderSearchbar/HeaderSearchbar';
 
 const HomeYoutube = () => {
@@ -30,24 +31,9 @@ const HomeYoutube = () => {
           subscriberCount={subscriberCount}
           videoCount={videoCount}
         />
-        <section className={styles.youtubeChannelTabs}>
-          <a className={styles.youtubeChannelSingleTab} href="#">
-            INICIO
-          </a>
-          <a className={styles.youtubeChannelSingleTab} href="#">
-            VIDEOS
-          </a>
-          <a className={styles.youtubeChannelSingleTab} href="#">
-            SHORTS
-          </a>
-          <a className={styles.youtubeChannelSingleTab} href="#">
-            LISTAS
-          </a>
-          <a className={styles.youtubeChannelSingleTab} href="#">
-            ABOUT
-          </a>
-        </section>
+        <TabsBar />
       </section>
+      <hr className={styles.youtube__divider} />
       <section className={styles.youtubeChannelListContainer}>
         {items.map((video) => (
           <article key={video.id.videoId} className={styles.youtubeVideoCard}>

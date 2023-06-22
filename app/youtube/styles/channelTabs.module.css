@@ -1,0 +1,22 @@
+.youtubeChannelTabs {
+    padding-bottom: 1rem;
+    /* padding-right: 4rem; */
+    background-color: var(--BG-CONTAINER);
+  }
+  .youtubeChannelSingleTab {
+    font-family: "Roboto", "Noto", sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    padding: 0.75rem 1.8rem;
+    color: var(--FONT-COLOR-SECONDARY);
+    vertical-align: middle;
+    text-decoration: none;
+  }
+  .youtubeChannelSingleTab:focus {
+    color: var(--FONT-COLOR);
+    border: none;
+    background-color: hsla(0, 0%, 100%, 0.308);
+  }
+  .youtubeChannelSingleTab:hover {
+    color: var(--FONT-COLOR);
+  }

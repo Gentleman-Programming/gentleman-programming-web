@@ -3,7 +3,7 @@
   }
   .youtubeChannelDetails {
     display: flex;
-    padding: 1.7rem 2rem;
+    padding: 1.7rem 0;
     width: 100%;
     margin-top: 16px;
     align-items: flex-start;
