@@ -1,5 +1,7 @@
 import { FC } from 'react';
 
+import { Pag404 } from '@app/components';
+
 import { DataTutiNavDiscordLinks } from './data';
 import { ITutiNavDiscordLink } from './interface';
 import styles from './styles/TutiNavDiscord.module.css';
@@ -25,17 +27,23 @@ const renderLink = ({ id, title, href }: ITutiNavDiscordLink): JSX.Element => {
  */
 export const NavDiscordTuti: FC = () => {
   return (
-    <div className={styles.TutiNavDiscord__container}>
-      <header className={styles.TutiNavDiscord__header}>
-        <TutiNavDropdown />
-        <div className={styles.TutiNavDiscord__headerIng}></div>
+    <div className={styles.TutiNavDiscord__gridContainer}>
+      <section className={styles.TutiNavDiscord__gridNav}>
+        <header className={styles.TutiNavDiscord__Header}>
+          <TutiNavDropdown />
+          <div className={styles.TutiNavDiscord__headerIng} />
+        </header>
         <div className={styles.TutiNavDiscord__links}>
           {DataTutiNavDiscordLinks.map(renderLink)}
         </div>
-      </header>
-      <div className={styles.TutiNavDiscord__controller}>
-        <h2>hola</h2>
-      </div>
+        <div className={styles.TutiNavDiscord__controller}>
+          <h2>hola</h2>
+        </div>
+      </section>
+      <section className={styles.TutiNavDiscord__griBody}>
+        {/* Renders the "page 404" component */}
+        <Pag404 />
+      </section>
     </div>
   );
 };

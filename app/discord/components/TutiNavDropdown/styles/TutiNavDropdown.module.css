@@ -4,6 +4,7 @@
   position: fixed;
   cursor: pointer;
   width: 250px;
+  padding: 0px;
 }
 
 .TutiNavDropdown__dropdownButton {
@@ -83,7 +84,7 @@
 .TutiNavDropdown__dropdownItem,
 .TutiNavDropdown__dropdownDivider {
   padding: 10px;
-  margin:2px;
+  margin: 2px;
   border-bottom: 1px solid var(--COLOR-TUTI-SECONDARY);
 }
 
