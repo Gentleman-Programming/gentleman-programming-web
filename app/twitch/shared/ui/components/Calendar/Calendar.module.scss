@@ -3,3 +3,47 @@
      --fc-border-color: #ddd;
      color:$color-primary-text;
 }
+
+
+
+.contentData{
+  display: flex;
+  align-items: center;
+}
+
+.contentHours{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.dateTime{
+  height: 2rem;
+  width: 6rem;
+  text-align: center;
+}
+
+.card{
+  height: 100px;
+  width: 400px;
+  background-color: #5a5a5a;
+  margin: 8px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 10px;
+}
+
+.title{
+  margin: 0;
+}
+
+.time{
+  margin: 0;
+}
+
+.description{
+  margin: 0;
+}
