@@ -11,10 +11,6 @@
     {
       "kind": "youtube#searchResult",
       "etag": "Y8WkcmAjToeQTMT7xMVFm3igYHU",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "-ZeCdlsSAxU"
-      },
       "statistics": {
         "viewCount": 1040578,
         "subscriberCount": 23600,
@@ -34,6 +30,10 @@
         }
       },
       "snippet": {
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "-ZeCdlsSAxU"
+        },
         "publishedAt": "2023-02-08T14:44:08Z",
         "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
         "title": "☑️Configurá #ESLint con #Airbnb y #Prettier.",

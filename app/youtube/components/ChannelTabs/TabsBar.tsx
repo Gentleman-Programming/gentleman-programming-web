@@ -2,26 +2,26 @@ import React from 'react';
 
 import styles from '@app/youtube/styles/channelTabs.module.css';
 
-const TabsBar = () => {
+const tabs = [
+  { index: 1, tabname: 'INICIO' },
+  { index: 2, tabname: 'VIDEOS' },
+  { index: 3, tabname: 'SHORTS' },
+  { index: 4, tabname: 'PLAYLISTS' },
+  { index: 5, tabname: 'ABOUT' },
+];
+
+export const TabsBar = () => {
   return (
     <section className={styles.youtubeChannelTabs}>
-      <a className={styles.youtubeChannelSingleTab} href="#">
-        INICIO
-      </a>
-      <a className={styles.youtubeChannelSingleTab} href="#">
-        VIDEOS
-      </a>
-      <a className={styles.youtubeChannelSingleTab} href="#">
-        SHORTS
-      </a>
-      <a className={styles.youtubeChannelSingleTab} href="#">
-        LISTAS
-      </a>
-      <a className={styles.youtubeChannelSingleTab} href="#">
-        ABOUT
-      </a>
+      {tabs.map((tab) => (
+        <a
+          key={'tab' + tab.index}
+          className={styles.youtubeChannelSingleTab}
+          href="#"
+        >
+          {tab.tabname}
+        </a>
+      ))}
     </section>
   );
 };
-
-export default TabsBar;

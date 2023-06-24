@@ -1,0 +1,14 @@
+.youtubeVideoCard{
+    margin: 0 3px;
+    vertical-align: top;
+    white-space: normal;
+  }
+  .youtubeVideoCardImage{
+    width: 20rem;
+    border-radius: 8px;
+  }
+  .youtubeVideoCardTitle{
+    color: var(--FONT-COLOR);
+    text-overflow: ellipsis;
+    text-decoration: none;
+  }

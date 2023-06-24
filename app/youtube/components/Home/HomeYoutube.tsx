@@ -1,20 +1,22 @@
+/* eslint-disable */
 import React from 'react';
 
 import data from '@app/youtube/Data/response.json';
+import { IItems } from '@app/youtube/interfaces/youtube';
 import styles from '@app/youtube/styles/youtube.module.css';
 
 import { ChannelDetails } from '../ChannelDetails/ChannelDetails';
-import TabsBar from '../ChannelTabs/TabsBar';
+import { TabsBar } from '../ChannelTabs/TabsBar';
 import { HeaderSearchbar } from '../HeaderSearchbar/HeaderSearchbar';
+import { YTPlayslists } from '../Playlists/YTPlayslists';
 
 const HomeYoutube = () => {
-  const { items } = data;
-  const {
-    subscriberCount,
-    videoCount,
-  }: { subscriberCount: number; videoCount: number } = items[0].statistics;
-  const channelTitle = items[0].brandingSettings?.channel.title;
-  const channelBanner = items[0].brandingSettings?.image.bannerExternalUrl;
+  const { items }: { items: IItems[] } = data;
+  
+  const { subscriberCount, videoCount }:{ subscriberCount:number, videoCount:number }  = items[0].statistics;
+  const channelTitle = items[0].brandingSettings.channel.title;
+  const channelBanner = items[0].brandingSettings.image.bannerExternalUrl;
+  
 
   return (
     <main>
@@ -34,27 +36,9 @@ const HomeYoutube = () => {
         <TabsBar />
       </section>
       <hr className={styles.youtube__divider} />
-      <section className={styles.youtubeChannelListContainer}>
-        {items.map((video) => (
-          <article key={video.id.videoId} className={styles.youtubeVideoCard}>
-            <img
-              src={video.snippet.thumbnails.high.url}
-              alt={'Video Thumbnail' + video.id.videoId}
-              className={styles.youtubeVideoCardImage}
-            />
-
-            <section className={styles.youtubeVideoCardTexts}>
-              <a className={styles.youtubeVideoCardTitle}>
-                {video.snippet.title}
-              </a>
-              <p>666 views</p>
-              <p>{video.snippet.publishedAt}</p>
-            </section>
-          </article>
-        ))}
-      </section>
+      <YTPlayslists items={items} />
     </main>
   );
 };
-//Max.53 Chars
+
 export default HomeYoutube;
