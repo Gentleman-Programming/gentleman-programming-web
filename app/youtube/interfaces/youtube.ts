@@ -59,6 +59,6 @@ export interface IItem {
   snippet: ISnippet;
 }
 
-export interface IItems {
+export interface IItems extends IItem {
   items: IItem[];
 }
