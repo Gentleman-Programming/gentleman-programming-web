@@ -43,7 +43,7 @@
   grid-area: CT;
   display: flex;
   flex-direction: column;
-  padding: 0.45rem 40px 0;
+  padding: 0.45rem 2.5rem 0;
   margin: 0;
   margin-left: 1.25rem;
   color: var(--FONT-COLOR);
@@ -61,25 +61,9 @@
 .youtubeSecondaryText {
   color: var(--FONT-COLOR-SECONDARY);
 }
-.youtubeChannelListContainer{
-  margin: 2rem 0;
-}
+
 .youtube__divider{
   border: 0;
   height: 1px;
   background-color: rgba(255, 255, 255, 0.2)
-}
-.youtubeVideoCard{
-  margin: 0 3px;
-  vertical-align: top;
-  white-space: normal;
-}
-.youtubeVideoCardImage{
-  width: 20rem;
-  border-radius: 8px;
-}
-.youtubeVideoCardTitle{
-  color: var(--FONT-COLOR);
-  text-overflow: ellipsis;
-  text-decoration: none;
 }
