@@ -8,7 +8,7 @@ import styles from '@app/youtube/styles/youtube.module.css';
 import { ChannelDetails } from '../ChannelDetails/ChannelDetails';
 import { TabsBar } from '../ChannelTabs/TabsBar';
 import { HeaderSearchbar } from '../HeaderSearchbar/HeaderSearchbar';
-import { YTPlayslists } from '../Playlists/YTPlayslists';
+import { YTPlaylists } from '../Playlists/YTPlaylists';
 
 const HomeYoutube = () => {
   const { items }: { items: IItems[] } = data;
@@ -36,7 +36,7 @@ const HomeYoutube = () => {
         <TabsBar />
       </section>
       <hr className={styles.youtube__divider} />
-      <YTPlayslists items={items} />
+      <YTPlaylists items={items} />
     </main>
   );
 };

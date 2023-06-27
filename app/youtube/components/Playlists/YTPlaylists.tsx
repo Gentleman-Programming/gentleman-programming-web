@@ -9,7 +9,7 @@ type Props = {
   items: IItems;
 };
 
-export const YTPlayslists: FC<Props> = ({ items }) => {
+export const YTPlaylists: FC<Props> = ({ items }) => {
   return (
     <section className={styles.youtubeChannelListContainer}>
       {items.map((video: IItem) => (
