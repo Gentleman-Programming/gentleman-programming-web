@@ -1,0 +1,160 @@
+{
+  "kind": "youtube#channelSectionListResponse",
+  "etag": "bQNN4nTnlSvPMgY56yz2pjf3ohc",
+  "items": [
+    {
+      "kind": "youtube#channelSection",
+      "etag": "_z5lejLiTjkKjErqr94Gv1NCJO0",
+      "id": "UCbx_d228PdYwgB4Jz202SIQ.jNQXAC9IVRw",
+      "snippet": {
+        "type": "channelsectiontypeundefined",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "position": 0
+      }
+    },
+    {
+      "kind": "youtube#channelSection",
+      "etag": "vyVBP-q9qona8x7zZmXr-OJxdjs",
+      "id": "UCbx_d228PdYwgB4Jz202SIQ.LeAltgu_pbM",
+      "snippet": {
+        "type": "singleplaylist",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "position": 1
+      },
+      "contentDetails": { "playlists": ["PL42UNLc8e48R2PYR9tor_PCTtS9o3Chna"] }
+    },
+    {
+      "kind": "youtube#channelSection",
+      "etag": "nWxPq2yNIA8xamDTlbR-VEtBYzQ",
+      "id": "UCbx_d228PdYwgB4Jz202SIQ.nGzAI5pLbMY",
+      "snippet": {
+        "type": "recentuploads",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "position": 2
+      }
+    },
+    {
+      "kind": "youtube#channelSection",
+      "etag": "AwE--BIvYd5DxHO3s4m4Vc3PSnM",
+      "id": "UCbx_d228PdYwgB4Jz202SIQ.__WLXNpu6u8",
+      "snippet": {
+        "type": "multipleplaylists",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "🆓Cursos GRATIS",
+        "position": 3
+      },
+      "contentDetails": {
+        "playlists": [
+          "PL42UNLc8e48SQRBqbOdPz4t3YHicEf5xs",
+          "PL42UNLc8e48TF9l07z_tLGHzmC_d-yfJJ",
+          "PL42UNLc8e48TK24-hBKfDMbZjQB8xFrOA",
+          "PL42UNLc8e48R-32ypLd0wTdh-AW9IG3Vs",
+          "PL42UNLc8e48RRGwL5VA-TxCP4Kdt3-9-Q",
+          "PL42UNLc8e48SdHoWLywFkm2DUw6FoureA",
+          "PL42UNLc8e48T1B1NNplS0MNDAEnu76C0U",
+          "PL42UNLc8e48SlXDha2RcXlPHBZcXhiLw-",
+          "PL42UNLc8e48RaHSKf6RMYufZ0zQ2GA4KQ"
+        ]
+      }
+    },
+    {
+      "kind": "youtube#channelSection",
+      "etag": "gptr0hrVrQ71aFbSti4ZMofSq70",
+      "id": "UCbx_d228PdYwgB4Jz202SIQ.Zx4DA4xg9IM",
+      "snippet": {
+        "type": "channelsectiontypeundefined",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "position": 4
+      }
+    },
+    {
+      "kind": "youtube#channelSection",
+      "etag": "DHxSGf9RcF7Tcnxed4nHNsDmb3Y",
+      "id": "UCbx_d228PdYwgB4Jz202SIQ.MykmTeTiooA",
+      "snippet": {
+        "type": "singleplaylist",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "position": 5
+      },
+      "contentDetails": { "playlists": ["PL42UNLc8e48R-32ypLd0wTdh-AW9IG3Vs"] }
+    },
+    {
+      "kind": "youtube#channelSection",
+      "etag": "NT62Zmrsc7-N-ODiK28xWyqpg2k",
+      "id": "UCbx_d228PdYwgB4Jz202SIQ.iJLXf_7B368",
+      "snippet": {
+        "type": "singleplaylist",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "position": 6
+      },
+      "contentDetails": { "playlists": ["PL42UNLc8e48SQRBqbOdPz4t3YHicEf5xs"] }
+    },
+    {
+      "kind": "youtube#channelSection",
+      "etag": "JrrkG82gC_5-I1kpwWdHNmu5zIE",
+      "id": "UCbx_d228PdYwgB4Jz202SIQ.UgY69lf0UCE",
+      "snippet": {
+        "type": "singleplaylist",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "position": 7
+      },
+      "contentDetails": { "playlists": ["PL42UNLc8e48TF9l07z_tLGHzmC_d-yfJJ"] }
+    },
+    {
+      "kind": "youtube#channelSection",
+      "etag": "XrJKIHmkRGakNDZHM4NMLIEO1KM",
+      "id": "UCbx_d228PdYwgB4Jz202SIQ.ebKlgRwnpFY",
+      "snippet": {
+        "type": "singleplaylist",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "position": 8
+      },
+      "contentDetails": { "playlists": ["PL42UNLc8e48TK24-hBKfDMbZjQB8xFrOA"] }
+    },
+    {
+      "kind": "youtube#channelSection",
+      "etag": "oL24Bs1LbVcEEgyV5E8NYPOS4v8",
+      "id": "UCbx_d228PdYwgB4Jz202SIQ.aqsRo9JYx5M",
+      "snippet": {
+        "type": "singleplaylist",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "position": 9
+      },
+      "contentDetails": { "playlists": ["PL42UNLc8e48SdHoWLywFkm2DUw6FoureA"] }
+    },
+    {
+      "kind": "youtube#channelSection",
+      "etag": "V94KQ2AVjC1PJFH33i6twLG0-JA",
+      "id": "UCbx_d228PdYwgB4Jz202SIQ.XgM4c0oGu94",
+      "snippet": {
+        "type": "singleplaylist",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "position": 10
+      },
+      "contentDetails": { "playlists": ["PL42UNLc8e48SlXDha2RcXlPHBZcXhiLw-"] }
+    },
+    {
+      "kind": "youtube#channelSection",
+      "etag": "NciCZru99DsuAF3LyNmP_46IwEA",
+      "id": "UCbx_d228PdYwgB4Jz202SIQ.aBfUFr9SBY0",
+      "snippet": {
+        "type": "multiplechannels",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "Otros canales que tienes que ver !!",
+        "position": 11
+      },
+      "contentDetails": {
+        "channels": [
+          "UCNliuGyPizt7uNcdCrUoduQ",
+          "UCgrIGp5QAnC0J8LfNJxDRDw",
+          "UC3QuZuJr2_EOUak8bWUd74A",
+          "UCxPD7bsocoAMq8Dj18kmGyQ",
+          "UCJgGc8pQO1lv04VXrBxA_Hg",
+          "UC8LeXCWOalN8SxlrPcG-PaQ",
+          "UCgZoKiTvvpEnr1zI6Kv_i7A",
+          "UCq50mvqUjA5Ng6uJo_S9BRg"
+        ]
+      }
+    }
+  ]
+}
