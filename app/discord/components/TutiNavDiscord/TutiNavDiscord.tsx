@@ -37,7 +37,7 @@ export const NavDiscordTuti: FC = () => {
           {DataTutiNavDiscordLinks.map(renderLink)}
         </div>
         <div className={styles.TutiNavDiscord__controller}>
-          <h2>hola</h2>
+          <h2>Control</h2>
         </div>
       </section>
       <section className={styles.TutiNavDiscord__griBody}>
