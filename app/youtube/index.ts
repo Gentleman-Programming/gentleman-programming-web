@@ -1,4 +1,16 @@
+export * from './components/ChannelDetails/ChannelDetails';
+export * from './components/ChannelSections/ChannelSections';
+export * from './components/ChannelTabs/TabsBar';
+export * from './components/HeaderSearchbar/HeaderSearchbar';
 export { default as HomeYoutube } from './components/Home/HomeYoutube';
+export * from './components/Home/SearchIcon';
+export * from './components/ShortCard/ShortCard';
+export * from './components/VideoCard/YTPlaylistVideoCard';
 export * from './components';
+export * from './data/SinglePlaylists';
+export * from './data';
 export * from './index';
+export * from './interfaces/channelDetails';
+export * from './interfaces/channelPic';
+export * from './interfaces/playlistVideoCard';
 export { default as page } from './page';
