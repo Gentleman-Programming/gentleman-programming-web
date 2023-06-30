@@ -1,5 +1,5 @@
 import '@app/styles/global.css';
-/* `import Home from './Home/page'. */
+
 import Home from './Home/page';
 
 export const metadata = {

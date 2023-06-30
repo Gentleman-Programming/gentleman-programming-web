@@ -7,7 +7,7 @@
   align-items: center;
 }
 
-.TutiNavHeader__title{
+.TutiNavHeader__title {
   color: var(--COLOR-WHITE);
   max-width: 95%;
   overflow: hidden;

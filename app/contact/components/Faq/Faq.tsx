@@ -6,13 +6,14 @@ import { FAQ } from './components/ListItem/data';
 export const Faq: FC = () => {
   return (
     <div>
-      <h1
+      <h2
         style={{
           color: 'white',
+          alignContent: 'center',
         }}
       >
         ¿Tienes alguna pregunta?
-      </h1>
+      </h2>
       <ListItem questionList={FAQ} />
     </div>
   );

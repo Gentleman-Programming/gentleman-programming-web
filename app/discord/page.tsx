@@ -29,8 +29,6 @@ export default function Discord() {
       <div className={style.discord__container}>
         {/* Renders the "Server Name" component */}
         <NavDiscordTuti />
-        {/* Renders the "page 404" component */}
-        <Pag404 />
       </div>
       {/* Render footer */}
       <TutiFooterFinal />
