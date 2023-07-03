@@ -1,38 +1,29 @@
-'use client';
-import dayGridPlugin from '@fullcalendar/daygrid';
-import interactionPlugin from '@fullcalendar/interaction';
-import FullCalendar from '@fullcalendar/react';
-import timeGridPlugin from '@fullcalendar/timegrid';
-
+// eslint-disable-next-line import/order
 import styles from './Calendar.module.scss';
+import dataCalendar from './mock.json';
 import { Segment } from '../../../../models/event.model';
 interface Props {
   events: Segment[];
 }
-
-export function Calendar({ events }: Props) {
-  const EventsInfo = events.map((event) => {
-    return {
-      title: `${event.title}`,
-      start: `${event.start_time.substr(0, 10)}`,
-      end: `${event.end_time.substr(0, 10)}`,
-    };
-  });
+export function Calendar(events: Props) {
   return (
     <div className={styles.calendarContent}>
-      <FullCalendar
-        plugins={[dayGridPlugin, timeGridPlugin, interactionPlugin]}
-        initialView="timeGridDay"
-        weekends={true}
-        locale={'es'}
-        events={EventsInfo}
-        // eventContent={renderEventContent}
-        headerToolbar={{
-          left: 'today prev,next',
-          center: 'title',
-          right: 'dayGridMonth,timeGridWeek,timeGridDay',
-        }}
-      />
+      <div className={styles.calendarContent}>
+        {Object.entries(dataCalendar.calendar).map(([date, events]) => (
+          <div key={date} className={styles.contentData}>
+            <h2 className={styles.dateTime}>{date}</h2>
+            {events.map((event, index) => (
+              <div key={index} className={styles.card}>
+                <h3 className={styles.title}>{event.title}</h3>
+                <p className={styles.time}>
+                  {event.startTime} - {event.endTime}
+                </p>
+                <p className={styles.description}>{event.description}</p>
+              </div>
+            ))}
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
