@@ -1,0 +1,34 @@
+{
+  "calendar": {
+    "06-01": [
+      {
+        "title": "Torneo de Fortnite",
+        "startTime": "18:00",
+        "endTime": "20:00",
+        "description": "¡Participa en nuestro torneo de Fortnite y demuestra tus habilidades!"
+      },
+      {
+        "title": "Streaming en vivo de League of Legends",
+        "startTime": "21:00",
+        "endTime": "23:00",
+        "description": "Acompáñanos en un emocionante streaming en vivo de League of Legends con jugadores profesionales."
+      }
+    ],
+    "06-02": [
+      {
+        "title": "Charla sobre streaming y monetización",
+        "startTime": "16:00",
+        "endTime": "17:30",
+        "description": "Aprende sobre las mejores prácticas de streaming y cómo monetizar tu contenido."
+      }
+    ],
+    "06-03": [
+      {
+        "title": "Entrevista a un streamer destacado",
+        "startTime": "19:00",
+        "endTime": "20:00",
+        "description": "No te pierdas la entrevista a un reconocido streamer donde compartirá sus experiencias y consejos."
+      }
+    ]
+  }
+}

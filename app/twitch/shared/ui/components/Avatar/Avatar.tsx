@@ -1,7 +1,7 @@
 import Image from 'next/image';
 
 import AvatarStyle from './Avatar.module.scss';
-import image from '../../../../../../public/img/gentleman-logo-70x70.png';
+import image from '../../icons/gentleman-logo-70x70.png';
 
 export default function Avatar() {
   return (
