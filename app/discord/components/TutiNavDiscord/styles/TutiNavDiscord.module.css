@@ -1,35 +1,59 @@
-.TutiNavDiscord__container{
+/** Grid Container */
+.TutiNavDiscord__gridContainer {
   display: flex;
-  flex-direction: column;
-  height: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+  height: 100vh;
 }
 
-.TutiNavDiscord__header{
-  display: flex;
-  align-items: center;
+@media (min-width: 768px) {
+  .TutiNavDiscord__gridContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+}
+
+/** Grid header */
+.TutiNavDiscord__gridNav {
+  grid-row: 1;
+  flex-direction: column;
+  align-content: space-between;
+  flex-basis: 200px;
+}
+
+/** Grid Body */
+.TutiNavDiscord__griBody {
+  grid-row: 1;
+  flex-direction: column;
   justify-content: space-between;
-  height: 80px;
-  background-color: rgba(0, 0, 0, 0);
-  transition: background-color 0.3s ease-out;
-  position: fixed;
+  flex-grow: 1;
+  align-items: stretch;
+}
+
+.TutiNavDiscord__Header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100px;
   top: 0;
   left: 0;
   right: 0;
-  z-index: 1;
 }
 
-.TutiNavDiscord__header.shrunk {
-  background-color: rgba(0, 0, 0, 0.8);
+@media (min-width: 768px) {
+  .TutiNavDiscord__gridHeader {
+    grid-column: 1;
+    grid-row: 1;
+  }
 }
 
-.TutiNavDiscord__headerImg{
-  height: 40px;
-  width: 40px;
-  background-image: url('https://i.imgur.com/8jy9fae.png');
-  background-size: cover;
-  background-position: center;
-  margin-right: 20px;
-  transition: transform 0.3s ease-out, opacity 0.3s ease-out, height 0.3s ease-out;
+.TutiNavDiscord__headerImg {
+  height: 2400px;
+  width: 130px;
+  background-image: url("https://i.imgur.com/8jy9fae.png");
 }
 
 .TutiNavDiscord__header.shrunk,
@@ -43,20 +67,22 @@
   transform: translateY(-20px);
 }
 
-.TutiNavDiscord__links{
+.TutiNavDiscord__links {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
 }
 
-.TutiNavDiscord__linksA{
+.TutiNavDiscord__linksA {
   color: white;
   text-decoration: none;
   font-weight: bold;
   margin-right: 20px;
 }
 
-
-.TutiNavDiscord__controller{
+.TutiNavDiscord__controller {
   flex-grow: 1;
+  justify-content: flex-end;
   padding-top: 80px;
+  color: var(--COLOR-TUTI-SECONDARY);
 }

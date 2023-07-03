@@ -1,32 +1,44 @@
-import React from 'react';
+import React, { FC } from 'react';
 
+import { IChannelDetails } from '@app/youtube/interfaces/channelDetails';
 import styles from '@app/youtube/styles/channelDetails.module.css';
 
-const f = new Intl.NumberFormat('en-GB', {
+export const f = new Intl.NumberFormat('en-GB', {
   notation: 'compact',
   compactDisplay: 'short',
 });
 
-export const ChannelDetails = ({
+export const ChannelDetails: FC<IChannelDetails> = ({
   channelTitle,
   subscriberCount,
   videoCount,
-}: {
-  channelTitle: string;
-  subscriberCount: number;
-  videoCount: number;
+  channelPic,
+  channelDescription,
 }) => {
-  const channelPic =
-    'https://yt3.googleusercontent.com/RerL_HygEZuzI-VMS6GRtuSneViN7j6fjCYIGPNqzoLGlbBd0C4GKqBu3g7hJWiEJskeoYBc=s176-c-k-c0x00ffffff-no-rj';
+  const channelDetailSpan = ` ${f.format(
+    parseInt(subscriberCount)
+  )} subscribers ${f.format(parseInt(videoCount))} videos`;
   return (
     <section className={styles.youtubeChannelDetails}>
-      <img
-        className={styles.youtubeChannelPic}
-        draggable="false"
-        alt="GentlemanProgramming Channel Pic"
-        width="128"
-        src={channelPic}
-      />
+      <picture>
+        <source
+          type="image/jpeg"
+          media="(max-width:640px)"
+          srcSet={channelPic.default.url}
+        />
+        <source
+          type="image/jpeg"
+          media="(max-width:768px)"
+          srcSet={channelPic.medium.url}
+        />
+        <img
+          draggable="false"
+          alt="GentlemanProgramming Channel Pic"
+          width="128"
+          src={channelPic.high.url}
+          className={styles.youtubeChannelPic}
+        />
+      </picture>
       <section className={styles.youtubeChannelDetailsTexts}>
         <h1 className={styles.youtubeChannelDetailsTitle}>{channelTitle}</h1>
         <h4
@@ -38,12 +50,12 @@ export const ChannelDetails = ({
           }}
         >
           @GentlemanProgramming
-          <span className={styles.youtubeSecondaryText}>{` ${f.format(
-            subscriberCount
-          )} subscribers ${f.format(videoCount)} videos`}</span>
+          <span className={styles.youtubeSecondaryText}>
+            {channelDetailSpan}
+          </span>
         </h4>
         <p className={styles.youtubeSecondaryText}>
-          Hola gente !! Cómo andamos ?
+          {channelDescription.slice(0, 31)}
         </p>
       </section>
     </section>

@@ -6,6 +6,7 @@ export * from './TutiIframe';
 export * from './TutiIframe/interface';
 export * from './TutiImg';
 export * from './TutiImg/interface';
+export * from './TutiImgZoom';
 export * from './TutiLightBox';
 export * from './TutiLightBox/interface';
 export * from './TutiTop';

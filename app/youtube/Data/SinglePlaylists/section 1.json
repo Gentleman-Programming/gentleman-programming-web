@@ -1,0 +1,2198 @@
+{
+  "kind": "youtube#playlistItemListResponse",
+  "etag": "JTGo7vALcurrVtZ0I3FJraSQSP0",
+  "nextPageToken": "EAAaBlBUOkNESQ",
+  "items": [
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "iGoh48gzCMPfsfmU-BUWDFYD85k",
+      "id": "UEw0MlVOTGM4ZTQ4UjJQWVI5dG9yX1BDVHRTOW8zQ2huYS43MzBFRTZDMUM3OTY2RjQ4",
+      "snippet": {
+        "publishedAt": "2022-11-21T14:27:35Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "Cómo estructurar tu project de ReactJs? Aplicamos Clean Architecture en Front End - #part1",
+        "description": "Buenas, buenas mi gente !\n\nEn el día de hoy veremos cómo estructurar tu projecto de ReactJs! \n\nSe hablará sobre Front End Clean Architecture y cómo tenerlo en cuenta para estructurar tu project. Voy a mostrarles cómo YO adapto la Clean Architecture en mis projects.\n\n▬ Contenido del video  ▬▬▬▬▬▬▬▬▬▬\n0:00:00​​ - Welcome !\n0:00:53 - Clean Architecture\n0:02:01​​ - Front End Clean Architecture\n0:04:14  - Estructura de carpetas\n0:05:57 - Carpetas dentro de la Clean Architecture\n0:07:19​ - Carpetas Reutilizables - Modularización\n0:10:35​​ - Carpeta adapters\n0:12:43​​ - Carpeta assets\n0:13:15​​ - Carpeta components\n0:14:09​​ - Carpeta contexts\n0:15:23​​ - Carpeta hooks\n0:17:04​ - Carpeta interceptors\n0:18:04​ - Carpeta models\n0:19:27 - Carpeta pages\n0:19:47 - Carpeta redux\n0:20:38 - Carpeta services\n0:21:01 - Carpeta styled-components\n0:22:08 - Carpeta utilities\n0:23:42 - Despedida\n\n¡A por ello !\n\nSi quieres hacer una donación: \nhttps://streamelements.com/gentlemanprogramming/tip\n\nLINK AL REPOSITORIO: https://github.com/AppleLAN/CustomhooksClass\nLink Context vs Redux: https://youtu.be/BqbvcoOWwfg\nLink Clean architecture: https://youtu.be/vRGVnqylO68\n\n▬ Links de interés  ▬▬▬▬▬▬▬▬▬▬\nLink a Spotify: https://spoti.fi/3y281cY\nLink a la comunidad: https://discord.gg/KEavKkDc5Y\nLink a la comunidad de Facebook: https://shorturl.at/jkmL6\nLink a instagram: https://www.instagram.com/gentlemanprogramming/\nLink a twitter: https://twitter.com/G_Programming\nLink al libro \"Cómo ser front-end sin fallar en el intento: Tus primeros pasos en la programación web\": https://amzn.to/2ReBuzL",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/5LqhlCd2_nE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/5LqhlCd2_nE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/5LqhlCd2_nE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/5LqhlCd2_nE/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/5LqhlCd2_nE/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "playlistId": "PL42UNLc8e48R2PYR9tor_PCTtS9o3Chna",
+        "position": 0,
+        "resourceId": { "kind": "youtube#video", "videoId": "5LqhlCd2_nE" },
+        "videoOwnerChannelTitle": "Gentleman Programming",
+        "videoOwnerChannelId": "UCbx_d228PdYwgB4Jz202SIQ"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "--CsK2l3XCtMQ0hszUNw4Fi4phU",
+      "id": "UEw0MlVOTGM4ZTQ4UjJQWVI5dG9yX1BDVHRTOW8zQ2huYS5BRjY4NjdBRjA5RTdCMUMx",
+      "snippet": {
+        "publishedAt": "2022-11-21T14:27:35Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "Creamos una app en React ! buenas prácticas, clean architecture, redux, context y Typescript !",
+        "description": "¡Buenas, buenas mi gente!  \n\nCreamos una app en React ! 🤪🤪\n\nHacemos una prueba técnica para position SENIOR con #Redux, #Context, #Axios, #CleanArchitecture, #Typescript, #buenasprácticas y más   \n\nA por ello !  \n\n🔴Si quieres hacer una donación🔴\n https://streamelements.com/gentlemanprogramming/tip\n\nREPOSITORIO: https://github.com/Gentleman-Programming/GentlemanTestReact\n\n🔴▬ Links de interés ▬🔴\nLink a YouTube: https://www.youtube.com/c/GentlemanProgramming\nLink a Twitch: https://t.co/vodIqiCH9N\nLink a Spotify: https://spoti.fi/3y281cY\nLink a la comunidad: https://discord.gg/KEavKkDc5Y\nLink a la comunidad de Facebook: https://shorturl.at/jkmL6\nLink a instagram: https://www.instagram.com/gentlemanprogramming/\nLink a twitter: https://twitter.com/G_Programming\nLink al libro Cómo ser front-end sin fallar en el intento: Tus primeros pasos en la programación web: https://amzn.to/2ReBuzL\n\n#comunidad #discord #programming #podcast #live #stream #clase #Angular #ReactJs #interview #lifecyle #componentes #framework #library",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/p9PAmqpCWgA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/p9PAmqpCWgA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/p9PAmqpCWgA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/p9PAmqpCWgA/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/p9PAmqpCWgA/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "playlistId": "PL42UNLc8e48R2PYR9tor_PCTtS9o3Chna",
+        "position": 1,
+        "resourceId": { "kind": "youtube#video", "videoId": "p9PAmqpCWgA" },
+        "videoOwnerChannelTitle": "Gentleman Programming",
+        "videoOwnerChannelId": "UCbx_d228PdYwgB4Jz202SIQ"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "yz_y8bws3RqpLpD09hEqVyvQuQc",
+      "id": "UEw0MlVOTGM4ZTQ4UjJQWVI5dG9yX1BDVHRTOW8zQ2huYS40OTQ5QjlEMDgzN0FBNUIw",
+      "snippet": {
+        "publishedAt": "2022-11-20T18:47:18Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "Entrevista técnica de Angular ! todo lo que tienes que saber para pasar una entrevista técnica!",
+        "description": "Buenas buenas mi gente !\n\nNuevo vídeo donde te hago una entrevista de Angular !!!\n\nVamos a simular que vienes a una entrevista para esta increíble empresa llamada “Gentleman Programming”, voy a hacerte un par de preguntar y vamos a ver cómo te va !!\n\nNo se olviden de poner sus respuestas en los comentarios :D\n\nA por ello !\n\nSi quieres hacer una donación: \nhttps://streamelements.com/gentlemanprogramming/tip\n\nVídeo sobre memory leaks y como resolverlos: https://www.youtube.com/watch?v=NoBsho-cEYg&t=756s\nPlaylist sobre programación web: https://www.youtube.com/watch?v=Q6dJ7Gcm3Nw&list=PL42UNLc8e48Q7Zpk3pIn_qebx8zC3jtqH\n\n▬ Links de interés  ▬▬▬▬▬▬▬▬▬▬\nLink a Spotify: https://spoti.fi/3y281cY\nLink a la comunidad: https://discord.gg/gxQCPMZGjP\nLink a la comunidad de Facebook: https://shorturl.at/jkmL6\nLink al libro \"Cómo ser front-end sin fallar en el intento: Tus primeros pasos en la programación web\": https://amzn.to/2ReBuzL",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/5vOj1yDzJwY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/5vOj1yDzJwY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/5vOj1yDzJwY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/5vOj1yDzJwY/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/5vOj1yDzJwY/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "playlistId": "PL42UNLc8e48R2PYR9tor_PCTtS9o3Chna",
+        "position": 2,
+        "resourceId": { "kind": "youtube#video", "videoId": "5vOj1yDzJwY" },
+        "videoOwnerChannelTitle": "Gentleman Programming",
+        "videoOwnerChannelId": "UCbx_d228PdYwgB4Jz202SIQ"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "IGQncNV1S3K-Ht62zZ4W7F6WALQ",
+      "id": "UEw0MlVOTGM4ZTQ4UjJQWVI5dG9yX1BDVHRTOW8zQ2huYS5DNzNDRDE1NzhGODQzODI2",
+      "snippet": {
+        "publishedAt": "2022-11-21T14:27:35Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "Qué es Clean Architecture ? cómo aplicarlo a tu aplicación Front End ?",
+        "description": "Buenas buenas mi gente !\n\nEl webinar dado por quién les habla sobre Clean Architecture ! \nLa arquitectura perfecta, la seleccionada por los mismos dioses para que un project salga perfecto ! Pero tiene sus problemáticas y desventajas. También vemos cómo se aplicaría a un project Front End.\n\nA por ello !\n\nSi quieres hacer una donación: \nhttps://streamelements.com/gentlemanprogramming/tip\n\n\n▬ Links de interés  ▬▬▬▬▬▬▬▬▬▬\nLink a Spotify: https://spoti.fi/3y281cY\nLink a la comunidad: https://discord.gg/z6XmNPsHQp​\nLink a la comunidad de Facebook: https://www.facebook.com/gentleman.programming\nLink al libro \"Cómo ser front-end sin fallar en el intento: Tus primeros pasos en la programación web\": https://amzn.to/2ReBuzL",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/vRGVnqylO68/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/vRGVnqylO68/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/vRGVnqylO68/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/vRGVnqylO68/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/vRGVnqylO68/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "playlistId": "PL42UNLc8e48R2PYR9tor_PCTtS9o3Chna",
+        "position": 3,
+        "resourceId": { "kind": "youtube#video", "videoId": "vRGVnqylO68" },
+        "videoOwnerChannelTitle": "Gentleman Programming",
+        "videoOwnerChannelId": "UCbx_d228PdYwgB4Jz202SIQ"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "HVzF_yLXBZCnS7pIWOU4r9zHtCc",
+      "id": "UEw0MlVOTGM4ZTQ4UjJQWVI5dG9yX1BDVHRTOW8zQ2huYS4wQTI4OEZFRUE0Q0Q3ODQw",
+      "snippet": {
+        "publishedAt": "2022-11-20T18:47:18Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "Ejercicios interactivos y preguntas clásicas de entrevistas técnicas de Front End de Javascript !",
+        "description": "Buenas buenas mi gente ! \n\nEn el día de hoy... presentamos una guía de preguntas y ejercicios técnicos clásicos para una entrevista de Front End pero orientados a la parte de Javascript, seguramente este sea el primero de muchos ya que hay MUCHOS ejercicios. \nHoy vamos a hacer algo diferente, quiero que cuando escuchen \"pausa\", paren sus videos, lean el ejercicio y pongan en los comentarios lo que creen que sería la respuesta ! luego pueden validar a ver si han acertado.\n\nA por ello !!\n\nLink a vídeo de cómo pasar una entrevista: https://youtu.be/EWO0WIATQ1g\n\n▬ Contenido del video  ▬▬▬▬▬▬▬▬▬▬\n0:00:00​​​​ - Welcome !\n0:01:32​​​​ - Qué es ECMA ?\n0:02:55 - Qué es un Scope?\n0:05:06​​​​ - Ejercicio técnico Scope\n0:08:03​​​​ - Qué es Closure ?\n0:09:19​​​​ - Ejercicio técnico Closure\n0:13:20​​​​ - Prototype\n0:14:50​​ - Triple igual vs Doble igual\n0:16:55 - Const vs Let vs Var\n0:23:48 - Filter, Map, Reduce\n0:28:35​​ - Programación funcional, declarativa, side effects, inmutabilidad\n0:31:05​​ - Not Defined vs NUll vs Undefined\n0:32:24​​ - Hoisting\n0:35:35​​ - Métodos y variables privadas\n0:37:24 - Object.freeze()\n0:39:23 - Arrow functions\n0:42:26 - Despedida\n\nSi quieres hacer una donación: \nhttps://streamelements.com/gentlemanprogramming/tip\n\n▬ Links de interés  ▬▬▬▬▬▬▬▬▬▬\nLink a Spotify: https://spoti.fi/3y281cY\nLink a la comunidad: https://discord.com/invite/KEavKkDc5Y\nLink a la comunidad de Facebook: https://www.facebook.com/groups/541544337043760\nLink al libro \"Cómo ser front-end sin fallar en el intento: Tus primeros pasos en la programación web\": https://amzn.to/2ReBuzL",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/QyVL2ZpQRpA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/QyVL2ZpQRpA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/QyVL2ZpQRpA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/QyVL2ZpQRpA/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/QyVL2ZpQRpA/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "playlistId": "PL42UNLc8e48R2PYR9tor_PCTtS9o3Chna",
+        "position": 4,
+        "resourceId": { "kind": "youtube#video", "videoId": "QyVL2ZpQRpA" },
+        "videoOwnerChannelTitle": "Gentleman Programming",
+        "videoOwnerChannelId": "UCbx_d228PdYwgB4Jz202SIQ"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "-P92nSgVl6JD5BehSR3OcQqwJdU",
+      "id": "UEw0MlVOTGM4ZTQ4UjJQWVI5dG9yX1BDVHRTOW8zQ2huYS44Mjc5REFBRUE2MTdFRDU0",
+      "snippet": {
+        "publishedAt": "2022-11-20T18:46:36Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "Clase intensiva de Typescript !!! Aprendemos TODO lo que hay que saber para superar una entrevista",
+        "description": "¡Buenas, buenas mi gente!  \n\nCon de tuti con una masterclass de Typescript ! \n- Bases\n- Inferencia de tipo\n- Class vs Interface\n- Buenas practicas\n- Union vs Intersection\n- Creación de tipos custom\n- Utility Types\n- Genéricos\n\nA por ello !  \n\ninicio: 08:43\n\nCódigo de la clase: https://drive.google.com/file/d/1okfYDRCPiNNhv5HbnT9g17Zvy8gEoAmZ/view\n\nSi quieres hacer una donación: https://streamelements.com/gentlemanprogramming/tip\n\n▬ Links de interés  ▬▬▬▬▬▬▬▬▬▬  \n\nLink a Twitch: https://t.co/vodIqiCH9N  \nLink a Spotify: https://spoti.fi/3y281cY\nLink a la comunidad: https://discord.gg/KEavKkDc5Y \nLink a la comunidad de Facebook: https://shorturl.at/jkmL6\nLink a instagram: https://www.instagram.com/gentlemanprogramming/\nLink a twitter: https://twitter.com/G_Programming\nLink al libro \"Cómo ser front-end sin fallar en el intento: Tus primeros pasos en la programación\": https://amzn.to/2ReBuzL\n\n#comunidad #discord #programming #podcast #live #stream  #clase #ReactJs #customHooks #hooks #lifecyle #componentes #framework #library",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/LYNaJ9gZXKI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/LYNaJ9gZXKI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/LYNaJ9gZXKI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/LYNaJ9gZXKI/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/LYNaJ9gZXKI/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "playlistId": "PL42UNLc8e48R2PYR9tor_PCTtS9o3Chna",
+        "position": 5,
+        "resourceId": { "kind": "youtube#video", "videoId": "LYNaJ9gZXKI" },
+        "videoOwnerChannelTitle": "Gentleman Programming",
+        "videoOwnerChannelId": "UCbx_d228PdYwgB4Jz202SIQ"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "2PHdg8r9W4GiIEc-Bx2m01BZiNM",
+      "id": "UEw0MlVOTGM4ZTQ4UjJQWVI5dG9yX1BDVHRTOW8zQ2huYS4wRkVBNUY4OTkzN0JCNTA2",
+      "snippet": {
+        "publishedAt": "2022-11-20T18:47:18Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "Me mudo a ReactJs ! y te cuento el porqué. Comparativas con Angular, Ventajas / Desventajas y tips.",
+        "description": "Buenas buenas mi gente !! \n\nSi ! me he pasado a ReactJs pero no se preocupen !! que eso no significa que no hayan más vídeos de Angular u otros lenguajes en el canal.\n\nEn el día de hoy veremos porqué me pasé a ReactJs, ventajas y desventajas con Angular, qué aspectos considerar para utilizar uno u el otro y tips para los que recién comienzan con el Lenguaje.\n\n\nA por ello !\n\nSi quieres hacer una donación: \nhttps://streamelements.com/gentlemanprogramming/tip\n\n▬ Links de interés  ▬▬▬▬▬▬▬▬▬▬\nLink a Spotify: https://spoti.fi/3y281cY\nLink a la comunidad: https://discord.gg/z6XmNPsHQp​\nLink a la comunidad de Facebook: shorturl.at/jkmL6\nLink al libro \"Cómo ser front-end sin fallar en el intento: Tus primeros pasos en la programación web\": https://amzn.to/2ReBuzL",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/THtz3F8Lsr4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/THtz3F8Lsr4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/THtz3F8Lsr4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/THtz3F8Lsr4/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/THtz3F8Lsr4/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "playlistId": "PL42UNLc8e48R2PYR9tor_PCTtS9o3Chna",
+        "position": 6,
+        "resourceId": { "kind": "youtube#video", "videoId": "THtz3F8Lsr4" },
+        "videoOwnerChannelTitle": "Gentleman Programming",
+        "videoOwnerChannelId": "UCbx_d228PdYwgB4Jz202SIQ"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "GVcRdA_eZQFseLN_tIX2w-1TIiE",
+      "id": "UEw0MlVOTGM4ZTQ4UjJQWVI5dG9yX1BDVHRTOW8zQ2huYS5DQ0MyQ0Y4Mzg0M0VGOEYw",
+      "snippet": {
+        "publishedAt": "2022-11-20T18:46:36Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "Routing en una app de React ! Aprende a validar quién entra a tus páginas y bajo qué roles",
+        "description": "¡Buenas, buenas mi gente!\n\nAprende a validar correctamente quién entra a tus rutas !\n\n#rutaspublicas\n#rutasprivadas\n#reactRouterDom\n#ReactJS\n#ViteJS\n#Redux\n#Guards\n#ManejoDeRoles\n#Autenticacion\ny mucho más!!\n\nA por ello !\n\nCódigo de la clase: https://github.com/Gentleman-Programming/GentlemanClass_Routing_React\n\nSi quieres hacer una donación: https://streamelements.com/gentlemanprogramming/tip))\n\n▬ Links de interés ▬▬▬▬▬▬▬▬▬▬\n\nLink a Twitch: https://t.co/vodIqiCH9N\nLink a Spotify: https://spoti.fi/3y281cY\nLink a la comunidad: https://discord.gg/KEavKkDc5Y\nLink a la comunidad de Facebook: https://shorturl.at/jkmL6\nLink a instagram: https://www.instagram.com/gentlemanprogramming/\nLink a twitter: https://twitter.com/G_Programming\nLink al libro \"Cómo ser front-end sin fallar en el intento: Tus primeros pasos en la programación\": https://amzn.to/2ReBuzL\n\n#comunidad #discord #programming #podcast #live #stream #clase #ReactJs #customHooks #hooks #lifecyle #componentes #framework #library",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/UVsX7A2wfLo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/UVsX7A2wfLo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/UVsX7A2wfLo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/UVsX7A2wfLo/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/UVsX7A2wfLo/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "playlistId": "PL42UNLc8e48R2PYR9tor_PCTtS9o3Chna",
+        "position": 7,
+        "resourceId": { "kind": "youtube#video", "videoId": "UVsX7A2wfLo" },
+        "videoOwnerChannelTitle": "Gentleman Programming",
+        "videoOwnerChannelId": "UCbx_d228PdYwgB4Jz202SIQ"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "waK6ugKSKAEXyOkcUfJzm54P53s",
+      "id": "UEw0MlVOTGM4ZTQ4UjJQWVI5dG9yX1BDVHRTOW8zQ2huYS5GM0Q3M0MzMzY5NTJFNTdE",
+      "snippet": {
+        "publishedAt": "2022-11-20T18:46:36Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "Hacemos una app en Angular ! #buenasprácticas, #cleanarchitecture , #Typescript , #RxJS y más - PT 1",
+        "description": "¡Buenas, buenas mi gente!  \n\nCreamos una app en Angular ! 🤪🤪\n\nHacemos una prueba técnica para position SENIOR con #buenasprácticas, #cleanarchitecture , #Typescript , #RxJS y más\n\nA por ello !  \n\n🔴Si quieres hacer una donación🔴\n https://streamelements.com/gentlemanprogramming/tip\n\nREPOSITORIO: https://github.com/Gentleman-Programming/GentlemanTestAngular\n\n🔴▬ Links de interés ▬🔴\nLink a YouTube: https://www.youtube.com/c/GentlemanProgramming\nLink a Twitch: https://t.co/vodIqiCH9N\nLink a Spotify: https://spoti.fi/3y281cY\nLink a la comunidad: https://discord.gg/KEavKkDc5Y\nLink a la comunidad de Facebook: https://shorturl.at/jkmL6\nLink a instagram: https://www.instagram.com/gentlemanprogramming/\nLink a twitter: https://twitter.com/G_Programming\nLink al libro Cómo ser front-end sin fallar en el intento: Tus primeros pasos en la programación web: https://amzn.to/2ReBuzL\n\n#comunidad #discord #programming #podcast #live #stream #clase #Angular #ReactJs #interview #lifecyle #componentes #framework #library",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/4J1onUTl--8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/4J1onUTl--8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/4J1onUTl--8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/4J1onUTl--8/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/4J1onUTl--8/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "playlistId": "PL42UNLc8e48R2PYR9tor_PCTtS9o3Chna",
+        "position": 8,
+        "resourceId": { "kind": "youtube#video", "videoId": "4J1onUTl--8" },
+        "videoOwnerChannelTitle": "Gentleman Programming",
+        "videoOwnerChannelId": "UCbx_d228PdYwgB4Jz202SIQ"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "M7kNEEbF4Z55FctVU0iGaA4ToCE",
+      "id": "UEw0MlVOTGM4ZTQ4UjJQWVI5dG9yX1BDVHRTOW8zQ2huYS41RjU0OTVCQThDNUUwQzBD",
+      "snippet": {
+        "publishedAt": "2022-11-21T14:27:35Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "Hacemos una app en Angular ! #buenasprácticas, #cleanarchitecture , #Typescript , #RxJS y más - PT 1",
+        "description": "¡Buenas, buenas mi gente!  \n\nCreamos una app en Angular ! 🤪🤪\n\nHacemos una prueba técnica para position SENIOR con #buenasprácticas, #cleanarchitecture , #Typescript , #RxJS y más\n\nA por ello !  \n\n🔴Si quieres hacer una donación🔴\n https://streamelements.com/gentlemanprogramming/tip\n\nREPOSITORIO: https://github.com/Gentleman-Programming/GentlemanTestAngular\n\n🔴▬ Links de interés ▬🔴\nLink a YouTube: https://www.youtube.com/c/GentlemanProgramming\nLink a Twitch: https://t.co/vodIqiCH9N\nLink a Spotify: https://spoti.fi/3y281cY\nLink a la comunidad: https://discord.gg/KEavKkDc5Y\nLink a la comunidad de Facebook: https://shorturl.at/jkmL6\nLink a instagram: https://www.instagram.com/gentlemanprogramming/\nLink a twitter: https://twitter.com/G_Programming\nLink al libro Cómo ser front-end sin fallar en el intento: Tus primeros pasos en la programación web: https://amzn.to/2ReBuzL\n\n#comunidad #discord #programming #podcast #live #stream #clase #Angular #ReactJs #interview #lifecyle #componentes #framework #library",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/4J1onUTl--8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/4J1onUTl--8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/4J1onUTl--8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/4J1onUTl--8/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/4J1onUTl--8/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "playlistId": "PL42UNLc8e48R2PYR9tor_PCTtS9o3Chna",
+        "position": 9,
+        "resourceId": { "kind": "youtube#video", "videoId": "4J1onUTl--8" },
+        "videoOwnerChannelTitle": "Gentleman Programming",
+        "videoOwnerChannelId": "UCbx_d228PdYwgB4Jz202SIQ"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "m3KA66oyWaG_Y9JiEa9GgslGYJ4",
+      "id": "UEw0MlVOTGM4ZTQ4UjJQWVI5dG9yX1BDVHRTOW8zQ2huYS5CMUM0NzY5NzdEQzlGRjAx",
+      "snippet": {
+        "publishedAt": "2022-11-20T18:46:55Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "Configuraciones de VSCODE, tema y font families para codear como un campeón - #shorts",
+        "description": "#shorts\nBuenas, buenas mi gente !\n\nLes dejo mis configuraciones, themes y font families para que el codear sea un placer y sean la envidia de sus compañeros.\n\nJetbrains Mono: https://www.jetbrains.com/lp/mono/\nFira Code: https://github.com/tonsky/FiraCode\n\nSi quieres hacer una donación: https://streamelements.com/gentlemanprogramming/tip\n\n#comunidad #canal #server #discord #programming #eldenring #podcast #discordserver #members #live #stream  #gameplay #fromsoftware #clase #ReactJs #customHooks #hooks #lifecyle #componentes #framework #library\n\n▬ Links de interés  ▬▬▬▬▬▬▬▬▬▬\nLink a Spotify: https://spoti.fi/3y281cY\nLink a la comunidad: https://discord.gg/KEavKkDc5Y\nLink a la comunidad de Facebook: https://shorturl.at/jkmL6\nLink al libro \"Cómo ser front-end sin fallar en el intento: Tus primeros pasos en la programación web\": https://amzn.to/2ReBuzL",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/KpR4VJ212J4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/KpR4VJ212J4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/KpR4VJ212J4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "playlistId": "PL42UNLc8e48R2PYR9tor_PCTtS9o3Chna",
+        "position": 10,
+        "resourceId": { "kind": "youtube#video", "videoId": "KpR4VJ212J4" },
+        "videoOwnerChannelTitle": "Gentleman Programming",
+        "videoOwnerChannelId": "UCbx_d228PdYwgB4Jz202SIQ"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "e8MSyO33GLzwM3oo52iXoPw7pEE",
+      "id": "UEw0MlVOTGM4ZTQ4UjJQWVI5dG9yX1BDVHRTOW8zQ2huYS43NjE5NDdDRTdENjQ3RTkw",
+      "snippet": {
+        "publishedAt": "2022-11-20T18:47:18Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "Qué es Redux ? Qué es Context ? cúando y cómo usar cada uno con CRUD de ejemplo a una API en ReactJS",
+        "description": "Buenas buenas mi gente !!\n\nUno de los vídeos más esperados del canal ! Redux vs Context, lucha de titanes. Explicamos qué diferencias tienen, cúando es recomendable utilizar cada uno de ellos, qué es un manejador de estados y qué hace que un state manager sea Global entre muchas otras cosas.\n\nA por ello !\n\nSi quieres hacer una donación: \nhttps://streamelements.com/gentlemanprogramming/tip\n\nRedux DevTools: https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=es\n\n▬ Links de interés  ▬▬▬▬▬▬▬▬▬▬\nLink a Spotify: https://spoti.fi/3y281cY\nLink a la comunidad: https://discord.gg/z6XmNPsHQp​\nLink a la comunidad de Facebook: shorturl.at/jkmL6\nLink al libro \"Cómo ser front-end sin fallar en el intento: Tus primeros pasos en la programación web\": https://amzn.to/2ReBuzL",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/BqbvcoOWwfg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/BqbvcoOWwfg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/BqbvcoOWwfg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/BqbvcoOWwfg/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/BqbvcoOWwfg/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "playlistId": "PL42UNLc8e48R2PYR9tor_PCTtS9o3Chna",
+        "position": 11,
+        "resourceId": { "kind": "youtube#video", "videoId": "BqbvcoOWwfg" },
+        "videoOwnerChannelTitle": "Gentleman Programming",
+        "videoOwnerChannelId": "UCbx_d228PdYwgB4Jz202SIQ"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "2nynq51cOdSqS0anzQcuY3on6u0",
+      "id": "UEw0MlVOTGM4ZTQ4UjJQWVI5dG9yX1BDVHRTOW8zQ2huYS5CRjBFOTUzQTE4Mjg3RUJF",
+      "snippet": {
+        "publishedAt": "2022-11-20T18:47:18Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "Qué son los Observables ? - Cómo compartir información en Angular ? No problem ! 😉😉",
+        "description": "Buenas a todos !! \n\nComo parte de nuestros videos más corto les traigo... cómo compartir información entre componentes de la mejor manera y con las mejores buenas practicas posibles!!\n\nSi quieres dejar de usar los inputs/outpus, aprender un poco de programación reactiva, diferentes tipos de observables y la mejor manera de guardar / escribir información en los mismos....\n\nA por ello !!!\n\nSi quieres hacer una donación: \nhttps://streamelements.com/gentlemanprogramming/tip\n\n▬ Links de interés  ▬▬▬▬▬▬▬▬▬▬\ngentleman-state-manager Github: https://github.com/AppleLAN/gentleman-state-manager\ngentleman-state-manager npm: https://www.npmjs.com/package/gentleman-state-manager\nVideo sobre gentleman-state-manager: https://www.youtube.com/watch?v=NEo3s1YN6gU&t=3190s\n\nLink a Spotify: https://spoti.fi/3y281cY\nLink a la comunidad: https://discord.gg/z6XmNPsHQp​\nLInk al libro \"Cómo ser front-end sin fallar en el intento: Tus primeros pasos en la programación web\": https://amzn.to/2ReBuzL",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/k0MPZxqzu8k/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/k0MPZxqzu8k/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/k0MPZxqzu8k/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/k0MPZxqzu8k/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/k0MPZxqzu8k/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "playlistId": "PL42UNLc8e48R2PYR9tor_PCTtS9o3Chna",
+        "position": 12,
+        "resourceId": { "kind": "youtube#video", "videoId": "k0MPZxqzu8k" },
+        "videoOwnerChannelTitle": "Gentleman Programming",
+        "videoOwnerChannelId": "UCbx_d228PdYwgB4Jz202SIQ"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "NGO7cTGakO0k30YF2SDfMO2BvLU",
+      "id": "UEw0MlVOTGM4ZTQ4UjJQWVI5dG9yX1BDVHRTOW8zQ2huYS5ENjg3MEUyQ0IzODMzQThB",
+      "snippet": {
+        "publishedAt": "2022-11-20T18:47:18Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "Creando un carousel / slider en React !!  lazy loading, transitions en css y auto play",
+        "description": "Buenas buenas mi gente ! \n\nEn el día de hoy vamos a ver cómo crear un carousel a mano, con animaciones estilo fade, lazy loading y un auto play !. Todo en React pero los conceptos pueden aplicarse a cualquier lenguaje.\n\nSi me ven cara de cansado es porque trabajé mas de 12 horas el día de hoy pero no podía no grabarles este vídeo, ya que lo prometido es deuda.\n\nA por ello !!\n\nLink al repositorio con el código: https://github.com/AppleLAN/carousel\n\nSi quieres hacer una donación: \nhttps://streamelements.com/gentlemanprogramming/tip\n\n▬ Links de interés  ▬▬▬▬▬▬▬▬▬▬\nLink a Spotify: https://spoti.fi/3y281cY\nLink a la comunidad: https://discord.gg/z6XmNPsHQp​\nLink a la comunidad de Facebook: https://www.facebook.com/groups/541544337043760\nLink al libro \"Cómo ser front-end sin fallar en el intento: Tus primeros pasos en la programación web\": https://amzn.to/2ReBuzL",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/EWO0WIATQ1g/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/EWO0WIATQ1g/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/EWO0WIATQ1g/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/EWO0WIATQ1g/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/EWO0WIATQ1g/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "playlistId": "PL42UNLc8e48R2PYR9tor_PCTtS9o3Chna",
+        "position": 13,
+        "resourceId": { "kind": "youtube#video", "videoId": "EWO0WIATQ1g" },
+        "videoOwnerChannelTitle": "Gentleman Programming",
+        "videoOwnerChannelId": "UCbx_d228PdYwgB4Jz202SIQ"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "HTDEyZNAFC9zKv-vRFSIxsqxnMU",
+      "id": "UEw0MlVOTGM4ZTQ4UjJQWVI5dG9yX1BDVHRTOW8zQ2huYS5CNzAzQzRDMkI3QThEQzZB",
+      "snippet": {
+        "publishedAt": "2022-11-21T14:27:35Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "Estructuramos en vivo un project de React usando conceptos de Clean Architecture - #part2",
+        "description": "¡Buenas, buenas mi gente!\n\nVolvemos con más  sobre el cómo implementar los conceptos sobre Clean Architecture en tu Front End.\nEn el día de hoy veremos código EN VIVO, utilizando ReactJs, Vitejs, adapters, services, Redux y más para poder hacer un Login que se comunicará con la API de Rick an Morty, guardará el resultado dentro del store de Redux para luego poder modificarlo.\n\nLa verdad que muchas gracias por todo el apoyo y la repercución que ha tenido mi canal en estos útimos días, la verdad que ustedes ¡Son increibles!.\n\n¡A por ello!\n\nLINK AL REPOSITORIO: https://github.com/AppleLAN/CustomhooksClass\n\nSi quieres hacer una donación: \nhttps://streamelements.com/gentlemanprogramming/tip\nLink Context vs Redux: https://youtu.be/BqbvcoOWwfg\nLink Clean architecture: https://youtu.be/5LqhlCd2_nE\n\n▬ Links de interés  ▬▬▬▬▬▬▬▬▬▬\nLink a Spotify: https://spoti.fi/3y281cY\nLink a la comunidad: https://discord.gg/KEavKkDc5Y\nLink a la comunidad de Facebook: https://shorturl.at/jkmL6\nLink a instagram: https://www.instagram.com/gentlemanprogramming/\nLink a twitter: https://twitter.com/G_Programming\nLink al libro \"Cómo ser front-end sin fallar en el intento: Tus primeros pasos en la programación web\": https://amzn.to/2ReBuzL\n\n#youtube #programacion #javascript #angular #react #html #css #formacion #cleanarchitecture",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/XEcZaKK38fg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/XEcZaKK38fg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/XEcZaKK38fg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/XEcZaKK38fg/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/XEcZaKK38fg/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "playlistId": "PL42UNLc8e48R2PYR9tor_PCTtS9o3Chna",
+        "position": 14,
+        "resourceId": { "kind": "youtube#video", "videoId": "XEcZaKK38fg" },
+        "videoOwnerChannelTitle": "Gentleman Programming",
+        "videoOwnerChannelId": "UCbx_d228PdYwgB4Jz202SIQ"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "ahqxa1FgoffU87QZsA8i3NXexSY",
+      "id": "UEw0MlVOTGM4ZTQ4UjJQWVI5dG9yX1BDVHRTOW8zQ2huYS45QzM0OUZCRDUyMTgwREVG",
+      "snippet": {
+        "publishedAt": "2022-11-21T14:27:35Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "Aprendemos sobre la nueva forma de hacer Clean Architecture en Front y creamos un boilerplate ! PT 1",
+        "description": "¡Buenas, buenas mi gente!\n\nAprendemos sobre la nueva forma de hacer Clean Architecture especial para el Front End y creamos un boilerplate desde 0 con toda la estructura, tips y demás !!!\n\nA por ello !\n\nhttps://www.twitch.tv/gentleman_programming\n\nSi quieres hacer una donación: https://streamelements.com/gentlemanprogramming/tip\n\nBoilerplate: https://github.com/Gentleman-Programming/GentlemanClass_ReactCleanArch\n\n▬ Links de interés  ▬▬▬▬▬▬▬▬▬▬\n\nLink a Twitch: https://t.co/vodIqiCH9N\nLink a Spotify: https://spoti.fi/3y281cY\nLink a la comunidad: https://discord.gg/KEavKkDc5Y\nLink a la comunidad de Facebook: https://shorturl.at/jkmL6\nLink a instagram: https://www.instagram.com/gentlemanprogramming/\nLink a twitter: https://twitter.com/G_Programming\nLink al libro \"Cómo ser front-end sin fallar en el intento: Tus primeros pasos en la programación web\": https://amzn.to/2ReBuzL\n\n#comunidad #discord #programming #podcast #live #stream  #clase #ReactJs #customHooks #hooks #lifecyle #componentes #framework #library",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/8WlGLOeFMOM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/8WlGLOeFMOM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/8WlGLOeFMOM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/8WlGLOeFMOM/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/8WlGLOeFMOM/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "playlistId": "PL42UNLc8e48R2PYR9tor_PCTtS9o3Chna",
+        "position": 15,
+        "resourceId": { "kind": "youtube#video", "videoId": "8WlGLOeFMOM" },
+        "videoOwnerChannelTitle": "Gentleman Programming",
+        "videoOwnerChannelId": "UCbx_d228PdYwgB4Jz202SIQ"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "iv9B_T0xaf7xcGyBUvMuFXulISw",
+      "id": "UEw0MlVOTGM4ZTQ4UjJQWVI5dG9yX1BDVHRTOW8zQ2huYS4yQUE2Q0JEMTk4NTM3RTZC",
+      "snippet": {
+        "publishedAt": "2022-11-20T18:46:36Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "Cúando y cómo usar Redux, Context o Rxjs? Con esto tu app no tendrá problemas de comunicación",
+        "description": "¡Buenas, buenas mi gente!\n\nVamos a ver cómo utilizo en mis projects personales los siguientes conceptos :\n#RxJS\n#Context\n#Redux\n#ProgramaciónReactiva\n#Observables\n#Subject\n#BehaviourSubject\n#SingleSourceOfTruth\ny mucho más!!\n\nA por ello !\n\nCódigo de la clase: https://github.com/Gentleman-Programming/GentlemanClass-ReduxVsContextVsRxJS\n\nSi quieres hacer una donación: https://streamelements.com/gentlemanprogramming/tip))\n\n▬ Links de interés ▬▬▬▬▬▬▬▬▬▬\n\nLink a Twitch: https://t.co/vodIqiCH9N\nLink a Spotify: https://spoti.fi/3y281cY\nLink a la comunidad: https://discord.gg/KEavKkDc5Y\nLink a la comunidad de Facebook: https://shorturl.at/jkmL6\nLink a instagram: https://www.instagram.com/gentlemanprogramming/\nLink a twitter: https://twitter.com/G_Programming\nLink al libro \"Cómo ser front-end sin fallar en el intento: Tus primeros pasos en la programación\": https://amzn.to/2ReBuzL\n\n#comunidad #discord #programming #podcast #live #stream #clase #ReactJs #customHooks #hooks #lifecyle #componentes #framework #library",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/USm-uiVyTuQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/USm-uiVyTuQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/USm-uiVyTuQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/USm-uiVyTuQ/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/USm-uiVyTuQ/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "playlistId": "PL42UNLc8e48R2PYR9tor_PCTtS9o3Chna",
+        "position": 16,
+        "resourceId": { "kind": "youtube#video", "videoId": "USm-uiVyTuQ" },
+        "videoOwnerChannelTitle": "Gentleman Programming",
+        "videoOwnerChannelId": "UCbx_d228PdYwgB4Jz202SIQ"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "eW-B8u3xBBcdm8o9aHUgDBo1fFQ",
+      "id": "UEw0MlVOTGM4ZTQ4UjJQWVI5dG9yX1BDVHRTOW8zQ2huYS41QTY1Q0UxMTVCODczNThE",
+      "snippet": {
+        "publishedAt": "2022-11-20T18:46:36Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "Aprendemos #ReactJS desde 0 !! el vídeo que siempre buscaste para poder empezar y en solo una hora",
+        "description": "¡Buenas, buenas mi gente!  \n\nSe verá : \n- Bases de #ReactJs\n- Estructura de carpetas\n- #ViteJs\n- Creando un hola mundo\n- #AtomicDesign\n- Creando nuestros primeros componentes\n- Mostrar datos con #Es6\n\n🔴Si quieres hacer una donación🔴\n https://streamelements.com/gentlemanprogramming/tip\n\n🔴▬ Links de interés ▬🔴\nLink a YouTube: https://www.youtube.com/c/GentlemanProgramming\nLink a Twitch: https://t.co/vodIqiCH9N\nLink a Spotify: https://spoti.fi/3y281cY\nLink a la comunidad: https://discord.gg/KEavKkDc5Y\nLink a la comunidad de Facebook: https://shorturl.at/jkmL6\nLink a instagram: https://www.instagram.com/gentlemanprogramming/\nLink a twitter: https://twitter.com/G_Programming\nLink al libro Cómo ser front-end sin fallar en el intento: Tus primeros pasos en la programación web: https://amzn.to/2ReBuzL\n\n#comunidad #discord #twitch #programming #podcast #live #stream #clase #Angular #Firebase #Hackathon #GentlemanProgramming #componentes #framework #library #google",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/DGVijk69KIY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/DGVijk69KIY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/DGVijk69KIY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/DGVijk69KIY/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/DGVijk69KIY/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "playlistId": "PL42UNLc8e48R2PYR9tor_PCTtS9o3Chna",
+        "position": 17,
+        "resourceId": { "kind": "youtube#video", "videoId": "DGVijk69KIY" },
+        "videoOwnerChannelTitle": "Gentleman Programming",
+        "videoOwnerChannelId": "UCbx_d228PdYwgB4Jz202SIQ"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "sY35QtKV4eZCj0k0iYxtP0Akd0I",
+      "id": "UEw0MlVOTGM4ZTQ4UjJQWVI5dG9yX1BDVHRTOW8zQ2huYS4xNTZBNUQxMDZBQzFGMjkw",
+      "snippet": {
+        "publishedAt": "2022-11-20T18:46:55Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "Día de un programador FrontEnd Architect - #vlog + tips productividad",
+        "description": "Primera vez que hago un vídeo como este !\n\nHablo un poco de mi setup, formas de trabajo, herramientas y hasta cómo hacer un american gentleman coffee !!\n\n¡ A por ello !\n\nSi quieres hacer una donación: https://streamelements.com/gentlemanprogramming/tip\n\n▬ Links de interés  ▬▬▬▬▬▬▬▬▬▬\nLink a Spotify: https://spoti.fi/3y281cY\nLink a la comunidad: https://discord.gg/KEavKkDc5Y\nLink a la comunidad de Facebook: https://shorturl.at/jkmL6\nLink a instagram: https://www.instagram.com/gentlemanprogramming/\nLink a twitter: https://twitter.com/G_Programming\nLink al libro \"Cómo ser front-end sin fallar en el intento: Tus primeros pasos en la programación web\": https://amzn.to/2ReBuzL\n\n#react #angular #programacion #frontend #architect #youtube #podcast #vlog",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/LrDnAn86GjU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/LrDnAn86GjU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/LrDnAn86GjU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/LrDnAn86GjU/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/LrDnAn86GjU/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "playlistId": "PL42UNLc8e48R2PYR9tor_PCTtS9o3Chna",
+        "position": 18,
+        "resourceId": { "kind": "youtube#video", "videoId": "LrDnAn86GjU" },
+        "videoOwnerChannelTitle": "Gentleman Programming",
+        "videoOwnerChannelId": "UCbx_d228PdYwgB4Jz202SIQ"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "INeELE-ndzODyMLf_DAKPnwtsk0",
+      "id": "UEw0MlVOTGM4ZTQ4UjJQWVI5dG9yX1BDVHRTOW8zQ2huYS5BQzRBQzNEOTgzNTU2QkZB",
+      "snippet": {
+        "publishedAt": "2022-11-20T18:47:18Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "Cómo pasar una entrevista de trabajo para programador frontend / backend ! Tips y recomendaciones",
+        "description": "Buenas buenas mi gente ! \n\nEn el día de hoy vamos a ver cómo debemos afrontar un proceso de entrevista, desde qué hacer, cómo actuar y algunos conocimientos que no sabías sobre qué es lo que pasa en la cabeza del entrevistador.\n\nA por ello !!\n\nSi quieres hacer una donación: \nhttps://streamelements.com/gentlemanprogramming/tip\n\n▬ Links de interés  ▬▬▬▬▬▬▬▬▬▬\nLink a Spotify: https://spoti.fi/3y281cY\nLink a la comunidad: https://discord.gg/z6XmNPsHQp​\nLink a la comunidad de Facebook: https://www.facebook.com/groups/541544337043760\nLink al libro \"Cómo ser front-end sin fallar en el intento: Tus primeros pasos en la programación web\": https://amzn.to/2ReBuzL",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/vW4wTNd_3qY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/vW4wTNd_3qY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/vW4wTNd_3qY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/vW4wTNd_3qY/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/vW4wTNd_3qY/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "playlistId": "PL42UNLc8e48R2PYR9tor_PCTtS9o3Chna",
+        "position": 19,
+        "resourceId": { "kind": "youtube#video", "videoId": "vW4wTNd_3qY" },
+        "videoOwnerChannelTitle": "Gentleman Programming",
+        "videoOwnerChannelId": "UCbx_d228PdYwgB4Jz202SIQ"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "p2r_jRJPgMpHDJo9w_A5nOOKPg8",
+      "id": "UEw0MlVOTGM4ZTQ4UjJQWVI5dG9yX1BDVHRTOW8zQ2huYS40MzEwNkU4RUE0MjhBRjg4",
+      "snippet": {
+        "publishedAt": "2022-11-20T18:47:18Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "Como descargar archivos en Javascript sin Frameworks ni librerías !! 😁😁",
+        "description": "Buenas buenas mi gente !!!\n\nEn el día de hoy vamos a ver cómo descargar archivos por medio de Javascript puro !! Sin ataduras de frameworks o librerias.\n\nSi no sabías que podías crear y agregar tags de html en el dom o que podías accionar sobre ellos desde Javascript....\n\nA por ello !\n\nSi quieres hacer una donación: \nhttps://streamelements.com/gentlemanprogramming/tip\n\n▬ Links de interés  ▬▬▬▬▬▬▬▬▬▬\nLink a Spotify: https://spoti.fi/3y281cY\nLink a la comunidad: https://discord.gg/z6XmNPsHQp​\nLink al libro \"Cómo ser front-end sin fallar en el intento: Tus primeros pasos en la programación web\": https://amzn.to/2ReBuzL\nLink a libro Shape Up: https://basecamp.com/shapeup",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/2gvvrYEHS5g/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/2gvvrYEHS5g/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/2gvvrYEHS5g/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/2gvvrYEHS5g/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/2gvvrYEHS5g/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "playlistId": "PL42UNLc8e48R2PYR9tor_PCTtS9o3Chna",
+        "position": 20,
+        "resourceId": { "kind": "youtube#video", "videoId": "2gvvrYEHS5g" },
+        "videoOwnerChannelTitle": "Gentleman Programming",
+        "videoOwnerChannelId": "UCbx_d228PdYwgB4Jz202SIQ"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "Fu_cle8nLCX8fnsX-Nl9nUM1XDo",
+      "id": "UEw0MlVOTGM4ZTQ4UjJQWVI5dG9yX1BDVHRTOW8zQ2huYS5EODgyNjY4MzA3QzY5RTkx",
+      "snippet": {
+        "publishedAt": "2022-11-20T18:47:18Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "Cómo hacer Unit Testing en Angular de forma sencilla! Recomendaciones a projects grandes sin testing",
+        "description": "Buenas buenas mi gente !\n\nEn el día de hoy vamos a estar viendo como realizar Unit Testing de componentes en Angular utilizando Test Bed para:\n* Comprobar su existencia\n* Existencia de variables\n* Valores de elementos del dom\n* Qué hacer en caso de que mi componente tenga dependencias (ej: un servicio)\n* Truco para proyectos muy grandes, con muchas dependencias, que no han utilizado Unit Testing y quieran comenzar a implementarlo.\n\nA por ello !\n\nSi quieres hacer una donación: \nhttps://streamelements.com/gentlemanprogramming/tip\n\n▬ Links de interés  ▬▬▬▬▬▬▬▬▬▬\nLink a Spotify: https://spoti.fi/3y281cY\nLink a la comunidad: https://discord.gg/gxQCPMZGjP\nLink a la comunidad de Facebook: https://shorturl.at/jkmL6\nLink al libro \"Cómo ser front-end sin fallar en el intento: Tus primeros pasos en la programación web\": https://amzn.to/2ReBuzL",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/0ucTEskLvso/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/0ucTEskLvso/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/0ucTEskLvso/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/0ucTEskLvso/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/0ucTEskLvso/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "playlistId": "PL42UNLc8e48R2PYR9tor_PCTtS9o3Chna",
+        "position": 21,
+        "resourceId": { "kind": "youtube#video", "videoId": "0ucTEskLvso" },
+        "videoOwnerChannelTitle": "Gentleman Programming",
+        "videoOwnerChannelId": "UCbx_d228PdYwgB4Jz202SIQ"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "VNOumi0H48cwi4dHJmun3wqwzZg",
+      "id": "UEw0MlVOTGM4ZTQ4UjJQWVI5dG9yX1BDVHRTOW8zQ2huYS5DQUNERDQ2NkIzRUQxNTY1",
+      "snippet": {
+        "publishedAt": "2022-11-20T18:46:36Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "Hacemos un challenge con NextJs 13 ! todo lo lindo y lo feo de la última novedad de Vercel",
+        "description": "Buenas buenas mi gente,  \n\nMe uní al challenge propuesto por \"Campsite Academy\" para crear una app con una API propuesta por ellos PERO con una tecnología que NO conocía. \nY dije... que mejor posibilidad para probar lo último que se viene de la mano de Vercel con NextJs 13 ! \n\nAsí que aquí lo tienen, mi horita codificando y aprendiendo, entre documentacion y stack overflow, NextJs 13 con sus novedades.\n\nNo te lo podes perder !  \n\n🔴Si quieres hacer una donación🔴  \n\n https://streamelements.com/gentlemanprogramming/tip\n\n🔴▬ Links de interés ▬🔴  \n\nLink a YouTube: https://www.youtube.com/c/GentlemanProgramming\n\nLink a Twitch: https://t.co/vodIqiCH9N \n\nLink a Spotify: https://spoti.fi/3y281cY  \n\nLink a la comunidad: https://discord.gg/KEavKkDc5Y\n\nLink a la comunidad de Facebook: https://shorturl.at/jkmL6\n\nLink a instagram: https://www.instagram.com/gentlemanprogramming/\n\nLink a twitter: https://twitter.com/G_Programming\n\nLink al libro Cómo ser front-end sin fallar en el intento: Tus primeros pasos en la programación web: https://amzn.to/2ReBuzL\n\n#comunidad #discord #twitch #programming #podcast #live #stream #clase #tech #it #react #angular #vuejs #svelte #microfront #team #Hackathon #GentlemanProgramming #componentes #framework #library #framework #google #Facebook #tips",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/WRp5ZPskkso/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/WRp5ZPskkso/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/WRp5ZPskkso/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/WRp5ZPskkso/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/WRp5ZPskkso/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "playlistId": "PL42UNLc8e48R2PYR9tor_PCTtS9o3Chna",
+        "position": 22,
+        "resourceId": { "kind": "youtube#video", "videoId": "WRp5ZPskkso" },
+        "videoOwnerChannelTitle": "Gentleman Programming",
+        "videoOwnerChannelId": "UCbx_d228PdYwgB4Jz202SIQ"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "HBCiLdMUoMxelxv2E6gkJMo3Tx0",
+      "id": "UEw0MlVOTGM4ZTQ4UjJQWVI5dG9yX1BDVHRTOW8zQ2huYS4wMDFGNzBEOTU4Q0Y1Q0RG",
+      "snippet": {
+        "publishedAt": "2022-11-20T18:46:55Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "¿ Cómo usar Testing library ? TODO lo que necesitas para empezar",
+        "description": "¡ Buenas, buenas mi gente !\n\nLes traigo ¡ Testing Library !:\n\nIntroducción a Testing library, mindset, estructura, tipos de query, tests asíncronos y por último un ejemplo sencillo de cómo usarlos.\n\n¡ A por ello !\n\n▬ Contenido del video  ▬▬▬▬▬▬▬▬▬▬\n0:00:00​​ - Welcome !\n0:01:22 - Testing Library\n0:02:05​​ - Testing Frameworks\n0:02:34 - Ideología sobre Testing Library\n0:05:25 - Glosario de testing\n0:08:53​ - Estructura con Jest\n0:10:24​​ - Mindset correcto\n0:10:48​​ - Recomendaciones para un testing fácil y correcto\n0:12:51​​ - Tipos queries\n0:15:11 - Principales queries\n0:18:13​​ - Síncrono vs Asíncrono\n0:21:36​ - Ejemplo de uso de queries\n0:23:00- Despedida\n\nSi quieres hacer una donación: https://streamelements.com/gentlemanprogramming/tip\n\n\"Gentleman Note\" de Testing parte 1: https://drive.google.com/file/d/1S6V574FI-Xg6A87ctee_tZTIKexfiMNC/view?usp=sharing\n\nVídeo de testing: https://youtu.be/vsXGGtPCI5Y\n\n▬ Links de interés  ▬▬▬▬▬▬▬▬▬▬\nLink a Spotify: https://spoti.fi/3y281cY\nLink a la comunidad: https://discord.gg/KEavKkDc5Y\nLink a la comunidad de Facebook: https://shorturl.at/jkmL6\nLink al libro \"Cómo ser front-end sin fallar en el intento: Tus primeros pasos en la programación web\": https://amzn.to/2ReBuzL\n\n#react #testing #angular #testinglibrary #frontend #programacion #youtube #podcast #mentoria",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/BUJJ1zzAAGE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/BUJJ1zzAAGE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/BUJJ1zzAAGE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/BUJJ1zzAAGE/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/BUJJ1zzAAGE/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "playlistId": "PL42UNLc8e48R2PYR9tor_PCTtS9o3Chna",
+        "position": 23,
+        "resourceId": { "kind": "youtube#video", "videoId": "BUJJ1zzAAGE" },
+        "videoOwnerChannelTitle": "Gentleman Programming",
+        "videoOwnerChannelId": "UCbx_d228PdYwgB4Jz202SIQ"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "1LYHgVygvxX0470SLJfmOwStuys",
+      "id": "UEw0MlVOTGM4ZTQ4UjJQWVI5dG9yX1BDVHRTOW8zQ2huYS5CMDk1Q0MxREYyOTVEOTZF",
+      "snippet": {
+        "publishedAt": "2022-11-20T18:47:18Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "Diferencia entre Interface vs Class y cómo manejar tus interfaces de Typescript 🤤🤤",
+        "description": "Buenas my peopleeee !! \n\nLes traigo...cúando utilizar una interface vs una class, y cómo manejar tus interfaces de Typescript !!\n\nSi quieres saber en qué momento o bajo qué condiciones crear una clase o una interfaz, y ver la forma correcta de crear tus modelos de la información para que sean más mantenibles... \n\nA por ello !!\n\nSi quieres hacer una donación: \nhttps://streamelements.com/gentlemanprogramming/tip\n\n▬ Links de interés  ▬▬▬▬▬▬▬▬▬▬\nLink a Spotify: https://spoti.fi/3y281cY\nLink a la comunidad: https://discord.gg/z6XmNPsHQp\nLInk al libro \"Cómo ser front-end sin fallar en el intento: Tus primeros pasos en la programación web\": https://amzn.to/2ReBuzL",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/j0NwW_dq1Qg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/j0NwW_dq1Qg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/j0NwW_dq1Qg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/j0NwW_dq1Qg/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/j0NwW_dq1Qg/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "playlistId": "PL42UNLc8e48R2PYR9tor_PCTtS9o3Chna",
+        "position": 24,
+        "resourceId": { "kind": "youtube#video", "videoId": "j0NwW_dq1Qg" },
+        "videoOwnerChannelTitle": "Gentleman Programming",
+        "videoOwnerChannelId": "UCbx_d228PdYwgB4Jz202SIQ"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "vXOUvM1nUHK6Iy-TG2_t2H7gy0c",
+      "id": "UEw0MlVOTGM4ZTQ4UjJQWVI5dG9yX1BDVHRTOW8zQ2huYS5DMkU4NTY1QUFGQTYwMDE3",
+      "snippet": {
+        "publishedAt": "2022-11-20T18:46:36Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "Habemus testing ! con de tuti y como se debe con Jest y Testing Library ! tips y trucos",
+        "description": "¡Buenas, buenas mi gente!  \n\nCon de tuti con una masterclass de Testing ! \n- Bases\n- React Hook Form\n- Axios\n- Jest\n- Testing library\n- UserEvent\n- Expect\n- Describe \n- It\n- Yup\n- Validaciones\n- Manejo de erroes\n- y mucho más ! \n\nA por ello !  \n\nCódigo de la clase: https://github.com/Gentleman-Programming/GentlemanClass_Testing\n\nSi quieres hacer una donación: https://streamelements.com/gentlemanprogramming/tip\n\n▬ Links de interés  ▬▬▬▬▬▬▬▬▬▬  \n\nLink a Twitch: https://t.co/vodIqiCH9N\nLink a Spotify: https://spoti.fi/3y281cY\nLink a la comunidad: https://discord.gg/KEavKkDc5Y \nLink a la comunidad de Facebook: https://shorturl.at/jkmL6\nLink a instagram: https://www.instagram.com/gentlemanprogramming/\nLink a twitter: https://twitter.com/G_Programming\nLink al libro \"Cómo ser front-end sin fallar en el intento: Tus primeros pasos en la programación\": https://amzn.to/2ReBuzL\n\n#comunidad #discord #programming #podcast #live #stream  #clase #ReactJs #customHooks #hooks #lifecyle #componentes #framework #library",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/oUn1J1WHo74/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/oUn1J1WHo74/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/oUn1J1WHo74/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/oUn1J1WHo74/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/oUn1J1WHo74/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "playlistId": "PL42UNLc8e48R2PYR9tor_PCTtS9o3Chna",
+        "position": 25,
+        "resourceId": { "kind": "youtube#video", "videoId": "oUn1J1WHo74" },
+        "videoOwnerChannelTitle": "Gentleman Programming",
+        "videoOwnerChannelId": "UCbx_d228PdYwgB4Jz202SIQ"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "dG0pmHFFFkdjDchvHVZE5AZKeAw",
+      "id": "UEw0MlVOTGM4ZTQ4UjJQWVI5dG9yX1BDVHRTOW8zQ2huYS5CMEQ2Mjk5NTc3NDZFRUNB",
+      "snippet": {
+        "publishedAt": "2022-11-20T18:46:36Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "Cambiamos el procesador de la pc ! AMD 5600x, paso a paso 🤓",
+        "description": "¡Buenas, buenas mi gente!\n\nAlgunos sabrán que tuve problemas con mi PC ! mi procesador prácticamente murió por lo cual pedí un cambio y hoy lo instalamos !!\n\nhttps://www.twitch.tv/gentleman_programming\n\nSi quieres hacer una donación: https://streamelements.com/gentlemanprogramming/tip\n\n▬ Links de interés  ▬▬▬▬▬▬▬▬▬▬\nLink a Spotify: https://spoti.fi/3y281cY\nLink a la comunidad: https://discord.gg/KEavKkDc5Y\nLink a la comunidad de Facebook: https://shorturl.at/jkmL6\nLink a instagram: https://www.instagram.com/gentlemanprogramming/\nLink a twitter: https://twitter.com/G_Programming\nLink al libro \"Cómo ser front-end sin fallar en el intento: Tus primeros pasos en la programación web\": https://amzn.to/2ReBuzL\n\n#comunidad #discord #programming #podcast #live #stream  #clase #ReactJs #customHooks #hooks #lifecyle #componentes #framework #library",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/uWDlH3ju8eQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/uWDlH3ju8eQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/uWDlH3ju8eQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/uWDlH3ju8eQ/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/uWDlH3ju8eQ/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "playlistId": "PL42UNLc8e48R2PYR9tor_PCTtS9o3Chna",
+        "position": 26,
+        "resourceId": { "kind": "youtube#video", "videoId": "uWDlH3ju8eQ" },
+        "videoOwnerChannelTitle": "Gentleman Programming",
+        "videoOwnerChannelId": "UCbx_d228PdYwgB4Jz202SIQ"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "R5GPgKV2J8FvvY0sXtdyCzAElsI",
+      "id": "UEw0MlVOTGM4ZTQ4UjJQWVI5dG9yX1BDVHRTOW8zQ2huYS43MTI1NDIwOTMwQjIxMzNG",
+      "snippet": {
+        "publishedAt": "2022-11-20T18:46:36Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "Entrevista Angular Senior a Carlos Morales ! ¿Tendrá lo que hace falta?",
+        "description": "¡Buenas, buenas mi gente!  \n\nHoy hacemos una entrevista técnica a Carlos Morales !! Co owner del Discord de Gentleman Programming...será senior ??  \n\nTambién veremos las preguntas y la parte psicológica de cómo llevar la entrevista desde el punto de vista del entrevistador !!  \n\nA por ello !  \n\n🔴SPONSOR LEMON.IO🔴\n\n0:06:20 - Inicio del anuncio\n0:10:56 - Fin del anuncio\n\nLink al registrooooo: https://l.lemon.io/gentlemanprogramming\n\n🔴Si quieres hacer una donación🔴\n https://streamelements.com/gentlemanprogramming/tip\n\n🔴▬ Links de interés ▬🔴\nLink a YouTube: https://www.youtube.com/c/GentlemanProgramming\nLink a Twitch: https://t.co/vodIqiCH9N\nLink a Spotify: https://spoti.fi/3y281cY\nLink a la comunidad: https://discord.gg/KEavKkDc5Y\nLink a la comunidad de Facebook: https://shorturl.at/jkmL6\nLink a instagram: https://www.instagram.com/gentlemanprogramming/\nLink a twitter: https://twitter.com/G_Programming\nLink al libro Cómo ser front-end sin fallar en el intento: Tus primeros pasos en la programación web: https://amzn.to/2ReBuzL\n\n#comunidad #discord #programming #podcast #live #stream #clase #Angular #ReactJs #interview #lifecyle #componentes #framework #library",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/sBaDxq2gEns/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/sBaDxq2gEns/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/sBaDxq2gEns/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/sBaDxq2gEns/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/sBaDxq2gEns/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "playlistId": "PL42UNLc8e48R2PYR9tor_PCTtS9o3Chna",
+        "position": 27,
+        "resourceId": { "kind": "youtube#video", "videoId": "sBaDxq2gEns" },
+        "videoOwnerChannelTitle": "Gentleman Programming",
+        "videoOwnerChannelId": "UCbx_d228PdYwgB4Jz202SIQ"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "KoYprZgkvFeThmuLL7io1KbEeJk",
+      "id": "UEw0MlVOTGM4ZTQ4UjJQWVI5dG9yX1BDVHRTOW8zQ2huYS40NzZCMERDMjVEN0RFRThB",
+      "snippet": {
+        "publishedAt": "2022-11-20T18:46:36Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "Para qué sirve useRef, useMemo, useCallback, diferencia con useState ? NO SIEMPRE HAY QUE USARLOS !",
+        "description": "Buenas, buenas mi gente,\n\nTODOS les tenemos miedo, nos asusta, nos da TERROR y no sabemos cuando usar...\nPara qué sirve useRef, useMemo, useCallback y qué diferencia hay con useState ????\n\nSabías que NO SIEMPRE HAY QUE USARLOS !!! tienes sus desventajas y hoy te las cuento\n\n🔴Si quieres hacer una donación🔴\n https://streamelements.com/gentlemanprogramming/tip\n\n🔴▬ Links de interés ▬🔴\nLink a YouTube: https://www.youtube.com/c/GentlemanProgramming\nLink a Twitch: https://t.co/vodIqiCH9N\nLink a Spotify: https://spoti.fi/3y281cY\nLink a la comunidad: https://discord.gg/KEavKkDc5Y\nLink a la comunidad de Facebook: https://shorturl.at/jkmL6\nLink a instagram: https://www.instagram.com/gentlemanprogramming/\nLink a twitter: https://twitter.com/G_Programming\nLink al libro Cómo ser front-end sin fallar en el intento: Tus primeros pasos en la programación web: https://amzn.to/2ReBuzL\n\n#comunidad #discord #twitch #programming #podcast #live #stream #clase #tech #it #qwik #Hackathon #GentlemanProgramming #componentes #framework #library #framework #google #Facebook #tips",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/m-w902RrJXA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/m-w902RrJXA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/m-w902RrJXA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/m-w902RrJXA/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/m-w902RrJXA/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "playlistId": "PL42UNLc8e48R2PYR9tor_PCTtS9o3Chna",
+        "position": 28,
+        "resourceId": { "kind": "youtube#video", "videoId": "m-w902RrJXA" },
+        "videoOwnerChannelTitle": "Gentleman Programming",
+        "videoOwnerChannelId": "UCbx_d228PdYwgB4Jz202SIQ"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "daH7zQh9nC5pcjp9fPMx1aV8FzM",
+      "id": "UEw0MlVOTGM4ZTQ4UjJQWVI5dG9yX1BDVHRTOW8zQ2huYS4zQzFBN0RGNzNFREFCMjBE",
+      "snippet": {
+        "publishedAt": "2022-11-20T18:46:36Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "¿Qué son los Módulos de Angular y cómo usarlos, a ver si lo hacías BIEN…#2",
+        "description": "¡Buenas, buenas mi gente! \n\nHoy les traigo un vídeo sobre la modularización en Angular, correctas formas de pensarlo, cómo dividir la lógica, diferencias entre Core y Shared Modules, Lazy loading de Módulos y ¡Más! \n\n¡A por ello!\n\nSi quieres hacer una donación: \nhttps://streamelements.com/gentlemanprogramming/tip\n\n▬ Links de interés  ▬▬▬▬▬▬▬▬▬▬\nLink a la Gentleman Wiki: https://kindly-windflower-254.notion.site/Wiki-ef147c411dd54367afc419ad9c669b02\nLink a Spotify: https://spoti.fi/3y281cY\nLink a la comunidad: https://discord.gg/KEavKkDc5Y\nLink a la comunidad de Facebook: https://shorturl.at/jkmL6\nLink a instagram: https://www.instagram.com/gentlemanprogramming/\nLink a twitter: https://twitter.com/G_Programming\nLink al libro \"Cómo ser front-end sin fallar en el intento: Tus primeros pasos en la programación web\": https://amzn.to/2ReBuzL\n\n#youtube #programacion #javascript #angular #react #html #css #formacion #cleanarchitecture",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/B3D6HKYaMCA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/B3D6HKYaMCA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/B3D6HKYaMCA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/B3D6HKYaMCA/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/B3D6HKYaMCA/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "playlistId": "PL42UNLc8e48R2PYR9tor_PCTtS9o3Chna",
+        "position": 29,
+        "resourceId": { "kind": "youtube#video", "videoId": "B3D6HKYaMCA" },
+        "videoOwnerChannelTitle": "Gentleman Programming",
+        "videoOwnerChannelId": "UCbx_d228PdYwgB4Jz202SIQ"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "hXJV1V1-fzsvacE68C_TgF0nxC0",
+      "id": "UEw0MlVOTGM4ZTQ4UjJQWVI5dG9yX1BDVHRTOW8zQ2huYS5GN0EwRkMxQTJGMTFCNDc1",
+      "snippet": {
+        "publishedAt": "2022-11-20T18:47:18Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "RxJS - La library más importante sobre observables !! 🙏🙏",
+        "description": "Buenas a todos !! \n\nComo parte de nuestros videos más corto les traigo... cómo manejar tus observables con RxJS y buenas prácticas !!\n\nSi quieres saber las mejores prácticas de como manejar tus observables, aprender como combinarlos, manejar llamadas de endpoints dependientes entre sí y más...\n\nA por ello !!!\n\nACLARACIONES:\n\n- switchMap() cancela eventos dentro de un observable o combinación de los mismos, cuando tenemos un observable que emite varios eventos... el switchMap cancela los anterior si estos no terminan antes que el último emitido. Por ej: multiples envios que se realizan a un observable, las cuales no terminan antes de la realización de una nueva emisión.\n\n- combineLatest() se puede utilizar para datos que no son parecidos, en el video se dice de data similar en el contexto de que son datos que son necesarios para popular la vista de los componentes.\n\n▬ Contenido del video  ▬▬▬▬▬▬▬▬▬▬\n0:00:00​​ - Welcome !\n0:00:08​​ - Inicio y presentación\n0:00:45 - Qué es RxJS ?\n0:01:35 - Creando nuestra estructura\n0:09:53​ - pipe()\n0:10:40​ - map()\n0:12:52​​ - switchMap()\n0:15:38 - switchMap() vs mergeMap()\n0:17:45​​ - combineLatest()\n0:25:55 - first()\n0:27:15 - Despedida y fin del video\n\nSi quieres hacer una donación: \nhttps://streamelements.com/gentlemanprogramming/tip\n\n▬ Links de interés  ▬▬▬▬▬▬▬▬▬▬\nLink a Spotify: https://spoti.fi/3y281cY\nLink a la comunidad: https://discord.gg/z6XmNPsHQp\nLInk al libro \"Cómo ser front-end sin fallar en el intento: Tus primeros pasos en la programación web\": https://amzn.to/2ReBuzL",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/WhY33WyX0gE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/WhY33WyX0gE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/WhY33WyX0gE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/WhY33WyX0gE/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/WhY33WyX0gE/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "playlistId": "PL42UNLc8e48R2PYR9tor_PCTtS9o3Chna",
+        "position": 30,
+        "resourceId": { "kind": "youtube#video", "videoId": "WhY33WyX0gE" },
+        "videoOwnerChannelTitle": "Gentleman Programming",
+        "videoOwnerChannelId": "UCbx_d228PdYwgB4Jz202SIQ"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "k6w5SLK4yj2gO0sTuicpE8JB6Bs",
+      "id": "UEw0MlVOTGM4ZTQ4UjJQWVI5dG9yX1BDVHRTOW8zQ2huYS44QTA1QTQyRTc3M0VGQzYx",
+      "snippet": {
+        "publishedAt": "2022-11-20T18:46:55Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "Novedades de React 18, problemáticas y cómo actualizar sin fallas en el intento !",
+        "description": "¡ Buenas, buenas mi gente !\n\nEn el día de hoy veremos qué novedaes y cómo actualizar a React 18 !\n\nVeremos ejemplos de código, qué problemas me encontré y cómo los he solucionado.\n\n¡A por ello!\n\n▬ Contenido del video  ▬▬▬▬▬▬▬▬▬▬\n0:00:00​​ - Welcome !\n0:00:53 - React 18 estaba en beta\n0:01:27​​ - Mejoras en el core\n0:01:41 - Ideología sobre las mejoras\n0:02:30 - Rendering en React\n0:02:44​ - Concurrent React\n0:03:46​​ - Automatic Batching\n0:04:52​​ - Transiciones\n0:07:00​​ - Suspense\n0:08:50​​ - Nuevas API\n0:09:07​​ - createRoot\n0:09:58​ - hydrateRoot\n0:10:28​ - Modo estricto\n0:13:04​ - Nuevos Hooks\n0:13:10​ - useId\n0:13:54 - useSyncExternalStore y useInsertionEffect\n0:14:31​ - ¿ Cómo hacer el upgrade ?\n0:15:39​ - Recomendaciones para evitar errores\n0:17:14 - Despedida\n\nSi quieres hacer una donación: \nhttps://streamelements.com/gentlemanprogramming/tip\n\n▬ Links de interés  ▬▬▬▬▬▬▬▬▬▬\nLink a Spotify: https://spoti.fi/3y281cY\nLink a la comunidad: https://discord.gg/KEavKkDc5Y\nLink a la comunidad de Facebook: https://shorturl.at/jkmL6\nLink a instagram: https://www.instagram.com/gentlemanprogramming/\nLink a twitter: https://twitter.com/G_Programming\nLink al libro \"Cómo ser front-end sin fallar en el intento: Tus primeros pasos en la programación web\": https://amzn.to/2ReBuzL\n\n#youtube #programacion #javascript #angular #react #html #css #formacion #cleanarchitecture #react18",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/TNnmk92F03I/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/TNnmk92F03I/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/TNnmk92F03I/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/TNnmk92F03I/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/TNnmk92F03I/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "playlistId": "PL42UNLc8e48R2PYR9tor_PCTtS9o3Chna",
+        "position": 31,
+        "resourceId": { "kind": "youtube#video", "videoId": "TNnmk92F03I" },
+        "videoOwnerChannelTitle": "Gentleman Programming",
+        "videoOwnerChannelId": "UCbx_d228PdYwgB4Jz202SIQ"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "hb8d6NtQenmhhqetVJii01j5aIM",
+      "id": "UEw0MlVOTGM4ZTQ4UjJQWVI5dG9yX1BDVHRTOW8zQ2huYS5FQjcyRDZBMEMyNTY3OTdE",
+      "snippet": {
+        "publishedAt": "2022-11-20T18:47:18Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "Qué es y cómo implementar Atomic Design en tu página web ? ⚛️⚛️ portfolio en ReactJs",
+        "description": "Buenas buenas mi gente !! \n\nPerdón la demora ! estuve realizando este portfolio para ustedes utilizando ReactJs purísimo para esta nueva tira de videos sobre conceptos a implementar para crear sus propios projects !! No son conceptos cerrados solo para ReactJS, se pueden implementar en cualquier framework ya sea Angular, VueJS o cualquiera quieran.\n\nEn la primer clase sobre creación de apps web vamos a ver ATOMIC DESIGN, a forma de resumen, es la manera correcta de pensar como estructurar sus aplications para que sean super mantenibles y modificables.\n\nA por ello !!\n\nSi quieres hacer una donación: \nhttps://streamelements.com/gentlemanprogramming/tip\n\n▬ Links de interés  ▬▬▬▬▬▬▬▬▬▬\nLink a Spotify: https://spoti.fi/3y281cY\nLink a la comunidad: https://discord.gg/z6XmNPsHQp​\nLink a la comunidad de Facebook: https://www.facebook.com/groups/541544337043760/\nLink al libro \"Cómo ser front-end sin fallar en el intento: Tus primeros pasos en la programación web\": https://amzn.to/2ReBuzL\nLink a Rangle.io Atomic Design: https://rangle-io.gitbook.io/react-training/index-1/atomic_design",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Q6dJ7Gcm3Nw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Q6dJ7Gcm3Nw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Q6dJ7Gcm3Nw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/Q6dJ7Gcm3Nw/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/Q6dJ7Gcm3Nw/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "playlistId": "PL42UNLc8e48R2PYR9tor_PCTtS9o3Chna",
+        "position": 32,
+        "resourceId": { "kind": "youtube#video", "videoId": "Q6dJ7Gcm3Nw" },
+        "videoOwnerChannelTitle": "Gentleman Programming",
+        "videoOwnerChannelId": "UCbx_d228PdYwgB4Jz202SIQ"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "L7mSOjXhRuy6oQESFBp7c7LXRDA",
+      "id": "UEw0MlVOTGM4ZTQ4UjJQWVI5dG9yX1BDVHRTOW8zQ2huYS5DNkMwRUI2MkI4QkI4NDFG",
+      "snippet": {
+        "publishedAt": "2022-11-20T18:46:36Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "Mes de Angular - ¿ Qué es ?, patrones, ventajas, cuando usar, proyecto predilecto y más ! - #1",
+        "description": "¡ Buenas, buenas mi gente !\n\nEn el día de hoy y comenzando el mes de Angular, se viene…\n\n¿ Qué es Angular ?\n\n¡A por ello!\n\n▬ Contenido del video  ▬▬▬▬▬▬▬▬▬▬\n0:00:00​​ - Welcome !\n0:00:29 - ¿ Qué es Angular ?\n0:00:42​​ - No es un framework\n0:01:04 - Librerias\n0:03:50 - Framework de estructura\n0:05:24​ - Aplicación ideal para aplicar Angular\n0:07:14​​ - ¿ MVC o MVVM ?\n0:09:00​​ - Angular Way\n0:10:50​​ - Curva de aprendízaje\n0:11:54​​ - Despedida\n\nSi quieres hacer una donación: \nhttps://streamelements.com/gentlemanprogramming/tip\n\n▬ Links de interés  ▬▬▬▬▬▬▬▬▬▬\nLink a Spotify: https://spoti.fi/3y281cY\nLink a la comunidad: https://discord.gg/KEavKkDc5Y\nLink a la comunidad de Facebook: https://shorturl.at/jkmL6\nLink a instagram: https://www.instagram.com/gentlemanprogramming/\nLink a twitter: https://twitter.com/G_Programming\nLink al libro \"Cómo ser front-end sin fallar en el intento: Tus primeros pasos en la programación web\": https://amzn.to/2ReBuzL\n\n#youtube #programacion #javascript #angular #react #html #css #formacion #cleanarchitecture",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/awRq1SSKLeI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/awRq1SSKLeI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/awRq1SSKLeI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/awRq1SSKLeI/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/awRq1SSKLeI/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "playlistId": "PL42UNLc8e48R2PYR9tor_PCTtS9o3Chna",
+        "position": 33,
+        "resourceId": { "kind": "youtube#video", "videoId": "awRq1SSKLeI" },
+        "videoOwnerChannelTitle": "Gentleman Programming",
+        "videoOwnerChannelId": "UCbx_d228PdYwgB4Jz202SIQ"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "pREGyzqRvltlKpVG2KCCtMy4nJg",
+      "id": "UEw0MlVOTGM4ZTQ4UjJQWVI5dG9yX1BDVHRTOW8zQ2huYS4zQTkzRjgxRTY0OEU0MkM3",
+      "snippet": {
+        "publishedAt": "2022-11-20T18:46:55Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "Tareas de un Tech Architect #1, te sorprenderas que la mayor parte de mi tiempo NO es codificar !",
+        "description": "¡Buenas, buenas mi gente!\n\nOtro vídeo dado que muchos me han pedido qué tareas desarrolla un Architect, van a ver que muchas de ellas en mi caso NO SON DE PROGRAMAR !\n\nHoy vamos a ver de todo, desde cómo realizar una negociación y estimación, mi proceso de entrevistas para candidatos, qué es el kick off de producto, revelamos la verdad de hacer pair programming, recomendaciones para hacer un pr y code review y por último, aumentar la cultura organizacional mediante la utilización de feedback en formato 1 on 1.\n\n▬ Contenido del video  ▬▬▬▬▬▬▬▬▬▬\n0:00:00​​ - Welcome !\n0:00:20 - Mañana\n0:01:04​​ - Negociaciones y estimaciones\n0:03:33 - Comidita time !\n0:03:45 - Entrevistas\n0:05:26 - Kick Off de producto\n0:06:55​​ - Pair Programming\n0:08:48​​ - Pr y Code Review\n0:10:49​​ - 1 on 1, Feedback y retro alimentación\n0:13:25 - Despedida\n\n¡A por ello!\n\nSi quieres hacer una donación: https://streamelements.com/gentlemanprogramming/tip\n\n▬ Links de interés  ▬▬▬▬▬▬▬▬▬▬\nLink a Spotify: https://spoti.fi/3y281cY\nLink a la comunidad: https://discord.gg/KEavKkDc5Y\nLink a la comunidad de Facebook: https://shorturl.at/jkmL6\nLink a instagram: https://www.instagram.com/gentlemanprogramming/\nLink a twitter: https://twitter.com/G_Programming\nLink al libro \"Cómo ser front-end sin fallar en el intento: Tus primeros pasos en la programación web\": https://amzn.to/2ReBuzL\n\n#react #angular #programacion #frontend #architect #youtube #podcast #vlog",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/T6IubCmR-hM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/T6IubCmR-hM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/T6IubCmR-hM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/T6IubCmR-hM/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/T6IubCmR-hM/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "playlistId": "PL42UNLc8e48R2PYR9tor_PCTtS9o3Chna",
+        "position": 34,
+        "resourceId": { "kind": "youtube#video", "videoId": "T6IubCmR-hM" },
+        "videoOwnerChannelTitle": "Gentleman Programming",
+        "videoOwnerChannelId": "UCbx_d228PdYwgB4Jz202SIQ"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "Z7iqp9cYIk74_WOT89u9vCM-O7E",
+      "id": "UEw0MlVOTGM4ZTQ4UjJQWVI5dG9yX1BDVHRTOW8zQ2huYS44NjIxNjc5OUQwQkJBODQ5",
+      "snippet": {
+        "publishedAt": "2022-11-20T18:47:18Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "Cómo crear tu project de ReactJs desde 0 con ViteJs, librerias y extensiones recomendadas de VS CODE",
+        "description": "Buenas buenas mi gente !\n\nEn el vídeo de hoy, veremos cómo crear nuestro project desde 0 utilizando el bundler ViteJs. \n\nTambién veremos qué librerias son las más utilizadas y cómo instalarlas, junto con las extensiones de VS CODE esenciales que todo programador debe de tener.\n\nA por ello !!\n\nSi quieres hacer una donación: \nhttps://streamelements.com/gentlemanprogramming/tip\n\n▬ Links de interés  ▬▬▬▬▬▬▬▬▬▬\nLink a Spotify: https://spoti.fi/3y281cY\nLink a la comunidad: https://discord.gg/gxQCPMZGjP\nLink a la comunidad de Facebook: shorturl.at/jkmL6\nLink al libro \"Cómo ser front-end sin fallar en el intento: Tus primeros pasos en la programación web\": https://amzn.to/2ReBuzL",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Ru8i52Siulc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Ru8i52Siulc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Ru8i52Siulc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/Ru8i52Siulc/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/Ru8i52Siulc/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "playlistId": "PL42UNLc8e48R2PYR9tor_PCTtS9o3Chna",
+        "position": 35,
+        "resourceId": { "kind": "youtube#video", "videoId": "Ru8i52Siulc" },
+        "videoOwnerChannelTitle": "Gentleman Programming",
+        "videoOwnerChannelId": "UCbx_d228PdYwgB4Jz202SIQ"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "mTj7oybUmdQeRB0NDOZ1KnFP3SE",
+      "id": "UEw0MlVOTGM4ZTQ4UjJQWVI5dG9yX1BDVHRTOW8zQ2huYS5DMkM0MjQ3OTgwQzBCMEZB",
+      "snippet": {
+        "publishedAt": "2022-11-21T14:27:35Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "Aprendemos sobre la nueva forma de hacer Clean Architecture en Front y creamos un boilerplate ! PT 2",
+        "description": "¡Buenas, buenas mi gente!\n\nRepasamos sobre la nueva forma de hacer Clean Architecture especial para el Front End y continuamos con nuestro boilerplate con toda la estructura, tips y demás !!!\n\nA por ello !\n\nhttps://www.twitch.tv/gentleman_programming\n\nSi quieres hacer una donación: https://streamelements.com/gentlemanprogramming/tip\n\nBoilerplate: https://github.com/Gentleman-Programming/GentlemanClass_ReactCleanArch\n\n▬ Links de interés  ▬▬▬▬▬▬▬▬▬▬\n\nLink a Twitch: https://t.co/vodIqiCH9N\nLink a Spotify: https://spoti.fi/3y281cY\nLink a la comunidad: https://discord.gg/KEavKkDc5Y\nLink a la comunidad de Facebook: https://shorturl.at/jkmL6\nLink a instagram: https://www.instagram.com/gentlemanprogramming/\nLink a twitter: https://twitter.com/G_Programming\nLink al libro \"Cómo ser front-end sin fallar en el intento: Tus primeros pasos en la programación web\": https://amzn.to/2ReBuzL\n\n#comunidad #discord #programming #podcast #live #stream  #clase #ReactJs #customHooks #hooks #lifecyle #componentes #framework #library",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/MAL7a_aXhxE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/MAL7a_aXhxE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/MAL7a_aXhxE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/MAL7a_aXhxE/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/MAL7a_aXhxE/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "playlistId": "PL42UNLc8e48R2PYR9tor_PCTtS9o3Chna",
+        "position": 36,
+        "resourceId": { "kind": "youtube#video", "videoId": "MAL7a_aXhxE" },
+        "videoOwnerChannelTitle": "Gentleman Programming",
+        "videoOwnerChannelId": "UCbx_d228PdYwgB4Jz202SIQ"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "sWznKz6ceElso5cmJlpc0BS0-4Y",
+      "id": "UEw0MlVOTGM4ZTQ4UjJQWVI5dG9yX1BDVHRTOW8zQ2huYS42RDgxQ0M2OUIwREZCNjZF",
+      "snippet": {
+        "publishedAt": "2022-11-20T18:47:18Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "Cúal es la diferencia ? ngModel vs Form Control, lucha de titanes ! 😠😠 cúando usar cada uno ?",
+        "description": "Buenas buenas mi gente !!!\n\nEn el día de hoy vamos a ver las principales diferencias y casos de uso entre ngModel y From Control !!\n\nSi no sabías que podías separar la emisión de eventos del ngModel, validar facilmente tus inputs y hasta reconocer qué es lo que falla para mostrarlo facilmente al usuario...\n\nA por ello !\n\nSi quieres hacer una donación: \nhttps://streamelements.com/gentlemanprogramming/tip\n\n▬ Links de interés  ▬▬▬▬▬▬▬▬▬▬\nLink a Spotify: https://spoti.fi/3y281cY\nLink a la comunidad: https://discord.com/invite/KEavKkDc5Y\nLink al libro \"Cómo ser front-end sin fallar en el intento: Tus primeros pasos en la programación web\": https://amzn.to/2ReBuzL",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/33xfj_I51B0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/33xfj_I51B0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/33xfj_I51B0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/33xfj_I51B0/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/33xfj_I51B0/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "playlistId": "PL42UNLc8e48R2PYR9tor_PCTtS9o3Chna",
+        "position": 37,
+        "resourceId": { "kind": "youtube#video", "videoId": "33xfj_I51B0" },
+        "videoOwnerChannelTitle": "Gentleman Programming",
+        "videoOwnerChannelId": "UCbx_d228PdYwgB4Jz202SIQ"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "u614Olkg8iO3J3BFNlBT2l7FJuI",
+      "id": "UEw0MlVOTGM4ZTQ4UjJQWVI5dG9yX1BDVHRTOW8zQ2huYS45NDlDQUFFOThDMTAxQjUw",
+      "snippet": {
+        "publishedAt": "2022-11-20T18:46:55Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "Entrevista React - Simulación interactiva, elige tus propias respuestas estilo Black Mirror",
+        "description": "¡Buenas, buenas mi gente!\n\nEste es mi project más dificil pero a la vez divertido desde que abrimos el canal.\nSimulamos una interview, siéntate y elige tus propias respuestas en esta ¡Simulación interactiva de entrevista de React!\n\nVe eligiendo tu propio camino a Senior.\n\n¡A por ello!\n\nSi quieres hacer una donación: https://streamelements.com/gentlemanprogramming/tip\n\n▬ Links de interés  ▬▬▬▬▬▬▬▬▬▬\nLink a Spotify: https://spoti.fi/3y281cY\nLink a la comunidad: https://discord.gg/KEavKkDc5Y\nLink a la comunidad de Facebook: https://shorturl.at/jkmL6\nLink a instagram: https://www.instagram.com/gentlemanprogramming/\nLink a twitter: https://twitter.com/G_Programming\nLink al libro \"Cómo ser front-end sin fallar en el intento: Tus primeros pasos en la programación web\": https://amzn.to/2ReBuzL\n\n#react #angular #programacion #frontend #architect #youtube #podcast #vlog",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/rncosqY881Y/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/rncosqY881Y/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/rncosqY881Y/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/rncosqY881Y/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/rncosqY881Y/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "playlistId": "PL42UNLc8e48R2PYR9tor_PCTtS9o3Chna",
+        "position": 38,
+        "resourceId": { "kind": "youtube#video", "videoId": "rncosqY881Y" },
+        "videoOwnerChannelTitle": "Gentleman Programming",
+        "videoOwnerChannelId": "UCbx_d228PdYwgB4Jz202SIQ"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "4AjrmYW_1xtejpxPH3EV5l7ruyU",
+      "id": "UEw0MlVOTGM4ZTQ4UjJQWVI5dG9yX1BDVHRTOW8zQ2huYS4wMTIyMTBBMTA3RDUxNjlD",
+      "snippet": {
+        "publishedAt": "2022-11-20T18:47:45Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "Hagamos una app en Angular, PT 1",
+        "description": "Buenas gente ! vamos a hacer una app en Angular, veamos buenas prácticas, formas de trabajar, herramientas, etc.\nLo importante a considerar es que NADA esta planeado, la idea es que vean que también se me presentan problemas a mi, como a cualquiera de ustedes y ver como los resuelvo. \nGracias por estar y vamos a por ello !!\n\nCanales: \nTwitch: https://www.twitch.tv/applelan_92\nComunidad Discord: https://discord.gg/z6XmNPsHQp\nInstagram: https://www.instagram.com/alanbuscaglia\nSpotify: https://open.spotify.com/show/4AhopzZexw2wOMJyIcBWlx?si=_03r6CGKT3eIetBu5ty0YQ",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/NkjBZBDIzgY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/NkjBZBDIzgY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/NkjBZBDIzgY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/NkjBZBDIzgY/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/NkjBZBDIzgY/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "playlistId": "PL42UNLc8e48R2PYR9tor_PCTtS9o3Chna",
+        "position": 39,
+        "resourceId": { "kind": "youtube#video", "videoId": "NkjBZBDIzgY" },
+        "videoOwnerChannelTitle": "Gentleman Programming",
+        "videoOwnerChannelId": "UCbx_d228PdYwgB4Jz202SIQ"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "bPFMBpELTqSqsZedQQScN7Ztgkc",
+      "id": "UEw0MlVOTGM4ZTQ4UjJQWVI5dG9yX1BDVHRTOW8zQ2huYS5ERkRDQjY0N0Y0Q0VFOTdC",
+      "snippet": {
+        "publishedAt": "2022-11-20T18:47:18Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "Cómo es un día en la vida del programador ? #shorts #gentlemanprogramming",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/x_VGcRIqzRM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/x_VGcRIqzRM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/x_VGcRIqzRM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/x_VGcRIqzRM/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/x_VGcRIqzRM/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "playlistId": "PL42UNLc8e48R2PYR9tor_PCTtS9o3Chna",
+        "position": 40,
+        "resourceId": { "kind": "youtube#video", "videoId": "x_VGcRIqzRM" },
+        "videoOwnerChannelTitle": "Gentleman Programming",
+        "videoOwnerChannelId": "UCbx_d228PdYwgB4Jz202SIQ"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "dECaRB859inPd9JSXQHIpPV5mnM",
+      "id": "UEw0MlVOTGM4ZTQ4UjJQWVI5dG9yX1BDVHRTOW8zQ2huYS45RTgxNDRBMzUwRjQ0MDhC",
+      "snippet": {
+        "publishedAt": "2022-11-20T18:46:36Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "Api con NODE y despliegue con AWS EC2 !! Invitado hackathon @LeiferMendez",
+        "description": "¡Buenas, buenas mi gente!  \n\n¿Sabes lo qué es una #API o cómo desarrollarla para subirla a #AWS con #NodeJS ?\n\n¡Hoy tenemos al amigo de la casa @LeiferMendez! Y nos dará todos los tips para hacer una API espectacular,  lo más rapido posible y con una cantidad de tips... que flipas.\n\nNo te lo podes perder !\n\n🔴Si quieres hacer una donación🔴\n https://streamelements.com/gentlemanprogramming/tip\n\nREPOSITORIO: \n\n🔴▬ Links de interés ▬🔴\nLink a YouTube: https://www.youtube.com/c/GentlemanProgramming\nLink a Twitch: https://t.co/vodIqiCH9N\nLink a Spotify: https://spoti.fi/3y281cY\nLink a la comunidad: https://discord.gg/KEavKkDc5Y\nLink a la comunidad de Facebook: https://shorturl.at/jkmL6\nLink a instagram: https://www.instagram.com/gentlemanprogramming/\nLink a twitter: https://twitter.com/G_Programming\nLink al libro Cómo ser front-end sin fallar en el intento: Tus primeros pasos en la programación web: https://amzn.to/2ReBuzL\n\n#comunidad #discord #twitch #programming #podcast #live #stream #clase #JavaScript #ESM6+ #React #Hackathon #GentlemanProgramming #componentes #framework #library #google #Facebook",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/nSA3SVC0gqc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/nSA3SVC0gqc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/nSA3SVC0gqc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/nSA3SVC0gqc/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/nSA3SVC0gqc/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "playlistId": "PL42UNLc8e48R2PYR9tor_PCTtS9o3Chna",
+        "position": 41,
+        "resourceId": { "kind": "youtube#video", "videoId": "nSA3SVC0gqc" },
+        "videoOwnerChannelTitle": "Gentleman Programming",
+        "videoOwnerChannelId": "UCbx_d228PdYwgB4Jz202SIQ"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "050xJDrd0ofbR3BEZIg8cBrlSvc",
+      "id": "UEw0MlVOTGM4ZTQ4UjJQWVI5dG9yX1BDVHRTOW8zQ2huYS4yODlGNEE0NkRGMEEzMEQy",
+      "snippet": {
+        "publishedAt": "2022-11-20T18:46:36Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "¿ Qué es TDD y pensamiento Atómico ? bases que tienes que saber para poder aplicarlo correctamente",
+        "description": "Buenas buenas mi gente,  \n\nExtracto de mi último directo donde me preguntan cómo implementar TDD !!\n \nTambién doy todas las bases que creo necesarias para poder implementarlo correctamente cómo es el pensar de manera Atómica.\n\nUsamos mi nuevo libro (en proceso) como punto de partida.\n\n🔴Si quieres hacer una donación🔴  \n https://streamelements.com/gentlemanprogramming/tip\n\n🔴▬ Links de interés ▬🔴  \nLink a YouTube: https://www.youtube.com/c/GentlemanProgramming\nLink a Twitch: https://t.co/vodIqiCH9N\nLink a Spotify: https://spoti.fi/3y281cY \nLink a la comunidad: https://discord.gg/KEavKkDc5Y\nLink a la comunidad de Facebook: https://shorturl.at/jkmL6\nLink a instagram: https://www.instagram.com/gentlemanprogramming/\nLink a twitter: https://twitter.com/G_Programming\nLink al libro Cómo ser front-end sin fallar en el intento: Tus primeros pasos en la programación web: https://amzn.to/2ReBuzL\n\n#comunidad #discord #twitch #programming #podcast #live #stream #clase #tech #it #scrum #kanban #agile #team #Hackathon #GentlemanProgramming #componentes #framework #library #framework #google #Facebook #tips",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/uGucfCUYzBI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/uGucfCUYzBI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/uGucfCUYzBI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/uGucfCUYzBI/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/uGucfCUYzBI/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "playlistId": "PL42UNLc8e48R2PYR9tor_PCTtS9o3Chna",
+        "position": 42,
+        "resourceId": { "kind": "youtube#video", "videoId": "uGucfCUYzBI" },
+        "videoOwnerChannelTitle": "Gentleman Programming",
+        "videoOwnerChannelId": "UCbx_d228PdYwgB4Jz202SIQ"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "gW58fWjE1TXtYdPsc7TaFygRJ1g",
+      "id": "UEw0MlVOTGM4ZTQ4UjJQWVI5dG9yX1BDVHRTOW8zQ2huYS5ENUI5OTFCQkYxNDUxQjQ3",
+      "snippet": {
+        "publishedAt": "2022-11-20T18:47:18Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "Cómo implementar OnPush Change Detection ? - Aumenta la performance de tu app de Angular 🚄🚄",
+        "description": "Buenas a todos !! \n\nComo parte de nuestros videos más corto les traigo... cómo aumentar la performance de tu app de Angular usando OnPush Change Detection !!\n\nSi quieres dejar de tener problemas o aumentar la performance de tu aplicación con un simple cambio ( bueno no taaaan simple pero lo haremos simple !!! )...\n\nA por ello !!!\n\nSi quieres hacer una donación: \nhttps://streamelements.com/gentlemanprogramming/tip\n\n▬ Links de interés  ▬▬▬▬▬▬▬▬▬▬\nLink a Spotify: https://spoti.fi/3y281cY\nLink a la comunidad: https://discord.gg/z6XmNPsHQp\nLInk al libro \"Cómo ser front-end sin fallar en el intento: Tus primeros pasos en la programación web\": https://amzn.to/2ReBuzL",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/JVuglXmslv4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/JVuglXmslv4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/JVuglXmslv4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/JVuglXmslv4/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/JVuglXmslv4/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "playlistId": "PL42UNLc8e48R2PYR9tor_PCTtS9o3Chna",
+        "position": 43,
+        "resourceId": { "kind": "youtube#video", "videoId": "JVuglXmslv4" },
+        "videoOwnerChannelTitle": "Gentleman Programming",
+        "videoOwnerChannelId": "UCbx_d228PdYwgB4Jz202SIQ"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "za3yNEPa9VIbOympfiJH89605SQ",
+      "id": "UEw0MlVOTGM4ZTQ4UjJQWVI5dG9yX1BDVHRTOW8zQ2huYS45NkVENTkxRDdCQUFBMDY4",
+      "snippet": {
+        "publishedAt": "2022-11-20T18:46:36Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "Angular NO ES un FRAMEWORK ! - #shorts",
+        "description": "#angular #framework #plataforma #programacion #frontend #comunidad #youtube #podcast #html #css #javascript",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/tKMPWf8U9pM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/tKMPWf8U9pM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/tKMPWf8U9pM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/tKMPWf8U9pM/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/tKMPWf8U9pM/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "playlistId": "PL42UNLc8e48R2PYR9tor_PCTtS9o3Chna",
+        "position": 44,
+        "resourceId": { "kind": "youtube#video", "videoId": "tKMPWf8U9pM" },
+        "videoOwnerChannelTitle": "Gentleman Programming",
+        "videoOwnerChannelId": "UCbx_d228PdYwgB4Jz202SIQ"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "y1K0AzIhd9kX2LG6Hj_XbhWDeG8",
+      "id": "UEw0MlVOTGM4ZTQ4UjJQWVI5dG9yX1BDVHRTOW8zQ2huYS44M0Q5MzQ0QTcwQzFDMjc5",
+      "snippet": {
+        "publishedAt": "2022-11-20T18:47:18Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "Cómo optimizar tu Web App !! Lazy Loading, manejo de Bundles y mucho más ⌛⌛",
+        "description": "Buenas buenas mi gente !! \n\nTercer video sobre programación web, en el día de hoy vamos a ver cómo optimizar nuestras aplicaciones web utilizando herramientas de visualización de bundles, manejo de imports, lazy loading y evaluación de performance. Los conceptos son genéricos para que puedan aplicarlos sin importar el lenguaje pero veremos ejemplos en React (con Suspense y Lazy) y Angular.\n\nA por ello !!\n\nSi quieres hacer una donación: \nhttps://streamelements.com/gentlemanprogramming/tip\n\n▬ Links de interés  ▬▬▬▬▬▬▬▬▬▬\nLink a Spotify: https://spoti.fi/3y281cY\nLink a la comunidad: https://discord.gg/z6XmNPsHQp​\nLink a la comunidad de Facebook: https://www.facebook.com/groups/541544337043760\nLink al libro \"Cómo ser front-end sin fallar en el intento: Tus primeros pasos en la programación web\": https://amzn.to/2ReBuzL",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/-0BlnQ7j6B8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/-0BlnQ7j6B8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/-0BlnQ7j6B8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/-0BlnQ7j6B8/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/-0BlnQ7j6B8/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "playlistId": "PL42UNLc8e48R2PYR9tor_PCTtS9o3Chna",
+        "position": 45,
+        "resourceId": { "kind": "youtube#video", "videoId": "-0BlnQ7j6B8" },
+        "videoOwnerChannelTitle": "Gentleman Programming",
+        "videoOwnerChannelId": "UCbx_d228PdYwgB4Jz202SIQ"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "pi_fhb5pczWAFfpo1IzuVssTgds",
+      "id": "UEw0MlVOTGM4ZTQ4UjJQWVI5dG9yX1BDVHRTOW8zQ2huYS4yMUQyQTQzMjRDNzMyQTMy",
+      "snippet": {
+        "publishedAt": "2022-11-20T18:46:36Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "¡Angular y Firebase, una poderosa combinación! @nicobytes enseñandonos #Angular y #Firebase y #Ionic",
+        "description": "¡Buenas, buenas mi gente!  \n\n¡Angular y Firebase, una poderosa combinación!\n\nHoy tenemos al gran @NicoBytes, enseñandonos la poderosa combinación entre #Angular y #Firebase\n\nNo te lo podes perder !\n\n\n🔴Si quieres hacer una donación🔴\n https://streamelements.com/gentlemanprogramming/tip\n\nREPOSITORIO: \n\n🔴▬ Links de interés ▬🔴\nLink a YouTube: https://www.youtube.com/c/GentlemanProgramming\nLink a Twitch: https://t.co/vodIqiCH9N\nLink a Spotify: https://spoti.fi/3y281cY\nLink a la comunidad: https://discord.gg/KEavKkDc5Y\nLink a la comunidad de Facebook: https://shorturl.at/jkmL6\nLink a instagram: https://www.instagram.com/gentlemanprogramming/\nLink a twitter: https://twitter.com/G_Programming\nLink al libro Cómo ser front-end sin fallar en el intento: Tus primeros pasos en la programación web: https://amzn.to/2ReBuzL\n\n#comunidad #discord #twitch #programming #podcast #live #stream #clase #Angular #Firebase #Hackathon #GentlemanProgramming #componentes #framework #library #google",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/_K2Xk_nc9VA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/_K2Xk_nc9VA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/_K2Xk_nc9VA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/_K2Xk_nc9VA/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/_K2Xk_nc9VA/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "playlistId": "PL42UNLc8e48R2PYR9tor_PCTtS9o3Chna",
+        "position": 46,
+        "resourceId": { "kind": "youtube#video", "videoId": "_K2Xk_nc9VA" },
+        "videoOwnerChannelTitle": "Gentleman Programming",
+        "videoOwnerChannelId": "UCbx_d228PdYwgB4Jz202SIQ"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "HJQCrm5Z4AUbw8hCSQ-LwsHypbk",
+      "id": "UEw0MlVOTGM4ZTQ4UjJQWVI5dG9yX1BDVHRTOW8zQ2huYS45NDk1REZENzhEMzU5MDQz",
+      "snippet": {
+        "publishedAt": "2022-11-20T18:46:36Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "¡MICROFRONTEND! ¿ Cómo hacer una app con Angular y React al mismo tiempo ? - Carlitos Junioooor",
+        "description": "Buenas buenas mi gente,  \n\n¡LA MAGIA DETRAS DE LOS MICROFRONTEND!  \n\nHoy tenemos a una celebridad dentro de la comunidad, ustedes ya lo conocen, siempre oyen hablar de él; ¡Hoy es el día, claro que si, te traemos a Carlitooos juniooor @cjosue15!  \n\nNo te lo podes perder !  \n\n🔴Si quieres hacer una donación🔴  \n\n https://streamelements.com/gentlemanprogramming/tip\n\n🔴▬ Links de interés ▬🔴  \n\nLink a YouTube: https://www.youtube.com/c/GentlemanProgramming\n\nLink a Twitch: https://t.co/vodIqiCH9N \n\nLink a Spotify: https://spoti.fi/3y281cY  \n\nLink a la comunidad: https://discord.gg/KEavKkDc5Y\n\nLink a la comunidad de Facebook: https://shorturl.at/jkmL6\n\nLink a instagram: https://www.instagram.com/gentlemanprogramming/\n\nLink a twitter: https://twitter.com/G_Programming\n\nLink al libro Cómo ser front-end sin fallar en el intento: Tus primeros pasos en la programación web: https://amzn.to/2ReBuzL\n\n#comunidad #discord #twitch #programming #podcast #live #stream #clase #tech #it #react #angular #vuejs #svelte #microfront #team #Hackathon #GentlemanProgramming #componentes #framework #library #framework #google #Facebook #tips",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/zKWz41B_ECw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/zKWz41B_ECw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/zKWz41B_ECw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/zKWz41B_ECw/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/zKWz41B_ECw/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "playlistId": "PL42UNLc8e48R2PYR9tor_PCTtS9o3Chna",
+        "position": 47,
+        "resourceId": { "kind": "youtube#video", "videoId": "zKWz41B_ECw" },
+        "videoOwnerChannelTitle": "Gentleman Programming",
+        "videoOwnerChannelId": "UCbx_d228PdYwgB4Jz202SIQ"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "1FH2koKkJvSE1xM8FnkVXfCADMc",
+      "id": "UEw0MlVOTGM4ZTQ4UjJQWVI5dG9yX1BDVHRTOW8zQ2huYS5ENDU4Q0M4RDExNzM1Mjcy",
+      "snippet": {
+        "publishedAt": "2022-11-20T18:46:36Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "Cómo es que aprendo tan rapido ? Mi secreto y tips rapiditos para que seas crack",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/b9P6ue9AxlU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/b9P6ue9AxlU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/b9P6ue9AxlU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/b9P6ue9AxlU/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/b9P6ue9AxlU/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "playlistId": "PL42UNLc8e48R2PYR9tor_PCTtS9o3Chna",
+        "position": 48,
+        "resourceId": { "kind": "youtube#video", "videoId": "b9P6ue9AxlU" },
+        "videoOwnerChannelTitle": "Gentleman Programming",
+        "videoOwnerChannelId": "UCbx_d228PdYwgB4Jz202SIQ"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "OcOJdxAf_zGBUsdJ37Ja9G-Urpg",
+      "id": "UEw0MlVOTGM4ZTQ4UjJQWVI5dG9yX1BDVHRTOW8zQ2huYS4wN0FBRUVFNEVBMTZBQ0Mx",
+      "snippet": {
+        "publishedAt": "2022-11-20T18:47:18Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "Cómo hacer unit testing de componentes con servicios ? Mock para CONTROLAR nuestros test",
+        "description": "Buenas buenas mi gente !!\n\nEn el día de hoy, veremos cómo hacer testing de componentes que poseen servicios !!! \n\nDesde buena prácticas, mock de información y de endpoints hasta cómo comprobar si nuestra lógica está preparada para errores de servidor.\n\nA por ello !\n\nSi quieres hacer una donación: \nhttps://streamelements.com/gentlemanprogramming/tip\n\n▬ Links de interés  ▬▬▬▬▬▬▬▬▬▬\nLink a Spotify: https://spoti.fi/3y281cY\nLink a la comunidad: https://discord.gg/gxQCPMZGjP\nLink a la comunidad de Facebook: https://shorturl.at/jkmL6\nLink al libro \"Cómo ser front-end sin fallar en el intento: Tus primeros pasos en la programación web\": https://amzn.to/2ReBuzL",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/F7H77PL-JXQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/F7H77PL-JXQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/F7H77PL-JXQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/F7H77PL-JXQ/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/F7H77PL-JXQ/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "playlistId": "PL42UNLc8e48R2PYR9tor_PCTtS9o3Chna",
+        "position": 49,
+        "resourceId": { "kind": "youtube#video", "videoId": "F7H77PL-JXQ" },
+        "videoOwnerChannelTitle": "Gentleman Programming",
+        "videoOwnerChannelId": "UCbx_d228PdYwgB4Jz202SIQ"
+      }
+    }
+  ],
+  "pageInfo": { "totalResults": 164, "resultsPerPage": 50 }
+}

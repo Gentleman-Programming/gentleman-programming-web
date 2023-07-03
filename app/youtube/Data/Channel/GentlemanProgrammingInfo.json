@@ -1,0 +1,54 @@
+{
+  "kind": "youtube#channel",
+  "etag": "DlHPdcr0oOPxtB1Welm0Cy2v_b8",
+  "id": "UCbx_d228PdYwgB4Jz202SIQ",
+  "snippet": {
+    "title": "Gentleman Programming",
+    "description": "Hola gente !! Cómo andamos ? \n\nAsí que bienvenidos a este canal especial para programadores y gente a la que le gusta el mundo de la programación web ! Se suben clases y todo tipo de eventos de manera semanal y se dispone también un canal de discord de la comunidad !. \n\nAsí que...qué esperas ? a por ello!\n\n🔴▬ LINKS DE INTERÉS ▬🔴  \n\n😎LIVE todos los Domingos, Martes, Miércoles & Viernes.\nTwitch: https://t.co/vodIqiCH9N\n\n💬Escúchame aquí: \nSpotify: https://spoti.fi/3y281cY\nApple Podcast: https://podcasts.apple.com/es/podcast/gentleman-programming/id1661415820\n\n🤓¡Únete a nuestra comunidad!\nDiscord: https://discord.gg/KEavKkDc5Y\nFacebook: https://shorturl.at/jkmL6\nInstagram: https://www.instagram.com/gentlemanprogramming/\nTwitter: https://twitter.com/G_Programming\n\n📘Encuentra mi libro: ¿Cómo ser front-end sin fallar en el intento? + Tus primeros pasos en la programación web aquí: https://amzn.to/2ReBuzL\n",
+    "customUrl": "@gentlemanprogramming",
+    "publishedAt": "2020-09-17T16:41:51.420406Z",
+    "thumbnails": {
+      "default": {
+        "url": "https://yt3.ggpht.com/RerL_HygEZuzI-VMS6GRtuSneViN7j6fjCYIGPNqzoLGlbBd0C4GKqBu3g7hJWiEJskeoYBc=s88-c-k-c0x00ffffff-no-rj",
+        "width": 88,
+        "height": 88
+      },
+      "medium": {
+        "url": "https://yt3.ggpht.com/RerL_HygEZuzI-VMS6GRtuSneViN7j6fjCYIGPNqzoLGlbBd0C4GKqBu3g7hJWiEJskeoYBc=s240-c-k-c0x00ffffff-no-rj",
+        "width": 240,
+        "height": 240
+      },
+      "high": {
+        "url": "https://yt3.ggpht.com/RerL_HygEZuzI-VMS6GRtuSneViN7j6fjCYIGPNqzoLGlbBd0C4GKqBu3g7hJWiEJskeoYBc=s800-c-k-c0x00ffffff-no-rj",
+        "width": 800,
+        "height": 800
+      }
+    },
+    "localized": {
+      "title": "Gentleman Programming",
+      "description": "Hola gente !! Cómo andamos ? \n\nAsí que bienvenidos a este canal especial para programadores y gente a la que le gusta el mundo de la programación web ! Se suben clases y todo tipo de eventos de manera semanal y se dispone también un canal de discord de la comunidad !. \n\nAsí que...qué esperas ? a por ello!\n\n🔴▬ LINKS DE INTERÉS ▬🔴  \n\n😎LIVE todos los Domingos, Martes, Miércoles & Viernes.\nTwitch: https://t.co/vodIqiCH9N\n\n💬Escúchame aquí: \nSpotify: https://spoti.fi/3y281cY\nApple Podcast: https://podcasts.apple.com/es/podcast/gentleman-programming/id1661415820\n\n🤓¡Únete a nuestra comunidad!\nDiscord: https://discord.gg/KEavKkDc5Y\nFacebook: https://shorturl.at/jkmL6\nInstagram: https://www.instagram.com/gentlemanprogramming/\nTwitter: https://twitter.com/G_Programming\n\n📘Encuentra mi libro: ¿Cómo ser front-end sin fallar en el intento? + Tus primeros pasos en la programación web aquí: https://amzn.to/2ReBuzL\n"
+    },
+    "country": "ES"
+  },
+  "contentDetails": {
+    "relatedPlaylists": { "likes": "", "uploads": "UUbx_d228PdYwgB4Jz202SIQ" }
+  },
+  "statistics": {
+    "viewCount": "1082584",
+    "subscriberCount": "24100",
+    "hiddenSubscriberCount": false,
+    "videoCount": "300"
+  },
+  "brandingSettings": {
+    "channel": {
+      "title": "Gentleman Programming",
+      "description": "Hola gente !! Cómo andamos ? \n\nAsí que bienvenidos a este canal especial para programadores y gente a la que le gusta el mundo de la programación web ! Se suben clases y todo tipo de eventos de manera semanal y se dispone también un canal de discord de la comunidad !. \n\nAsí que...qué esperas ? a por ello!\n\n🔴▬ LINKS DE INTERÉS ▬🔴  \n\n😎LIVE todos los Domingos, Martes, Miércoles & Viernes.\nTwitch: https://t.co/vodIqiCH9N\n\n💬Escúchame aquí: \nSpotify: https://spoti.fi/3y281cY\nApple Podcast: https://podcasts.apple.com/es/podcast/gentleman-programming/id1661415820\n\n🤓¡Únete a nuestra comunidad!\nDiscord: https://discord.gg/KEavKkDc5Y\nFacebook: https://shorturl.at/jkmL6\nInstagram: https://www.instagram.com/gentlemanprogramming/\nTwitter: https://twitter.com/G_Programming\n\n📘Encuentra mi libro: ¿Cómo ser front-end sin fallar en el intento? + Tus primeros pasos en la programación web aquí: https://amzn.to/2ReBuzL\n",
+      "keywords": "justtalking podcast chatting programming coding tech tecnologia programacion charla frontend backend devops tradicionales profesor tips agiles metodologias angular vue react es6 typescript",
+      "unsubscribedTrailer": "KZCA_BRAkSA",
+      "country": "ES"
+    },
+    "image": {
+      "bannerExternalUrl": "https://yt3.googleusercontent.com/2yWxLiM81iSmz9b7I_x9V1VCvsNVoYYo-KxII_oRRDAWJJGMkeaKy6L-aHpbJbeP4kuc9I-RZQA"
+    }
+  }
+}
