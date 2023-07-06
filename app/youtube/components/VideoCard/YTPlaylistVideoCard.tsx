@@ -29,15 +29,15 @@ export const YTPlaylistVideoCard: FC<Video> = ({ video }) => {
           <picture>
             <source
               media="(max-width:640px)"
-              srcSet={video.snippet.thumbnails.default.url}
+              srcSet={video.snippet.thumbnails.default?.url}
             />
             <source
               media="(max-width:768px)"
-              srcSet={video.snippet.thumbnails.medium.url}
+              srcSet={video.snippet.thumbnails.medium?.url}
             />
             <source
               media="(max-width:1024px)"
-              srcSet={video.snippet.thumbnails.high.url}
+              srcSet={video.snippet.thumbnails.high?.url}
             />
             <source
               media="(max-width:1280px)"
@@ -45,7 +45,7 @@ export const YTPlaylistVideoCard: FC<Video> = ({ video }) => {
             />
             <img
               className={style.youtubeVideoCardImage}
-              src={video.snippet.thumbnails.medium.url}
+              src={video.snippet.thumbnails.medium?.url}
               alt={'Video Thumbnail' + video.snippet.resourceId.videoId}
             />
           </picture>
