@@ -1,9 +1,12 @@
 export * from './ChannelDetails/ChannelDetails';
-export * from './ChannelSections/ChannelSections';
-export * from './ChannelTabs/TabsBar';
+export * from './ChannelDetails/ChannelTabs/TabsBar';
+export { default as page } from './ChannelSections/About/page';
+export * from './ChannelSections/Playlists/Playlists/YTSinglePlaylist';
+export * from './ChannelSections/Playlists/Playlists/page';
+export * from './ChannelSections/Shorts/ShortCard/ShortCard';
 export * from './HeaderSearchbar/HeaderSearchbar';
+export * from './HeaderSearchbar/SearchIcon';
+export * from './Home/HomeSections/HomeSections';
 export { default as HomeYoutube } from './Home/HomeYoutube';
-export * from './Home/SearchIcon';
-export * from './ShortCard/ShortCard';
 export * from './VideoCard/YTPlaylistVideoCard';
 export * from './index';
