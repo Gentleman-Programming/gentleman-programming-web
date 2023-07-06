@@ -1,22 +1,45 @@
 .youtubeChannelTabs {
-    padding-bottom: 1rem;
-    /* padding-right: 4rem; */
+    padding-bottom: 0.85rem;
     background-color: var(--BG-CONTAINER);
   }
   .youtubeChannelSingleTab {
     font-family: "Roboto", "Noto", sans-serif;
     font-weight: 600;
     font-size: 12px;
-    padding: 0.75rem 1.8rem;
+    padding: 0.85rem 1.8rem;
     color: var(--FONT-COLOR-SECONDARY);
     vertical-align: middle;
     text-decoration: none;
   }
   .youtubeChannelSingleTab:focus {
     color: var(--FONT-COLOR);
-    border: none;
     background-color: hsla(0, 0%, 100%, 0.308);
+    border: none;
+    transition: 350ms ease-in-out;
+  }
+  .youtubeChannelSingleTab:focus-visible{
+    outline: none;
+  }
+
+  @keyframes sliding {
+    0% {
+      transform: translateX(0);
+    }
+  
+    100% {
+      transform: translateX(100%);
+    }
+  }
+
+  .youtubeChannelSingleTab:active{
+    animation: sliding 300ms ease-in-out 5ms 1 normal both;
+    transition: 300ms ease-in-out;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.65);
+  }
+  .youtubeChannelSingleTab:first-child{
+    animation: sliding 300ms ease-in-out 5ms 1 reverse both;
   }
   .youtubeChannelSingleTab:hover {
+    transition: 200ms ease-in-out;
     color: var(--FONT-COLOR);
   }
