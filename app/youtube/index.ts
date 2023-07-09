@@ -1,9 +1,11 @@
 export * from './components/ChannelDetails/ChannelDetails';
 export * from './components/ChannelDetails/ChannelTabs/TabsBar';
-export { default as About } from './components/ChannelSections/About/page';
+export { default as About } from './components/ChannelSections/about/page';
 export * from './components/ChannelSections/Playlists/Playlists/YTSinglePlaylist';
 export * from './components/ChannelSections/Playlists/Playlists/page';
 export * from './components/ChannelSections/Shorts/ShortCard/ShortCard';
+export { default as Shorts } from './components/ChannelSections/Shorts/page';
+export { default as Videos } from './components/ChannelSections/Videos/page';
 export * from './components/HeaderSearchbar/HeaderSearchbar';
 export * from './components/HeaderSearchbar/SearchIcon';
 export * from './components/Home/HomeSections/HomeSections';
