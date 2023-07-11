@@ -2,7 +2,7 @@ import React from 'react';
 
 import styles from '@app/youtube/styles/headerYoutube.module.css';
 
-import { SearchIcon } from '../Home/SearchIcon';
+import { SearchIcon } from './SearchIcon';
 
 export const HeaderSearchbar = () => {
   return (
