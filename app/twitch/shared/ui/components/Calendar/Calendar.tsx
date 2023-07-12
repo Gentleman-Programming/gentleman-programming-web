@@ -1,6 +1,6 @@
-// eslint-disable-next-line import/order
+'use client';
+
 import styles from './Calendar.module.scss';
-import dataCalendar from './mock.json';
 import { Segment } from '../../../../models/event.model';
 interface Props {
   events: Segment[];
@@ -43,7 +43,9 @@ export function Calendar({ events }: Props) {
             <div className={styles.card}>
               <h3 className={styles.title}>{event.title} </h3>
               <p className={styles.time}>
-                {event.startTime} - {event.endTime}
+                {<span className={styles.span}>1</span>}
+                {`  ${obtenerDiaSemana(new Date(event.start))}, 
+                ${event.startTime} - ${event.endTime}`}
               </p>
             </div>
           </div>
