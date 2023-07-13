@@ -4,6 +4,11 @@
      color:$color-primary-text;
 }
 
+.card:hover{
+  cursor: pointer;
+  filter: blur(5px);
+}
+
 
 
 .contentData{
@@ -19,15 +24,15 @@
 }
 
 .dateTime{
-  height: 2rem;
+  height: 4rem;
   width: 6rem;
   text-align: center;
 }
 
 .card{
-  height: 100px;
+  height: 70px;
   width: 400px;
-  background-color: #5a5a5a;
+  background-color: #131313;
   margin: 8px;
   border-radius: 5px;
   display: flex;
@@ -38,6 +43,16 @@
 
 .title{
   margin: 0;
+  color: #fc00ed;
+}
+
+.span{
+  width: 3px;
+  height: 10px;
+  background-color: #fc00ed;
+  border-radius: 3px;
+  color: #fc00ed;
+  cursor: none;
 }
 
 .time{

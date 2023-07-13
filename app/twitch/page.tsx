@@ -14,6 +14,7 @@ async function Twitch() {
     return await getCalendar();
   }
   const events = await fetchEvents();
+  console.log(events.data.segments);
   return (
     <div className={pageStyles.root}>
       <div className={pageStyles.container}>
