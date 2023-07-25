@@ -24,34 +24,32 @@ export default function YoutubeLayout({ children }: { children: ReactNode }) {
     <div className={styles.youtube__theme}>
       {/* Renders the navigation bar */}
       <NavBar />
-      <section className={styles.youtube__container}>
-        <main>
-          <HeaderSearchbar />
-          <div
-            style={{
-              background: `url(${channelBanner}) center center/contain no-repeat content-box fixed`,
-            }}
-            className={styles.youtube__banner}
-          ></div>
-          <section className={styles.youtubeMainContent}>
-            <ChannelDetails
-              channelTitle={channelTitle}
-              subscriberCount={subscriberCount}
-              videoCount={videoCount}
-              channelPic={channelPic}
-              channelDescription={channelDescription}
-            />
-            <TabsBar
-              description={channelDescription}
-              publishedAt={channelPublishedAt}
-              viewCount={viewCount}
-            />
+      <main className={styles.youtube__container}>
+        <HeaderSearchbar />
+        <div
+          style={{
+            background: `url(${channelBanner}) center center/contain no-repeat content-box fixed`,
+          }}
+          className={styles.youtube__banner}
+        ></div>
+        <section className={styles.youtubeMainContent}>
+          <ChannelDetails
+            channelTitle={channelTitle}
+            subscriberCount={subscriberCount}
+            videoCount={videoCount}
+            channelPic={channelPic}
+            channelDescription={channelDescription}
+          />
+          <TabsBar
+            description={channelDescription}
+            publishedAt={channelPublishedAt}
+            viewCount={viewCount}
+          />
 
-            <hr style={{ width: '100%' }} className={styles.youtube__divider} />
-            {children}
-          </section>
-        </main>
-      </section>
+          <hr style={{ width: '100%' }} className={styles.youtube__divider} />
+          {children}
+        </section>
+      </main>
       <TutiFooterFinal />
       {/* Render back-to-top button */}
       <TutiTop />
