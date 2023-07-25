@@ -33,7 +33,7 @@ export default function YoutubeLayout({ children }: { children: ReactNode }) {
             }}
             className={styles.youtube__banner}
           ></div>
-          <section>
+          <section className={styles.youtubeMainContent}>
             <ChannelDetails
               channelTitle={channelTitle}
               subscriberCount={subscriberCount}
@@ -46,12 +46,10 @@ export default function YoutubeLayout({ children }: { children: ReactNode }) {
               publishedAt={channelPublishedAt}
               viewCount={viewCount}
             />
+
+            <hr style={{ width: '100%' }} className={styles.youtube__divider} />
+            {children}
           </section>
-          <hr
-            style={{ width: '100%', marginLeft: '0 -2.5rem' }}
-            className={styles.youtube__divider}
-          />
-          {children}
         </main>
       </section>
       <TutiFooterFinal />
