@@ -50,7 +50,9 @@
   flex: 0 1 728px;
   min-width: 0px;
   width: 50%;
-  margin: 0 0 0.45rem 9.25rem;
+  margin: 0 0 0.45rem 0;
+  max-height: 2.5rem;
   border:1px solid hsla(0, 0%, 18.82%);
   border-radius: 40px;
+  align-self: center;
 }
