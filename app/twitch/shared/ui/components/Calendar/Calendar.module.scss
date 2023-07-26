@@ -4,13 +4,16 @@
      color:$color-primary-text;
 }
 
-.card:hover{
+.test:hover{
   cursor: pointer;
-  filter: blur(5px);
+  filter: blur(1px);
 }
 
-
-
+.test{
+  display: flex;
+  align-items: center;
+  background-color: #292929;
+}
 .contentData{
   display: flex;
   align-items: center;
@@ -24,9 +27,14 @@
 }
 
 .dateTime{
-  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
   width: 6rem;
+  height: 6rem;
   text-align: center;
+  background-color: #141414;
 }
 
 .card{

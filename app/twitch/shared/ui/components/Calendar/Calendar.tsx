@@ -1,5 +1,3 @@
-'use client';
-
 import styles from './Calendar.module.scss';
 import { Segment } from '../../../../models/event.model';
 interface Props {
@@ -14,6 +12,7 @@ export function Calendar({ events }: Props) {
       startTime: `${event.start_time.split('T')[1].slice(0, -4)}`,
     };
   });
+
   function obtenerDiaSemana(fecha: any) {
     const diasSemana = [
       'Domingo',
@@ -27,14 +26,19 @@ export function Calendar({ events }: Props) {
     const dia = fecha.getUTCDay();
     return diasSemana[dia];
   }
-  const fecha = new Date('2023-06-25');
-  const diaSemana = obtenerDiaSemana(fecha);
-  console.log('El día de la semana es: ' + diaSemana);
+
   return (
     <div className={styles.calendarContent}>
       <div className={styles.calendarContent}>
         {EventsInfo.map((event, i) => (
-          <div key={i} className={styles.contentData}>
+          <div
+            key={i}
+            className={`${
+              event.start.includes(new Date().getDate().toString())
+                ? styles.test
+                : styles.contentData
+            }`}
+          >
             <h2 className={styles.dateTime}>
               {obtenerDiaSemana(new Date(event.start))}
               <br />
