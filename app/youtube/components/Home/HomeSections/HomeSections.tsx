@@ -2,10 +2,9 @@ import React from 'react';
 
 import { dataSinglePLs } from '@app/youtube/data';
 import sectionData from '@app/youtube/data/Channel/channelSectionResponse.json';
+import { SinglePlaylist } from '@app/youtube/playlists/YTSinglePlaylist';
 import style from '@app/youtube/styles/channelLists.module.css';
 import hr from '@app/youtube/styles/youtube.module.css';
-
-import { SinglePlaylist } from '../../ChannelSections/Playlists/Playlists/YTSinglePlaylist';
 
 export const ChannelSections = () => {
   return (
@@ -33,6 +32,7 @@ export const ChannelSections = () => {
     </section>
   );
 };
+
 function nameGiver(index: number) {
   //This is a function I made to name the sections in the HOME
   switch (index) {
