@@ -7,6 +7,13 @@ import styles from '@app/youtube/styles/youtube.module.css';
 
 import { ChannelDetails, TabsBar } from './components';
 import { HeaderSearchbar } from './components/HeaderSearchbar/HeaderSearchbar';
+import { IChannelAbout } from './interfaces/channelAbout';
+
+export const dataAbout: IChannelAbout = {
+  publishedAt: data.snippet.publishedAt,
+  viewCount: data.statistics.viewCount,
+  description: data.snippet.description,
+};
 
 export default function YoutubeLayout({ children }: { children: ReactNode }) {
   const {
