@@ -1,5 +1,9 @@
-import { INavButtonDataProps } from '../../interface';
+import { getChannelStatus } from '@app/twitch/services';
 
+import { INavButtonDataProps } from '../../interface';
+const live: Promise<boolean | undefined> = getChannelStatus().then(
+  (status) => status?.live
+);
 export const NavButtonsData: INavButtonDataProps[] = [
   { id: '1', description: '', toolTip: 'Home', link: '/', img: 'Home' },
   {
@@ -7,7 +11,7 @@ export const NavButtonsData: INavButtonDataProps[] = [
     description: 'twitch',
     toolTip: 'Twitch',
     link: '/twitch',
-    isLive: true,
+    isLive: live,
     img: 'Twitch',
   },
   {

@@ -19,34 +19,15 @@
   align-items: center;
 }
 
-.contentHours{
-  width: 100%;
-  display: flex;
-  justify-content: space-evenly;
-  list-style: none;
-}
-
 .dateTime{
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 2px;
-  width: 6rem;
+  padding: 5px;
+  width: 7rem;
   height: 6rem;
   text-align: center;
   background-color: #141414;
-}
-
-.card{
-  height: 70px;
-  width: 400px;
-  background-color: #131313;
-  margin: 8px;
-  border-radius: 5px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  padding-left: 10px;
 }
 
 .title{
@@ -69,4 +50,48 @@
 
 .description{
   margin: 0;
+}
+
+
+.calendarContent {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.calendar {
+  display: flex;
+  width: 100%;
+}
+
+.days {
+  display: flex; /* Mostrar las fechas en una fila horizontal */
+  flex-direction: column;
+  width: 100%;
+}
+
+.day {
+  flex: 1; /* Ocupar el espacio disponible para mostrar un día */
+  text-align: center;
+  border-radius: 5px;
+  display: flex; /* Mostrar los eventos en una fila horizontal */
+  flex-direction: row; /* Mostrar los eventos en una columna vertical */
+}
+
+.eventCard {
+  height: 70px;
+  width: 400px;
+  background-color: #131313;
+  margin: 8px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 10px;
+  align-items: flex-start;
+}
+
+.eventsContainer {
+  position: relative;
+  display: flex;
+  width: 100%;
 }

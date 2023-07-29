@@ -16,10 +16,11 @@ async function Twitch() {
     return await getCalendar();
   }
   const events = await fetchEvents();
-  console.log(events.data.segments);
   return (
     <>
-      <NavBar />
+      <div className={pageStyles.containerNavbar}>
+        <NavBar />
+      </div>
       <div className={pageStyles.root}>
         <div className={pageStyles.container}>
           <header className={pageStyles.header}>
