@@ -1,0 +1,535 @@
+{
+  "kind": "youtube#playlistItemListResponse",
+  "etag": "7xCmP2miQnoKUSZh1Phaq0itRvE",
+  "items": [
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "_FvuBK_zeIfUpKPglTmtJJrmCKA",
+      "id": "UEw0MlVOTGM4ZTQ4Ui0zMnlwTGQwd1RkaC1BVzlJRzNWcy5ENDU4Q0M4RDExNzM1Mjcy",
+      "snippet": {
+        "publishedAt": "2022-11-21T21:27:01Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "Qué es Javascript ? Cómo lo interpreta el navegador ? Cómo funciona el crear una variable ? - #01",
+        "description": "Buenas, buenas mi gente !!! \n\nEstuve pensando mucho en cómo va el canal y la comunidad y me dí cuenta de algo... nos hemos ido un poco de lo que sería la raíz y corazón de Gentleman Programming. \n\nVamos a volver a ayudar a los que recién comienzan, a crear contenido para que puedan estar preparados para el ambiente laboral y empezaremos en NADA.\n\nVamos a empezar con una serie de videos que van a ir desde Javascript, CSS, Html, DOM hasta ya temas más complejos. Cada video será como mucho de 15 minutos y tendrá conceptos específicos, que de manera unificada, darán a una especie de roadmap al cual seguir.\n\nEn el día de hoy, veremos qué es Javascript, porqué es tan importante, quién es su creador, qué significa que es un lenguaje por turnos y cómo se trabaja con la asincronía.\n\nA por ello !\n\nSi quieres hacer una donación: \nhttps://streamelements.com/gentlemanprogramming/tip\n\n▬ Links de interés  ▬▬▬▬▬▬▬▬▬▬\nLink a Spotify: https://spoti.fi/3y281cY\nLink a la comunidad: https://discord.gg/gxQCPMZGjP\nLink a la comunidad de Facebook: https://shorturl.at/jkmL6\nLink al libro \"Cómo ser front-end sin fallar en el intento: Tus primeros pasos en la programación web\": https://amzn.to/2ReBuzL",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/MyHfth82wDI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/MyHfth82wDI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/MyHfth82wDI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/MyHfth82wDI/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/MyHfth82wDI/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "playlistId": "PL42UNLc8e48R-32ypLd0wTdh-AW9IG3Vs",
+        "position": 0,
+        "resourceId": { "kind": "youtube#video", "videoId": "MyHfth82wDI" },
+        "videoOwnerChannelTitle": "Gentleman Programming",
+        "videoOwnerChannelId": "UCbx_d228PdYwgB4Jz202SIQ"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "e8IdK_rq_Txy4INseBDEIijef7k",
+      "id": "UEw0MlVOTGM4ZTQ4Ui0zMnlwTGQwd1RkaC1BVzlJRzNWcy4yMDhBMkNBNjRDMjQxQTg1",
+      "snippet": {
+        "publishedAt": "2022-11-21T21:27:01Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "Qué es un Javascript Engine?, Cómo funcionan ?, JIT vs AOT ¡No muchos Seniors saben esto! - #02",
+        "description": "Buenas, buenas mi gente !\n\nEn el día de hoy veremos nuestro segundo vídeo dentro del Roadmap para Front End ! Se hablará sobre Javascript Engines:\n\n▬ Contenido del video  ▬▬▬▬▬▬▬▬▬▬\n0:00:00​​ - Welcome !\n0:00:34​​ - Qué son ?\n0:01:00​​ - Diferentes tipos\n0:02:00​ - Quién define a Javascript ?\n0:03:00​​ - Lenguajes tipados\n0:04:25​ - La mayor revelación de las revelaciones\n0:04:38​​ - Dinámicamente tipado\n0:05:50​​ - Estrés en el compilador\n0:06:10 - Cómo hace Javascript para ser tan rápido ?\n0:09:00 - Compilador Optimizador y De-optimizador\n0:10:55 - Flow de trabajo del engine\n0:12:30 - Muchos cambios = mala performance\n0:13:26 - Ejemplo práctico\n0:16:53 - Despedida\n\nA por ello !\n\nSi quieres hacer una donación: \nhttps://streamelements.com/gentlemanprogramming/tip\n\n▬ Links de interés  ▬▬▬▬▬▬▬▬▬▬\nLink a Spotify: https://spoti.fi/3y281cY\nLink a la comunidad: https://discord.gg/gxQCPMZGjP\nLink a la comunidad de Facebook: https://shorturl.at/jkmL6\nLink al libro \"Cómo ser front-end sin fallar en el intento: Tus primeros pasos en la programación web\": https://amzn.to/2ReBuzL",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/JeyR30L_zmk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/JeyR30L_zmk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/JeyR30L_zmk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/JeyR30L_zmk/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/JeyR30L_zmk/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "playlistId": "PL42UNLc8e48R-32ypLd0wTdh-AW9IG3Vs",
+        "position": 1,
+        "resourceId": { "kind": "youtube#video", "videoId": "JeyR30L_zmk" },
+        "videoOwnerChannelTitle": "Gentleman Programming",
+        "videoOwnerChannelId": "UCbx_d228PdYwgB4Jz202SIQ"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "5Qg2DjbHVi8RTN7cTXv_OPKC76k",
+      "id": "UEw0MlVOTGM4ZTQ4Ui0zMnlwTGQwd1RkaC1BVzlJRzNWcy5GM0Q3M0MzMzY5NTJFNTdE",
+      "snippet": {
+        "publishedAt": "2022-11-21T21:27:01Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "Qué es el Scope Chain ?  Qué es una Clausura ? Cómo se relacionan ? ¡Ejercicios técnicos!  - #03",
+        "description": "Buenas, buenas mi gente !\n\nEn el día de hoy veremos nuestro tercer vídeo dentro del Roadmap para Front End ! Se hablará sobre Javascript Scope Chains y Clausuras:\n\nAntes de nada, el vídeo anteriorque trataba sobre el tema de \"Clausura\" ha sido borrado ya que contenía un error que para mí era imperdonable.\n\nUno de los suscriptores me hizo notar que había una equivocación fatal y no puedo dejar este tipo de contenido en el canal.\n\nDesde ya la responsabilidad que poseo es siempre de ayudar y nunca quisiera confundirlos. Por eso, este \"Roadmap Front End\" que estamos haciendo tiene que ser más que perfecto.\n\nNuevamente, perdón a todos y me sabe super mal el problema ocasionado.\n\n▬ Contenido del video  ▬▬▬▬▬▬▬▬▬▬\n0:00:00​​ - Welcome !\n0:01:22​​ - Concepto inicial\n0:02:16​​ - Scope Chain\n0:03:20​ - Clausura\n0:04:14​​ - Scope en código\n0:04:52​ - Scope chain en código\n0:06:36​​ - Clausura en código\n0:09:17 - Primer ejercicio técnico\n0:10:40 - Segundo ejercicio técnico\n0:11:33 - Despedida\n\n¡A por ello !\n\nSi quieres hacer una donación: \nhttps://streamelements.com/gentlemanprogramming/tip\n\n▬ Links de interés  ▬▬▬▬▬▬▬▬▬▬\nLink a Spotify: https://spoti.fi/3y281cY\nLink a la comunidad: https://discord.gg/gxQCPMZGjP\nLink a la comunidad de Facebook: https://shorturl.at/jkmL6\nLink al libro \"Cómo ser front-end sin fallar en el intento: Tus primeros pasos en la programación web\": https://amzn.to/2ReBuzL",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/iNq3GjPNwWg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/iNq3GjPNwWg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/iNq3GjPNwWg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/iNq3GjPNwWg/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/iNq3GjPNwWg/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "playlistId": "PL42UNLc8e48R-32ypLd0wTdh-AW9IG3Vs",
+        "position": 2,
+        "resourceId": { "kind": "youtube#video", "videoId": "iNq3GjPNwWg" },
+        "videoOwnerChannelTitle": "Gentleman Programming",
+        "videoOwnerChannelId": "UCbx_d228PdYwgB4Jz202SIQ"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "GOmaHUCFA8v9InrVsxwAVGWAVYk",
+      "id": "UEw0MlVOTGM4ZTQ4Ui0zMnlwTGQwd1RkaC1BVzlJRzNWcy45NzUwQkI1M0UxNThBMkU0",
+      "snippet": {
+        "publishedAt": "2022-11-21T21:27:01Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "Resultados de ejercicios ténicos sobre Scope Chain Clausura, del vídeo #3 del Roadmap Front End",
+        "description": "¡Buenas, buenas mi gente!\n\nEn el día de hoy traemos los resultados para los ejercicios dados al fin del vídeo #3 sobre ¡Scope Chain y Clausura!\n\nLink: https://youtu.be/iNq3GjPNwWg\n\n¡Deja en los comentarios cómo te fue!\n\n!A por ello¡\n\nSi quieres hacer una donación: \nhttps://streamelements.com/gentlemanprogramming/tip\n\n▬ Links de interés  ▬▬▬▬▬▬▬▬▬▬\nLink a Spotify: https://spoti.fi/3y281cY\nLink a la comunidad: https://discord.gg/gxQCPMZGjP\nLink a la comunidad de Facebook: https://shorturl.at/jkmL6\nLink al libro \"Cómo ser front-end sin fallar en el intento: Tus primeros pasos en la programación web\": https://amzn.to/2ReBuzL",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/4BOE03zIo-A/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/4BOE03zIo-A/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/4BOE03zIo-A/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/4BOE03zIo-A/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/4BOE03zIo-A/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "playlistId": "PL42UNLc8e48R-32ypLd0wTdh-AW9IG3Vs",
+        "position": 3,
+        "resourceId": { "kind": "youtube#video", "videoId": "4BOE03zIo-A" },
+        "videoOwnerChannelTitle": "Gentleman Programming",
+        "videoOwnerChannelId": "UCbx_d228PdYwgB4Jz202SIQ"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "K5n2j-ERFiPTMDELDyPCUTR3s54",
+      "id": "UEw0MlVOTGM4ZTQ4Ui0zMnlwTGQwd1RkaC1BVzlJRzNWcy4zRjM0MkVCRTg0MkYyQTM0",
+      "snippet": {
+        "publishedAt": "2022-11-21T21:27:01Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "¿Qué es Hoisting en Javascript? la verdadera explicación que siempre quisiste - #04",
+        "description": "Buenas, buenas mi gente !\n\nEn el día de hoy veremos nuestro cuarto vídeo dentro del Roadmap para Front End ! \n\nSe hablará sobre Javascript Hoisting:\n\n▬ Contenido del video  ▬▬▬▬▬▬▬▬▬▬\n0:00:00​​ - Welcome !\n0:00:40​​ - Concepto inicial\n0:01:20​​ - Mala concepción\n0:02:00​ - Compilación e identificación\n0:02:15 - Lexical environment\n0:03:24​ - Hoisting solo en declaraciones\n0:03:54​​ - Tipos que se puedan Hoistear\n0:04:12 - Hoisting con Var\n0:05:05 - Hoisting con Const/Let\n0:07:18 - Despedida\n\n¡A por ello !\n\nSi quieres hacer una donación: \nhttps://streamelements.com/gentlemanprogramming/tip\n\n▬ Links de interés  ▬▬▬▬▬▬▬▬▬▬\nLink a Spotify: https://spoti.fi/3y281cY\nLink a la comunidad: https://discord.gg/gxQCPMZGjP\nLink a la comunidad de Facebook: https://shorturl.at/jkmL6\nLink al libro \"Cómo ser front-end sin fallar en el intento: Tus primeros pasos en la programación web\": https://amzn.to/2ReBuzL",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/clc_pSl5ifA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/clc_pSl5ifA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/clc_pSl5ifA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/clc_pSl5ifA/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/clc_pSl5ifA/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "playlistId": "PL42UNLc8e48R-32ypLd0wTdh-AW9IG3Vs",
+        "position": 4,
+        "resourceId": { "kind": "youtube#video", "videoId": "clc_pSl5ifA" },
+        "videoOwnerChannelTitle": "Gentleman Programming",
+        "videoOwnerChannelId": "UCbx_d228PdYwgB4Jz202SIQ"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "m0FkvIu7UdkLEbzJXwB5g3qvaKg",
+      "id": "UEw0MlVOTGM4ZTQ4Ui0zMnlwTGQwd1RkaC1BVzlJRzNWcy5DNzE1RjZEMUZCMjA0RDBB",
+      "snippet": {
+        "publishedAt": "2022-11-21T21:27:01Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "¿Qué diferencias hay entre Var, Const y Let? El vídeo más corto pero detallado - #05",
+        "description": "Buenas, buenas mi gente !\n\nEn el día de hoy veremos nuestro quinto vídeo dentro del Roadmap para Front End ! \n\nSe hablará sobre Javascript Var vs Const/Let y hay un ejercicio técnico para que resuelvan:\n\n▬ Contenido del video  ▬▬▬▬▬▬▬▬▬▬\n0:00:00​​ - Welcome !\n0:00:53 - Var y ES\n0:02:01​​ - Var se puede re-declarar\n0:02:45  - El scope con Var\n0:03:46 - Problemáticas de Var\n0:06:22​ - Solución\n0:06:34​​ - Const\n0:06:54​​ - Const y el Scope\n0:07:29​​ - Const no actualiza\n0:07:39​​ - Const no re-define\n0:08:18​​ - Let\n0:08:43​ - Let y el Scope\n0:09:16​ - Let si actualiza\n0:09:37​ - Let no re-define\n0:10:08​ - Ej Técnico\n0:11:48 - Despedida\n\n¡A por ello !\n\nSi quieres hacer una donación: \nhttps://streamelements.com/gentlemanprogramming/tip\n\nLink Roadmap Front End: https://youtube.com/playlist?list=PL42UNLc8e48Qsb6Pg01wH_2908rPOzhN-\n\n▬ Links de interés  ▬▬▬▬▬▬▬▬▬▬\nLink a Spotify: https://spoti.fi/3y281cY\nLink a la comunidad: https://discord.gg/gxQCPMZGjP\nLink a la comunidad de Facebook: https://shorturl.at/jkmL6\nLink al libro \"Cómo ser front-end sin fallar en el intento: Tus primeros pasos en la programación web\": https://amzn.to/2ReBuzL",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/dtApLA9sJzc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/dtApLA9sJzc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/dtApLA9sJzc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/dtApLA9sJzc/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/dtApLA9sJzc/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "playlistId": "PL42UNLc8e48R-32ypLd0wTdh-AW9IG3Vs",
+        "position": 5,
+        "resourceId": { "kind": "youtube#video", "videoId": "dtApLA9sJzc" },
+        "videoOwnerChannelTitle": "Gentleman Programming",
+        "videoOwnerChannelId": "UCbx_d228PdYwgB4Jz202SIQ"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "fDwO5QemQkLFBDpEQYIex6oLgb8",
+      "id": "UEw0MlVOTGM4ZTQ4Ui0zMnlwTGQwd1RkaC1BVzlJRzNWcy45RTgxNDRBMzUwRjQ0MDhC",
+      "snippet": {
+        "publishedAt": "2022-11-21T21:27:01Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "Qué son los contextos de ejecución ? Priorización de operaciones asíncronas - Gentleman Class",
+        "description": "Buenas buenas mi gente !! \n\nEn el día de hoy veremos las diferencias entre operaciones síncronas, micro y macro operaciones asíncronas !!\n\nEl browser tiene diferentes maneras de priorizar la ejecución de las diferentes operaciones comprendidas en nuestro código, y todo se vuelve más complicado cuando lidiamos con aquellas que son asíncronas !! \n\nAsi que veamos con teoría y ejemplos de la vida cotidiana de qué manera interpreta nuestro browser javascript y prioriza nuestras operaciones.\n\nA por ello !! \n\nSi quieres hacer una donación: \nhttps://streamelements.com/gentlemanprogramming/tip\n\n▬ Links de interés  ▬▬▬▬▬▬▬▬▬▬\nLink a Spotify: https://spoti.fi/3y281cY\nLink a la comunidad: https://discord.gg/gxQCPMZGjP\nLink a la comunidad de Facebook: https://shorturl.at/jkmL6\nLink al libro \"Cómo ser front-end sin fallar en el intento: Tus primeros pasos en la programación web\": https://amzn.to/2ReBuzL",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/yeFNwwnJACg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/yeFNwwnJACg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/yeFNwwnJACg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/yeFNwwnJACg/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/yeFNwwnJACg/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "playlistId": "PL42UNLc8e48R-32ypLd0wTdh-AW9IG3Vs",
+        "position": 6,
+        "resourceId": { "kind": "youtube#video", "videoId": "yeFNwwnJACg" },
+        "videoOwnerChannelTitle": "Gentleman Programming",
+        "videoOwnerChannelId": "UCbx_d228PdYwgB4Jz202SIQ"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "68EDx1dhKYE8MnVQUr-Ep3aPUPg",
+      "id": "UEw0MlVOTGM4ZTQ4Ui0zMnlwTGQwd1RkaC1BVzlJRzNWcy4yODlGNEE0NkRGMEEzMEQy",
+      "snippet": {
+        "publishedAt": "2022-11-21T21:27:01Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "Curso completo de Javascript en 1 hora ! Las bases que nadie nunca te dijo, scope, closure y más !",
+        "description": "Se viene curso gratuito y en vivo de Javascript !!! en el stream veremos todo lo necesario para poder implementar y entender Javascript como unos Gentleman Programmers que somos  ! \n\n▬ Contenido del video  ▬▬▬▬▬▬▬▬▬▬\n0:00:00 - Inicio\n0:09:34 - Intro\n0:12:09 - VS-Code Extensiones\n0:16:31 - Javascript como lenguaje por turnos\n0:22:45 - IIFE - funciones auto invocadas\n0:31:27 - Hoisting\n0:37:10 - Currying\n0:46:54 - Apply, Call y Bind\n1:05:55 - Cuando usar cada una, conclusiones\n1:07:30 - Closure\n1:25:35 - Libro \"Cómo ser front-end sin fallar en el intento\"\n1:28:13 - Conclusiones\n \nCanales: \nTwitch: https://www.twitch.tv/applelan_92\nComunidad Discord: https://discord.gg/z6XmNPsHQp\nInstagram: https://www.instagram.com/alanbuscaglia\nSpotify: https://open.spotify.com/show/4AhopzZexw2wOMJyIcBWlx?si=_03r6CGKT3eIetBu5ty0YQ",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/etrM7ZufRbU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/etrM7ZufRbU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/etrM7ZufRbU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/etrM7ZufRbU/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/etrM7ZufRbU/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "playlistId": "PL42UNLc8e48R-32ypLd0wTdh-AW9IG3Vs",
+        "position": 7,
+        "resourceId": { "kind": "youtube#video", "videoId": "etrM7ZufRbU" },
+        "videoOwnerChannelTitle": "Gentleman Programming",
+        "videoOwnerChannelId": "UCbx_d228PdYwgB4Jz202SIQ"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "veWz3pHDxpBFu4PA8YNuTLwMNyU",
+      "id": "UEw0MlVOTGM4ZTQ4Ui0zMnlwTGQwd1RkaC1BVzlJRzNWcy41NkI0NEY2RDEwNTU3Q0M2",
+      "snippet": {
+        "publishedAt": "2022-11-21T21:27:01Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "Curso ES6 en menos de 2 horas ! Map, filter, reduce, spread operator, const vs let vs var y más !",
+        "description": "Se viene curso gratuito y en vivo de ES6 !!! en el stream veremos todo lo necesario para poder implementar ES6 como unos cracks ! \n\nTemario:\nJavascript - fundamentos,\nClosure,\nEs6 y Typescript - diferencias,\nClasses,\nArrow Functions,\nTemplate Strings,\nInheritance,\nConstants and Block Scoped Variables,\nSpread and Rest operators,\nDestructuring\n\n▬ Contenido del video  ▬▬▬▬▬▬▬▬▬▬\n0:00:00 - Inicio\n0:01:05 - Intro\n0:13:15 - Javascript - fundamentos\n0:15:36 - Scope y Closure\n0:21:43 - Closure ejercicios técnicos de entrevistas\n0:28:26 - Class, herencia, encapsulamiento y polimorfismo\n0:35:01 - Encapsulamiento y Polimorfismo con Typescript\n0:43:05 - Arrow Functions\n0:47:03 - Const vs Let vs Var\n0:50:56 - Concepto de variable y espacio de memoria\n0:54:37 - Let y closure\n0:58:15 - Template String\n1:01:48 - Funciones Estáticas\n1:03:47 - Spread y Rest\n1:12:05 - Destructuring\n1:16:00 - Find\n1:20:27 - Map\n1:26:40 - Filter\n1:29:35 - Reducer\n1:37:58 - Conclusiones\n \nLos espero !!!\n\nCanales: \nTwitch: https://www.twitch.tv/applelan_92\nComunidad Discord: https://discord.gg/z6XmNPsHQp\nInstagram: https://www.instagram.com/alanbuscaglia\nSpotify: https://open.spotify.com/show/4AhopzZexw2wOMJyIcBWlx?si=_03r6CGKT3eIetBu5ty0YQ",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/zXCmSp0VUeQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/zXCmSp0VUeQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/zXCmSp0VUeQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/zXCmSp0VUeQ/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/zXCmSp0VUeQ/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "playlistId": "PL42UNLc8e48R-32ypLd0wTdh-AW9IG3Vs",
+        "position": 8,
+        "resourceId": { "kind": "youtube#video", "videoId": "zXCmSp0VUeQ" },
+        "videoOwnerChannelTitle": "Gentleman Programming",
+        "videoOwnerChannelId": "UCbx_d228PdYwgB4Jz202SIQ"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "7-g0kb4jwqOqDhm1Hk6bClU0emE",
+      "id": "UEw0MlVOTGM4ZTQ4Ui0zMnlwTGQwd1RkaC1BVzlJRzNWcy4wMTcyMDhGQUE4NTIzM0Y5",
+      "snippet": {
+        "publishedAt": "2022-11-21T21:27:01Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "Ejercicio Luchadores ES6 y Typescript de ejemplo para ver cómo implementar cada uno !",
+        "description": "Estoy tan contento !, mis Gentleman Programmers han estado trabajando duro y entregando unos ejercicios de ES6 con una dedication y ganas que hace muchísimo no veía, la verdad es un placer ayudarlos y hacerles reviews, siempre otorgando feedbacks.\nEn el día de hoy veremos el resultado propuesto por mí !\n\nLes paso la consigna del ejercicio :\n\n\"Se viene la pelea de gladiadores !!!:\nExisten cuatro tipos de luchadores, los guerreros, los asesinos, los magos y los curanderos. \n\nLos guerreros, fuertes tanques  con mucha vida, daño intermedio y poca stamina .\nLos asesinos !, agiles luchadores con  poca vida  gran daño y mucha stamina.\nLos sabios magos, de poca vida, gran daño y poca stamina.\nY los curanderos, de poca vida, poco daño y poca stamina.\n\nLos guerreros aplican un bonus de defensa a sus cualidades de vida.\nLos asesinos aplican veneno en sus ataques !! potenciando su daño.\nLos magos pueden hacer daño, con sus grandes bolas de fuego !! y pueden curarse pero en poca medida.\nLos curanderos pueden curar en grandes proporciones pero tienen muy poco daño.\n\nEstos luchadores utilizan stamina y mana para realizar sus ataques según el tipo de luchador que sean, sin recursos NO hay ataques !!\nA cada ataque se le descontará la defensa del que lo recibe y eso influirá sus puntos de vida.\n\nDeben realizar un simulador de peleas ! donde tendrán listas de personajes, cada uno de un tipo y cualidades diferentes, y de manera random estos atacaran o utilizaran habilidades para decidir un ganador ! .\"\n\nCanales: \nTwitch: https://www.twitch.tv/applelan_92\nComunidad Discord: https://discord.gg/x4HKqSYBKS\nInstagram: https://www.instagram.com/alanbuscaglia\nSpotify: https://open.spotify.com/show/4AhopzZexw2wOMJyIcBWlx?si=_03r6CGKT3eIetBu5ty0YQ",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/CgFtL3aqdJE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/CgFtL3aqdJE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/CgFtL3aqdJE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/CgFtL3aqdJE/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/CgFtL3aqdJE/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "playlistId": "PL42UNLc8e48R-32ypLd0wTdh-AW9IG3Vs",
+        "position": 9,
+        "resourceId": { "kind": "youtube#video", "videoId": "CgFtL3aqdJE" },
+        "videoOwnerChannelTitle": "Gentleman Programming",
+        "videoOwnerChannelId": "UCbx_d228PdYwgB4Jz202SIQ"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "G0fKCblSSMaCg3Qe5fCGv-T6yQU",
+      "id": "UEw0MlVOTGM4ZTQ4Ui0zMnlwTGQwd1RkaC1BVzlJRzNWcy41Mzk2QTAxMTkzNDk4MDhF",
+      "snippet": {
+        "publishedAt": "2022-11-21T21:27:01Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "Ejercicios interactivos y preguntas clásicas de entrevistas técnicas de Front End de Javascript !",
+        "description": "Buenas buenas mi gente ! \n\nEn el día de hoy... presentamos una guía de preguntas y ejercicios técnicos clásicos para una entrevista de Front End pero orientados a la parte de Javascript, seguramente este sea el primero de muchos ya que hay MUCHOS ejercicios. \nHoy vamos a hacer algo diferente, quiero que cuando escuchen \"pausa\", paren sus videos, lean el ejercicio y pongan en los comentarios lo que creen que sería la respuesta ! luego pueden validar a ver si han acertado.\n\nA por ello !!\n\nLink a vídeo de cómo pasar una entrevista: https://youtu.be/EWO0WIATQ1g\n\n▬ Contenido del video  ▬▬▬▬▬▬▬▬▬▬\n0:00:00​​​​ - Welcome !\n0:01:32​​​​ - Qué es ECMA ?\n0:02:55 - Qué es un Scope?\n0:05:06​​​​ - Ejercicio técnico Scope\n0:08:03​​​​ - Qué es Closure ?\n0:09:19​​​​ - Ejercicio técnico Closure\n0:13:20​​​​ - Prototype\n0:14:50​​ - Triple igual vs Doble igual\n0:16:55 - Const vs Let vs Var\n0:23:48 - Filter, Map, Reduce\n0:28:35​​ - Programación funcional, declarativa, side effects, inmutabilidad\n0:31:05​​ - Not Defined vs NUll vs Undefined\n0:32:24​​ - Hoisting\n0:35:35​​ - Métodos y variables privadas\n0:37:24 - Object.freeze()\n0:39:23 - Arrow functions\n0:42:26 - Despedida\n\nSi quieres hacer una donación: \nhttps://streamelements.com/gentlemanprogramming/tip\n\n▬ Links de interés  ▬▬▬▬▬▬▬▬▬▬\nLink a Spotify: https://spoti.fi/3y281cY\nLink a la comunidad: https://discord.com/invite/KEavKkDc5Y\nLink a la comunidad de Facebook: https://www.facebook.com/groups/541544337043760\nLink al libro \"Cómo ser front-end sin fallar en el intento: Tus primeros pasos en la programación web\": https://amzn.to/2ReBuzL",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/QyVL2ZpQRpA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/QyVL2ZpQRpA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/QyVL2ZpQRpA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/QyVL2ZpQRpA/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/QyVL2ZpQRpA/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "playlistId": "PL42UNLc8e48R-32ypLd0wTdh-AW9IG3Vs",
+        "position": 10,
+        "resourceId": { "kind": "youtube#video", "videoId": "QyVL2ZpQRpA" },
+        "videoOwnerChannelTitle": "Gentleman Programming",
+        "videoOwnerChannelId": "UCbx_d228PdYwgB4Jz202SIQ"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "PucukiRbGzgqiRhZdgj7-c0uVrk",
+      "id": "UEw0MlVOTGM4ZTQ4Ui0zMnlwTGQwd1RkaC1BVzlJRzNWcy43MTI1NDIwOTMwQjIxMzNG",
+      "snippet": {
+        "publishedAt": "2023-05-04T09:55:01Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "🚨 ¡Increíble competencia de JavaScript en vivo! ¿Quién se coronó como el campeón? 🏆 💻",
+        "description": "🔴▬ LINKS DE INTERÉS ▬🔴  \n\nLink repositorio: https://github.com/Gentleman-Programming/Gentleman_Javascript_Tournament/tree/main\n\n😎LIVE todos los Miércoles & Viernes.\nTwitch: https://t.co/vodIqiCH9N\n\n💬Escúchame aquí: \nSpotify: https://spoti.fi/3y281cY\nApple Podcast: https://podcasts.apple.com/es/podcast/gentleman-programming/id1661415820\n\n🤓¡Únete a nuestra comunidad!\nDiscord: https://discord.gg/KEavKkDc5Y\nFacebook: https://shorturl.at/jkmL6\nInstagram: https://www.instagram.com/gentlemanprogramming/\nTwitter: https://twitter.com/G_Programming\n\n📘Encuentra mi libro: ¿Cómo ser front-end sin fallar en el intento? + Tus primeros pasos en la programación web aquí: https://amzn.to/2ReBuzL\n\n-\n#gentlemanprogramming #comunidad #discord #twitch #programming #podcast #live #stream #clase #tech #it #scrum #kanban #agile #team #Hackathon #componentes #framework #library #google #Facebook #tips #fullstack #DesarrolloWeb #Tecnología #Programación #Empresas #Salarios #IngenieríaDeSoftware #Trabajo #Informática #Contratación #RecursosHumanos #typescript #JavaScript #webdevelopment #frontend #backend #coding #developer #webdev #learnprogramming",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/bZmuJYgpoUQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/bZmuJYgpoUQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/bZmuJYgpoUQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/bZmuJYgpoUQ/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/bZmuJYgpoUQ/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "playlistId": "PL42UNLc8e48R-32ypLd0wTdh-AW9IG3Vs",
+        "position": 11,
+        "resourceId": { "kind": "youtube#video", "videoId": "bZmuJYgpoUQ" },
+        "videoOwnerChannelTitle": "Gentleman Programming",
+        "videoOwnerChannelId": "UCbx_d228PdYwgB4Jz202SIQ"
+      }
+    }
+  ],
+  "pageInfo": { "totalResults": 12, "resultsPerPage": 50 }
+}

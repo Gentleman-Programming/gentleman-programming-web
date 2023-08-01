@@ -1,0 +1,315 @@
+{
+  "kind": "youtube#playlistItemListResponse",
+  "etag": "tDW-bF4q7Hmzs5aM6XC4kjmt460",
+  "items": [
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "FQ6Z-Gg0tt6eUSYevNTr1e5r8Zk",
+      "id": "UEw0MlVOTGM4ZTQ4U2RIb1dMeXdGa20yRFV3NkZvdXJlQS4yODlGNEE0NkRGMEEzMEQy",
+      "snippet": {
+        "publishedAt": "2022-11-21T21:40:26Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "Cómo pasar una entrevista de trabajo para programador frontend / backend ! Tips y recomendaciones",
+        "description": "Buenas buenas mi gente ! \n\nEn el día de hoy vamos a ver cómo debemos afrontar un proceso de entrevista, desde qué hacer, cómo actuar y algunos conocimientos que no sabías sobre qué es lo que pasa en la cabeza del entrevistador.\n\nA por ello !!\n\nSi quieres hacer una donación: \nhttps://streamelements.com/gentlemanprogramming/tip\n\n▬ Links de interés  ▬▬▬▬▬▬▬▬▬▬\nLink a Spotify: https://spoti.fi/3y281cY\nLink a la comunidad: https://discord.gg/z6XmNPsHQp​\nLink a la comunidad de Facebook: https://www.facebook.com/groups/541544337043760\nLink al libro \"Cómo ser front-end sin fallar en el intento: Tus primeros pasos en la programación web\": https://amzn.to/2ReBuzL",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/vW4wTNd_3qY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/vW4wTNd_3qY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/vW4wTNd_3qY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/vW4wTNd_3qY/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/vW4wTNd_3qY/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "playlistId": "PL42UNLc8e48SdHoWLywFkm2DUw6FoureA",
+        "position": 0,
+        "resourceId": { "kind": "youtube#video", "videoId": "vW4wTNd_3qY" },
+        "videoOwnerChannelTitle": "Gentleman Programming",
+        "videoOwnerChannelId": "UCbx_d228PdYwgB4Jz202SIQ"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "U0JD6GNoUUKS7KA1ZX594hilkao",
+      "id": "UEw0MlVOTGM4ZTQ4U2RIb1dMeXdGa20yRFV3NkZvdXJlQS4wMTcyMDhGQUE4NTIzM0Y5",
+      "snippet": {
+        "publishedAt": "2022-11-21T21:40:26Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "Ejercicios interactivos y preguntas clásicas de entrevistas técnicas de Front End de Javascript !",
+        "description": "Buenas buenas mi gente ! \n\nEn el día de hoy... presentamos una guía de preguntas y ejercicios técnicos clásicos para una entrevista de Front End pero orientados a la parte de Javascript, seguramente este sea el primero de muchos ya que hay MUCHOS ejercicios. \nHoy vamos a hacer algo diferente, quiero que cuando escuchen \"pausa\", paren sus videos, lean el ejercicio y pongan en los comentarios lo que creen que sería la respuesta ! luego pueden validar a ver si han acertado.\n\nA por ello !!\n\nLink a vídeo de cómo pasar una entrevista: https://youtu.be/EWO0WIATQ1g\n\n▬ Contenido del video  ▬▬▬▬▬▬▬▬▬▬\n0:00:00​​​​ - Welcome !\n0:01:32​​​​ - Qué es ECMA ?\n0:02:55 - Qué es un Scope?\n0:05:06​​​​ - Ejercicio técnico Scope\n0:08:03​​​​ - Qué es Closure ?\n0:09:19​​​​ - Ejercicio técnico Closure\n0:13:20​​​​ - Prototype\n0:14:50​​ - Triple igual vs Doble igual\n0:16:55 - Const vs Let vs Var\n0:23:48 - Filter, Map, Reduce\n0:28:35​​ - Programación funcional, declarativa, side effects, inmutabilidad\n0:31:05​​ - Not Defined vs NUll vs Undefined\n0:32:24​​ - Hoisting\n0:35:35​​ - Métodos y variables privadas\n0:37:24 - Object.freeze()\n0:39:23 - Arrow functions\n0:42:26 - Despedida\n\nSi quieres hacer una donación: \nhttps://streamelements.com/gentlemanprogramming/tip\n\n▬ Links de interés  ▬▬▬▬▬▬▬▬▬▬\nLink a Spotify: https://spoti.fi/3y281cY\nLink a la comunidad: https://discord.com/invite/KEavKkDc5Y\nLink a la comunidad de Facebook: https://www.facebook.com/groups/541544337043760\nLink al libro \"Cómo ser front-end sin fallar en el intento: Tus primeros pasos en la programación web\": https://amzn.to/2ReBuzL",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/QyVL2ZpQRpA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/QyVL2ZpQRpA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/QyVL2ZpQRpA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/QyVL2ZpQRpA/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/QyVL2ZpQRpA/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "playlistId": "PL42UNLc8e48SdHoWLywFkm2DUw6FoureA",
+        "position": 1,
+        "resourceId": { "kind": "youtube#video", "videoId": "QyVL2ZpQRpA" },
+        "videoOwnerChannelTitle": "Gentleman Programming",
+        "videoOwnerChannelId": "UCbx_d228PdYwgB4Jz202SIQ"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "gEIuxWZzwWJP05nQzGHJPemW4Jg",
+      "id": "UEw0MlVOTGM4ZTQ4U2RIb1dMeXdGa20yRFV3NkZvdXJlQS4wOTA3OTZBNzVEMTUzOTMy",
+      "snippet": {
+        "publishedAt": "2022-11-21T21:40:26Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "Entrevista React - Simulación interactiva, elige tus propias respuestas estilo Black Mirror",
+        "description": "¡Buenas, buenas mi gente!\n\nEste es mi project más dificil pero a la vez divertido desde que abrimos el canal.\nSimulamos una interview, siéntate y elige tus propias respuestas en esta ¡Simulación interactiva de entrevista de React!\n\nVe eligiendo tu propio camino a Senior.\n\n¡A por ello!\n\nSi quieres hacer una donación: https://streamelements.com/gentlemanprogramming/tip\n\n▬ Links de interés  ▬▬▬▬▬▬▬▬▬▬\nLink a Spotify: https://spoti.fi/3y281cY\nLink a la comunidad: https://discord.gg/KEavKkDc5Y\nLink a la comunidad de Facebook: https://shorturl.at/jkmL6\nLink a instagram: https://www.instagram.com/gentlemanprogramming/\nLink a twitter: https://twitter.com/G_Programming\nLink al libro \"Cómo ser front-end sin fallar en el intento: Tus primeros pasos en la programación web\": https://amzn.to/2ReBuzL\n\n#react #angular #programacion #frontend #architect #youtube #podcast #vlog",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/rncosqY881Y/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/rncosqY881Y/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/rncosqY881Y/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/rncosqY881Y/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/rncosqY881Y/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "playlistId": "PL42UNLc8e48SdHoWLywFkm2DUw6FoureA",
+        "position": 2,
+        "resourceId": { "kind": "youtube#video", "videoId": "rncosqY881Y" },
+        "videoOwnerChannelTitle": "Gentleman Programming",
+        "videoOwnerChannelId": "UCbx_d228PdYwgB4Jz202SIQ"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "PdMDx-L23oj8dhRbAnHG8Cxzw8Q",
+      "id": "UEw0MlVOTGM4ZTQ4U2RIb1dMeXdGa20yRFV3NkZvdXJlQS41MjE1MkI0OTQ2QzJGNzNG",
+      "snippet": {
+        "publishedAt": "2022-11-21T21:40:26Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "Entrevista técnica de Angular ! todo lo que tienes que saber para pasar una entrevista técnica!",
+        "description": "Buenas buenas mi gente !\n\nNuevo vídeo donde te hago una entrevista de Angular !!!\n\nVamos a simular que vienes a una entrevista para esta increíble empresa llamada “Gentleman Programming”, voy a hacerte un par de preguntar y vamos a ver cómo te va !!\n\nNo se olviden de poner sus respuestas en los comentarios :D\n\nA por ello !\n\nSi quieres hacer una donación: \nhttps://streamelements.com/gentlemanprogramming/tip\n\nVídeo sobre memory leaks y como resolverlos: https://www.youtube.com/watch?v=NoBsho-cEYg&t=756s\nPlaylist sobre programación web: https://www.youtube.com/watch?v=Q6dJ7Gcm3Nw&list=PL42UNLc8e48Q7Zpk3pIn_qebx8zC3jtqH\n\n▬ Links de interés  ▬▬▬▬▬▬▬▬▬▬\nLink a Spotify: https://spoti.fi/3y281cY\nLink a la comunidad: https://discord.gg/gxQCPMZGjP\nLink a la comunidad de Facebook: https://shorturl.at/jkmL6\nLink al libro \"Cómo ser front-end sin fallar en el intento: Tus primeros pasos en la programación web\": https://amzn.to/2ReBuzL",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/5vOj1yDzJwY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/5vOj1yDzJwY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/5vOj1yDzJwY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/5vOj1yDzJwY/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/5vOj1yDzJwY/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "playlistId": "PL42UNLc8e48SdHoWLywFkm2DUw6FoureA",
+        "position": 3,
+        "resourceId": { "kind": "youtube#video", "videoId": "5vOj1yDzJwY" },
+        "videoOwnerChannelTitle": "Gentleman Programming",
+        "videoOwnerChannelId": "UCbx_d228PdYwgB4Jz202SIQ"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "-5pLC7jYdfBo7ffw3_dt9QOnP8Q",
+      "id": "UEw0MlVOTGM4ZTQ4U2RIb1dMeXdGa20yRFV3NkZvdXJlQS4xMkVGQjNCMUM1N0RFNEUx",
+      "snippet": {
+        "publishedAt": "2022-11-21T21:40:26Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "Entrevista Angular Senior a Carlos Morales ! ¿Tendrá lo que hace falta?",
+        "description": "¡Buenas, buenas mi gente!  \n\nHoy hacemos una entrevista técnica a Carlos Morales !! Co owner del Discord de Gentleman Programming...será senior ??  \n\nTambién veremos las preguntas y la parte psicológica de cómo llevar la entrevista desde el punto de vista del entrevistador !!  \n\nA por ello !  \n\n🔴SPONSOR LEMON.IO🔴\n\n0:06:20 - Inicio del anuncio\n0:10:56 - Fin del anuncio\n\nLink al registrooooo: https://l.lemon.io/gentlemanprogramming\n\n🔴Si quieres hacer una donación🔴\n https://streamelements.com/gentlemanprogramming/tip\n\n🔴▬ Links de interés ▬🔴\nLink a YouTube: https://www.youtube.com/c/GentlemanProgramming\nLink a Twitch: https://t.co/vodIqiCH9N\nLink a Spotify: https://spoti.fi/3y281cY\nLink a la comunidad: https://discord.gg/KEavKkDc5Y\nLink a la comunidad de Facebook: https://shorturl.at/jkmL6\nLink a instagram: https://www.instagram.com/gentlemanprogramming/\nLink a twitter: https://twitter.com/G_Programming\nLink al libro Cómo ser front-end sin fallar en el intento: Tus primeros pasos en la programación web: https://amzn.to/2ReBuzL\n\n#comunidad #discord #programming #podcast #live #stream #clase #Angular #ReactJs #interview #lifecyle #componentes #framework #library",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/sBaDxq2gEns/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/sBaDxq2gEns/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/sBaDxq2gEns/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/sBaDxq2gEns/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/sBaDxq2gEns/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "playlistId": "PL42UNLc8e48SdHoWLywFkm2DUw6FoureA",
+        "position": 4,
+        "resourceId": { "kind": "youtube#video", "videoId": "sBaDxq2gEns" },
+        "videoOwnerChannelTitle": "Gentleman Programming",
+        "videoOwnerChannelId": "UCbx_d228PdYwgB4Jz202SIQ"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "psKIFVDobj80pyoBFqSpEgBpzFw",
+      "id": "UEw0MlVOTGM4ZTQ4U2RIb1dMeXdGa20yRFV3NkZvdXJlQS41MzJCQjBCNDIyRkJDN0VD",
+      "snippet": {
+        "publishedAt": "2023-05-25T18:19:57Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "😱¡ENTREVISTA A MI COMUNIDAD! Prueba Técnica SemiSenior con React | PT 1.",
+        "description": "Aprende cómo piensa el entrevistador y lo que busca en ti para que logres superar fácilmente la prueba técnica. En esta ocasión Jean nos muestra sus conocimientos de React en una desafiante entrevista semisenior.\n\n▬ LINKS DE INTERÉS ▬\n\n· STREAM ·\nTwitch: https://t.co/vodIqiCH9N\n\n· ESCÚCHAME AQUÍ ·\nSpotify: https://spoti.fi/3y281cY\nApple Podcast: https://podcasts.apple.com/es/podcast/gentleman-programming/id1661415820\n\n· ÚNETE A LA COMUNIDAD ·\nDiscord: https://discord.gg/KEavKkDc5Y\nFacebook: https://shorturl.at/jkmL6\nInstagram: https://www.instagram.com/gentlemanprogramming/\nTwitter: https://twitter.com/G_Programming\n\n· ENCUENTRA MI LIBRO ·\n¿Cómo ser front-end sin fallar en el intento? + Tus primeros pasos en la programación web: https://amzn.to/2ReBuzL\n\n-\n#programming #tech #it #componentes #framework #library #tecnologia #software #fullstack #desarrolloweb #programacion #programador #programadores #ingenieriadesoftware #informatica #webdevelopment #frontend #backend #coding #developer #webdev #gentlemanprogramming #learnprogramming #entrevistaenvivo #pruebatecnica #react",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/vcLehGqBKZI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/vcLehGqBKZI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/vcLehGqBKZI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/vcLehGqBKZI/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/vcLehGqBKZI/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "playlistId": "PL42UNLc8e48SdHoWLywFkm2DUw6FoureA",
+        "position": 5,
+        "resourceId": { "kind": "youtube#video", "videoId": "vcLehGqBKZI" },
+        "videoOwnerChannelTitle": "Gentleman Programming",
+        "videoOwnerChannelId": "UCbx_d228PdYwgB4Jz202SIQ"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "t1svhO2q8lkyqCG7q4CIWwwAeGE",
+      "id": "UEw0MlVOTGM4ZTQ4U2RIb1dMeXdGa20yRFV3NkZvdXJlQS5DQUNERDQ2NkIzRUQxNTY1",
+      "snippet": {
+        "publishedAt": "2023-06-04T00:49:47Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "😱¡ENTREVISTA A MI COMUNIDAD! Prueba Técnica SemiSenior con React | PT 2.",
+        "description": "En esta segunda parte continuamos aprendiendo cómo piensa el entrevistador y lo que busca en ti para que puedas superar fácilmente la prueba técnica. Seguimos con Jean, quién nos muestra sus conocimientos de React en una desafiante entrevista semisenior.\n\n▬ LINKS DE INTERÉS ▬\n\n· STREAM ·\nTwitch: https://t.co/vodIqiCH9N\n\n· ESCÚCHAME AQUÍ ·\nSpotify: https://spoti.fi/3y281cY\nApple Podcast: https://podcasts.apple.com/es/podcast/gentleman-programming/id1661415820\n\n· ÚNETE A LA COMUNIDAD ·\nDiscord: https://discord.gg/KEavKkDc5Y\nFacebook: https://shorturl.at/jkmL6\nInstagram: https://www.instagram.com/gentlemanprogramming/\nTwitter: https://twitter.com/G_Programming\n\n· ENCUENTRA MI LIBRO ·\n¿Cómo ser front-end sin fallar en el intento? + Tus primeros pasos en la programación web: https://amzn.to/2ReBuzL\n\n-\n#programming #tech #it #componentes #framework #library #tecnologia #software #fullstack #desarrolloweb #programacion #programador #programadores #ingenieriadesoftware #informatica #webdevelopment #frontend #backend #coding #developer #webdev #gentlemanprogramming #learnprogramming #entrevistaenvivo #pruebatecnica #react",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/443hJZOeYVU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/443hJZOeYVU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/443hJZOeYVU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/443hJZOeYVU/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/443hJZOeYVU/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "playlistId": "PL42UNLc8e48SdHoWLywFkm2DUw6FoureA",
+        "position": 6,
+        "resourceId": { "kind": "youtube#video", "videoId": "443hJZOeYVU" },
+        "videoOwnerChannelTitle": "Gentleman Programming",
+        "videoOwnerChannelId": "UCbx_d228PdYwgB4Jz202SIQ"
+      }
+    }
+  ],
+  "pageInfo": { "totalResults": 7, "resultsPerPage": 50 }
+}

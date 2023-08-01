@@ -1,23 +1,22 @@
-/* eslint-disable */
 import React from 'react';
 
-import data from '@app/youtube/Data/response.json';
-import { IItems } from '@app/youtube/interfaces/youtube';
+import data from '@app/youtube/data/Channel/GentlemanProgrammingInfo.json';
 import styles from '@app/youtube/styles/youtube.module.css';
 
 import { ChannelDetails } from '../ChannelDetails/ChannelDetails';
+import { ChannelSections } from '../ChannelSections/ChannelSections';
 import { TabsBar } from '../ChannelTabs/TabsBar';
 import { HeaderSearchbar } from '../HeaderSearchbar/HeaderSearchbar';
-import { YTPlayslists } from '../Playlists/YTPlayslists';
 
 const HomeYoutube = () => {
-  const { items }: { items: IItems[] } = data;
-  
-  const { subscriberCount, videoCount }:{ subscriberCount:number, videoCount:number }  = items[0].statistics;
-  const channelTitle = items[0].brandingSettings.channel.title;
-  const channelBanner = items[0].brandingSettings.image.bannerExternalUrl;
-  
-
+  const {
+    subscriberCount,
+    videoCount,
+  }: { subscriberCount: string; videoCount: string } = data.statistics;
+  const channelTitle = data.brandingSettings.channel.title;
+  const channelBanner = data.brandingSettings.image.bannerExternalUrl;
+  const channelPic = data.snippet.thumbnails;
+  const channelDescription = data.snippet.description;
   return (
     <main>
       <HeaderSearchbar />
@@ -32,11 +31,16 @@ const HomeYoutube = () => {
           channelTitle={channelTitle}
           subscriberCount={subscriberCount}
           videoCount={videoCount}
+          channelPic={channelPic}
+          channelDescription={channelDescription}
         />
         <TabsBar />
       </section>
-      <hr className={styles.youtube__divider} />
-      <YTPlayslists items={items} />
+      <hr
+        style={{ width: '100%', marginLeft: '0 -2.5rem' }}
+        className={styles.youtube__divider}
+      />
+      <ChannelSections />
     </main>
   );
 };

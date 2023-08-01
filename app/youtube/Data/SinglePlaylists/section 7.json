@@ -1,0 +1,931 @@
+{
+  "kind": "youtube#playlistItemListResponse",
+  "etag": "wymtJy9q8pWGxrLZTaxHEyAdep8",
+  "items": [
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "6On-Aw2fITFM46hdy0ioREAAAkE",
+      "id": "UEw0MlVOTGM4ZTQ4VEY5bDA3el90TEdIem1DX2QteWZKSi41MjE1MkI0OTQ2QzJGNzNG",
+      "snippet": {
+        "publishedAt": "2022-11-21T14:24:35Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "Qué es Clean Architecture ? cómo aplicarlo a tu aplicación Front End ?",
+        "description": "Buenas buenas mi gente !\n\nEl webinar dado por quién les habla sobre Clean Architecture ! \nLa arquitectura perfecta, la seleccionada por los mismos dioses para que un project salga perfecto ! Pero tiene sus problemáticas y desventajas. También vemos cómo se aplicaría a un project Front End.\n\nA por ello !\n\nSi quieres hacer una donación: \nhttps://streamelements.com/gentlemanprogramming/tip\n\n\n▬ Links de interés  ▬▬▬▬▬▬▬▬▬▬\nLink a Spotify: https://spoti.fi/3y281cY\nLink a la comunidad: https://discord.gg/z6XmNPsHQp​\nLink a la comunidad de Facebook: https://www.facebook.com/gentleman.programming\nLink al libro \"Cómo ser front-end sin fallar en el intento: Tus primeros pasos en la programación web\": https://amzn.to/2ReBuzL",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/vRGVnqylO68/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/vRGVnqylO68/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/vRGVnqylO68/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/vRGVnqylO68/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/vRGVnqylO68/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "playlistId": "PL42UNLc8e48TF9l07z_tLGHzmC_d-yfJJ",
+        "position": 0,
+        "resourceId": { "kind": "youtube#video", "videoId": "vRGVnqylO68" },
+        "videoOwnerChannelTitle": "Gentleman Programming",
+        "videoOwnerChannelId": "UCbx_d228PdYwgB4Jz202SIQ"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "GfXSa5QkOfgc2fyN_On283mUqvQ",
+      "id": "UEw0MlVOTGM4ZTQ4VEY5bDA3el90TEdIem1DX2QteWZKSi40NzZCMERDMjVEN0RFRThB",
+      "snippet": {
+        "publishedAt": "2022-11-21T14:27:34Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "Aprendemos sobre la nueva forma de hacer Clean Architecture en Front y creamos un boilerplate ! PT 1",
+        "description": "¡Buenas, buenas mi gente!\n\nAprendemos sobre la nueva forma de hacer Clean Architecture especial para el Front End y creamos un boilerplate desde 0 con toda la estructura, tips y demás !!!\n\nA por ello !\n\nhttps://www.twitch.tv/gentleman_programming\n\nSi quieres hacer una donación: https://streamelements.com/gentlemanprogramming/tip\n\nBoilerplate: https://github.com/Gentleman-Programming/GentlemanClass_ReactCleanArch\n\n▬ Links de interés  ▬▬▬▬▬▬▬▬▬▬\n\nLink a Twitch: https://t.co/vodIqiCH9N\nLink a Spotify: https://spoti.fi/3y281cY\nLink a la comunidad: https://discord.gg/KEavKkDc5Y\nLink a la comunidad de Facebook: https://shorturl.at/jkmL6\nLink a instagram: https://www.instagram.com/gentlemanprogramming/\nLink a twitter: https://twitter.com/G_Programming\nLink al libro \"Cómo ser front-end sin fallar en el intento: Tus primeros pasos en la programación web\": https://amzn.to/2ReBuzL\n\n#comunidad #discord #programming #podcast #live #stream  #clase #ReactJs #customHooks #hooks #lifecyle #componentes #framework #library",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/8WlGLOeFMOM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/8WlGLOeFMOM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/8WlGLOeFMOM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/8WlGLOeFMOM/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/8WlGLOeFMOM/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "playlistId": "PL42UNLc8e48TF9l07z_tLGHzmC_d-yfJJ",
+        "position": 1,
+        "resourceId": { "kind": "youtube#video", "videoId": "8WlGLOeFMOM" },
+        "videoOwnerChannelTitle": "Gentleman Programming",
+        "videoOwnerChannelId": "UCbx_d228PdYwgB4Jz202SIQ"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "gjfvR6Je4YRT3EuAxg2vN9hVsac",
+      "id": "UEw0MlVOTGM4ZTQ4VEY5bDA3el90TEdIem1DX2QteWZKSi5GNjNDRDREMDQxOThCMDQ2",
+      "snippet": {
+        "publishedAt": "2022-11-21T14:27:34Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "Aprendemos sobre la nueva forma de hacer Clean Architecture en Front y creamos un boilerplate ! PT 2",
+        "description": "¡Buenas, buenas mi gente!\n\nRepasamos sobre la nueva forma de hacer Clean Architecture especial para el Front End y continuamos con nuestro boilerplate con toda la estructura, tips y demás !!!\n\nA por ello !\n\nhttps://www.twitch.tv/gentleman_programming\n\nSi quieres hacer una donación: https://streamelements.com/gentlemanprogramming/tip\n\nBoilerplate: https://github.com/Gentleman-Programming/GentlemanClass_ReactCleanArch\n\n▬ Links de interés  ▬▬▬▬▬▬▬▬▬▬\n\nLink a Twitch: https://t.co/vodIqiCH9N\nLink a Spotify: https://spoti.fi/3y281cY\nLink a la comunidad: https://discord.gg/KEavKkDc5Y\nLink a la comunidad de Facebook: https://shorturl.at/jkmL6\nLink a instagram: https://www.instagram.com/gentlemanprogramming/\nLink a twitter: https://twitter.com/G_Programming\nLink al libro \"Cómo ser front-end sin fallar en el intento: Tus primeros pasos en la programación web\": https://amzn.to/2ReBuzL\n\n#comunidad #discord #programming #podcast #live #stream  #clase #ReactJs #customHooks #hooks #lifecyle #componentes #framework #library",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/MAL7a_aXhxE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/MAL7a_aXhxE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/MAL7a_aXhxE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/MAL7a_aXhxE/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/MAL7a_aXhxE/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "playlistId": "PL42UNLc8e48TF9l07z_tLGHzmC_d-yfJJ",
+        "position": 2,
+        "resourceId": { "kind": "youtube#video", "videoId": "MAL7a_aXhxE" },
+        "videoOwnerChannelTitle": "Gentleman Programming",
+        "videoOwnerChannelId": "UCbx_d228PdYwgB4Jz202SIQ"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "YAHvkS4pGtzMOyJXjLFzYk7qKfs",
+      "id": "UEw0MlVOTGM4ZTQ4VEY5bDA3el90TEdIem1DX2QteWZKSi4zMDg5MkQ5MEVDMEM1NTg2",
+      "snippet": {
+        "publishedAt": "2022-11-21T14:27:34Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "Cómo estructurar tu project de ReactJs? Aplicamos Clean Architecture en Front End - #part1",
+        "description": "Buenas, buenas mi gente !\n\nEn el día de hoy veremos cómo estructurar tu projecto de ReactJs! \n\nSe hablará sobre Front End Clean Architecture y cómo tenerlo en cuenta para estructurar tu project. Voy a mostrarles cómo YO adapto la Clean Architecture en mis projects.\n\n▬ Contenido del video  ▬▬▬▬▬▬▬▬▬▬\n0:00:00​​ - Welcome !\n0:00:53 - Clean Architecture\n0:02:01​​ - Front End Clean Architecture\n0:04:14  - Estructura de carpetas\n0:05:57 - Carpetas dentro de la Clean Architecture\n0:07:19​ - Carpetas Reutilizables - Modularización\n0:10:35​​ - Carpeta adapters\n0:12:43​​ - Carpeta assets\n0:13:15​​ - Carpeta components\n0:14:09​​ - Carpeta contexts\n0:15:23​​ - Carpeta hooks\n0:17:04​ - Carpeta interceptors\n0:18:04​ - Carpeta models\n0:19:27 - Carpeta pages\n0:19:47 - Carpeta redux\n0:20:38 - Carpeta services\n0:21:01 - Carpeta styled-components\n0:22:08 - Carpeta utilities\n0:23:42 - Despedida\n\n¡A por ello !\n\nSi quieres hacer una donación: \nhttps://streamelements.com/gentlemanprogramming/tip\n\nLINK AL REPOSITORIO: https://github.com/AppleLAN/CustomhooksClass\nLink Context vs Redux: https://youtu.be/BqbvcoOWwfg\nLink Clean architecture: https://youtu.be/vRGVnqylO68\n\n▬ Links de interés  ▬▬▬▬▬▬▬▬▬▬\nLink a Spotify: https://spoti.fi/3y281cY\nLink a la comunidad: https://discord.gg/KEavKkDc5Y\nLink a la comunidad de Facebook: https://shorturl.at/jkmL6\nLink a instagram: https://www.instagram.com/gentlemanprogramming/\nLink a twitter: https://twitter.com/G_Programming\nLink al libro \"Cómo ser front-end sin fallar en el intento: Tus primeros pasos en la programación web\": https://amzn.to/2ReBuzL",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/5LqhlCd2_nE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/5LqhlCd2_nE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/5LqhlCd2_nE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/5LqhlCd2_nE/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/5LqhlCd2_nE/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "playlistId": "PL42UNLc8e48TF9l07z_tLGHzmC_d-yfJJ",
+        "position": 3,
+        "resourceId": { "kind": "youtube#video", "videoId": "5LqhlCd2_nE" },
+        "videoOwnerChannelTitle": "Gentleman Programming",
+        "videoOwnerChannelId": "UCbx_d228PdYwgB4Jz202SIQ"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "hKfmt2yhhtBEatY9ne4SYX-CorQ",
+      "id": "UEw0MlVOTGM4ZTQ4VEY5bDA3el90TEdIem1DX2QteWZKSi5EMEEwRUY5M0RDRTU3NDJC",
+      "snippet": {
+        "publishedAt": "2022-11-21T14:27:34Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "Estructuramos en vivo un project de React usando conceptos de Clean Architecture - #part2",
+        "description": "¡Buenas, buenas mi gente!\n\nVolvemos con más  sobre el cómo implementar los conceptos sobre Clean Architecture en tu Front End.\nEn el día de hoy veremos código EN VIVO, utilizando ReactJs, Vitejs, adapters, services, Redux y más para poder hacer un Login que se comunicará con la API de Rick an Morty, guardará el resultado dentro del store de Redux para luego poder modificarlo.\n\nLa verdad que muchas gracias por todo el apoyo y la repercución que ha tenido mi canal en estos útimos días, la verdad que ustedes ¡Son increibles!.\n\n¡A por ello!\n\nLINK AL REPOSITORIO: https://github.com/AppleLAN/CustomhooksClass\n\nSi quieres hacer una donación: \nhttps://streamelements.com/gentlemanprogramming/tip\nLink Context vs Redux: https://youtu.be/BqbvcoOWwfg\nLink Clean architecture: https://youtu.be/5LqhlCd2_nE\n\n▬ Links de interés  ▬▬▬▬▬▬▬▬▬▬\nLink a Spotify: https://spoti.fi/3y281cY\nLink a la comunidad: https://discord.gg/KEavKkDc5Y\nLink a la comunidad de Facebook: https://shorturl.at/jkmL6\nLink a instagram: https://www.instagram.com/gentlemanprogramming/\nLink a twitter: https://twitter.com/G_Programming\nLink al libro \"Cómo ser front-end sin fallar en el intento: Tus primeros pasos en la programación web\": https://amzn.to/2ReBuzL\n\n#youtube #programacion #javascript #angular #react #html #css #formacion #cleanarchitecture",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/XEcZaKK38fg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/XEcZaKK38fg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/XEcZaKK38fg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/XEcZaKK38fg/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/XEcZaKK38fg/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "playlistId": "PL42UNLc8e48TF9l07z_tLGHzmC_d-yfJJ",
+        "position": 4,
+        "resourceId": { "kind": "youtube#video", "videoId": "XEcZaKK38fg" },
+        "videoOwnerChannelTitle": "Gentleman Programming",
+        "videoOwnerChannelId": "UCbx_d228PdYwgB4Jz202SIQ"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "oi3307KTHgYUM4Rb1UKrBgu2-rw",
+      "id": "UEw0MlVOTGM4ZTQ4VEY5bDA3el90TEdIem1DX2QteWZKSi5DQUNERDQ2NkIzRUQxNTY1",
+      "snippet": {
+        "publishedAt": "2022-11-21T14:27:34Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "Hacemos una app en Angular ! #buenasprácticas, #cleanarchitecture , #Typescript , #RxJS y más - PT 1",
+        "description": "¡Buenas, buenas mi gente!  \n\nCreamos una app en Angular ! 🤪🤪\n\nHacemos una prueba técnica para position SENIOR con #buenasprácticas, #cleanarchitecture , #Typescript , #RxJS y más\n\nA por ello !  \n\n🔴Si quieres hacer una donación🔴\n https://streamelements.com/gentlemanprogramming/tip\n\nREPOSITORIO: https://github.com/Gentleman-Programming/GentlemanTestAngular\n\n🔴▬ Links de interés ▬🔴\nLink a YouTube: https://www.youtube.com/c/GentlemanProgramming\nLink a Twitch: https://t.co/vodIqiCH9N\nLink a Spotify: https://spoti.fi/3y281cY\nLink a la comunidad: https://discord.gg/KEavKkDc5Y\nLink a la comunidad de Facebook: https://shorturl.at/jkmL6\nLink a instagram: https://www.instagram.com/gentlemanprogramming/\nLink a twitter: https://twitter.com/G_Programming\nLink al libro Cómo ser front-end sin fallar en el intento: Tus primeros pasos en la programación web: https://amzn.to/2ReBuzL\n\n#comunidad #discord #programming #podcast #live #stream #clase #Angular #ReactJs #interview #lifecyle #componentes #framework #library",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/4J1onUTl--8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/4J1onUTl--8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/4J1onUTl--8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/4J1onUTl--8/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/4J1onUTl--8/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "playlistId": "PL42UNLc8e48TF9l07z_tLGHzmC_d-yfJJ",
+        "position": 5,
+        "resourceId": { "kind": "youtube#video", "videoId": "4J1onUTl--8" },
+        "videoOwnerChannelTitle": "Gentleman Programming",
+        "videoOwnerChannelId": "UCbx_d228PdYwgB4Jz202SIQ"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "k0PpKhJ6gEk0CqX0Hl6kE3POHDg",
+      "id": "UEw0MlVOTGM4ZTQ4VEY5bDA3el90TEdIem1DX2QteWZKSi41Mzk2QTAxMTkzNDk4MDhF",
+      "snippet": {
+        "publishedAt": "2022-11-21T17:41:18Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "¿ Qué es TDD y pensamiento Atómico ? bases que tienes que saber para poder aplicarlo correctamente",
+        "description": "Buenas buenas mi gente,  \n\nExtracto de mi último directo donde me preguntan cómo implementar TDD !!\n \nTambién doy todas las bases que creo necesarias para poder implementarlo correctamente cómo es el pensar de manera Atómica.\n\nUsamos mi nuevo libro (en proceso) como punto de partida.\n\n🔴Si quieres hacer una donación🔴  \n https://streamelements.com/gentlemanprogramming/tip\n\n🔴▬ Links de interés ▬🔴  \nLink a YouTube: https://www.youtube.com/c/GentlemanProgramming\nLink a Twitch: https://t.co/vodIqiCH9N\nLink a Spotify: https://spoti.fi/3y281cY \nLink a la comunidad: https://discord.gg/KEavKkDc5Y\nLink a la comunidad de Facebook: https://shorturl.at/jkmL6\nLink a instagram: https://www.instagram.com/gentlemanprogramming/\nLink a twitter: https://twitter.com/G_Programming\nLink al libro Cómo ser front-end sin fallar en el intento: Tus primeros pasos en la programación web: https://amzn.to/2ReBuzL\n\n#comunidad #discord #twitch #programming #podcast #live #stream #clase #tech #it #scrum #kanban #agile #team #Hackathon #GentlemanProgramming #componentes #framework #library #framework #google #Facebook #tips",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/uGucfCUYzBI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/uGucfCUYzBI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/uGucfCUYzBI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/uGucfCUYzBI/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/uGucfCUYzBI/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "playlistId": "PL42UNLc8e48TF9l07z_tLGHzmC_d-yfJJ",
+        "position": 6,
+        "resourceId": { "kind": "youtube#video", "videoId": "uGucfCUYzBI" },
+        "videoOwnerChannelTitle": "Gentleman Programming",
+        "videoOwnerChannelId": "UCbx_d228PdYwgB4Jz202SIQ"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "YTEcsxQCzBcROzcjuL4F18gFZMg",
+      "id": "UEw0MlVOTGM4ZTQ4VEY5bDA3el90TEdIem1DX2QteWZKSi5EQUE1NTFDRjcwMDg0NEMz",
+      "snippet": {
+        "publishedAt": "2023-04-01T13:29:34Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "#HEXAGONAL #ARCHITECTURE , qué es y qué diferencias tiene contra #CLEAN #ARCHITECTURE ? - PT 1",
+        "description": "🔴▬ LINKS DE INTERÉS ▬🔴  \n\n😎LIVE todos los Miércoles & Viernes.\nTwitch: https://t.co/vodIqiCH9N\n\n💬Escúchame aquí: \nSpotify: https://spoti.fi/3y281cY\nApple Podcast: https://podcasts.apple.com/es/podcast/gentleman-programming/id1661415820\n\n🤓¡Únete a nuestra comunidad!\nDiscord: https://discord.gg/KEavKkDc5Y\nFacebook: https://shorturl.at/jkmL6\nInstagram: https://www.instagram.com/gentlemanprogramming/\nTwitter: https://twitter.com/G_Programming\n\n📘Encuentra mi libro: ¿Cómo ser front-end sin fallar en el intento? + Tus primeros pasos en la programación web aquí: https://amzn.to/2ReBuzL\n\n-\n#gentlemanprogramming \n#comunidad  #discord #twitch #programming #podcast #live #stream #clase #tech #it #scrum #kanban #agile #team #Hackathon #GentlemanProgramming #componentes #framework #library #framework #google #Facebook #tips",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/NOWU4K6piwo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/NOWU4K6piwo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/NOWU4K6piwo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/NOWU4K6piwo/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/NOWU4K6piwo/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "playlistId": "PL42UNLc8e48TF9l07z_tLGHzmC_d-yfJJ",
+        "position": 7,
+        "resourceId": { "kind": "youtube#video", "videoId": "NOWU4K6piwo" },
+        "videoOwnerChannelTitle": "Gentleman Programming",
+        "videoOwnerChannelId": "UCbx_d228PdYwgB4Jz202SIQ"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "HbBxOQGdw2snqUdLgSMsVPSZ2F0",
+      "id": "UEw0MlVOTGM4ZTQ4VEY5bDA3el90TEdIem1DX2QteWZKSi41QTY1Q0UxMTVCODczNThE",
+      "snippet": {
+        "publishedAt": "2023-04-02T13:07:00Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "#HEXAGONAL #ARCHITECTURE , Hacemos nuestro primer hexágono con #TYPESCRIPT y #POO - PT 2",
+        "description": "🔴▬ LINKS DE INTERÉS ▬🔴  \n\nREPOSITORIO: https://github.com/Gentleman-Programming/GentlemanClass_HexagonalArchitecture\n\n😎LIVE todos los Miércoles & Viernes.\nTwitch: https://t.co/vodIqiCH9N\n\n💬Escúchame aquí: \nSpotify: https://spoti.fi/3y281cY\nApple Podcast: https://podcasts.apple.com/es/podcast/gentleman-programming/id1661415820\n\n🤓¡Únete a nuestra comunidad!\nDiscord: https://discord.gg/KEavKkDc5Y\nFacebook: https://shorturl.at/jkmL6\nInstagram: https://www.instagram.com/gentlemanprogramming/\nTwitter: https://twitter.com/G_Programming\n\n📘Encuentra mi libro: ¿Cómo ser front-end sin fallar en el intento? + Tus primeros pasos en la programación web aquí: https://amzn.to/2ReBuzL\n\n-\n#gentlemanprogramming \n#comunidad  #discord #twitch #programming #podcast #live #stream #clase #tech #it #scrum #kanban #agile #team #Hackathon #GentlemanProgramming #componentes #framework #library #framework #google #Facebook #tips",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/frEa3SP6y2c/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/frEa3SP6y2c/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/frEa3SP6y2c/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/frEa3SP6y2c/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/frEa3SP6y2c/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "playlistId": "PL42UNLc8e48TF9l07z_tLGHzmC_d-yfJJ",
+        "position": 8,
+        "resourceId": { "kind": "youtube#video", "videoId": "frEa3SP6y2c" },
+        "videoOwnerChannelTitle": "Gentleman Programming",
+        "videoOwnerChannelId": "UCbx_d228PdYwgB4Jz202SIQ"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "Z6JgEBgTIMHAYJWUK7N-68ZgL24",
+      "id": "UEw0MlVOTGM4ZTQ4VEY5bDA3el90TEdIem1DX2QteWZKSi4yMUQyQTQzMjRDNzMyQTMy",
+      "snippet": {
+        "publishedAt": "2023-04-06T13:00:53Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "Aprende #TESTING con #VITEST mientras probamos nuestro #SERVICIO,  #HEXAGONAL #ARCHITECTURE - PT3",
+        "description": "🔴▬ LINKS DE INTERÉS ▬🔴  \n\nREPOSITORIO: https://github.com/Gentleman-Programming/GentlemanClass_HexagonalArchitecture\n\n😎LIVE todos los Miércoles & Viernes.\nTwitch: https://t.co/vodIqiCH9N\n\n💬Escúchame aquí: \nSpotify: https://spoti.fi/3y281cY\nApple Podcast: https://podcasts.apple.com/es/podcast/gentleman-programming/id1661415820\n\n🤓¡Únete a nuestra comunidad!\nDiscord: https://discord.gg/KEavKkDc5Y\nFacebook: https://shorturl.at/jkmL6\nInstagram: https://www.instagram.com/gentlemanprogramming/\nTwitter: https://twitter.com/G_Programming\n\n📘Encuentra mi libro: ¿Cómo ser front-end sin fallar en el intento? + Tus primeros pasos en la programación web aquí: https://amzn.to/2ReBuzL\n\n-\n#gentlemanprogramming \n#comunidad  #discord #twitch #programming #podcast #live #stream #clase #tech #it #scrum #kanban #agile #team #Hackathon #GentlemanProgramming #componentes #framework #library #framework #google #Facebook #tips",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/8rd_maTJvz4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/8rd_maTJvz4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/8rd_maTJvz4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/8rd_maTJvz4/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/8rd_maTJvz4/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "playlistId": "PL42UNLc8e48TF9l07z_tLGHzmC_d-yfJJ",
+        "position": 9,
+        "resourceId": { "kind": "youtube#video", "videoId": "8rd_maTJvz4" },
+        "videoOwnerChannelTitle": "Gentleman Programming",
+        "videoOwnerChannelId": "UCbx_d228PdYwgB4Jz202SIQ"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "7OgyQZe8g_aiNGjoigIhYpyde8E",
+      "id": "UEw0MlVOTGM4ZTQ4VEY5bDA3el90TEdIem1DX2QteWZKSi45RTgxNDRBMzUwRjQ0MDhC",
+      "snippet": {
+        "publishedAt": "2023-04-07T13:35:21Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "Hacemos el #HEXAGONO del #REPOSITORY simulando una #BaseDeDatos y dejo una tarea para ustedes🔥- PT4",
+        "description": "🔴▬ LINKS DE INTERÉS ▬🔴  \n\nREPOSITORIO: https://github.com/Gentleman-Programming/GentlemanClass_HexagonalArchitecture\n\n😎LIVE todos los Miércoles & Viernes.\nTwitch: https://t.co/vodIqiCH9N\n\n💬Escúchame aquí: \nSpotify: https://spoti.fi/3y281cY\nApple Podcast: https://podcasts.apple.com/es/podcast/gentleman-programming/id1661415820\n\n🤓¡Únete a nuestra comunidad!\nDiscord: https://discord.gg/KEavKkDc5Y\nFacebook: https://shorturl.at/jkmL6\nInstagram: https://www.instagram.com/gentlemanprogramming/\nTwitter: https://twitter.com/G_Programming\n\n📘Encuentra mi libro: ¿Cómo ser front-end sin fallar en el intento? + Tus primeros pasos en la programación web aquí: https://amzn.to/2ReBuzL\n\n-\n#gentlemanprogramming \n#comunidad  #discord #twitch #programming #podcast #live #stream #clase #tech #it #scrum #kanban #agile #team #Hackathon #GentlemanProgramming #componentes #framework #library #framework #google #Facebook #tips",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/0oRpYfuxHnM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/0oRpYfuxHnM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/0oRpYfuxHnM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/0oRpYfuxHnM/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/0oRpYfuxHnM/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "playlistId": "PL42UNLc8e48TF9l07z_tLGHzmC_d-yfJJ",
+        "position": 10,
+        "resourceId": { "kind": "youtube#video", "videoId": "0oRpYfuxHnM" },
+        "videoOwnerChannelTitle": "Gentleman Programming",
+        "videoOwnerChannelId": "UCbx_d228PdYwgB4Jz202SIQ"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "3WtKre2D8PpUYzr87LDJsPuDe-w",
+      "id": "UEw0MlVOTGM4ZTQ4VEY5bDA3el90TEdIem1DX2QteWZKSi5ENDU4Q0M4RDExNzM1Mjcy",
+      "snippet": {
+        "publishedAt": "2023-04-13T20:24:47Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "¿ Cómo implementar #TRPC  en el #SERVER con #HEXAGONAL #ARCHITECTURE  y tipado con #ZOD ?📡- PT5",
+        "description": "🔴▬ LINKS DE INTERÉS ▬🔴  \n\nREPOSITORIO: https://github.com/Gentleman-Programming/GentlemanClass_HexagonalArchitecture\n\n😎LIVE todos los Miércoles & Viernes.\nTwitch: https://t.co/vodIqiCH9N\n\n💬Escúchame aquí: \nSpotify: https://spoti.fi/3y281cY\nApple Podcast: https://podcasts.apple.com/es/podcast/gentleman-programming/id1661415820\n\n🤓¡Únete a nuestra comunidad!\nDiscord: https://discord.gg/KEavKkDc5Y\nFacebook: https://shorturl.at/jkmL6\nInstagram: https://www.instagram.com/gentlemanprogramming/\nTwitter: https://twitter.com/G_Programming\n\n📘Encuentra mi libro: ¿Cómo ser front-end sin fallar en el intento? + Tus primeros pasos en la programación web aquí: https://amzn.to/2ReBuzL\n\n-\n#gentlemanprogramming \n#comunidad  #discord #twitch #programming #podcast #live #stream #clase #tech #it #scrum #kanban #agile #team #Hackathon #GentlemanProgramming #componentes #framework #library #framework #google #Facebook #tips",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/1So8oYFQSco/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/1So8oYFQSco/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/1So8oYFQSco/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/1So8oYFQSco/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/1So8oYFQSco/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "playlistId": "PL42UNLc8e48TF9l07z_tLGHzmC_d-yfJJ",
+        "position": 11,
+        "resourceId": { "kind": "youtube#video", "videoId": "1So8oYFQSco" },
+        "videoOwnerChannelTitle": "Gentleman Programming",
+        "videoOwnerChannelId": "UCbx_d228PdYwgB4Jz202SIQ"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "FivVWsUOW4x3dI10jjQnp8bcqGs",
+      "id": "UEw0MlVOTGM4ZTQ4VEY5bDA3el90TEdIem1DX2QteWZKSi4yMDhBMkNBNjRDMjQxQTg1",
+      "snippet": {
+        "publishedAt": "2023-04-21T17:16:43Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "¿ Cómo implementar #TRPC CORRECTAMENTE en el #CLIENTE con tipado con #ZOD ?📡- PT6",
+        "description": "🔴▬ LINKS DE INTERÉS ▬🔴  \n\nREPOSITORIO: https://github.com/Gentleman-Programming/GentlemanClass_HexagonalArchitecture\n\n😎LIVE todos los Miércoles & Viernes.\nTwitch: https://t.co/vodIqiCH9N\n\n💬Escúchame aquí: \nSpotify: https://spoti.fi/3y281cY\nApple Podcast: https://podcasts.apple.com/es/podcast/gentleman-programming/id1661415820\n\n🤓¡Únete a nuestra comunidad!\nDiscord: https://discord.gg/KEavKkDc5Y\nFacebook: https://shorturl.at/jkmL6\nInstagram: https://www.instagram.com/gentlemanprogramming/\nTwitter: https://twitter.com/G_Programming\n\n📘Encuentra mi libro: ¿Cómo ser front-end sin fallar en el intento? + Tus primeros pasos en la programación web aquí: https://amzn.to/2ReBuzL\n\n-\n#gentlemanprogramming \n#comunidad  #discord #twitch #programming #podcast #live #stream #clase #tech #it #scrum #kanban #agile #team #Hackathon #GentlemanProgramming #componentes #framework #library #framework #google #Facebook #tips",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/sQvlVODabmo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/sQvlVODabmo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/sQvlVODabmo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/sQvlVODabmo/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/sQvlVODabmo/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "playlistId": "PL42UNLc8e48TF9l07z_tLGHzmC_d-yfJJ",
+        "position": 12,
+        "resourceId": { "kind": "youtube#video", "videoId": "sQvlVODabmo" },
+        "videoOwnerChannelTitle": "Gentleman Programming",
+        "videoOwnerChannelId": "UCbx_d228PdYwgB4Jz202SIQ"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "SOddAZ4805qAZYANE5c2MmJmr2A",
+      "id": "UEw0MlVOTGM4ZTQ4VEY5bDA3el90TEdIem1DX2QteWZKSi5GM0Q3M0MzMzY5NTJFNTdE",
+      "snippet": {
+        "publishedAt": "2023-05-13T11:50:31Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "#CleanArchitecture: Construyendo apps escalables y fáciles de mantener desde cero 📱💻 PT-1",
+        "description": "🔴▬ LINKS DE INTERÉS ▬🔴  \n\n😎LIVE\nTwitch: https://t.co/vodIqiCH9N\n\n💬Escúchame aquí: \nSpotify: https://spoti.fi/3y281cY\nApple Podcast: https://podcasts.apple.com/es/podcast/gentleman-programming/id1661415820\n\n🤓¡Únete a nuestra comunidad!\nDiscord: https://discord.gg/KEavKkDc5Y\nFacebook: https://shorturl.at/jkmL6\nInstagram: https://www.instagram.com/gentlemanprogramming/\nTwitter: https://twitter.com/G_Programming\n\n📘Encuentra mi libro: ¿Cómo ser front-end sin fallar en el intento? + Tus primeros pasos en la programación web aquí: https://amzn.to/2ReBuzL\n\n-\n#gentlemanprogramming #comunidad #discord #twitch #programming #podcast #live #stream #clase #tech #it #scrum #kanban #agile #team #Hackathon #componentes #framework #library #google #Facebook #tips #fullstack #DesarrolloWeb #Tecnología #Programación #Empresas #Salarios #IngenieríaDeSoftware #Trabajo #Informática #Contratación #RecursosHumanos #typescript #JavaScript #webdevelopment #frontend #backend #coding #developer #webdev #learnprogramming",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/HU6OfkrIJqQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/HU6OfkrIJqQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/HU6OfkrIJqQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/HU6OfkrIJqQ/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/HU6OfkrIJqQ/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "playlistId": "PL42UNLc8e48TF9l07z_tLGHzmC_d-yfJJ",
+        "position": 13,
+        "resourceId": { "kind": "youtube#video", "videoId": "HU6OfkrIJqQ" },
+        "videoOwnerChannelTitle": "Gentleman Programming",
+        "videoOwnerChannelId": "UCbx_d228PdYwgB4Jz202SIQ"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "NS1fqIvNLoBPx0YKkGNBHz6acnU",
+      "id": "UEw0MlVOTGM4ZTQ4VEY5bDA3el90TEdIem1DX2QteWZKSi4zRjM0MkVCRTg0MkYyQTM0",
+      "snippet": {
+        "publishedAt": "2023-05-15T15:51:30Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "Casos de uso y dominio en Clean Architecture: Diferencia lógica de negocios y aplicación 🚀💻 - PT 2",
+        "description": "🔴▬ LINKS DE INTERÉS ▬🔴  \n\n😎LIVE:\nTwitch: https://t.co/vodIqiCH9N\n\n💬Escúchame aquí: \nSpotify: https://spoti.fi/3y281cY\nApple Podcast: https://podcasts.apple.com/es/podcast/gentleman-programming/id1661415820\n\n🤓¡Únete a nuestra comunidad!\nDiscord: https://discord.gg/KEavKkDc5Y\nFacebook: https://shorturl.at/jkmL6\nInstagram: https://www.instagram.com/gentlemanprogramming/\nTwitter: https://twitter.com/G_Programming\n\n📘Encuentra mi libro: ¿Cómo ser front-end sin fallar en el intento? + Tus primeros pasos en la programación web aquí: https://amzn.to/2ReBuzL\n\n-\n#gentlemanprogramming #comunidad #discord #twitch #programming #podcast #live #stream #clase #tech #it #scrum #kanban #agile #team #Hackathon #componentes #framework #library #google #Facebook #tips #fullstack #DesarrolloWeb #Tecnología #Programación #Empresas #Salarios #IngenieríaDeSoftware #Trabajo #Informática #Contratación #RecursosHumanos #typescript #JavaScript #webdevelopment #frontend #backend #coding #developer #webdev #learnprogramming",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/BstBfqq7npY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/BstBfqq7npY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/BstBfqq7npY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/BstBfqq7npY/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/BstBfqq7npY/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "playlistId": "PL42UNLc8e48TF9l07z_tLGHzmC_d-yfJJ",
+        "position": 14,
+        "resourceId": { "kind": "youtube#video", "videoId": "BstBfqq7npY" },
+        "videoOwnerChannelTitle": "Gentleman Programming",
+        "videoOwnerChannelId": "UCbx_d228PdYwgB4Jz202SIQ"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "37gsj4Jfvv1qP8zRVOf-w0BCt5g",
+      "id": "UEw0MlVOTGM4ZTQ4VEY5bDA3el90TEdIem1DX2QteWZKSi45NzUwQkI1M0UxNThBMkU0",
+      "snippet": {
+        "publishedAt": "2023-05-18T16:39:19Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "La Capa Externa en Clean Architecture: Conectando tu Aplicación con el Mundo Exterior - PT4",
+        "description": "🔴▬ LINKS DE INTERÉS ▬🔴  \n\n😎LIVE:\nTwitch: https://t.co/vodIqiCH9N\n\n💬Escúchame aquí: \nSpotify: https://spoti.fi/3y281cY\nApple Podcast: https://podcasts.apple.com/es/podcast/gentleman-programming/id1661415820\n\n🤓¡Únete a nuestra comunidad!\nDiscord: https://discord.gg/KEavKkDc5Y\nFacebook: https://shorturl.at/jkmL6\nInstagram: https://www.instagram.com/gentlemanprogramming/\nTwitter: https://twitter.com/G_Programming\n\n📘Encuentra mi libro: ¿Cómo ser front-end sin fallar en el intento? + Tus primeros pasos en la programación web aquí: https://amzn.to/2ReBuzL\n\n-\n#gentlemanprogramming #comunidad #discord #twitch #programming #podcast #live #stream #clase #tech #it #scrum #kanban #agile #team #Hackathon #componentes #framework #library #google #Facebook #tips #fullstack #DesarrolloWeb #Tecnología #Programación #Empresas #Salarios #IngenieríaDeSoftware #Trabajo #Informática #Contratación #RecursosHumanos #typescript #JavaScript #webdevelopment #frontend #backend #coding #developer #webdev #learnprogramming",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/nIOZr8HdZCI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/nIOZr8HdZCI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/nIOZr8HdZCI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/nIOZr8HdZCI/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/nIOZr8HdZCI/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "playlistId": "PL42UNLc8e48TF9l07z_tLGHzmC_d-yfJJ",
+        "position": 15,
+        "resourceId": { "kind": "youtube#video", "videoId": "nIOZr8HdZCI" },
+        "videoOwnerChannelTitle": "Gentleman Programming",
+        "videoOwnerChannelId": "UCbx_d228PdYwgB4Jz202SIQ"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "B5c7slRVEXRasWdnxZGdfczdujI",
+      "id": "UEw0MlVOTGM4ZTQ4VEY5bDA3el90TEdIem1DX2QteWZKSi5DNzE1RjZEMUZCMjA0RDBB",
+      "snippet": {
+        "publishedAt": "2023-05-23T14:52:55Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "💯¡Poniendo en PRÁCTICA! Construyendo una MINI APP en Typescript con Clean Architecture | PT 5.",
+        "description": "Ponemos en práctica lo aprendido haciendo una mini APP en Typrescript usando Clean Architecture.\n\n▬ LINKS DE INTERÉS ▬\n\n· STREAM ·\nTwitch: https://t.co/vodIqiCH9N\n\n· ESCÚCHAME AQUÍ ·\nSpotify: https://spoti.fi/3y281cY\nApple Podcast: https://podcasts.apple.com/es/podcast/gentleman-programming/id1661415820\n\n· ÚNETE A LA COMUNIDAD ·\nDiscord: https://discord.gg/KEavKkDc5Y\nFacebook: https://shorturl.at/jkmL6\nInstagram: https://www.instagram.com/gentlemanprogramming/\nTwitter: https://twitter.com/G_Programming\n\n· ENCUENTRA MI LIBRO ·\n¿Cómo ser front-end sin fallar en el intento? + Tus primeros pasos en la programación web: https://amzn.to/2ReBuzL\n\n-\n#programming #tech #it #componentes #framework #library #tecnologia #software #fullstack #desarrolloweb #programacion #programador #programadores #ingenieriadesoftware #informatica #webdevelopment #frontend #backend #coding #developer #webdev #gentlemanprogramming #learnprogramming #typescript #cleanarchitecture",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/UaZgjzWRn8U/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/UaZgjzWRn8U/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/UaZgjzWRn8U/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/UaZgjzWRn8U/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/UaZgjzWRn8U/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "playlistId": "PL42UNLc8e48TF9l07z_tLGHzmC_d-yfJJ",
+        "position": 16,
+        "resourceId": { "kind": "youtube#video", "videoId": "UaZgjzWRn8U" },
+        "videoOwnerChannelTitle": "Gentleman Programming",
+        "videoOwnerChannelId": "UCbx_d228PdYwgB4Jz202SIQ"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "dlroLrIrVZCzGmcwrfaPdfByDaA",
+      "id": "UEw0MlVOTGM4ZTQ4VEY5bDA3el90TEdIem1DX2QteWZKSi43MTI1NDIwOTMwQjIxMzNG",
+      "snippet": {
+        "publishedAt": "2023-06-04T17:00:18Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "✍️ System Design soporte desde un usuario hasta un MILLÓN - Tipos de Base de Datos | PT 2.",
+        "description": "En esta segunda parte continuamos con System Design, donde aprenderemos sobre cómo configurar la base de datos, tipos diferentes que hay, además de sus ventajas y desventajas.\n\n▬ LINKS DE INTERÉS ▬\n\n· STREAM ·\nTwitch: https://t.co/vodIqiCH9N\n\n· ESCÚCHAME AQUÍ ·\nSpotify: https://spoti.fi/3y281cY\nApple Podcast: https://podcasts.apple.com/es/podcast/gentleman-programming/id1661415820\n\n· ÚNETE A LA COMUNIDAD ·\nDiscord: https://discord.gg/KEavKkDc5Y\nFacebook: https://shorturl.at/jkmL6\nInstagram: https://www.instagram.com/gentlemanprogramming/\nTwitter: https://twitter.com/G_Programming\n\n· ENCUENTRA MI LIBRO ·\n¿Cómo ser front-end sin fallar en el intento? + Tus primeros pasos en la programación web: https://amzn.to/2ReBuzL\n\n-\n#programming #tech #it #componentes #framework #library #tecnologia #software #fullstack #desarrolloweb #programacion #programador #programadores #ingenieriadesoftware #informatica #webdevelopment #frontend #backend #coding #developer #webdev #gentlemanprogramming #learnprogramming #systemdesign #basesdedatos #bbdd #sql #nosql #sqldatabase #nosqldatabase",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/skmpR26AJ_M/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/skmpR26AJ_M/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/skmpR26AJ_M/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/skmpR26AJ_M/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/skmpR26AJ_M/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "playlistId": "PL42UNLc8e48TF9l07z_tLGHzmC_d-yfJJ",
+        "position": 17,
+        "resourceId": { "kind": "youtube#video", "videoId": "skmpR26AJ_M" },
+        "videoOwnerChannelTitle": "Gentleman Programming",
+        "videoOwnerChannelId": "UCbx_d228PdYwgB4Jz202SIQ"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "uFnLIdeDhqn7Ip0qp5C1lHk2T3I",
+      "id": "UEw0MlVOTGM4ZTQ4VEY5bDA3el90TEdIem1DX2QteWZKSi5DQ0MyQ0Y4Mzg0M0VGOEYw",
+      "snippet": {
+        "publishedAt": "2023-06-09T21:49:44Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "✍️ System Design soporte desde un usuario hasta un MILLÓN - Escalado Vertical VS Horizontal | PT 3.",
+        "description": "En esta tercera parte continuamos con System Design, donde aprenderemos sobre qué tipos de escalados podemos encontrar a la hora de hacer crecer nuestra aplicación.\n\n▬ LINKS DE INTERÉS ▬\n\n· STREAM ·\nTwitch: https://t.co/vodIqiCH9N\n\n· ESCÚCHAME AQUÍ ·\nSpotify: https://spoti.fi/3y281cY\nApple Podcast: https://podcasts.apple.com/es/podcast/gentleman-programming/id1661415820\n\n· ÚNETE A LA COMUNIDAD ·\nDiscord: https://discord.gg/KEavKkDc5Y\nFacebook: https://shorturl.at/jkmL6\nInstagram: https://www.instagram.com/gentlemanprogramming/\nTwitter: https://twitter.com/G_Programming\n\n· ENCUENTRA MI LIBRO ·\n¿Cómo ser front-end sin fallar en el intento? + Tus primeros pasos en la programación web: https://amzn.to/2ReBuzL\n\n-\n#programming #tech #it #componentes #framework #library #tecnologia #software #fullstack #desarrolloweb #programacion #programador #programadores #ingenieriadesoftware #informatica #webdevelopment #frontend #backend #coding #developer #webdev #gentlemanprogramming #learnprogramming #systemdesign #basesdedatos #bbdd #sql #nosql #sqldatabase #nosqldatabase",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/DWPpAUP2k_4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/DWPpAUP2k_4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/DWPpAUP2k_4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/DWPpAUP2k_4/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/DWPpAUP2k_4/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "playlistId": "PL42UNLc8e48TF9l07z_tLGHzmC_d-yfJJ",
+        "position": 18,
+        "resourceId": { "kind": "youtube#video", "videoId": "DWPpAUP2k_4" },
+        "videoOwnerChannelTitle": "Gentleman Programming",
+        "videoOwnerChannelId": "UCbx_d228PdYwgB4Jz202SIQ"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "ar6Mcu2q5pFULzClPSLvCzIp3Bg",
+      "id": "UEw0MlVOTGM4ZTQ4VEY5bDA3el90TEdIem1DX2QteWZKSi4yQUE2Q0JEMTk4NTM3RTZC",
+      "snippet": {
+        "publishedAt": "2023-06-19T21:18:02Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "✍️ System Design soporte desde un usuario hasta un MILLÓN - Data Base replication y Cache | PT 4.",
+        "description": "En esta cuarta parte continuamos con System Design, donde aprenderemos sobre la utilización de la replicación de bases de datos para escalado y el cómo mejorar el uso de los recursos con cache !\n\n▬ LINKS DE INTERÉS ▬\n\n· STREAM ·\nTwitch: https://t.co/vodIqiCH9N\n\n· ESCÚCHAME AQUÍ ·\nSpotify: https://spoti.fi/3y281cY\nApple Podcast: https://podcasts.apple.com/es/podcast/gentleman-programming/id1661415820\n\n· ÚNETE A LA COMUNIDAD ·\nDiscord: https://discord.gg/KEavKkDc5Y\nFacebook: https://shorturl.at/jkmL6\nInstagram: https://www.instagram.com/gentlemanprogramming/\nTwitter: https://twitter.com/G_Programming\n\n· ENCUENTRA MI LIBRO ·\n¿Cómo ser front-end sin fallar en el intento? + Tus primeros pasos en la programación web: https://amzn.to/2ReBuzL\n\n-\n#programming #tech #it #componentes #framework #library #tecnologia #software #fullstack #desarrolloweb #programacion #programador #programadores #ingenieriadesoftware #informatica #webdevelopment #frontend #backend #coding #developer #webdev #gentlemanprogramming #learnprogramming #systemdesign #basesdedatos #bbdd #sql #nosql #sqldatabase #nosqldatabase",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/6KMddB6iqhk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/6KMddB6iqhk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/6KMddB6iqhk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/6KMddB6iqhk/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/6KMddB6iqhk/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "playlistId": "PL42UNLc8e48TF9l07z_tLGHzmC_d-yfJJ",
+        "position": 19,
+        "resourceId": { "kind": "youtube#video", "videoId": "6KMddB6iqhk" },
+        "videoOwnerChannelTitle": "Gentleman Programming",
+        "videoOwnerChannelId": "UCbx_d228PdYwgB4Jz202SIQ"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "vTNBRUIgTUw9QcCqsZbVKUg8Vmk",
+      "id": "UEw0MlVOTGM4ZTQ4VEY5bDA3el90TEdIem1DX2QteWZKSi5DMkU4NTY1QUFGQTYwMDE3",
+      "snippet": {
+        "publishedAt": "2023-06-21T15:11:42Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "✍️ System Design soporte desde un usuario hasta un MILLÓN - CDN | PT 5",
+        "description": "En esta quinta parte continuamos con System Design, donde aprenderemos sobre la existencia de los CDN y cómo su uso puede mejorar el uso de los recursos de nuestra aplicación !\n\n▬ LINKS DE INTERÉS ▬\n\n· STREAM ·\nTwitch: https://t.co/vodIqiCH9N\n\n· ESCÚCHAME AQUÍ ·\nSpotify: https://spoti.fi/3y281cY\nApple Podcast: https://podcasts.apple.com/es/podcast/gentleman-programming/id1661415820\n\n· ÚNETE A LA COMUNIDAD ·\nDiscord: https://discord.gg/KEavKkDc5Y\nFacebook: https://shorturl.at/jkmL6\nInstagram: https://www.instagram.com/gentlemanprogramming/\nTwitter: https://twitter.com/G_Programming\n\n· ENCUENTRA MI LIBRO ·\n¿Cómo ser front-end sin fallar en el intento? + Tus primeros pasos en la programación web: https://amzn.to/2ReBuzL\n\n-\n#programming #tech #it #componentes #framework #library #tecnologia #software #fullstack #desarrolloweb #programacion #programador #programadores #ingenieriadesoftware #informatica #webdevelopment #frontend #backend #coding #developer #webdev #gentlemanprogramming #learnprogramming #systemdesign #basesdedatos #bbdd #sql #nosql #sqldatabase #nosqldatabase",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/tvnGoUhNB8U/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/tvnGoUhNB8U/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/tvnGoUhNB8U/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/tvnGoUhNB8U/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/tvnGoUhNB8U/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "playlistId": "PL42UNLc8e48TF9l07z_tLGHzmC_d-yfJJ",
+        "position": 20,
+        "resourceId": { "kind": "youtube#video", "videoId": "tvnGoUhNB8U" },
+        "videoOwnerChannelTitle": "Gentleman Programming",
+        "videoOwnerChannelId": "UCbx_d228PdYwgB4Jz202SIQ"
+      }
+    }
+  ],
+  "pageInfo": { "totalResults": 21, "resultsPerPage": 50 }
+}

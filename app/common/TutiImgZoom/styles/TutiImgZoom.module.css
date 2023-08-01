@@ -1,0 +1,81 @@
+@font-face {
+  font-family: 'Exoct';
+  src: url('https://assets.codepen.io/1480814/films.EXH_____.ttf');
+}
+
+.TutiImgZoom__container {
+  margin: 0;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: min(230px, 35vmin);
+  place-content: end center;
+  /* background: linear-gradient(#0000, rgb(50 50 50 / 88%)),
+    url(https://i.imgur.com/QlxujcI.png)
+      top/cover; */
+}
+
+.TutiImgZoom__figure {
+  width: 100%;
+  aspect-ratio: 1;
+  margin: 0 0 60px;
+  padding: 5px 20px 0;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-rows: 100%;
+  cursor: pointer;
+  position: relative;
+  filter: drop-shadow(0 0 20px rgb(0 0 0/50%));
+}
+
+.TutiImgZoom__figure:before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  background: top/cover;
+  transform-origin: bottom;
+  filter: brightness(0.9);
+  transition: 0.5s;
+  background-image: url(https://i.imgur.com/CVlmmUj.jpeg);
+}
+
+.TutiImgZoom__img {
+  grid-area: 1/1;
+  width: 150%;
+  height: 80%;
+  object-fit: cover;
+  object-position: top;
+  filter: contrast(0.8) brightness(0.7);
+  place-self: end center;
+  transition: 0.5s;
+}
+
+.TutiImgZoom__figcaption {
+  grid-area: 1/1;
+  width: calc(100% + 40px);
+  font-family: 'Exoct', sans-serif;
+  color: #fff;
+  font-size: min(32px, 5vmin);
+  text-align: center;
+  place-self: end center;
+  transform: perspective(500px) translateY(100%) rotateX(-90deg);
+  backface-visibility: hidden;
+  transform-origin: top;
+  background: #000;
+  transition: 0.5s;
+}
+
+.TutiImgZoom__figure:hover .TutiImgZoom__img {
+  width: 120%;
+  height: 270%;
+  filter: contrast(1);
+}
+
+.TutiImgZoom__figure:hover::before {
+  filter: brightness(0.3);
+  transform: perspective(500px) rotateX(60deg);
+}
+
+.TutiImgZoom__figure:hover .TutiImgZoom__figcaption {
+  transform: perspective(500px) translateY(100%) rotateX(-30deg);
+}

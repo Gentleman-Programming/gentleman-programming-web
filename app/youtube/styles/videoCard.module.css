@@ -1,14 +1,39 @@
-.youtubeVideoCard{
-    margin: 0 3px;
-    vertical-align: top;
-    white-space: normal;
+.youtubeVideoCard {
+  margin: 0 3px;
+  vertical-align: top;
+  white-space: normal;
+  max-width: 13.125rem;
+}
+.youtubeVideoCardImage {
+  width: 13.125rem;
+  object-fit: cover;
+  height: 118px;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+}
+.youtubeVideoCardTitle {
+  color: var(--FONT-COLOR);
+  text-overflow: ellipsis;
+  text-decoration: none;
+  overflow: hidden;
+  white-space: normal;
+  font-weight: 500;
+  line-height: 1.25rem;
+  font-size: 14px;
+  height: 2.5rem;
+  width: 186px;
+  max-width: 186px;
+  -webkit-line-clamp: 2;
+}
+.youtuberName{
+  color: var(--FONT-COLOR-SECONDARY);
+  text-decoration: none;
+  font-size: 12px;
+  &:hover{
+    color:var(--FONT-COLOR);
   }
-  .youtubeVideoCardImage{
-    width: 20rem;
-    border-radius: 8px;
-  }
-  .youtubeVideoCardTitle{
-    color: var(--FONT-COLOR);
-    text-overflow: ellipsis;
-    text-decoration: none;
-  }
+}
+.youtubeVideoCardTexts{
+  color: var(--FONT-COLOR-SECONDARY);
+  font-size: 12px;
+}
