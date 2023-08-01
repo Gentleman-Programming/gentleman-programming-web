@@ -1,20 +1,38 @@
 @import './shared/ui/styles/palette';
 
 .root {
+  box-sizing: border-box;
   background: $color-bg;
-  padding: 1rem 3rem;
+  padding: 0 3rem;
+}
 
+.containerNavbar{
+  --COLOR-TRANSPARENT: transparent;
+  --COLOR-WHITE: #ffffff;
+  --COLOR-GRAY: #8a8c90;
+  --COLOR-LIVE: #43b581;
+  --COLOR-NOTIFICATION: #f84a4b;
+  --COLOR-TUTI-PRIMARY: #000000;
+  --COLOR-TUTI-SECONDARY: #ea1889;
+  --COLOR-TUTI-FONDO-NAVBAR: #000000;
+  --COLOR-TUTI-NAVBAR-ICONS: #ea1889;
+  --COLOR-TUTI-NAVBAR-HOVER-PRIMARY: #f872a0;
+  --COLOR-TUTI-NAVBAR-HOVER-SECONDARY: #fca2b7;
+  --COLOR-TUTI-NAVBAR-SELECTED: #e5e5e5;
+  --COLOR-TUTI-NAVBAR-SELECTED-ICONS: #ea1889;
+  --COLOR-TUTI-NAVBAR-SELECTED-HOME: #fdd0d6;
 }
 
 .container {
-  max-width: 72rem;
+  max-width: 70rem;
   margin: 0 auto;
-
+  min-height: 100%;
 }
 
 .header {
   height: 10rem;
   display: flex;
+  padding: 1rem 0;
   flex-direction: column;
   justify-content: space-between;
 }
