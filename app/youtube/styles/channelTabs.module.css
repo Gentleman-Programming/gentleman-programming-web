@@ -2,11 +2,16 @@
     padding-bottom: 0.85rem;
     background-color: var(--BG-CONTAINER);
   }
+  @media only screen and (min-width: 1920px) {
+    .youtubeChannelTabs {
+      margin-left: -30rem;
+    }
+  }
   .youtubeChannelSingleTab {
     font-family: "Roboto", "Noto", sans-serif;
     font-weight: 600;
     font-size: 12px;
-    padding: 0.85rem 1.8rem;
+    padding: 1.0625rem 2rem;
     color: var(--FONT-COLOR-SECONDARY);
     vertical-align: middle;
     text-decoration: none;

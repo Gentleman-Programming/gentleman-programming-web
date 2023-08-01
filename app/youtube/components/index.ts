@@ -1,11 +1,5 @@
 export * from './ChannelDetails/ChannelDetails';
 export * from './ChannelDetails/ChannelTabs/TabsBar';
-export * from './ChannelSections/Playlists/Playlists/YTSinglePlaylist';
-export * from './ChannelSections/Playlists/Playlists/page';
-export * from './ChannelSections/Shorts/ShortCard/ShortCard';
-export { default as Shorts } from './ChannelSections/Shorts/page';
-export { default as Videos } from './ChannelSections/Videos/page';
-export { default as About } from './ChannelSections/about/page';
 export * from './HeaderSearchbar/HeaderSearchbar';
 export * from './HeaderSearchbar/SearchIcon';
 export * from './Home/HomeSections/HomeSections';

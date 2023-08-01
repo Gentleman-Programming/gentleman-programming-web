@@ -1,0 +1,26 @@
+.aboutContainer {
+  display: flex;
+  flex-direction: row;
+  color: var(--FONT-COLOR);
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 0.95rem;
+  font-weight: 400;
+}
+.aboutDescription {
+  word-wrap: break-word;
+  line-height: 1.5rem;
+  white-space: pre-wrap;
+  max-width: 62.5%;
+  padding-right: 5rem;
+}
+.aboutAside {
+  margin: 0.15rem 0.25rem 0 0;
+  hr {
+    border: 0;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin-top: -1px;
+    padding-right: 6rem;
+    width: 100%;
+  }
+}
