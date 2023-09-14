@@ -1,0 +1,1116 @@
+{
+  "kind": "youtube#playlistListResponse",
+  "etag": "690Ab2cjJBO1pzODw3KVrASERJw",
+  "pageInfo": { "totalResults": 25, "resultsPerPage": 50 },
+  "items": [
+    {
+      "kind": "youtube#playlist",
+      "etag": "mGPlS3RzTWEafo1WpC4OBV83k0U",
+      "id": "PL42UNLc8e48Q-mq0MLGdKWWxcLkXAuznY",
+      "snippet": {
+        "publishedAt": "2023-08-01T10:56:20Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "Framework Battle Royale ! probamos todos los frameworks y comprobamos los resultados - ANGULAR 16! 🥵",
+        "description": "Probamos haciendo la misma app en todos los frameworks / plataformas del momento comprobando al final sus score tanto en Performance como en SEO.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/dFRfQ7NV-1Y/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/dFRfQ7NV-1Y/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/dFRfQ7NV-1Y/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/dFRfQ7NV-1Y/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/dFRfQ7NV-1Y/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "localized": {
+          "title": "Framework Battle Royale ! probamos todos los frameworks y comprobamos los resultados - ANGULAR 16! 🥵",
+          "description": "Probamos haciendo la misma app en todos los frameworks / plataformas del momento comprobando al final sus score tanto en Performance como en SEO."
+        }
+      },
+      "status": { "privacyStatus": "public" },
+      "contentDetails": { "itemCount": 5 }
+    },
+    {
+      "kind": "youtube#playlist",
+      "etag": "S4CuMSVutfWR21-x45YoH46sv1k",
+      "id": "PL42UNLc8e48TeyH5tPJsKOr0NWg3zQYuB",
+      "snippet": {
+        "publishedAt": "2023-07-24T17:58:29Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "Entrevistas patrones arquitectónicos",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/VdeucaNJPio/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/VdeucaNJPio/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/VdeucaNJPio/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/VdeucaNJPio/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/VdeucaNJPio/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "localized": {
+          "title": "Entrevistas patrones arquitectónicos",
+          "description": ""
+        }
+      },
+      "status": { "privacyStatus": "public" },
+      "contentDetails": { "itemCount": 2 }
+    },
+    {
+      "kind": "youtube#playlist",
+      "etag": "h95uyEAu8jZk5qU--hIjS1RnpAc",
+      "id": "PL42UNLc8e48RcntFIC9RF4zA3cnEGDyJr",
+      "snippet": {
+        "publishedAt": "2023-07-11T17:41:42Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "Patrones arquitectónicos en el Front End",
+        "description": "Lista con TODO lo que tienes que saber para elegir la correcta arquitectura para tus proyectos",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/pqiy-vr35_I/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/pqiy-vr35_I/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/pqiy-vr35_I/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/pqiy-vr35_I/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/pqiy-vr35_I/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "localized": {
+          "title": "Patrones arquitectónicos en el Front End",
+          "description": "Lista con TODO lo que tienes que saber para elegir la correcta arquitectura para tus proyectos"
+        }
+      },
+      "status": { "privacyStatus": "public" },
+      "contentDetails": { "itemCount": 7 }
+    },
+    {
+      "kind": "youtube#playlist",
+      "etag": "hrzaDRDeKG1DjxVb1w2dC8CATVE",
+      "id": "PL42UNLc8e48TShZpQ6QPn46NDG2kKatxD",
+      "snippet": {
+        "publishedAt": "2023-07-04T18:40:33Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "System Design Con De Tuti",
+        "description": "Analizamos el increible libro \"System Design Interview 2\" donde hablaremos sobre como crear un proyecto escalable desde un usuario hasta un millón !",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/3dvNKeDZ7RY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/3dvNKeDZ7RY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/3dvNKeDZ7RY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/3dvNKeDZ7RY/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/3dvNKeDZ7RY/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "localized": {
+          "title": "System Design Con De Tuti",
+          "description": "Analizamos el increible libro \"System Design Interview 2\" donde hablaremos sobre como crear un proyecto escalable desde un usuario hasta un millón !"
+        }
+      },
+      "status": { "privacyStatus": "public" },
+      "contentDetails": { "itemCount": 9 }
+    },
+    {
+      "kind": "youtube#playlist",
+      "etag": "TZ4XUI4DG5zMeZdBIAFEwGlX7_4",
+      "id": "PL42UNLc8e48TPoI0zHCK2o4yGucMslIYx",
+      "snippet": {
+        "publishedAt": "2023-07-02T15:20:58Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "Testing ! que nunca falte 👹",
+        "description": "Vídeos para aprender testing...como se debe hacer realmente. Desde temas conceptuales hasta implementaciones puntuales",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/BUJJ1zzAAGE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/BUJJ1zzAAGE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/BUJJ1zzAAGE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/BUJJ1zzAAGE/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/BUJJ1zzAAGE/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "localized": {
+          "title": "Testing ! que nunca falte 👹",
+          "description": "Vídeos para aprender testing...como se debe hacer realmente. Desde temas conceptuales hasta implementaciones puntuales"
+        }
+      },
+      "status": { "privacyStatus": "public" },
+      "contentDetails": { "itemCount": 6 }
+    },
+    {
+      "kind": "youtube#playlist",
+      "etag": "Pi1-Uy1SyTA-ZdVCrBY-8M78HF0",
+      "id": "PL42UNLc8e48Tw7tbMxTyKeL-u9hdU-_Jp",
+      "snippet": {
+        "publishedAt": "2023-07-02T14:13:37Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "Entrevistas Angular",
+        "description": "Entrevistas a la comunidad para diferentes seniorities y de diferentes tipos !  Aprende qué quieren los entrevistadores y supera cualquier interview !",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/5vOj1yDzJwY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/5vOj1yDzJwY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/5vOj1yDzJwY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/5vOj1yDzJwY/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/5vOj1yDzJwY/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "localized": {
+          "title": "Entrevistas Angular",
+          "description": "Entrevistas a la comunidad para diferentes seniorities y de diferentes tipos !  Aprende qué quieren los entrevistadores y supera cualquier interview !"
+        }
+      },
+      "status": { "privacyStatus": "public" },
+      "contentDetails": { "itemCount": 2 }
+    },
+    {
+      "kind": "youtube#playlist",
+      "etag": "EEyfSn2vi9ebOA-LjkVLU31kGa8",
+      "id": "PL42UNLc8e48R-qUkQhY0u8Sz50KbXMC1I",
+      "snippet": {
+        "publishedAt": "2023-07-02T14:08:19Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "Entrevistas React",
+        "description": "Hacemos entrevistas a la comunidad para diferentes seniorities ! Aprende qué buscan los entrevistadores y conoce sus puntos de vista",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/rncosqY881Y/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/rncosqY881Y/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/rncosqY881Y/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/rncosqY881Y/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/rncosqY881Y/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "localized": {
+          "title": "Entrevistas React",
+          "description": "Hacemos entrevistas a la comunidad para diferentes seniorities ! Aprende qué buscan los entrevistadores y conoce sus puntos de vista"
+        }
+      },
+      "status": { "privacyStatus": "public" },
+      "contentDetails": { "itemCount": 7 }
+    },
+    {
+      "kind": "youtube#playlist",
+      "etag": "PZjOCeDYyhqtHjrIJjwveXkPXOE",
+      "id": "PL42UNLc8e48RHavn_jKOfFcf5u73O-w14",
+      "snippet": {
+        "publishedAt": "2023-07-02T14:00:20Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "Hexagonal Architecture🍕",
+        "description": "Hacemos una app entera con Hexagonal Architecture + TRPC + ZOD + REACT + TESTING",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/NOWU4K6piwo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/NOWU4K6piwo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/NOWU4K6piwo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/NOWU4K6piwo/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/NOWU4K6piwo/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "localized": {
+          "title": "Hexagonal Architecture🍕",
+          "description": "Hacemos una app entera con Hexagonal Architecture + TRPC + ZOD + REACT + TESTING"
+        }
+      },
+      "status": { "privacyStatus": "public" },
+      "contentDetails": { "itemCount": 5 }
+    },
+    {
+      "kind": "youtube#playlist",
+      "etag": "P-SpqASvvX0Fbeb35gWmT2fVOjo",
+      "id": "PL42UNLc8e48SNYft_Aktg9OSpbEtZTve0",
+      "snippet": {
+        "publishedAt": "2023-05-22T14:24:07Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "Patrones de Diseño en Typescript🦖",
+        "description": "Patrones IMPORTANTÍSIMOS que tienes que saber para poder atacar proyectos, orientados al uso de Typescript",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Ph7kXNmski8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Ph7kXNmski8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Ph7kXNmski8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/Ph7kXNmski8/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/Ph7kXNmski8/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "localized": {
+          "title": "Patrones de Diseño en Typescript🦖",
+          "description": "Patrones IMPORTANTÍSIMOS que tienes que saber para poder atacar proyectos, orientados al uso de Typescript"
+        }
+      },
+      "status": { "privacyStatus": "public" },
+      "contentDetails": { "itemCount": 6 }
+    },
+    {
+      "kind": "youtube#playlist",
+      "etag": "GYNR1htva9Xod0clB9f8iS0YyFk",
+      "id": "PL42UNLc8e48R7Pty11Xqnga3lH2Fd63jq",
+      "snippet": {
+        "publishedAt": "2023-04-15T14:35:46Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "Gentleman Podcast",
+        "description": "Podcast de tecnología orientado a la programación web y donde se prioriza el aprendizaje",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/WkNhQgIGDLA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/WkNhQgIGDLA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/WkNhQgIGDLA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/WkNhQgIGDLA/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/WkNhQgIGDLA/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "localized": {
+          "title": "Gentleman Podcast",
+          "description": "Podcast de tecnología orientado a la programación web y donde se prioriza el aprendizaje"
+        }
+      },
+      "status": { "privacyStatus": "public" },
+      "contentDetails": { "itemCount": 1 }
+    },
+    {
+      "kind": "youtube#playlist",
+      "etag": "LkGa76PpkFS7CKrbMPofYS7cpr8",
+      "id": "PL42UNLc8e48RPqUVsZzedg5bCYfKg4xee",
+      "snippet": {
+        "publishedAt": "2023-01-01T14:26:12Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "NextJs 13: desde 0 Con de Tuti",
+        "description": "TODO lo que tienes que saber para poder empezar y atacar cualquier proyecto con NextJS 13 !",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/-2fStJdnG18/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/-2fStJdnG18/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/-2fStJdnG18/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/-2fStJdnG18/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/-2fStJdnG18/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "localized": {
+          "title": "NextJs 13: desde 0 Con de Tuti",
+          "description": "TODO lo que tienes que saber para poder empezar y atacar cualquier proyecto con NextJS 13 !"
+        }
+      },
+      "status": { "privacyStatus": "public" },
+      "contentDetails": { "itemCount": 11 }
+    },
+    {
+      "kind": "youtube#playlist",
+      "etag": "tHHVCe3PFXpUpeiTDtQUkVkz3R0",
+      "id": "PL42UNLc8e48RaHSKf6RMYufZ0zQ2GA4KQ",
+      "snippet": {
+        "publishedAt": "2022-11-21T22:13:38Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "👶 Aprende a Programar como un crack 🥸",
+        "description": "Bases de la programación ! con esto seguro que puedes darle Con De Tuti a cualquier proyecto",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/9_8Biy10kW0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/9_8Biy10kW0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/9_8Biy10kW0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/9_8Biy10kW0/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/9_8Biy10kW0/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "localized": {
+          "title": "👶 Aprende a Programar como un crack 🥸",
+          "description": "Bases de la programación ! con esto seguro que puedes darle Con De Tuti a cualquier proyecto"
+        }
+      },
+      "status": { "privacyStatus": "public" },
+      "contentDetails": { "itemCount": 10 }
+    },
+    {
+      "kind": "youtube#playlist",
+      "etag": "coZYWIciR_ByXEo26yx0gO5M68U",
+      "id": "PL42UNLc8e48T1B1NNplS0MNDAEnu76C0U",
+      "snippet": {
+        "publishedAt": "2022-11-21T22:05:03Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "🕸️ Cómo ser Front End sin fallar en el intento  🤖",
+        "description": "Las bases de la programación web que DEBES de saber para encarar cualquier proyecto",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Q6dJ7Gcm3Nw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Q6dJ7Gcm3Nw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Q6dJ7Gcm3Nw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/Q6dJ7Gcm3Nw/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/Q6dJ7Gcm3Nw/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "localized": {
+          "title": "🕸️ Cómo ser Front End sin fallar en el intento  🤖",
+          "description": "Las bases de la programación web que DEBES de saber para encarar cualquier proyecto"
+        }
+      },
+      "status": { "privacyStatus": "public" },
+      "contentDetails": { "itemCount": 10 }
+    },
+    {
+      "kind": "youtube#playlist",
+      "etag": "j9A7TzjzD8DuUsxcHy3Sqv5aW_4",
+      "id": "PL42UNLc8e48RRGwL5VA-TxCP4Kdt3-9-Q",
+      "snippet": {
+        "publishedAt": "2022-11-21T21:52:47Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "⌨️ Cursote de Typescript 🔣",
+        "description": "TODO lo que tienes que saber de Typescript para pasar cualquier entrevista y aumentar tus conocimiento en la herramienta para aplicarla correctamente",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/LYNaJ9gZXKI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/LYNaJ9gZXKI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/LYNaJ9gZXKI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/LYNaJ9gZXKI/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/LYNaJ9gZXKI/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "localized": {
+          "title": "⌨️ Cursote de Typescript 🔣",
+          "description": "TODO lo que tienes que saber de Typescript para pasar cualquier entrevista y aumentar tus conocimiento en la herramienta para aplicarla correctamente"
+        }
+      },
+      "status": { "privacyStatus": "public" },
+      "contentDetails": { "itemCount": 9 }
+    },
+    {
+      "kind": "youtube#playlist",
+      "etag": "wl-Rpls4d-RMd7NIbxu3pfKrP9o",
+      "id": "PL42UNLc8e48SdHoWLywFkm2DUw6FoureA",
+      "snippet": {
+        "publishedAt": "2022-11-21T21:37:35Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "🤕 Entrevistas de Javascript / Typescript 🥊",
+        "description": "Entrevistas variadas para que sepas las bases necesarias para poder encarar cualquier proyecto !",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/vW4wTNd_3qY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/vW4wTNd_3qY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/vW4wTNd_3qY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/vW4wTNd_3qY/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/vW4wTNd_3qY/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "localized": {
+          "title": "🤕 Entrevistas de Javascript / Typescript 🥊",
+          "description": "Entrevistas variadas para que sepas las bases necesarias para poder encarar cualquier proyecto !"
+        }
+      },
+      "status": { "privacyStatus": "public" },
+      "contentDetails": { "itemCount": 3 }
+    },
+    {
+      "kind": "youtube#playlist",
+      "etag": "saJRA5bzt5HIIrDLK3t0RPJ-CnQ",
+      "id": "PL42UNLc8e48R-32ypLd0wTdh-AW9IG3Vs",
+      "snippet": {
+        "publishedAt": "2022-11-21T21:22:57Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "🧑‍💻 Curso de Javascript con de tuti🥷",
+        "description": "Las bases y conceptos que NADIE te cuenta de Javascript ! desde básicos a los más avanzados. Aprende para implementar a consiencia",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/MyHfth82wDI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/MyHfth82wDI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/MyHfth82wDI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/MyHfth82wDI/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/MyHfth82wDI/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "localized": {
+          "title": "🧑‍💻 Curso de Javascript con de tuti🥷",
+          "description": "Las bases y conceptos que NADIE te cuenta de Javascript ! desde básicos a los más avanzados. Aprende para implementar a consiencia"
+        }
+      },
+      "status": { "privacyStatus": "public" },
+      "contentDetails": { "itemCount": 12 }
+    },
+    {
+      "kind": "youtube#playlist",
+      "etag": "1d6Z1E6nkExRMZyg5dSS-vvr9_Q",
+      "id": "PL42UNLc8e48TK24-hBKfDMbZjQB8xFrOA",
+      "snippet": {
+        "publishedAt": "2022-11-21T15:16:36Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "🅰Angular: de 0 a EXPERTO🚀",
+        "description": "Recopilación de contenido orientado a Angular, desde las bases hasta conceptos super avanzados",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/awRq1SSKLeI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/awRq1SSKLeI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/awRq1SSKLeI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/awRq1SSKLeI/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/awRq1SSKLeI/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "localized": {
+          "title": "🅰Angular: de 0 a EXPERTO🚀",
+          "description": "Recopilación de contenido orientado a Angular, desde las bases hasta conceptos super avanzados"
+        }
+      },
+      "status": { "privacyStatus": "public" },
+      "contentDetails": { "itemCount": 23 }
+    },
+    {
+      "kind": "youtube#playlist",
+      "etag": "Yk0uHJN3zeApslwa_7HNESz7928",
+      "id": "PL42UNLc8e48SlXDha2RcXlPHBZcXhiLw-",
+      "snippet": {
+        "publishedAt": "2022-11-20T18:59:47Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "🎩 Gentleman Mentoring 🥋",
+        "description": "Charlas y contenido relacionado con Mentoring ! Mejora tus soft skills y aprende mis opiniones personales",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/LrDnAn86GjU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/LrDnAn86GjU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/LrDnAn86GjU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/LrDnAn86GjU/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/LrDnAn86GjU/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "localized": {
+          "title": "🎩 Gentleman Mentoring 🥋",
+          "description": "Charlas y contenido relacionado con Mentoring ! Mejora tus soft skills y aprende mis opiniones personales"
+        }
+      },
+      "status": { "privacyStatus": "public" },
+      "contentDetails": { "itemCount": 42 }
+    },
+    {
+      "kind": "youtube#playlist",
+      "etag": "weNK1cgRudcqTCyix3KR6QQpMs8",
+      "id": "PL42UNLc8e48TF9l07z_tLGHzmC_d-yfJJ",
+      "snippet": {
+        "publishedAt": "2022-11-20T18:56:23Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "👷🏻‍♂️Clean Architecture🧼",
+        "description": "Desde conceptos hasta implementaciones, IMPOSIBLE que te vayas de aquí sin saber Clearn Architecture !",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/HU6OfkrIJqQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/HU6OfkrIJqQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/HU6OfkrIJqQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/HU6OfkrIJqQ/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/HU6OfkrIJqQ/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "localized": {
+          "title": "👷🏻‍♂️Clean Architecture🧼",
+          "description": "Desde conceptos hasta implementaciones, IMPOSIBLE que te vayas de aquí sin saber Clearn Architecture !"
+        }
+      },
+      "status": { "privacyStatus": "public" },
+      "contentDetails": { "itemCount": 12 }
+    },
+    {
+      "kind": "youtube#playlist",
+      "etag": "iM6BUUIVCQUEi-oYfUWXM7hGl1A",
+      "id": "PL42UNLc8e48SQRBqbOdPz4t3YHicEf5xs",
+      "snippet": {
+        "publishedAt": "2022-11-20T18:56:01Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "⚛️React : desde bases hasta conceptos avanzados🚀",
+        "description": "Una playlist para todos los seniorities ! tiene desde conceptos básicos para aprender React desde 0, como también conceptos más avanzados que todo senior DEBE de saber !",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/THtz3F8Lsr4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/THtz3F8Lsr4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/THtz3F8Lsr4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/THtz3F8Lsr4/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/THtz3F8Lsr4/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "localized": {
+          "title": "⚛️React : desde bases hasta conceptos avanzados🚀",
+          "description": "Una playlist para todos los seniorities ! tiene desde conceptos básicos para aprender React desde 0, como también conceptos más avanzados que todo senior DEBE de saber !"
+        }
+      },
+      "status": { "privacyStatus": "public" },
+      "contentDetails": { "itemCount": 22 }
+    },
+    {
+      "kind": "youtube#playlist",
+      "etag": "PUtKlKem9N_Jamgs3pLUvl_dRDw",
+      "id": "PL42UNLc8e48R2PYR9tor_PCTtS9o3Chna",
+      "snippet": {
+        "publishedAt": "2022-11-20T18:44:18Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "😱 LO MEJORCITO  DEL CANAL 😱",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/5LqhlCd2_nE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/5LqhlCd2_nE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/5LqhlCd2_nE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/5LqhlCd2_nE/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/5LqhlCd2_nE/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "localized": {
+          "title": "😱 LO MEJORCITO  DEL CANAL 😱",
+          "description": ""
+        }
+      },
+      "status": { "privacyStatus": "public" },
+      "contentDetails": { "itemCount": 164 }
+    },
+    {
+      "kind": "youtube#playlist",
+      "etag": "X6y9J8Y6GVvCWFV9sszbBgiPJak",
+      "id": "PL42UNLc8e48STOmmxs8uKBwXOT-7q_Yc7",
+      "snippet": {
+        "publishedAt": "2022-03-22T10:55:31Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "Shorts",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/_kvH2RK4nAM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/_kvH2RK4nAM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/_kvH2RK4nAM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "localized": { "title": "Shorts", "description": "" }
+      },
+      "status": { "privacyStatus": "public" },
+      "contentDetails": { "itemCount": 5 }
+    },
+    {
+      "kind": "youtube#playlist",
+      "etag": "F2WLDf5g7jovk6TqJ5U3g0d2DX4",
+      "id": "PL42UNLc8e48ST3mFDDy8AvM_vWBO04hHU",
+      "snippet": {
+        "publishedAt": "2021-11-06T21:53:16Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "🩺 El consultorio del Gentleman 🎙️",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Tdz9ynOeZsk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Tdz9ynOeZsk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Tdz9ynOeZsk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/Tdz9ynOeZsk/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/Tdz9ynOeZsk/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "localized": {
+          "title": "🩺 El consultorio del Gentleman 🎙️",
+          "description": ""
+        }
+      },
+      "status": { "privacyStatus": "public" },
+      "contentDetails": { "itemCount": 7 }
+    },
+    {
+      "kind": "youtube#playlist",
+      "etag": "5mE2OUiF_DA6CY-8qKRMUNhzfl4",
+      "id": "PL42UNLc8e48Qexj__MpicVFCHx9A2vXBT",
+      "snippet": {
+        "publishedAt": "2021-09-03T23:54:27Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "Live",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Qpm8MVOBBoo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Qpm8MVOBBoo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Qpm8MVOBBoo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/Qpm8MVOBBoo/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/Qpm8MVOBBoo/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "localized": { "title": "Live", "description": "" }
+      },
+      "status": { "privacyStatus": "public" },
+      "contentDetails": { "itemCount": 32 }
+    },
+    {
+      "kind": "youtube#playlist",
+      "etag": "psjM5aIBK_XHexZApDm_ZBuEuEI",
+      "id": "PL42UNLc8e48SHf92Vjbmty6U4i8jDWdYL",
+      "snippet": {
+        "publishedAt": "2021-04-09T20:54:05Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "TODO contenido sobre ReactJs",
+        "description": "Videos relacionados con ReactJs ! desde cursos hasta implementaciones",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/5LqhlCd2_nE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/5LqhlCd2_nE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/5LqhlCd2_nE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/5LqhlCd2_nE/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/5LqhlCd2_nE/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "localized": {
+          "title": "TODO contenido sobre ReactJs",
+          "description": "Videos relacionados con ReactJs ! desde cursos hasta implementaciones"
+        }
+      },
+      "status": { "privacyStatus": "public" },
+      "contentDetails": { "itemCount": 22 }
+    }
+  ]
+}
