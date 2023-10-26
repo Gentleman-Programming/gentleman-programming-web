@@ -1,6 +1,14 @@
 import { FC } from 'react';
 
+import { z } from 'zod';
+
 import styles from './styles/form.module.css';
+
+const contactSchema = z.object({
+  name: z.string().min(3).max(50),
+  email: z.string().email(),
+  message: z.string().min(10).max(600),
+});
 
 export const Form: FC = () => {
   return (
