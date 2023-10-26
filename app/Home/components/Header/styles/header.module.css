@@ -23,7 +23,7 @@
 
 
 /* This CSS code is styling a container element with the class "Header__div" */
-.header__div{
+.header__div {
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -36,15 +36,22 @@
 
 
 /* This CSS code is styling an element with the class "Header__content". */
-.header__content{
+.header__content {
   width: 400px;
   text-align: center;
 }
 
 /* Setting the font size of an element with the class "Header__title" to 3rem. */
-.header__title{
+.header__title {
   font-size: 3rem;
-  
+  font-weight: 700;
+  background-image:
+    linear-gradient(var(--COLOR-WHITE) 0%,
+      var(--COLOR-TUTI-NAVBAR-SELECTED-ICONS) 50%,
+      var(--COLOR-TUTI-SECONDARY) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 
 /* This CSS code is styling an element with the class "Header__subtitle". */
@@ -54,10 +61,25 @@
   font-size: 2rem;
   top: -5rem;
   fill: var(--COLOR-TUTI-SECONDARY);
+  transform: skewX(-10deg);
 }
 
 /* This CSS code is setting the text color of an element with the class "Header__subtitletext" to a
 variable called "--COLOR-WHITE". */
 .header__subtitletext {
   color: var(--COLOR-WHITE);
+}
+
+.header__iframe {
+  animation: move-from-right 2s ease forwards;
+}
+
+@keyframes move-from-right {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(0%);
+  }
 }

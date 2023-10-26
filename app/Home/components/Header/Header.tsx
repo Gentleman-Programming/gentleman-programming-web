@@ -21,18 +21,20 @@ export const Header: FC = () => {
           <h1 className={style.header__title}>Gentleman Programming Web</h1>
           <h2 className={style.header__subTitle}>
             <ComillasAbrirIcon />
-            &nbsp;Te carreo a senior, papu&nbsp;
+            &nbsp;Te carreo a senior,&nbsp;papu&nbsp;
             <ComillasCerrarIcon />
           </h2>
         </div>
-        <TutiIframe
-          width={'600'} /* The width of the iframe. */
-          height={'300'} /* The height of the iframe. */
-          src="https://www.youtube.com/embed/KZCA_BRAkSA" /* The URL of the iframe. */
-          title="Trailer Gentleman Programming" /* The title of the iframe. */
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" /* The allowed features of the iframe. */
-          allowFullScreen /* The full screen mode of the iframe. */
-        />
+        <div className={style.header__iframe}>
+          <TutiIframe
+            width={'600'} /* The width of the iframe. */
+            height={'300'} /* The height of the iframe. */
+            src="https://www.youtube.com/embed/KZCA_BRAkSA" /* The URL of the iframe. */
+            title="Trailer Gentleman Programming" /* The title of the iframe. */
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" /* The allowed features of the iframe. */
+            allowFullScreen /* The full screen mode of the iframe. */
+          />
+        </div>
       </div>
     </header>
   );

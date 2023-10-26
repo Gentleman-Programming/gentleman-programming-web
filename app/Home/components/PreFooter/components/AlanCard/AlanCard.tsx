@@ -8,15 +8,12 @@ export const AlanCard = () => {
   return (
     <article className={styles.footer__alanCard}>
       <TutiImgZoom />
-      {/* <Image
-        className={styles.footer__alanImg}
-        src={Alan}
-        alt="foto de Alan Buscaglia"
-      /> */}
       <section className={styles.footer__textContainer}>
         <header className={styles.footer__alanTitle}>Alan Buscaglia</header>
-        <p>Ingeniero y arquitecto de Software Front-end</p>
-        <p>
+        <p className={styles.footer_alanProfessionalDescription}>
+          Ingeniero y arquitecto de Software Front-end
+        </p>
+        <p className={styles.footer__alanDescription}>
           ChatGPT dice que mi contenido es
           <i> valioso y cumple con los estándares de calidad.</i>
         </p>
